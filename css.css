@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Ysabeau+Office&display=swap');
+*{
+    color:aliceblue;
+
+font-family: 'Ysabeau Office', sans-serif;
+}
+body{
+    width: 100wv;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #1b1b1b;
+}
+
+.button_cnt{
+    margin-left:50px
+}
+.select{
+    color: black;
+}
+#misticBackground{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    transition: 0.7s;
+}
+
+#mistycyContainer{
+    margin-top: 50px;
+    height: 75%;
+    display:flex;
+    flex-wrap: wrap;
+  overflow-y: scroll;
+ 
+}
+.header{
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+.mistyk{
+    width: 45%;
+    margin-top:30px;
+    background-color: #1b1b1b98;
+    border:#1b1b1b;
+    margin:50px;
+    color:"white";
+    margin:30px;
+    padding:20px;
+
+}
+
+.Zakonnik{
+    background-image: url(https://cdn.midjourney.com/4f1ccb00-6c3b-4961-a138-1aa26b1da8fa/0_3.webp);
+    
+}
+.Szarlatan{
+    background-image: url(https://cdn.midjourney.com/25fc190c-3daf-4b42-b86c-5bc44092e6e3/0_1.webp);
+    
+}
+.Szaman{
+    background-image: url(https://cdn.midjourney.com/b0c79288-661b-47f4-8a9e-fb24a1f5ab34/0_1.webp);
+    
+}
+.Nekromanta{
+    background-image: url(nekromanta.png);
+    
+}
+.Zwiastun{
+    background-image: url(https://cdn.midjourney.com/27a69dcf-a250-48a3-9239-b32f224615ce/0_2.webp);
+    
+}
+.Świątobliwy{
+    background-image: url(https://cdn.midjourney.com/204813c5-fc36-4ed0-a0be-d3b0b20bc6ad/0_3.webp);
+    
+}
+
+.All {
+    background-image: url(https://cdn.midjourney.com/cb3545a1-4eb4-4002-97bb-5f596c3e6cf4/0_1.webp);
+    
+}
+.Psychon{
+    background-image: url(https://cdn.midjourney.com/d5c899f8-1120-4d73-88c8-58d3159a32f7/0_3.webp);
+}
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #204D75 #DFE9EB;
+  }
+  
+  /* Chrome, Edge and Safari */
+  *::-webkit-scrollbar {
+    width: 13px;
+    width: 13px;
+  }
+  *::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #DFE9EB;
+  }
+  
+  *::-webkit-scrollbar-track:hover {
+    background-color: #B8C0C2;
+  }
+  
+  *::-webkit-scrollbar-track:active {
+    background-color: #B8C0C2;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #204D75;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #558EA3;
+  }
+  
+  *::-webkit-scrollbar-thumb:active {
+    background-color: #8FB5DB;
+  }
+  

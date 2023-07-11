@@ -1,0 +1,2951 @@
+[
+  {
+"Mistyk": ["Psychon"],
+"Name":"Agonia",
+"PM":"1/Dech4",
+"Szybkość":"3 AZ C",
+"PT":7 ,
+"Czas":"10min",
+"Zasięg":"20m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk wywołuje u ofiary psychiczne poczucie bólu w określonej lokacji. Ofiara po niezdanym teście Wigoru(7) myśli, że coś ją boli, co powoduje reakcje organizmu. Wydzielanie hormonów, skurcze mięśni, itd. Ofiara ma -1 do testów tak jakby była ranna.",
+"Każdy kolejny sukces":" -1 do testów, Wigor +2PT lub dodatkowe miejsce bólu", 
+"Każdy kolejny 1PM/2Tchu":"-3PT, Wigor +2PT,dodatkowa ofiara (inna osoba)",
+"Niepowodzenie":"Cel czaru jest świadomy, że coś lub ktoś użył jakiejś mocy na nim, ale nie ma żadnego efektu.",
+"Ups":"Mistyk kieruje swoją własną moc w siebie, sprawiając sobie ból na czas działania czaru.",
+"Ujawnienie":"PT1/2 kości. Moc rzucana bez efektów wizualnych.",
+ "Rozwinięcia":"-1PT, Wigor +2PT, Czas +10min, Zasięg +20m, Szybkość-1"}
+    
+  },
+{
+"Mistyk": ["Szarlatan"],
+"Name":"Alarm",
+"PM":"1/Dech:4",
+"Szybkość":"6 AZ, C",
+"PT":7 ,
+"Czas":"1 dzień",
+"Zasięg":"10m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk rzuca czar na jakiś przedmiot, istotę lub powierzchnię. Moc działa na obszarze nie większym niż 1m2 lub 1m3 (nawet jeżeli przedmiot, istota lub powierzchnia jest większa) i na obszarze działania czaru mistyk może nałożyć jakąś regułę. Jeżeli z jakiegoś powodu reguła ta zostanie złamana, mistyk w magiczny sposób się o tym dowie. Przykładowe reguły - “Człowiek nadepnie na obszar”, “Drzwi się poruszą”, “Zmieni się nacisk na obszarze”, “Istota przestanie oddychać”, “Przedmiot ulegnie zniszczeniu”, “Istota się przestraszy”, itd.", 
+"Każdy kolejny sukces":"+1 dodatkowa reguła alarmu",
+"Każdy kolejny 1PM/2Tchu":"-3PT, Czas +1 dzień, Zasięg +10m, Szybkość -1",
+"Niepowodzenie":"Nic się nie dzieje, brak efekt",
+"Ups":"Mistykowi wydaje się, że czar działa, alpo prawdzie na innych regułach niż te co mistyk narzucił. Oznacza to, że alarm, jeżeli w ogóle zadziała to ostrzeże go według innych reguł, co może być zwodnicze.",
+"Ujawnienie":"PT kość. Moc rzucana bez efektów wizualnych.",
+"Rozwinięcia":"-1PT (min3), Czas +1 dzień, Zasięg +10m, Szybkość -1"}
+},
+{
+"Mistyk": ["Szarlatan"],
+"Name":"Animizacja rośliny",
+"PM":"1/Dech:4",
+"Szybkość":"6 PA, C",
+"PT":7 ,
+"Czas":"1 dzień",
+"Zasięg":"10m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk używa swej mocy by przetransportować posiadanego już lub losowego ducha z otoczenia w ciało rośliny. Jeżeli duch jest przychylny mistykowi, może spełniać jego życzenia. W przypadku wpuszczenia w roślinę dzikiego lub wrogiego ducha, jego zachowanie jest nieprzewidywalne. Taki duch jest w stanie wykorzystać gałęzie, pnącza czy korzenie takiej rośliny jako swoje kończyny do walki lub poruszania się. Jest to dla niego ciało zastępcze o które taki duch nie będzie dbał. Cechy ożywionej rośliny zależą od jej wielkości i posiadanych elementów. Małe rośli do metra wysokości mają Siłę K4, Krzaki K6, drzewka w sadzie około 2m wysokości K8, drzewa 4-5m K10 i te większe K12 i więcej. Sprawność i Zręczność są uzależnione od ilości gałęzi, kształtu i grubości, ale zazwyczaj będzie to K6, Wigor t"o grubość pnia, gdzie drzewko w sadzie lub sosna ma K6 a gruby dąb K12",
+"Każdy kolejny sukces":"+1 do testów rośliny (wszystkie rzut,
+"Każdy kolejny 1PM/2Tchu":"-3PT Szybkość -1, Zasięg +10m",Niepowodzenie":"Nic się nie dzieje, brak efektu.",
+"Ups":"Moc wysysa z rośliny siły witalne, roślina więdnie w oczach, do końca dnia będzie martwa",
+"Ujawnienie":"PT1/2 kości. Roślina zaczyna się poruszać, pod koniec zaklęcia żyje już własnym życiem.",
+"Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +1dzień, Zasięg +10m"}
+},
+{
+"Mistyk": ["Szarlatan"],
+"Name":"Argus",
+"PM":"1/Dech:4",
+"Szybkość":"5 AP, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"osobisty",
+"Gest" :", "nie",
+"Opis": {"Opis":"Mistyk otwiera dookoła swojej głowy niewidzialne szczeliny wymiarowe przez które może patrzeć pod każdym kątem dookoła swojej osoby, postrzega wszystko w 360*.",
+"Każdy kolejny sukces":"+2 do Spostrzegawczości",
+"Każdy kolejny 1PM/2Tchu":"-3PT,  ,Szybkość -1", 
+"Niepowodzenie":"Nic się nie dzieje, brak efektu.",
+"Ups":"Dezorientacja wywołana czymś dziwnym co widzi mis"tyk i tylko on sprawia, że ma –2 do Spostrzegawczości.",
+"Ujawnienie":"PT kość. Moc rzucana bez efektów wizualnych.",
+"Rozwinięcia":"-1PT(min3), Szybkość -1, Czas +1godz"
+},
+{
+"Mistyk": ["Szarlatan"],
+"Name":"Bąbel",
+"PM":"1/Dech:4",
+"Szybkość":"4 AP, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"osobisty",
+"Gest" :", "nie",
+"Opis": {"Opis":"Nos mistyka filtruje to co wdycha za pomocą bąbelków powietrza z innego wymiaru. W ten sposób filtruje nieprzyjemne zapachy, dymy i gazy, których wdychanie byłoby dla niego szkodliwe Oczywiście reszta ciała nadal jest narażona na działanie tych środków i otoczenia.", ",
+"Każdy kolejny sukces":"1 sukces - bąble potrafią filtrować także toksyny i trucizny utrzymujące się w powietrzu. 2 sukces - bąble umożliwiają oddychanie pod wodą lub w innych cieczach. 3 sukcesy - bąble umożliwiają oddychanie w próżni.", ",
+"Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1,",
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.", ",
+"Ups":" Bąble w nosie przyduszają mistyka podczas trwania czaru ma trudności z oddychaniem i traci 1 tchu co 10 min. Z powodu nabierania powietrza w usta (odruch bezwarunkowy a w gardle też są bąbelki) dźwięki które wydaje dają mu -2 do skradania się i ukrywania się.",
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.",
+"Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +1 godz."},
+{
+"Mistyk": ["Świątobliwy"],
+"Name":"Błogosławieństwo",
+"PM":"1/Dech:4",
+"Szybkość":"5 PA, C",
+"PT":7 ,
+"Czas":"1min",
+"Zasięg":"10m",
+"Opis":"Mistyk wykorzystuje moc ze swojego źródła by wesprzeć cel swojego czaru. Cel czaru otrzymuje +1 do wszystkich rzutów obronnych lub przeciwstawnych wynikających z obrony.", 
+"Każdy kolejny sukces":"+1 do rzutów", 
+"Każdy kolejny 1PM/2Tchu":" -3PT,  ,Czas +1min, Zasięg +10m, Szybkość -1, +1 do rzutów, +1 dodatkowa osoba", "Niepowodzenie":" Cel czaru jest świadomy, że coś lub ktoś użył jakiejś mocy na nim, ale nie ma żadnego efektu.",
+"Ups":" Cel czaru tego zaklęcia przez czas trwania czaru, otrzymuje minus do rzutów równy wartości dodatniej która miała być mu nadana.", 
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.",
+"Rozwinięcia":"-1PT(m ,in3), Czas +1min, Zasięg +10m, Szybkość -1, +1 dodatkowa osoba"}],
+{
+"Mistyk": ["Zwiastun"],
+"Name":"Błysk nuklearny",
+"PM":"1/Dech:4",
+"Szybkość":"3 AZ, W",
+"PT":7 ,
+"Czas":"chwila",
+"Zasięg":"20m r=20m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk może rzucić kulą magicznej energii. Gdy kula dotknie jakiegoś ciała lub cieczy eksploduje światłem niczym wybuch nuklearny, oślepiając każdego kto na nie patrzył, niczym granat błyskowy. Zasięg istot oślepionych zależy od warunków otoczenia. Jeżeli jest to otwarta przestrzeń można uznać, że oślepieni są wszyscy co patrzyli na światło w zasięgu 20m od wybuchu. Wzrok wraca, gdy uda się zdać ofierze czaru test Wigor(9), do tego czasu jest uznawana za niewidomą.", 
+"Każdy kolejny sukces":"PT + ,2 do testu Wigoru","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, Zasięg +20m, r=+10m", "Niepowodzenie":" Nic się nie dzieje, brak efektu.", ","Ups":" Mistyk wytworzył tylko mały ładunek i niestety na wprost swoich oczu. Mistyk sam siebie oślepił i musi zdać test Wigoru(9) by odzyskać wzrok.", ","Ujawnienie":"W ręku mistyka tworzy się świecąca kulka o średnicy około 4cm.", ","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, PT + ,2 do testu Wigoru, Zasięg +20m,
+{Mistyk": ["Świątobliwy"],
+"Name":"Boska protekcja",
+"PM":"1/Dech:4",
+"Szybkość":"4 AP, C",
+"PT":7 ,
+"Czas":"10min.",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk otrzymuje magiczną ochronę ze źródła, z którego czerpie moc. Podczas trwania zaklęcia magiczna ochrona zapewnia mu –2 obr od każdego rodzaju ataku lub zdarzenia.", ",
+"Każdy kolejny sukces":"kolejne –2 obr.", ","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, Czas +10min", "Niepowodzenie":" Nic się nie dzieje, brak efektu.", ","Ups":" Moc mistyka płata mu figla i zamiast zabezpieczać go, to przy każdej okazji, gdy otrzymuje obrażenia są one dodatkowo dodawane, w sile, w której powinny być odjęte, przez czas działania zaklęcia.", ","Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.", ","Rozwinięcia":"-1PT(m ,in3), Czas +10min, Szybkość -1"}],
+
+{
+"Mistyk": ["Świątobliwy"],
+"Name":"Boska ręka",
+"PM":"-",
+"Szybkość":"4 PA, C","
+"PT":7 ,
+"Czas":"natychmiastowy, na scenę",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk czerpie moc przeznaczenia ze swojego źródła mocy, płacąc przy tym białym sztonem. W zamian otrzymuje dar w postaci 2 białych sztonów. Otrzymane sztony mistyk musi wykorzystać w scenie, w której je uzyskał. Jeżeli nie zrobi tego, nagroda rozpływa się i nicości."Każdy kolejny sukces":"1 sukces – 2 białe sztony i 1 czerwony, 2 sukcesy – 1 biały i 2 czerwone, 3 sukcesy – 3 czerwone sztony.", ","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1", "Niepowodzenie":" Wydany na rzucenie zaklęcia biały szton przepada. Poza tym nic się nie dzieje, brak efektu.", ","Ups":" Szton wydany na rzucenie zaklęcia wpada w łapy MG, a on na pewno przekaże go jakiemuś wrednemu NPCowi.", ","Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.", ","Rozwinięcia":"-1PT,  ,Szybkość -1
+"}],
+{
+"Mistyk": ["Świątobliwy"],
+"Name":"Boża łaska",
+"PM":"1/Dech:4",
+"Szybkość":"6 PA, C",
+"PT":7 ,
+"Czas":"scena",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Ta moc umożliwia mistykowi użycie czaru, którego mistyk nie zna lub nawet pochodzi z innej profesji magicznej. Mistyk wykorzystuje tą moc do zebrania w sobie tymczasowej wiedzy umożliwiającej mu podczas trwania danej sceny rzucenie dowolnego zaklęcia. Siła tego czaru jest na poziomie świeżo wykupionego czaru. To kiedy mistyk rzuci ten czar i czy w ogóle go rzuci zależy od niego, ale jeśli nie zrobi tego podczas bieżącej sceny, moc się rozpływa i okazja przepada.
+"Każdy kolejny sukces":"+1 do poziomu zdobytej mocy
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, +1 do poziomu zdobytej mocy
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":"Niepowodzeniew tym czarze doprowadza do niezadowolenia w wymiarze, z którego pobierana jest moc przez mistyka i powoduje potężne wyładowanie obszarowe r=2m około 1m przed mistykiem, o sile 2k10 obr.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych. PrzyUpsie następuje wybuch.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, +1 do poziomu zdobytej mocy"}],
+{
+"Mistyk": ["Szarlatan"],
+"Name":"Chłonięcie w inny wymiar",
+"PM":"1/Dech:4",
+"Szybkość":"4 AZ, C",
+"PT":7 ,
+"Czas":"natychmiastowy",
+"Zasięg":"10m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk wchłania siły witalne istoty żywej do innego wymiaru. Ofiara czuje jakby brakowało jej tlenu, dusi się. Ta moc wysysa 1k6 tchu. Efekty czaru następują po skończonym rzucaniu czaru i w każdej kolejnej wydanej karcie akcji. Jeżeli mistyk chce utrzymywać czar, musi wydać na niego kolejne PM/Dech co 4 akcje działania czaru. Czyli na 5,9,…,itd. akcji użycia mocy, potrzebne jest doładowanie. Utrzymując czar mistyk może wykonywać tylko akcje prost
+"Każdy kolejny sukces":"+1k6 tchu
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, +1k6 tchu, Zasięg +10m
+"Niepowodzenie":" Nic się nie dzieje, brak efu.
+","Ups":" Mistyk sam sobie zabiera tyle tchu,le wynika z siły czaru podczas jednej akcji.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, +1k6 tchu, Zasięg +10m
+
+"}],{
+"Mistyk": ["Szarlatan"],
+"Name":"Ciemność",
+"PM":"1/Dech:4",
+"Szybkość":"4 AZ, C",
+"PT":7 ,
+"Czas":"10min",
+"Zasięg":"20m r=3m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk tworzy kulę ciemności wyglądającą jak wielka czarna sfera przypominająca kłąb dymu. W sferze można oddychać normalnie bez żadnych dodatkowych efektów. Jednakże w sferze i przez sferę nic się nie zobaczy. Totalna czerń.
+"Każdy kolejny sukces":"1 sukces – sfera blokuje działanie urządzeń takich jak noktowizory, termowizory i czujniki ruchu. 2 sukcesy – sfera blokuje widzenie mistyczne. Mistyk będzie widzi tylko magię chmury i nic w niej ani za nią. 3 sukcesy - wewnątrz chmury istoty żywe czują się zagubione mają -4 do testów na orientację w pozostałych zmysłach.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, Zasięg +20m, r=+3m
+"Niepowodzenie":" Nic się nie dzieje, brafe"ktu.
+","Ups":" Ciemność nie pojawia się, ale pstaje mała szczelina do wymiaru cienia. Za mała dla człowieka, ale w sam raz dla wścibskiego cienia. Szczelina utrzymuje się przez czas działania czaru. Po czym się zamknie. W tym czasie, jeżeli w pobliżu szczeliny będą ginąć istoty żywe i będą uwalniane dusze może to zwabić jakiegoś cienia by przez nią przelazł.
+"Ujawnienie":"Z ręki mistyka wylatuje cienka smuszka dymu, która w miejscu docelowym tworzy właściwy twór.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +10min, Zasięg +20m, r=+3m
+
+
+"}],{
+"Mistyk": ["Psychon"],
+"Name":"Cisza",
+"PM":"1/Dech:4",
+"Szybkość":"4 AZ, C",
+"PT":7 ,
+"Czas":"10min",
+"Zasięg":"r=2m",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk kontroluje otaczające go cząsteczki, przez które nie przepuszcza fal dźwiękowych, tworząc w ten sposób sferę lub bańkę ciszy. W środku sfery nie ma dźwięku, w przypadku bańki tworzy barierę, w której jest dźwięk, ale nie przepuszcza dźwięku z wewnątrz na zewnątrz i odwrotnie. Centrum sfery lub bańki znajduje się w głowie Mistyka.
+"Każdy kolejny sukces":"+1m promienia
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,+"2m promienia, dowolny punkt zawieszenia sfery lub bańki
+"Niepowodzenie":" Brak efektu, nic się nie dzieje.
+","Ups":" Nagromadzone cząsteczki powodują trzask podobny do łamania bariery dźwięku. Pojedyncze głośne uderzenie dźwięku, przypominające wystrzał.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"PT-1 ,(min 3), Czas +10min, Zasięg +2m, Szybkość -1
+"}],{
+"Mistyk": ["Świątobliwy"],
+"Name":"Cud",
+"PM": ", "1 + szton",
+"Szybkość":"4 AZ, C",
+"PT":7 ,
+"Czas":"scena",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk do swego czaru dodaje swój los (sztona) dzięki czemu kolejny zdeterminowany przez siebie test zdaje tak jakby rzucił na kostkach poziom swojej umiejętności + asa z kości (przy białym sztonie)/2 asy (przy czerwonym sztonie)/3 asy (przy niebieskim sztonie). Przykład postać ma Wspinaczka 2 i 3k8 Sprawność. Dając czerwonego sztona otrzyma automatyczny wynik bez rzutu 2+2*8=18.
+"Każdy kolejny sukces":"+1 as do wyniku
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1
+"Niepowodzenie":" Czar nie wychodzi, mistyk traci sztona, brak efektu.
+","Ups":" Mistyk oczywiście traci sztona, a MG wybiera który test w scenie mu nie wyjdzie bez rzutu. Zazwyczaj kolejny wykonywany, chyba że poczekanie będzie ciekawsze.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1
+
+"}],
+{
+"Mistyk": ["Szarlatan"],
+"Name":"Czytanie nieznanego",
+"PM":"1/Dech:4",
+"Szybkość":"5 AP, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk uzyskuje zdolność przeczytania każdego tekstu, nawet pisanego szyfrem lub w nieznanym mu języku. Po upływie zaklęcia szarlatan wie co przeczytał, ale tekst ponownie jest dla niego nie do odczytania.
+"Każdy kolejny sukces":"+1 godz.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Mistyk podczas trwania mocy nic nie zrozumie z zapisków, nawet tych które umiałby przeczytać.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +1godz.
+
+
+"}],{
+"Mistyk": ["Szarlatan"],
+"Name":"Dalekozmysł",
+"PM":"1/Dech:4",
+"Szybkość":"6 PA, C",
+"PT":7 ,
+"Czas":"chwila",
+"Zasięg":"10km",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk otwiera kanał między wymiarami i przekazuje przez niego komunikat innej osobie. Komunikatem są proste emocje uwięzione w pojedynczym słowie. Na przykład “Bunkier” i emocje nadziei i bezpieczeństwa lub “Strażnik” i emocje złości i nienawiści. Przy zdanym teście są to proste emocje, przy dodatkowym sukcesie Jedno zdanie", "Gest":"werbalne",, 2 sukcesy Dokładna wiadomość, 3 sukcesy można nawiązać dialog obustronny. Jeżeli osoby, z którą chce się połączyć szarlatan nie ma w zasięgu, czar wyjdzie, ale nie będzie wiadomo, czy wiadomość doszła.
+"Każdy kolejny sukces":"1 sukces - można przekazać całe zdanie w komunikacie. 2 sukcesy - można przekazać całą wiadomość. 3 sukcesy – druga osoba po otrzymaniu całej wiadomości, może odesłać swoja odpowiedź do nadawcy.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, Zasięg +10km
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Wiadomość trafia do losowej osoby, MG już się o nią zatroszczy i przekaże ją komu trzeba.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Zasięg +10km
+"}],{
+
+
+"Mistyk": ["Szaman"],
+"Name":"Droga w zaświaty",
+"PM":"1/Dech:4",
+"Szybkość":"6 PA, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"10m",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk oddziela swoją duszę od ciała i wędruje jako duch do wymiaru cieni. Jego ciało pozostaje w letargu w świecie materialnym a on jako istota eteryczna znajduje się w wymiarze cieni. Mistyk może w ten sposób przenieść więcej osób. Za każdą dodatkową duszę przeniesioną do wymiaru cieni mistyk ma PT+2 ,. Tak więc jeżeli mistyk chce się tam przenieść wraz z dwoma towarzyszami to PT c ,zaru wynosi 11. Jeżeli ktoś nie chce się tam przenieść, a mistyk go zmusza. Istota taka ma rzut obronny Duch(5) by uniknąć przeniesienia.
+"Każdy kolejny sukces":"PT + ,2 do testu Ducha
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1,
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Mistykowi nie wychodzi i nikogo nie transportuje ze świata materialnego do świata cieni. Natomiast jakiś cień transportuje się do świata materialnego. Jego żywot w tym wymiarze nie jest długi, więc cień spróbuje zabrać jak najwięcej energii życiowej nim się rozpłynie. Zaatakuje każdego kogo ma w zasięgu.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +1godz., Zasięg +10m, PT + ,2 do testu Ducha
+"}],{
+
+
+"Mistyk": ["Szaman"],
+"Name":"Duchowy kontrakt",
+"PM":"1/Dech:4",
+"Szybkość":"4 AP, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"50m",
+"Gest":"nie",
+"Opis": {"Opis":"Jeżeli w pobliżu mistyka jest jakiś sojuszniczy duch, który chce mu pomóc. Mistyk może wykorzystać poziom jego umiejętności zamiast swojej lub jeżeli duch posiada daną umiejętność mistyk może dodać +1 poziom umiejętności ducha do swojej. Podczas trwania czaru duch jest przywoływany do mistyka i ich ciała praktycznie wnikają w siebie. Osoba widząca duchy, będzie widziała ciało mistyka, w którego wnętrzu będzie się znajdować duch sojusznik. W jednej chwili mistyk może korzystać ze wsparcia danej umiejętności tylko od jednego ducha. Nie wyklucza to, korzystanie z 2 lub więcej duchów do 2 lub więcej umiejętności na raz.", ",
+"Każdy kolejny sukces":"+1 poziom umiejętności ducha (aż do max jaką duch posiada)
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, +1 wspierający duch sojusznik, Zasięg +50m
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Duch, który miał być wykorzystany do wsparcia, z jakiegoś powodu w danej chwili nie jest kompatybilny i na czas trwania zaklęcia oddala się gdzieś.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +1godz., Zasięg +50m, +1 wspierający duch
+
+
+"}],{
+"Mistyk": ["Szaman"],
+"Name":"Duchowy przewodnik",
+"PM":"1/Dech:4",
+"Szybkość":"6 PA, C",
+"PT":7 ,
+"Czas":"1 dzień",
+"Zasięg":"1km",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk znajdujący się w wymiarze, z którego czepie swoją moc, przywołuje swoją magią ducha, który będzie dla niego przewodnikiem. Jeżeli celem mistyka było odnalezienie jakiegoś miejsca lub istoty, duch będzie go prowadził do celu. Jeśli mistyk poprosi go o znalezienie bezpiecznego schronienia, duch pokaże mu takie miejsce, które sam uważa za bezpieczne. Zazwyczaj taki duch, który jest przyciągnięty magią mistyka jest małym i słabym bytem. Najprawdopodobniej nie będzie miał nawet zdolności", "Gest":"werbalny",ch. Jedynym działaniem jakie będzie podejmował, to kierowanie się w odpowiednią stronę, tak by wskazać drogę mistykowi. Jeżeli mistyk rzuci ten czar w innym wymiarze niż ten z którego czerpie moc, musi się bardziej postarać by zmobilizować ducha do pomocy. W takiej sytuacji PT c ,zaru rośnie o +4.", ",
+"Każdy kolejny sukces":"1 sukces – przyzwana istota nadal niewerbalna, ale szybka i sprytna. 2 sukces – przyzwana istota jest werbalna więc można się od niej trochę dowiedzieć. 3 sukces – werbalna i całkiem silna istota, która przekonana do pomocy może wspierać mistyka w jego podróży.", ","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, Zasięg +1km", "Niepowodzenie":" Nic się nie dzieje, brak efektu.", ","Ups":" Mistyk zamiast pomocnika, przywołuje wrogo nastawionego ducha. MG rzuca kością jak silne bydle się zwabi by potarmosić mistyka.", ","Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.", ","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +1dzień, Zasięg +1km."}],
+{
+"Mistyk": ["Szaman"],
+"Name":"Duchowy sen",
+"PM":"1/Dech:4",
+"Szybkość":"6 PA, C",
+"PT":7 ,
+"Czas":"przebudzenie",
+"Zasięg":"10km",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk przekazuje swoją wizję do snu odbiorcy. By informacja dotarła do celu muszą być spełnione następujące warunki. Cel jest w zasięgu, cel śpi, brak przeciwskazań magicznych (bariery, pola antymagii, itp). Mistyk kreuje podczas rzucania czaru jakąś wizję na przykład: Kwitnącego drzewa, z którego spada owoc. Ten sam obraz trafi do głowy celu, do którego mają dotrzeć. Po przebudzeniu się osoba taka musi wykonać test Sprytu(5) czy zapamięta wyśnioną wizję. Wizje mogą być nawet bardzo skomplikowane, jednakże zawsze zostają wizjami jakiejś sceny, a nie czystym przekazem (szaman mówi do śniącego: ”Idź do baru.” nie działa. Szaman pokazuje bar i idącego do niego bohatera, działa.).
+"Każdy kolejny sukces":"1 sukces – test Sprytu(3). 2 sukces – test Sprytu zdany automatycznie. 3 sukces – w wizji są słowa.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, Zasieg +10km
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Przekaz wizji trafia do przypadkowego typka, co on z nim zrobi i czy zapamięta po przebudzeniu, wie tylko MG.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Zasięg +10km
+
+
+"}],{
+"Mistyk": ["Psychon"],
+"Name":"Dusza towarzystwa",
+"PM":"1/Dech:4",
+"Szybkość":"4 AZ, C",
+"PT":7 ,
+"Czas":"10min",
+"Zasięg":"osobisty",
+"Gest":"Werbalne",
+"Opis": {"Opis":"Mistyk wydaje się być dobrym mówcą, wygląda lepiej niż zazwyczaj, po prostu jest gwiazdą wieczoru. Ludzie zwracają na niego uwagę, przyciąga ich niczym celebryta. Inni są raczej w jego cieniu. Wszelkie rzuty na charyzmę i umiejętności z charyzmy mistyk rzuca z modyfikatorem +1 do rzutu.
+"Każdy kolejny sukces":"+1 do rzutu
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,+1 do rzutu
+"Niepowodzenie":" Brak efektu, nic się nie dzieje.
+","Ups":" Mistyk zaczyna się dziwnie zachowywać i zamiast dodatniego, otrzymuje ujemny modyfikator do rzutów na charyzmę.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"PT-1 ,(min3), Czas +10min, Szybkość -1, +1 do rzutu
+
+"}],{
+"Mistyk": ["Szarlatan"],
+"Name":"Eksplodujące runy",
+"PM":"1/Dech:4",
+"Szybkość":"6 AZ, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"20m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk tworzy na dowolnej powierzchni jarzące się magiczną poświatą runy. Jeżeli zostanie spełniona wymyślona przez mistyka reguła związana z runem, ten eksploduje zadając 4k10 obr obszarowych r=1m (czyli pełne obrażenia otrzymuje ten kto wlazł w rune). Reguła wyzwolenia może być dowolna, na przykład “Jan Kowalski staną na runie”, “Dowolny człowiek dotkną runy”, “Ptak , przeleciał obok runy”. Maksymalny zasięg wykrywania reguły przez runy to 1m. Nie można zrobić reguły, która aktywuje się, poza tym zasięgie
+"Każdy kolejny sukces":"+1k10 obr.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, +1k10 obr, +1 reguła, ukrycie runy (niewidoczna dla zwykłych ludzi)
+"Niepowodzenie":" Nic się nie dzieje, brak efe.
+","Ups":" Runa wybucha podczas stawiania.Ujawnienie":"PT1/ ,2 kości. W miejscu docelowym zaczyna się świecić jakiś znak wielkości 10x10cm.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Zasięg +20m, Czas +1godz., +1k10obr
+
+"}],{
+"Mistyk": ["Zakonnik"],
+"Name":"Eteryczne ostrze",
+"PM":"1/Dech:4",
+"Szybkość":"4AP, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk rzuca na posiadany przez siebie przedmiot (broń) moc, dzięki której dany przedmiot jest w stanie trafić w istoty eteryczne i duchy, których normalnie nie dało by się zranić. Do obrażeń takiej broni nie wlicza się Siły postaci, a obr. wskazują ile tchu podzielonego przez rozmiar celu, straci dana istota.
+"Każdy kolejny sukces":"+1 kość obr. broni (przeciwko istotą eterycznym i duchom)
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, +1 kość obr.
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Podczas trwania czaru przedmiot na który rzucano czar zaczyna się świecić i razić magiczną energią posiadacza, zadając mu K6 obr. na rundę, przez cały czas trwania zaklęcia.
+"Ujawnienie":"PT k ,ość. W przypadku up"sa, automatycznie z powodu efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, +1 kość obr. broni (przeciwko istotom eterycznym i duchom)
+
+
+"}],{
+"Mistyk": ["Świątobliwy"],
+"Name":"Fanatyzm",
+"PM":"1/Dech:4",
+"Szybkość":"6 AZ, C",
+"PT":7 ,
+"Czas":"10min",
+"Zasięg":"20m",
+"Gest":"Werbalne",
+"Opis": {"Opis":"Mistyk serwuje krótką przemowę i motywuje swojego słuchacza do działań bardziej odważnych i pewnych siebie. Dzięki czemu taka osoba pod wpływem tego zaklęcia ma +6 do testu Jaj, do czarów mających na celu zmianę jego nastawienia lub zastraszenia, oraz do testów na przekonywanie. Efekt czaru nie działa na sugestię samego mistyka, który go rzucił. Działa natomiast na sugestie i czary każdego innego, kto chciałby wpłynąć na osobę będącą celem tego czaru", ",
+"Każdy kolejny sukces":"kolejne +2 do testów", ","Każdy kolejny 1PM/2Tchu":" -3PT,   Szybkość -1, +1 osoba pod wpływem czaru", "Niepowodzenie":" Nic się nie dzieje, brak efektu.", ","Ups":" Moc wcale nie motywuje, a wręcz zniechęca. Cel czaru otrzymuje bonusy wynikające z czaru na czas trwania czaru, ale efekt czaru działa tylko przeciwko mistykowi. Jeżeli mistyk chciałby przekonać taką osobę do swoich racji to musi dodatkowo przełamać efekt czaru", ","Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.", ","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +10min, Zasięg +20m, +1 osoba pod wpływem
+
+"}],
+
+{
+"Mistyk": ["Zwiastun"],
+"Name":"Groza potępionych",
+"PM":"1/Dech:4",
+"Szybkość":"4 AZ, C",
+"PT":7 ,
+"Czas":"chwila",
+"Zasięg":"słuchu i wzroku",
+"Gest":"Werbalny",
+"Opis": {"Opis":"Zwiastun wytwarza potępieńcze dźwięki słyszane przez wszystkich w zasięgu słuchu jego głosu. Poza tym jego oczy się świecą, z ust, nosa i uszy wydziela się potępieńcze światło.Połączenie zawodzącego głosu i przerażający wzrok mistyka wywołują u osób, które patrzą mu w oczy strach. Test na jaja by odeprzeć lęk przed tą mocą wynosi PT9. , Istoty, które nie zdadzą testu działają tak jakby były pod efektem zastraszenia. ", ",
+"Każdy kolejny sukces":"PT + ,2 do testu Jaj
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, PT + ,2 do testu Jaj
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Światełka na twarzy mistyka i jego skrzeczący głos jedynie rozśmieszają widzów. Mistyk jest załamany i zgorszony swoim występem. Ma –1 do wszystkich testów w tej scenie.
+"Ujawnienie":"Oczodoły, nozdrza i usta mistyka zaczynają coraz bardziej świecić, jego głos nabiera na sile, aż do wyzwolenia zaklęcia.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1"}],
+{
+"Mistyk": ["Zakonnik",", "Zakonnik"],
+"Name":"Gruboskórność",
+"PM":"1/Dech:4",
+"Szybkość":"5 AZ, C",
+"PT":7 ,
+"Czas":"10min",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk obdarza siebie przewagą Gruboskórny. Jeżeli postać już posiadała tą przewagę lub nastąpiły przerzuty w użyciu tej mocy. Bonusy sumują się i postać staje się bardziej odporna na ból.", ",
+"Każdy kolejny sukces":"+1 do odporności na ból
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Zasięg +10m, Szybkość -1, +1 do odporności na ból, +1 dodatkowa osoba
+"Niepowodzenie":" Cel czaru jest świadomy, że coś lub ktoś użył jakiejś mocy na nim, ale nie ma żadnego efektu.
+","Ups":" Osoby na które mistyk rzucił ten czar podczas całej długości jego działania otrzymują podwojone modyfikatory bólu od ran. (na ranie za 2 zamiast –2 do testów będzie -4)
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Czas +10min, Zasięg +10m, Szybkość -1, +1 dodatkowa osoba"}],
+
+
+{
+"Mistyk": ["Psychon"],
+"Name":"Halucynacje",
+"PM":"1/Dech:4",
+"Szybkość":"5 PA, C",
+"PT":7 ,
+"Czas":"10min",
+"Zasięg":"20m",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk kreuje jakieś haluny i fatamorgany w umyśle swojego celu. Cel po niezdanym teście Sprytu(7) ma wrażenie, że te halucynacje są prawdziwe. Jeżeli wizje wciśnięte mu w umysł są zbyt przeinaczone względem otaczającego go środowiska, to łatwiej jest się mu połapać, że to ściema i test wynosi Spryt(5). Jeśli cel wie, że to tylko halucynacje, to nadal je widzi, ale ma możliwość działania w sposób świadomy i może próbować ignorować to, co widzą jego oczy. Po upływie czasu mocy halucynacje się rozmywają, a w zależności od wcześniejszego wyniku rzutu na Spryt ofiara czaru albo nie podejrzewa, że coś w ogóle było nie tak i żyje sobie dalej, albo, jeżeli halucynacje były zbyt fantastyczne, to w końcu zacznie coś podejrzewać, albo zwyczajnie wie, że była pod wpływem czaru.", ",
+"Każdy kolejny sukces":"test Sprytu +2PT i , +1 dzień przekonania co do prawdziwości zwidów.", ","Każdy kolejny 1PM/2Tchu":" -3PT, test Sprytu +2PT", "Niepowodzenie: Cel czaru jest świadomy, że coś lub ktoś użył jakiejś mocy na nim, ale nie ma żadnego efektu.", ","Ups":" Mistyk zamiast cudzego umysłu poprowadził swój w losowe miejsce mistycznego świata, z którego czerpie swą moc, jest świadomy, że jego zmysły są w innym miejscu, a ciało nadal w wymiarze materialnym, ale poruszanie się, gdy czuje zarówno swoje ciało jak i wyobrażenia jest trudne, mistyk może wykonywać tylko akcje proste i to w sposób pozbawiony wzroku, praktycznie zupełnie słuchu, węchu i smaku. A dotyk jest po równo podzielony między światami. Ten efekt działa do końca czasu działania czaru.", ","Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.", ","Rozwinięcia":"-1PT(m ,in3), Czas +10min, Zasięg +20m, Szybkość -1, test Sprytu +2PT"}],{
+"Mistyk": ["Szarlatan"],
+"Name":"Identyfikacja",
+"PM":"1/Dech:4",
+"Szybkość":"6 AP, C",
+"PT":7 ,
+"Czas":"natychmiastowy",
+"Zasięg":"2m",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk analizuje działanie danej mocy, przedmiotu lub istoty. Po udanym rzuceniu tego zaklęcia mistyk dokładnie wie co potrafi dana istota, jakie ma zdolności specjalne. Wie co potrafi magiczny przedmiot, jakie ma moce. Wie, dokąd prowadzi portal i jakie ma moce. Co dokładnie robi przeanalizowany przez niego czar, miejsce rytuału, itd. Moc tą można rzucić także na niemagiczne istoty/rzeczy i próbować się o nich czegoś dowiedzieć. Co jest ich atutami, do czego służą itd."Każdy kolejny sukces":"1 sukces – mistyk potrafi określić w przybliżeniu czas, kiedy rzucono dane moce lub zostały stworzone. 2 sukces – mistyk potrafi określić czyją ręką została rzucona moc lub został stworzony magiczny przedmiot. Jeżeli to jest sławny przedmiot to określi stwórcę z nazwiska. 3 sukcesy – mistyk określa miejsce pochodzenia (stworzenia/urodzenia) danej rzeczy/istoty na podstawie najdrobniejszych szczegółów.", ","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1", "Niepowodzenie":" Nic się nie dzieje, brak efektu.", ","Ups":" Błędnie odczytane dane na temat przedmiotu/istoty. Oczywiście mistyk w nie wierzy i nie próbuje ponownie ich identyfikować, chyba, że rzeczywistość zweryfikuje jego wyobrażenie.", ","Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.", ","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Zasięg +10m"}],{
+"Mistyk": ["Szaman"],
+"Name":"Klątwa",
+"PM":"1/Dech:4",
+"Szybkość":"6 PA, C",
+"PT":7 ,
+"Czas":"1 tydzień",
+"Zasięg":"10m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk rzuca na ofiarę klątwę. Cel ma rzut obronny na Ducha(7). Jeżeli mu się uda zmniejsza poziom klątwy o 1 za każdy sukces. Jeśli mu się nie uda podlega klątwie, która działa jak zawada Choróbsko(1). Objawy to kaszel, drgawki –2 do skradania się, ukrywania i perswazji.
+Lekka przypadłość: Obłaskawienie 3 – kaszel, drgawki -2 do skradania się, ukrywania i perswaz
+Przewlekła przypadłość”: Obłaskawienie 5 – to co wyżej plus ciągłe bóle, test Wigoru(5), niezdany oznacza -4 do wszystkich rzutów.
+Śmiertelna przypadłość: Obłaskawienie 7 – wszystkie efekty powyżej plus za każdy niefart Wigor(7) nieudany oznacza zgon.
+"Każdy kolejny sukces":"1 sukces – Choróbsko(3) objawy takie jak wcześniej, a dodatkowo bóle głowy, każdego dnia Wigor(5) albo –4 do wszystkich rzutów z powodu potężnej migreny. 2 sukces- Choróbsko(5) owy jak wyżej tyle że Wigor(7) a niefart w teście Wigoru oznacza śmierć. 3 sukces – objawy jak wyżej tyle że Wigor(9) a niefart w teście Wigoru oznacza śmierć.
+","Każdy kolej 1PM/2Tchu":" -3PT,  ,Szybkość -1, Zasięg +10m
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Klątwa padnie na mistyka, który próbował ją rzucić, na jego szczęście podstawowa forma klątwy nie jest zabójcza.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +1 tydzień, Zasięg +10m"
+
+
+
+}],{
+"Mistyk": ["Psychon",", "Szaman",", "Zakonnik"],
+"Name":"Kocia gracja",
+"PM":"1/Dech:4",
+"Szybkość":"4 AP, C",
+"PT":7 ,
+"Czas":"10min",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk staje się zwinniejszy, otrzymuje +1 do rzutów na Sprawność, do umiejętności Uniki Skradanie się i Wspinaczka
+"Każdy kolej"ny sukces":"+1 do testów
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, +1 do testów
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Ruchy mistyka stają się nieskoordynowane ma, –1 do rzutów na Sprawność i do umiejętności Uniki, Skradanie się i Wspinaczka.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT,  ,+1 do testów, Szybkość -1, Czas +10min."
+
+
+
+}],{
+"Mistyk": ["Szarlatan"],
+"Name":"Kontra",
+"PM":"1/Dech:4",
+"Szybkość":"zwiewanie",
+"PT":7 ,
+"Czas":"chwila",
+"Zasięg":"20m",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk po otrzymaniu trafienia, ale przed wyliczeniem obrażeń, może użyć najwyższej swojej karty akcji do skontrowania nadchodzących obrażeń. Mistyk otrzyma obrażenia zmniejszone o 1 poziom rany lub o 5 tchu, a sprawca tych obrażeń, jeżeli jest w zasięgu działania czaru i nie zda testu na Wigor(7), otrzyma te same obrażenia lub utratę tchu co szarlatan (przed zmniejszeniem ich). Za zdany test poziom ran jest mniejszy o 1 i za każdy kolejny sukces o kolejne 1. Tak samo w przypadku tchu, za zdany test utrata tchu zmniejszana jest o 5 i za każdy kolejny sukces o kolejne 5. Jeżeli efektem ataku jest jakaś właściwość (na przykład trucizna) to jest ona odbijana w kierunku napastnika. Kontra działa tylko na obrażenia zadawane bezpośrednio mistykowi. Nie działa na efekty obszarowe, które mają wpływ na mistyka. Odbite obrażenia z kontry są obrażeniami magicznymi i nie biorą pod uwagę żadnego pancerza. Chyba, że jest to pancerz lub ochrona magiczna. Wtedy rany lub dech są modyfikowane o poziom ochrony magicznej, a odbite właściwości specjalne nie są w ogóle brane pod uwagę.", ",
+"Każdy kolejny sukces":"+2 test Wigoru", ","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, Zasięg +20m", "Niepowodzenie":" Nic się nie dzieje, brak efektu.", ","Ups":" Kontra mistyka trafia w... mistyka. Mistyk otrzymuje podwójne obrażenia. Te właściwe i te odbite.", ","Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.", ","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Zasięg +20m"}],{
+"Mistyk": ["Psychon"],
+"Name":"Koszmary",
+"PM":"1/Dech:4",
+"Szybkość":"6 PA, C",
+"PT":7 ,
+"Czas":"specjalny",
+"Zasięg":"20m",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk tworzy sny u swojej ofiary, mogą to być niepokojące koszmary, jak i spokojne i łagodne przeżycia senne. Można też w trakcie snu wtłoczyć w podświadomość celu jakąś senną podpowiedź. W zależności od utworzonego snu: Przebudzona istota po teście Sprytu (5) przypomni sobie sen, będąc już na jawie. W przypadku koszmarów noc jest niespokojna i nieprzespana, ofiara po przebudzeniu rzuca Wigor (5) jeśli nie zda ma -1 do testów za nieprzespaną noc. W przypadku miłych snów test na Ducha (5) uspokoi cel i następnego dnia osoba taka będzie spokojniejsza i bardziej optym ,istyczna +1 jaja, +1 testy zdrowia.", ",
+"Każdy kolejny sukces":"Spryt/Duch -1PT i , Wigor +1PT Każdy kolejny 1PM/2Tchu: -3PT,  ,Spryt/Duch -2PT i , Wigor +2PT,  ,Zasięg +20m", "Niepowodzenie":" Cel czaru zostanie wytrącony ze swojego snu i obudzi się, ale nie będzie świadomy czemu. Zapewne za chwilę zaśnie ponownie.", ","Ups":" W zasięgu działania czaru powstaje mała szczelina, przez którą jest szansa (zależnie od mocy i rozwinięć czaru), że przeciśnie się jakiś nieproszony duch. Zapewne z najbliższego źródła, jeżeli nie ma źródła, to będzie to istota z planu Cienia.", ","Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.", ","Rozwinięcia":"-1PT,  ,Spryt/Duch -1PT i , Wigor +1PT,  ,Zasięg +20m, Czas +1 sen, kolejne -1 za koszmar, Szybkość -1"
+
+
+
+}],{
+"Mistyk": ["Świątobliwy"],
+"Name":
+"Krąg leczenia",
+"PM":"1/Dech:4",
+"Szybkość":"6 PA, C",
+"PT":7 ,
+"Czas":"koncentracja",
+"Zasięg":"r=3m",
+"Opis": {"Opis":"Mistyk staje się centralnym punktem strefy leczenia. Każda istota żywa w jej zasięgu otrzymuje 1k6 tchu co rundę, a gdy jej dech dojdzie do maksimum, za każdy nadmiar tchu wielkości Rozmiaru danej istoty może wykonać rzut na Wigor o poziomie testu leczenia jego największej posiadanej rany, czy nie uda się jej zmniejszyć o jeden poziom. Jeżeli czar będzie trwał nadal to kolejna nadwyżka tchu równa Rozmiarowi istoty pozwoli wykonać kolejny test dla kolejnej lub tej samej rany. Ta zasada działa, dopóki mistyk podtrzymuje czar. Niestety mistyk podtrzymujący ten czar znajdując się w stanie głębokiej kontemplacji (nie może wykonywać żadnych akcji), traci co rundę 1k6 tchu. Zbyt długie podtrzymywanie tego czaru może zagrażać jego życiu (zemdleje i nic więcej).
+"Każdy kolejny sukces":"+2 do przywracanego tchu
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1,
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Dech mistyka spada do 0 i traci przytomność.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1
+"
+
+
+}],{
+"Mistyk": ["Zwiastun"],
+"Name":
+"Kształtowanie zmutowanej materii",
+"PM":"1/Dech:4",
+"Szybkość":"6 PA, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"dotyk",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk poprzez dogłębne zbadanie mutacji może ją zmieniać w dowolny sposób. Może to robić tylko z już istniejącymimutacjami lub naturalnymi nowotworami w organizmie. Moc nie działa na niezmutowaną tkankę. Kształtowanie odbywa się poprzez zmianę jednej mutacji w drugą, proces jest nieprzewidywalny i trudny do przeprowadzenia, czasem by uzyskać pożądaną mutację mistyk musi mutować tą samą część ciała wielokrotnie, aż trafi w to co chciał. Przy każdej zmianie mutacyjnej, która trwa 1 godzinę cel musi rzucać Wigor PT9  ,nieudany oznacza utratę 2k6 tch
+"Każdy kolejny sukces":"+1 rzut na mutację (następnie mistyk wybiera z puli wylosowanych)
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, +1 rzut na mutację
+"Niepowodzenie":" Nic się nie dzieje, brafektu.
+","Ups":" Mistyk tworzy na celu losową dotkową mutację.
+"Ujawnienie":"Obserwator widzi zmiany mutacji zachodzące w zaskakującym tempie.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, +1 rzut na mutację"
+
+
+
+}],{
+"Mistyk": ["Psychon"],
+"Name":
+"Labirynt umysłu",
+"PM":"1/Dech:4",
+"Szybkość":"5 AZ, C",
+"PT":7 ,
+"Czas":"różny",
+"Zasięg":"20m",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk wprowadza ofiarę, która nie zdała testu Ducha(7) czaru w labirynt jakichś rozmyślań, ciężkiej sprawy, niebotycznych obliczeń, które celowi wydaje się, że musi zrobić właśnie w tej chwili. Chociaż sam nie wie z jakiego powodu, to ma być właśnie teraz. Istota taka jest tak ogarnięta tym, co robi w swojej głowie, że traci poczucie czasu i przestrzeni. Nie zwraca uwagi na otaczający ją świat i n"a rzeczy, które robiła do tej pory. Nie interesują ją otaczające ją odgłosy. Z tego zamyślenia postać może być wyrwana jakimś nagłym ostrym dźwiękiem (wystrzał, wybuch) lub jeżeli ktoś ją potrząśnie, uderzy lub w jakiś sposób zaingeruje. Oczywiście jeżeli problem zostanie rozwiązany, ofiara czaru wróci do normalności. By rozwiązać nurtującą zagadkę, ofiara czaru co minutę rzuca Spryt(5). Rzut na Spryt wykonuje zawsze pod koniec rundy lub min. Tak więc ofiara czaru, która nie zdała testu Ducha, będzie rozmyślać przynajmniej przez 1 rundę/minutę.
+"Każdy kolejny sukces":"Trudniejszy problem test Spryt +2PT
+Każdy kolejny 1PM/2Tchu: -3PT,  ,test Ducha +2PT,  ,test Spryt +2PT", "Niepowodzenie":" Cel czaru jest świadomy, że coś lub ktoś użył jakiejś mocy na nim, ale nie ma żadnego efektu.
+","Ups":" Mistyk sam zaczyna rozmyślać nad swoim problemem tak, jakby był ofiarą czaru, moc rozmyślań zależy od siły czaru.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT,  ,Zasięg +20m, test Ducha +2PT,  ,test Sprytu +2PT,  ,Szybkość -1
+
+"}],{
+"Mistyk": ["Zwiastun"],
+"Name":"
+Leczenie zmian genetycznych",
+"PM":"1/Dech:4",
+"Szybkość":"5 PA, C",
+"PT":7 ,
+"Czas":"stały",
+"Zasięg":"dotyk",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk stara się usunąć swoja mocą błędy genetyczne danej osoby, która jest celem jego mocy. Mistyk musi być świadom co usuwa, mieć wiedzę na ten temat lub widzieć usuwany obiekt. Koncentruje się na nowotworze, mutacji, genetycznym problemie z DNA i tylko na tej jednej rzeczy. Jeżeli cel ma kilka dolegliwości, mistyk musi wybrać tylko 1 z nich do procesu leczenia. Istota będąca celem czaru musi wykonać test na Wigor, którego poziom jest zależny od tego co jest naprawiane. W przypadku nieudanego rzutu na Wigor, cel czaru traci dodatkowe 2 tchu, a jego problem zostaje rozwiązany tylko tymczasowo. Nowotwory się odtworzą, krosty powrócą, mutacje znowu się rozwiną.
+Nowotwory nie mistyczne, zmiany skórne, blizny, krosty - Wigor(7)
+Genetyczne choroby wrodzone, uszkodzone D- Wigor(9)
+Oddziaływania mistyczne i mutacje - Wigor1)
+Podczas tego mistycznego zabiegu cel czaru traci 2k6 Tchu z powodu wyczerpania organizmu.
+"Każdy kolejny sukces":"-1 do PT t ,estu Wigoru leczonej osoby
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1
+"Niepowodzenie":" W przypadku niepowodzenia czaru, cle czaru traci 2k6 tchu z powodu wyczerpania organizmu.
+","Ups":" Mistyk skupia się na źródle problemu i zamiast wysłać impuls energii do naprawienia ciała ofiary, z jakiegoś powodu zaciąga problem do swojego ciała. Błędy genetyczne, nowotwory lub mutacje pokażą się w ciele mistyka w przeciągu 24godz. od nieudanego zabiegu, wraz ze wszystkimi płynącymi z nich konsekwencjami.
+"Ujawnienie":"PT1/ ,2 kości. Jeżeli mistyk usuwa widoczne zmiany na ciele, obserwator widzi to i wie, że dzieje się tu coś dziwnego.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Wigor PT-2
+
+
+"}],{
+"Mistyk": ["Psychon"],
+"Name":"
+Lewitacja",
+"PM":"1/Dech:4",
+"Szybkość":"5 AP, W",
+"PT":7 ,
+"Czas":"10min"",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk zmniejsza masę swojego ciała. Staje się lżejszy, dzięki czemu teren, po którym idzie, mniej się będzie uginał, a jeśli zmniejszy swoją masę do 0, będzie jak balonik, przy minusowej masie poleci do kosmosu. Mistyk zmniejsza swoja masę +/- kilka kg, a nie tego, co nosi. Jeżeli mistyk ma na sobie tylko kilka małych przedmiotów i ubranie to możemy ich nie wliczać w jego ciężar, ale jeżeli ma plecak pełen bambetli, to balonikiem już raczej nie będzie. Po udanym teście masa mistyka zmniejsza się o 25%.
+"Każdy kolejny sukces":"-25% masy
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, -25% masy
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Czar działa odwrotnie i zamiast lżejszy, mistyk staje się cięższy na czas trwania zaklęcia o taki sam %, o jaki miał być lżejszy.
+"Ujawnienie":"Dla obserwatorów jest to dziwne. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Czas +1min, Szybkość -1, -25% masy (max 3 razy)"
+
+
+
+}],{
+"Mistyk": ["Zwiastun"],
+"Name":"
+Ludzki akumulator",
+"PM":"1/Dech:4",
+"Szybkość":"6 AP, W",
+"PT":7 ,
+"Czas":"chwila",
+"Zasięg":"1m",
+"Gest" : "tak",
+"Opis": {"Opis":"Zwiastun potrafi ładować baterie energetyczne i inne urządzenia gromadzące energię elektryczną. Użycie tej mocy ładuje 50j.e.. Celem tej mocy może być kilka baterii naraz, to Zwiastun decyduje, gdzie trafi jego moc. Nadmiar jest marnowany lub wykorzystywany do przeładowania i wybuchu danego akumulatora.
+"Każdy kolejny sukces":"+50j.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+"ps":" Zebrana w ciele mistyka energia nie uwalnia się w kontrolowany sposób i dochodzi do wyładowania zadającego mistykowi 1k6 obr. Obszarowych za każde 50j.e.
+"awnienie":"Ciało mistyka staje się naelektryzowane, jego włosy sterczą, a ubranie szeleści od małych wyładowań elektrostatycznych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, +50j.e."
+
+
+
+}],{
+"Mistyk": ["Świątobliwy",", "Zakonnik"],
+"Name":
+"Magiczna siła",
+"PM":"1/Dech:4",
+"Szybkość":"4 PA, C",
+"PT":7 ,
+"Czas":"10min",
+"Zasięg":"dotyk",
+
+"Opis": {"Opis":"Mistyk dotyka przedmiotu, który podczas trwania czaru staje się bardziej śmiercionośny i zadaje dodatkowe +1 obr.
+"Każdy kolejny sukces":"+1 obr.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, +1 obr."
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Za każdy punkt obr, które miał dostać dany przedmiot, sam otrzymuje tyle k6 obr.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, +1obr, Czas +10min
+
+"}],{
+"Mistyk": ["Świątobliwy",", "Szarlatan",", "Zakonnik"],
+"Name":"Magiczna tarcza",
+
+"PM":"1/Dech:4",
+"Szybkość":"4 AZ, C",
+"PT":7 ,
+"Czas":"10min",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk otacza się magicznym polem ochronnym dzięki czemu zyskuje magiczną KP 1. Wszelkie magiczne i niemagiczne ciosy zadawane tej postaci są modyfikowane przez tą osłonę. Osłonę tę sumujemy z pozostałymi magicznymi i materialnymi.
+"Każdy kolejny sukces":"+1KP
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, +1KP
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Źle skondensowana energia magiczna wybucha wewnątrz mistyka zadając mu 1k6 obr. obszarowych za każdy punkt KP który miał otrzymać.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas –10min."
+
+}],{
+"Mistyk": ["Szarlatan"],
+"Name":"Magiczny znak",
+"PM":"1/Dech:4",
+"Szybkość":"6 PA, C",
+"PT":7 ,
+"Czas":"7 dni",
+"Zasięg":"2m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk może utworzyć znak, symbol, sigil lub tekst pisany jego palcem o powierzchni nie większej niż 1m2. Symbol ten jest niewidoczny dla zwykłych ludzi, ale posiada jedną regułę ujawnienia, którą ustala mistyk. Reguła jest dowolna i w chwili ujawnienia symbol pojawia się dla oczu zwykłych ludzi niczym delikatnie jarzące się światło fluorescencyjne o kolorze wybranym przez mistyka. Przykładowe reguły: Jan Kowalski dotknie symbolu”, “Gołąb usiądzie na symbolu”, “Krew spłynie na symbol”, itd. Takie symbole można wykorzystywać do rytuałó
+"Każdy kolejny sukces":"+1 dodatkowa reguła symbolu
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, Zasięg +10m
+"Niepowodzenie":" Nic się nie dzie brak efektu.
+","Ups":" Magiczny znak ulegnie prkształceniu w coś innego niż miał być. Decyduje MG. Dla odmiany reguła zadziała prawidłowo.
+"Ujawnienie":"Automatyczne dla obserwatora. Mistyk palcem maluje jarzący się znak, który po namalowaniu znika.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +7dni, Zasięg +10m
+
+
+"}],{
+"Mistyk": ["Psychon"],
+"Name":"Manipulacja emocjami",
+
+"PM":"1/Dech:4",
+"Szybkość":"4 AP, C",
+"PT":7 ,
+"Czas":"1 dzień",
+"Zasięg":"10m",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk zmienia nastawienie swoich celów w stosunku do siebie. Może je rozzłościć, uspokoić lub przestraszyć. Po zdanym teście", "przesuwa" nastawienie celu o poziom w wybraną stronę. Jeżeli cel był rozzłoszczony, a Mistyk chciał go uspokoić, to cel będzie się zachowywał w stosunku do Mistyka neutralnie. Nastawienie możemy podzielić na 5 poziomów Bardzo pozytywne, pozytywne, neutralne, złe, bardzo złe. (np: przyjaciel, lubi, neutralne, niechęć, nienawiść).
+"Każdy kolejny sukces":"+1 przes"unięcie w wybraną stronę
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,+1 przesunięcie w wybraną stronę, +1 osoba pod wpływem
+"Niepowodzenie":" Cel czaru jest świadomy, że coś lub ktoś użył jakiejś mocy na nim, ale nie ma żadnego efektu.
+","Ups":" Mistyk sam wpada pod wpływ własnej mocy, tyle że w odwrotnej formie. Jeżeli mistyk chciał, by ktoś był dla niego miły, to on dla tej osoby będzie niemiły. Jeżeli chciał, by ktoś się na kogoś zezłościł, to on dla tej osoby będzie miły, itd.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Czas +1 dzień, Zasięg +10m, Szybkość -1
+
+
+"}],{
+"Mistyk": ["Psychon"],
+"Name":"Mentalne odcięcie",
+
+"PM":"1/Dech:4",
+"Szybkość":"2 AZ, C",
+"PT": 7,
+"Czas":"natychmiastowy",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk używa nagłego impulsu magii, by zerwać lub rozproszyć będące na nim mistyczne moce. Przy użyciu tego czaru mistyk zrywa 1k6 losowych mocy, które miały na niego bezpośredni wpływ. Ten czar nie działa na czary obszarowe, które wpływają na mistyka w ich obszarze, a jedynie na efekt tych czarów. Od razu po skończeniu tej akcji czar obszarowy ponownie zacznie działać na mistyka. Jeżeli działanie takiego czaru wymaga od jego ofiary rzutu obronnego, mistyk rzuca ponownie, tak, jakby dopiero znalazł się w działaniu czaru.
+"Każdy kolejny sukces":"+1k6 dodatkowych zerwanych czarów
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, +1k6 dodatkowych zerwanych czarów
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Mistyk pozbawia się możliwości użycia mocy mistycznych przez kolejne 1k6 rund/minut.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT,  ,Szybkość -1, +1k6 dodatkowych zerwanych czarów"
+
+
+
+}],{
+"Mistyk": ["Świątobliwy"],
+"Name":"Męczeństwo",
+
+"PM":"1/Dech:4",
+"Szybkość":"4 AZ, C",
+"PT":7 ,
+"Czas":"10min",
+"Zasięg":"osobisty",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk w magiczny sposób bierze na siebie obrażenia wynikające z utraty tchu wybranej istoty. Tak więc jeśli taka istota otrzyma jakieś obrażenia z których wynika utrata tchu. Otrzymuje wszystkie wynikające z tych obrażeń konsekwencje (rany, trucizny, itp.), ale dech odpisuje sobie mistyk, a nie ta istota. Straty tchu przekazywane są, dopóki mistyk jest świadomy, jeżeli jego dech spadnie do 0 lub mniej czar przestaje działać. Jeżeli ostatnie obrażenia. Które przyjął mistyk doprowadziły jego dech do stanu ujemnego o wartości jego tchu lub więcej, misk umiera.
+"Każdy kolejny sukces":"-1 straty tchu przez mistyka (min 1)
+","Każdy kolejny 1PM/2Tchu":" -,  ,Szybkość -1
+"Niepowodzenie":" Nic się nie deje, brak efektu.
+","Ups":" Połączenie wyszło, ale moc działa wadliwie. Cel czaru nadal traci dech, ale mistyk także traci, to co miał zgarnąć swoim męczeństwem.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, -1 straty tchu (min1)"
+
+
+
+}],{
+"Mistyk": ["Szarlatan"],
+"Name":"Międzywymiarowe lustro",
+
+"PM":"1/Dech:4",
+"Szybkość":"6 PA, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"20m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk wykorzystuje lustro by patrzeć przez nie jak przez okno do innego lustra w zasięgu czaru. Szarlatan widzi przez lustro jakby oglądał film. Nie ma możliwości patrzeć pod kątem by zobaczyć co się kryj"e z boku lustra, obraz jest jak w telewizorze. Jeżeli mistyk wykorzystuje inny przedmiot, który nie ma czystej powierzchni jak lustro (powiedzmy, wypolerowany metal), obraz jest niewyraźny, tak jak odbicie w takim materiale. Osoby patrzące z drugiej strony po zdanym teście Spostrzegawczości(9) są w stanie zobaczyć mistyka, który na nich patrzy. T jakby patrzyli w dwa obrazy na raz, w swoje odbicie i w odbicie mistyka.
+"Każdy kolejny sukces":"1 sukces – poza obrazem dochodzi dźwięk. 2 sukces - można przez nie rzucać czary, jeżeli zasięg czarów na to pozwala (zasięg jest liczony łącznie z odległością dzielącą 2 lustra). 3 sukces - można przez nie rzucać czary, zasięg dzielący lustra nie jest liczony.
+","Każdy kole 1PM/2Tchu":" -3PT,  ,Szybkość -1, Zasięg +20m
+"Niepowodzeni:" Nic się nie dzieje, brak efektu.
+","Ups":" Lustro mistyka nie działa, ale lustro po drugiej stronie pokazuje co dzieje się u mistyka. Czyli działa na odwrót. Tak samo jak przy rzuconym czarze, jeżeli ktoś podejdzie do lustra po swojej stronie mistyk wpatrując się po teście spostrzegawczości może zobaczyć jego zamazaną postać.
+"Ujawnienie":"Tafla przedmiotu na które został rzucony czar zaczyna falować aż nabiera właściwy wygląd.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +1godz., Zasięg +20m"
+
+
+
+}],{
+"Mistyk": ["Szarlatan",", "Szaman"],
+"Name":"Międzywymiarowy portal",
+
+"PM":"1/Dech:4",
+"Szybkość":"6 PA, W",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"10m",
+"Gest" : "tak",
+"Opis": {"O"pis":"Mistyk wykorzystuje dowolną framugę, grotę lub jakiekolwiek przejście mające jakiś element, w którym możemy wpisać portal. Może to być nawet hulahop lub dziura w kartonowym pudełku. Po rzuceniu zaklęcia w wybranej przez mistyka przestrzeni pojawia się portal. Dla zwykłych ludzi wygląda jak czarny gęsty dym, błękitna tafla wody, łagodna biała poświata, zielona glutoplazma, itp. Niezależnie od wyglądu każdy portal działa tak samo, pozwala przeskoczyć do innego wymiaru. W przypadku normalnego sukcesu do wymiaru cienia, będącego odbiciem świa materialnego. W planie cieni portal otworzy się idealnie w miejscu jego odpowiednika z planu materialnego. Mistyk oczywiście po przejściu jako twórca może zamknąć swój portal za sobą w każdej chwili znajdując się w zasięgu rzucania czaru. Przez portal może przejść każdy i to w obydwie strony. Portal otworzy się w “otworach” do 3m2. Może być mniejszy, ale nie większy. Poruszając się po planie cieni każda postać która chce przejść przez przeszkody, które w normalnym świecie są materialne musi zdać test Ducha(5), a jeżeli chce przechodzić przez istoty żywe test Ducha(7). W y
+"Każdy kolejny sukces":"1 sukces – mistyk może sobie zażyczyć, że portal jest jednokierunkowy. 2 sukcesy – portal może prowadzić do wymiaru, w którym mistyk ma swoje źródło. Otworzy się w bliżu losowego nexusa. 3 sukcesy – portal prowadzi do dowolnego portalu ze źródłem, niekoniecznie tym używanym przez mistyka. Otworzy się w pobliżu losowego nexusa.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, Czas +1godz.
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Otwiera się portal do losowego wymiaru i z losowymi ustawieniami kierunku przejścia.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +1godz., Zasięg +10m"
+
+
+
+}],{
+"Mistyk": ["Szarlatan"],
+"Name":"Mistyczne oko",
+
+"PM":"1/Dech:4",
+"Szybkość":"5 AZ, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"2m"",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk tworzy magiczną niewidoczną dla zwykłych ludzi gałkę oczną wielkości ludzkiej, która lewituje w żądanym przez mistyka kierunku. Jest to magiczna manifestacja jednego z oczu mistyka, tak więc wydaje mu się, że to co widzi to mistyczne oko, to to co powinno widzieć jedno z jego normalnych oczu. Mistyk sam wybiera które oko staje się tym mistycznym, prawe czy lewe. Podczas trwania zaklęcia obszar patrzenia mistyka jest zależny od jego własnych oczu –1 i tego mistycznego. Prędkość z jaką porusza się oko wynosi Tempo 20. Oczywiście może wolniej, ale nie szybciej. Oko przejdzie przez gazy i ciecze (nawet te niebezpieczne dla mistyka, bez uszczerbku dla niego) ale nie przez ciała stałe.
+"Każdy kolejny sukces":"1 sukces - Mistyczne oko może przenikać przez ciała stałe (ściany, ciało), 2 sukcesy – Mistyczne oko potrafi przeniknąć na plan cienia i widzieć co tam się dzieje. Nadal jednak znajduje się na planie materialnym. 3 sukcesy – Mistyczne oko jest bardziej spostrzegawcze i ma +2 do testów Spostrzegawczości.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Przez czas trwania zaklęcia mistyk jest ślepy na oko, które miał sobie zaczarować.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +1godz."
+
+
+
+}],{
+"Mistyk": ["Szarlatan"],
+"Name":"Mistyczne zamknięcie/otwarcie",
+
+"PM":"1/Dech:4",
+"Szybkość":"6 AZ, C",
+"PT":7 ,
+"Czas":"1 dzień",
+"Zasięg":"2m",
+"Gest" : "tak",
+"Opis": {"Opis":"Dzięki mistycznemu zamknięciu mistyk wykorzystuje już istniejący zamek, supeł, szyfr lub inny blokujący dostęp przedmiot lub program i w magiczny sposób utrudnia jego otworzenie. Testy Włamywania mają PT+8 , by pokonać takie zabezpieczenie. W przypadku mistycznego otwarcia, efekt jest odwrotny, test Włamywania jest łatwiejszy PT-8 ,.
+"Każdy kolejny sukces":"PT+2 ,/
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, Zasięg +10m
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","":" Czar wymyka się spod kontroli i ułatwia lub utrudnia otworzenie losowego przedmiotu zabezpieczającego/blokującego w okolicy mistyka.
+"Ujnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +1 dzień, Zasięg +10m
+
+
+
+"}],{
+"Mistyk": ["Szarlatan"],
+"Name":"Mistyczny sen",
+
+"PM":"1/Dech:4",
+"Szybkość":"6 PA, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk wprowadza się w stan transu, podczas którego jego dusza opuszcza ciało. Pozwala mu to na podróżowanie jako dusza po rzeczywistym wymiarze. Oczywiście mistyk jest narażony na wszystkie niebezpieczeństwa, które czyhają na zabłąkana duszyczki, ale może obserwować i słuchać życia ludzi podczas gdy jego ciało śpi. Po powrocie do ciała mistyk normalnie egzystuje. Jeżeli skończy się czas trwania czaru dusza mistyka w niekontrolowany sposób będzie przyciągana do swojego ciała aż do ponownego ze scalenia. Jeżeli z jakiegoś powodu to nie n"astąpi, a ciało mistyka umrze, dusza uda się w swoją ostatnią podróż w zaświaty. Ciało mistyka pozbawione duszy, zachowuje się jak w śpiączce.
+"Każdy kolejny sukces":"+1 godz.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1,
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Rozdzielenie ciała z duszą nie powiodło się, mistyk traci 2k6 tchu.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +1godz.
+
+
+"}],{
+"Mistyk": ["Świątobliwy"],
+"Name":"Motywowanie innych",
+
+
+"PM":"1/Dech:4",
+"Szybkość":"6 AZ, C",
+"PT":7 ,
+"Czas":"10min",
+"Zasięg":"osobisty",
+"Gest":"Werbalne",
+"Opis": {"Opis":"Mistyk przemawia, a jego przemowa jest kwiecista i trafiająca wprost do serca słuchaczy. Każdy kto słyszy lub widzi mistyka ma wrażenie, że mistyk jest bardziej charyzmatyczny. Do wszystkich testów Charyzmy lub umiejętności rzucanych z charyzmy, mistyk ma modyfikator +2
+"Każdy kolejny sukces":"+1 do testów
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, +1 do testów
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Czar zamiast uwypuklać charyzmatyczne cechy mistyka działa na jego niekorzyść. Wszystkie rzuty na Charyzmę i umiejętności z charyzmy mistyk rzuca z ujemnym modyfikatorem o wartości użytej w czarze i przez czas działania czaru.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +10min
+
+
+
+"}],{
+"Mistyk": ["Szaman"],
+"Name":"Mowa ziemi",
+
+"PM":"1/Dech:4",
+"Szybkość":"5 AP, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk dostrzega na wszelkim podłożu ślady i szczegóły, o wiele lepiej niż normalnie byłyby widoczne. Szaman otrzymuje +6 do testów szukania i tropienia.
+"Każdy kolejny sukces":"+2 do testów szukania i tropienia
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Mistyk widzi ślady, ale często nie te które go interesują. Te mylące informacje sprawiają, że trudniej jest mu się połapać i odnaleźć te właściwe tropy i rzeczy. Ma –4 do testów szukania i tropienia na czas trwania czaru.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +1godz.
+
+
+
+"}],{
+"Mistyk": ["Zwiastun"],
+"Name":"Mutagenne klonowanie",
+
+"PM":"1/Dech:4",
+"Szybkość":"6 PA",
+"PT":7 ,
+"Czas":"stały",
+"Zasięg":"dotyk",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk dotykając celu, wtłacza w niego swoją moc, która powoduje szybki rozwój wybranej przez mistyka części ciała i tworzy jego genetyczną kopie. Można w tej sposób wyhodować w szybki sposób w kimś dodatkowy organ lub kończynę. Po zaszczepieniu w celu energii magicznej, dana część ciała rośnie 50 gram dziennie, aż do uzyskania swojej całkowitej wielkości. Potem tylko jakiś zacny medyk musi tą część ciała oddzielić od reszty, tak by nie zabić istoty, w której wyhodowano dodatkową część. Oczywiście jak ktoś na wszelki wielki chce mieć 3 nerki, to n trzeba mu tej dodatkowej wycinać. Podczas wzrostu organu, cel czaru czuje nieprzyjemne kłócia i bóle w swoim ciele, jeżeli klonowana jest kończyna widzi dodatkowo co się dzieje. Wszystkie rzuty takiej osoby są z modyfikatorem –2 spowodowanym bólem.
+"Każdy kolejny sukces":"+50 gramrostu dziennie.
+","Każdy kolejny 1PM/2Tchu":" -3,  ,Szybkość -1
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Zamiast powielić narząd, mistyk mutuje oryginał.
+"Ujawnienie":"PT k ,ość
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, +50 gram wzrostu
+
+
+
+"}],{
+"Mistyk": ["Zwiastun"],
+"Name":"Mutagenne leczenie",
+
+"PM":"1/Dech:4",
+"Szybkość":"6 PA, C",
+"PT":7 ,
+"Czas":"10min",
+"Zasięg":"r=3m",
+
+"Opis": {"Opis":"Mistyk wykorz"ystuje moc by poprzez promieniowanie zwielokrotnić czas gojenia się ran i reprodukcji nowej tkanki. Rany goją się z szybkością 1min, która odpowiada 1 dniu rekonwalescencji. Efektem ubocznym tego działania jest duże prawdopodobieństwo, że nowa tkanka będzie zmutowana. Test Wigor(5), nieudany oznacza mutację. Działaniu podlegają wszystkie organizmy w polu rażenia mocy. W przypadku zatruć (toksyny/trucizny) lub choroby (wirusy/bakterie) obce ciała bądź płyny starzeją się nim zdążą naprodukować i w ten sposób szybciej się można ich pozbyć. Wietrzeją z organizmu. Ten czar przyspiesza też wzrost mutacji, jeśli jakaś występuje. Niezależnie czy jest pozytywna czy negatywna. Na każdą 1min czaru każda istota wewnątrz strefy odzyskuje k6 tchu, tak jakby spokojnie odpoczywała.
+"Każdy kolejny sukces":"+1 dzień na każdą minutę działania i +1k6 tchu
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, PT – ,1 do testu Wigoru
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Z leczenia nici, ale wszyscy w zasięgu działania mocy otrzymują potężne uderzenie promieniowaniem i muszą rzucić Wigor(7) modyfikowanyRozwinięciami, albo zmutują.
+"Ujawnienie":"PT1/ ,2 kości. Obserwator przypatrując się, widzi gojące się w niesamowitym tempie rany.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, PT – ,1 do testu Wigoru(min3)
+
+
+
+"}],{
+"Mistyk": ["Zwiastun"],
+"Name":"Mutowanie mikrobów",
+
+"PM":"1/Dech:4",
+"Szybkość":"6 PA,C",
+"PT":7 ,
+"Czas":"stały",
+"Zasięg":"2m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk potrafi zmutować bakterie, wirusy, czy małe grzyby i nadać im jakąś cechę. Podczas powielania się, nowo zmutowane organizmy będą się powielać jako nowa odmiana genetyczna. Ze wszystkimi wiążącymi się z tym konsekwencjami. Przykładowymi zmianami może być: zmiana trudności leczenia, szybkość działania, jeden z efektów działania lub jego usunięcie (niedowład, wymioty, zawroty głowy, uszkodzenie narządu), odporność szczepu na antybiotyki i lekarstwa, docelowy organizm nosiciela lub środowisko wzrostu, itp. Jeżeli zmieniana jest tyl pewna grupa mikrobów i spotka się z inną odmianą genetyczną, przetrwa grupa losowa 50 na 50. Istotne w przypadku zarażonych ludzi.
+"Każdy kolejny sukces":"+1 zmiana genetyczna.
+","Każdy kolejny /2Tchu":" -3PT,  ,Szybkość -1,
+"Niepowodzenie":"ic się nie dzieje, brak efektu.
+","Ups":" Zmiana zainstalowana w mikrobie jest zazwyczaj odwrotna niż zamierzona.
+"Ujawnienie":"PT1/ ,2 kości
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Zasięg +2m,
+
+
+
+"}],{
+"Mistyk": ["Zakonnik"],
+"Name":"Narzędzie kary",
+"PM":"1/Dech:4",
+"Szybkość":"4AP, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk rzuca na posiadany przez siebie przedmiot (broń) moc, dzięki której dany przedmiot staje się bardziej śmiercionośny. Broń zadaje +1 obr.
+"Każdy kolejny sukces":"+1 obr.
+","Każdy kolejn"y 1PM/2Tchu":" -3PT,  ,Szybkość -1, +1obr.
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Podczas trwania czaru przedmiot na który rzucano czar zadaje -1 obr.
+"Ujawnienie":"PT k ,ość.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, +1 obr.
+
+
+
+"}],{
+"Mistyk": ["Psychon"],
+"Name":"Niedostrzeżenie",
+"PM":"1/Dech:4",
+"Szybkość":"4 AZ, C",
+"PT":7 ,
+"Czas":"1min",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk staje się mniej dostrzegalny przez patrzące na niego osoby. To nie jest tak, że on jest niewidzialny. Obserwatorzy po prostu nie zwracają na niego uwagi. Mistyk otrzymuje +8 do ukrycia się. Strażnik, który patroluje teren, nie będzie dostrzegał mistyka, ale strażnik, który aktywnie prowadzi poszukiwania, wie, że jest intruz (możliwe, że coś usłyszał), premia przeciwko takiemu obserwatorowi wynosi tylko +4 do ukrywania się.
+"Każdy kolejny sukces":"+2 do ukrycia się
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,+2 do ukrycia się, Czas+1min
+"Niepowodzenie":" Brak efektu, mistyk nie otrzymuje bonusu.
+","Ups":" Mistyk za mocno naruszył plan cieni i nie tyle wykorzystuje go do maskowania swojej osoby, co zwyczajnie wpada w niego i przenosi się tam. Mistyk fizycznie kroczy w planie cieni do czasu zakończenia mocy. Przeniesienie trwa 1min + 1min na każde rozwinięcie lub dodatkowy PM/Dech wydany na rzucenie czaru.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Czas +1min, +2 do ukrycia się, Szybkość -1
+
+
+
+"}],{
+"Mistyk": ["Świątobliwy"],
+"Name":"Oczyszczająca Aura",
+"PM":"1/Dech:4",
+"Szybkość":"4 PA, C",
+"PT":7 ,
+"Czas":"10min",
+"Zasięg":"r=10m",
+"Opis": {"Opis":"Mistyk rozpościera dookoła siebie aurę, w której wszystkie istoty pochodzące z innych wymiarów czują się nieswojo i są rozkojarzone. Jeżeli ten czar zostanie użyty w innym wymiarze, to jego moc będzie działała na istoty, które są obce dla danego wymiaru. Czyli obiekty na które działa czar są różne w zależności od tego, gdzie czar został rzucony. Każda obca dla danego wymiaru istota w strefie działania czaru ma –2 do testów na cechy i umiejętności.
+"Każdy kolejny sukces":"-1 do testów
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, -1 do testów
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Moc wynaturza się i zamiast działać na istoty spoza wymiaru, w którym została rzucona, działa na istoty z wymiaru, gdzie została użyta.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +10min, Zasięg +r=5
+
+
+
+"}],{
+"Mistyk": ["Zwiastun"],
+"Name":"Oczyszczenie materii",
+"PM":"1/Dech:4",
+"Szybkość":"5 PA, C",
+"PT":7 ,
+"Czas":"chwila",
+"Zasięg":"1m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk dzięki mikrofalom wypływającym z jego rąk może oczyścić jakąś powierzchnię, jedzenie, chore ciało z drobnoustrojów, bakterii i wirusów. Powierzchnia około 1m3. Mistyk może w ten sposób leczyć chorych lub zatrutych, przy użyciu bakterii, grzybów i wirusów, toksyn czy chemikaliów, a i nawet uleczyć skutki promieniowania. Osoba taka jednak przez kolejne 6 dni będzie osłabiona i będzie mogła wykonywać tylko akcje prost
+"Każdy kolejny sukces":"-1 dzień osłabienia
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1
+"Niepowodzenie":" Nicę nie dzieje, brak efektu.
+","Ups":" Cel czaru jeli jest żywą istotą traci 2k6 tchu z powodu potraktowania go mikrofalami i jest osłabiony na 6 dni.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, +1m3 oczyszczenia
+
+
+
+"}],{
+"Mistyk": ["Szaman"],
+"Name":"Oczyszczenie portalu",
+"PM":"1/Dech:4",
+"Szybkość":"6 PA, C",
+"PT":7 ,
+"Czas":"1 dzień",
+"Zasięg":"10m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk oczyszcza portal, do którego przywarły jakieś duchy. Duchy lubią przywierać do portali i je wykorzystywać. Po rzuceniu tego czaru, portal staje się “elektryzować” dla duchów i te nie są w stanie się pożywiać jego energią. Stracą zainteresowanie takim portalem. W przypadku błąkających się duchów, które dopiero by chciały przylgnąć do takiego portalu, nie czują zainteresowania nim i raczej go zignorują, nim podejmą próbę przylgnięcia, która oczywiście skończy się odrzucenie
+"Każdy kolejny sukc"es":"+1 dzień działania
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, Zasięg +10m+
+"Niepowodzenie":" Jeżeli na portalu były już jakieś duchy, to widząc, że mistyk próbuje je przegonić, staną się wrogo nastawione i nieprzychylne mistykowi.
+","Ups":" Czar nie działa, ale duchy, jeż już jakieś były na portalu są wkurzone i na bank zaatakują mistyka.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana z efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +1dzień, Zasięg +10m
+
+
+
+"}],{
+"Mistyk": ["Szaman"],
+"Name":"Odesłanie",
+"PM":"1/Dech:4",
+"Szybkość":"4 PA, C",
+"PT":"różny",
+"Czas":"natychmiastowy",
+"Zasięg":"2m",
+", "Gest":"nie",
+"Opis": {"Opis":"Jeżeli jakiś obiekt lub istota były opętane przez ducha, mistyk wygania go. PT c ,zaru zależy od wielkości kości Ducha wypędzanego ducha +3. Na przykład duch z Duchem 2k6 sprawia, że test jest na poziomie PT9. , Wypędzony duch musi opuścić ciało/obiekt, w którym przebywał. Duch w ciągu tego dnia nie będzie mógł wejść w ciało, z którego został wypędzony.
+"Każdy kolejny sukces":"1 sukces – duch musi opuścić okolicę, w której został wypędzony, szuka jakiegoś schronienia. 2 sukces - wypędzony duch musi uciekać z okolicy, w której został wypędzony i zostaje wypchnięty na plan cienia. 3 sukcesy – duch zostaje odesłany do swojego wymiaru.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,S"zybkość -1, Zasięg +10m
+"Niepowodzenie":" Duch orientuje się, że mistyk chce go wypędzić. Może to doprowadzić do jego reakcji. Poza tym, nic się nie dzieje.
+","Ups":" Mistyk czuje osłabienie próbą wypędzenia ducha i traci 1k6 tchu. Podczas tej sceny nie będzie mógł ponownie wypędzać tego ducha.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Zasięg +10m
+
+
+
+"}],{
+"Mistyk": ["Zwiastun"],
+"Name":"Odporność na promieniowanie",
+"PM":"1/Dech:4",
+"Szybkość":"4 AP, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk jest odporny na niekorzystne działania wywołane promieniowaniem radioaktywnym. Może siedzieć sobie w środku reaktora i nic mu się nie stanie, dopóki moc działa. Jeżeli ciało mistyka zostało napromieniowane przez rzuceniem tej mocy, to skutki promieniowania nie działają na mistyka do czasu zakończenia czaru. Potem choroba popromienna zżera go dalej.
+"Każdy kolejny sukces":"+1godz działania
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Moc tworzy wyładowanie wewnątrz mistyka i zabiera mu 1k6 tchu.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +1godz.
+
+
+
+"}],{
+"Mistyk": ["Świątobliwy"],
+"Name":"Ofiara",
+
+"PM":"1/Dech:4+ szton",
+"Szybkość":"zwiewanie",
+"PT":7 ,
+"Czas":"natychmiastowy",
+"Zasięg":"20m",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk wykorzystuje cząstkę swojego losu i przekazuje ją innej istocie. Dzięki tej mocy mistyk może przekazać sztona innej istocie nie ponosząc z tego tytułu żadnych dodatkowych opłat i haraczy. Mistyk w ten sposób może przekazać sztona każdemu nawet NPCowi.
+"Każdy kolejny sukces":"1 sukces – wydany szton jest liczony podwójnie. 2 sukcesy – wydany szton jest liczony potrójnie, itd..
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Zasięg +20m
+"Niepowodzenie":" Szton użyty do zaklęcia przepada.
+","Ups":" Szton użyty do zaklęcia wpada w ręce MG, który go wykorzysta w niecnych celach podczas tej sceny.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Zasięg +20m,"}
+
+{
+"Mistyk": ["Szarlatan"],
+"Name":"Ogar",
+"PM":"1/Dech:4",
+"Szybkość":"6 AP, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk po prostu wie, „czuje to”, którędy poszedł tropiony przez niego cel. By czar zadziałał mistyk musi mieć jakiś", "osobisty", przedmiot tropionego lub jego krew/DNA. Coś na czym jest ślad poszukiwanego. Po zdanym teście szarlatan zna mniej więcej kierunek, w którym ma tropić swój cel. Może iść za nim bez rzutu na tropienie.
+"Każdy kolejny sukces":"1 sukces – mistyk zna przybliżoną odległość od swojego celu. 2 sukces – wie, gdzie prawdopodobnie chce dojść cel. 3 sukces – wie, gdzie aktualnie jest cel poszukiwań.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, Czas +1godz.
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Magiczny impuls trafia do poszukiwanej osoby i wie ona, zapewne instynktownie (przeczucie? 6 zmysł?), że ktoś ją śledzi/tropi i instynktownie wie z którego kierunku.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +1godz.
+
+
+
+"}],{
+"Mistyk": ["Szaman"],
+"Name":"Opętanie",
+"PM":"1/Dech:4",
+"Szybkość":"6 PA, C",
+"PT":7 ,
+"Czas":"1 dzień",
+"Zasięg":"10m",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk przenosi swoją duszę w ciało inne istoty posiadającej duszę. Ofiara czaru ma rzut obronny Duch(7), jeżeli mu się nie uda mistyk zyskuje kontrolę nad jego ciałem. W czasie trwania czaru ciało mistyka pozostaje w letargu (śnie), a mistyk w ciele ofiary może opuścić zasięg rzucania czaru. Podczas działania czaru, mistyk nie czuje co się dzieje z jego ciałem. Gdy czar przestanie działać świadomość mistyka natychmiast wraca do swojego ciała, a ofiara odzyskuje kontrolę nad swoim. Cel czaru po odzyskaniu świadomości jest świadom tego co się z nim działo i ma świadomość tego, że nie mógł nic zrobić. Taka sytuacja może różnie wpłynąć na różne osoby.
+"Każdy kolejny sukces":"1 sukces – ofiara czaru nie jest świadoma tego co działo się podczas opętania, ma dziurę w pamięci. Jest jednak świadoma upływu czasu i tego, że ma dziurę w pamięci. 2 sukces – ofiara czaru nie była świadoma podczas opętania i samodzielnie nie doszukuje się logiki w straconym czasie. Nie jest świadoma dziury w pamięci.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, +2 do testu Ducha ofiary
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Próba przeniesienia swojej jaźni nie powiodła się do końca działania czaru mistyk czuje bóle głowy powodujące silne migreny przez co ma –2 do wszystkich testów.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Zasięg +10m, Czas +1dzień
+
+
+
+"}],{
+"Mistyk": ["Szaman",", "Szarlatan"],
+"Name":"Osłabienie",
+"PM":"1/Dech:4",
+"Szybkość":"5 AZ, C",
+"PT":7 ,
+"Czas":"1 min",
+"Zasięg":"10m",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk osłabia mistyczna mocą inną istotę. Cel czaru ma rzut obronny Duch(7), jeśli mu nie wyjdzie otrzymuje –1 do testów na Umiejętności.
+"Każdy kolejny sukces":"dodatkowe –1 do testów
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Zasięg +10m, Szybkość -1, dodatkowe –1 do testów, +1 dodatkowa istota pod wpływem czaru
+"Niepowodzenie":" Cel czaru jest świadomy, że coś lub ktoś użył jakiejś mocy na nim, ale nie ma żadnego efektu.
+","Ups":" Mistyk zamiast osłabić wybrane istoty osłabia siebie, o sumę wszystkich osłabień użytych w czarze, przez czas działania czaru.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Czas +1min, Zasięg +10m, Szybkość -1, +1 dodatkowa osoba
+
+
+
+"}],{
+"Mistyk": ["Zakonnik"],
+"Name":"Ostrze destrukcji",
+"PM":"1/Dech:4",
+"Szybkość":"4AP, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk rzuca na posiadany przez siebie przedmiot (broń) moc, dzięki której dany przedmiot staje się bardziej śmiercionośny. Broń jest traktowana jakby przebijała pancerze, ma modyfikator +1AP
+"Każdy kolejny sukces:</b>- siła broni +1 AP
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, siłą broni +1AP
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Podczas trwania czaru przedmiot na który rzucano czar zadaje jest jak gumowy i we wszystko w co uderza, jego cel ma KP o 1 większą niż miał. Jeżeli przedmiot nie miał KP, to dla tej broni ma 1KP.
+"Ujawnienie":"PT k ,ość.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, siła broni +1 AP
+
+"}],{
+"Mistyk": ["Szarlatan"],
+"Name":"Oślepienie",
+"PM":"1/Dech:4",
+"Szybkość":"3 AZ, C",
+"PT":7 ,
+"Czas":"1 min",
+"Zasięg":"20m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk atakuje wzrok swojego celu. Cel ma test obronny Wigor(7), jeżeli go nie zda ma -4 do Spostrzegawczości i testów opartych na wzroku. Jego wzrok jest zamglony i niewyraźny.
+"Każdy kolejny sukces":"-4 do testów i +2 do testu Wigo
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,-4 do testów, Zasięg +20m, dodatkowy cel (osoba)
+"Niepowodzenie":" Cel czaru jest świadomy, że coś lub ktoś użył jakiejś mocy na nim, ale nie ma żadnego efektu.
+","Ups":" Moc zamiast uderzyć w cel, trafia w wzrok mistyka z siłą jaka miał polecieć w .
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.,"Rozwinięcia":"-1PT(m ,in3), Czas +1min, Zasięg +20m, -4 do testów
+
+
+
+
+"}],{
+"Mistyk": ["Szarlatan"],
+"Name":"Pęknięcie wymiarów",
+"PM":"1/Dech:4",
+"Szybkość":"4 AZ, W",
+"PT":7 ,
+"Czas":"chwila",
+"Zasięg":"10m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk wytwarza pęknięcia, wyrwy między wymiarowe które rozrywają materię rzeczywistości powodując obrażenia 1k6. Przedmioty twarde posiadające klasę pancerza, zmniejszają kości w zależności od swojego AP. Istoty żywe poddane działaniu tej mocy mają rzut obronny Wigor(7) za każdy sukces zmniejszając kości, tak jakby była to klasa pancerza.
+"Każdy kolejny sukces":"+1k6 ob
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, Zasięg +10m, +1k6 obr.
+"Niepowodzenie":" Nic się nie dzieje, brak efekt"u.
+","":" Mistyk pęka sam siebie zadając sobie obrażenia, o sile wynikającej z czaru.
+"Ujnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Zasięg +10m, +1k6 obr.
+
+
+
+
+"}],{
+"Mistyk": ["Psychon"],
+"Name":"Plotkowanie",
+"PM":"1/Dech:4",
+"Szybkość":"3 AZ, C",
+"PT":7 ,
+"Czas":"10min",
+"Zasięg":"1m",
+"Gest":"Werbalne",
+"Opis": {"Opis":"Mistyk podczas rozmowy zadaje pytania, na które, jeżeli cel nie zda testu Ducha(7), nieświadomie odpowie na potoczne codzienne pytanie mistyka. Ofiara czaru mimo wszystko nie zdradzi czegoś o czym wie, że jest ważne lub dla niej istotne.
+"Każdy kolejny sukces":"Podnosi poziom zaufania rozmówcy, który zdradzi ważniejsze informacje. 1 sukces – informacje niejawne, przeznaczone dla wtajemniczonych. 2 sukcesy – tajemnice znane t"ylko wybrańcom. 3 sukcesy – gada bez oporów.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,test Ducha +2PT,  ,dodatkowy cel (osoba)
+"Niepowodzenie":" Cel czaru jest świadomy, że coś lub ktoś użył jakiejś mocy na nim, ale nie ma żadnego efektu.
+","Ups":" Mistyk sam staje się ofiarą swojego czaru i gada, co mu ślina na język przyniesie, w granicy podstawowej formy czaru.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Czas +10min, test Ducha +2PT,  ,Szybkość -1
+
+
+
+
+"}],{
+"Mistyk": ["Zwiastun"],
+"Name":"Płonące dłonie",
+"PM":"1/Dech:4",
+"Szybkość":"3 AP, C",
+"PT":7 ,
+"Czas":"10min",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Dłonie mistyka zaczynają płonąć mistycznym ogniem, który zadaje dodatkowe 1k6 obr. Gdy mistyk atakuje wręcz i mogą podpalić swój cel, jeżeli jest łatwopalny. Podpalona istota otrzyma 1k4 obrażeń od ognia za każdą lokacje, która zajmie się ogniem i –1 do testów z powodu bólu od ognia (wliczane i dodawane do bólu z powodu ran)
+"Każdy kolejny sukces":"+1k6 obr.
+"Każdy kolejny 1PM/2Tchu:</b>
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Energia mistycznego ognia pojawia się na dłoniach mistyka zadając mu obrażenia o wartości czaru. Po czym się rozpływa i znika.
+"Ujawnienie":"Ręce mistyka podczas rzucania zaklęcia iskrzą się, by na koniec zapłonąć niskim płomieniem.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +10min, +1k6 obr.
+
+
+
+
+"}],{
+"Mistyk": ["Zwiastun"],
+"Name":"Pocisk energii",
+"PM":"1/Dech:4",
+"Szybkość":"3 AP,W",
+"PT":7 ,
+"Czas":"chwila",
+"Zasięg":"20m/kość",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk zbiera małą kulę energii, która działa niczym pocisk z karabinu energetycznego. Różnicą jest to, że mistyk wysyła ją dokładne w punkt, a jej siła to 3k8 obrażeń. Pocisk leci na odległość równą zasięgowi czaru i na każdym kolejnym zasięgu traci jedną kostkę na swej sile, aż do wygaśnięcia.
+"Każdy kolejny sukces":"+1k8 ob
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, +1k8 obr., Zasięg +20m
+"Niepowodzenie":" Efekt wizualny, poza tym nic się nie dzieje.
+","Ups":" Pocisim wyleci z dłoni wybucha na jej powierzchni zadając połowę swoich obrażeń w rękę mistyka, którą chciał rzucić czar.
+"Ujawnienie":"Wualnie widać zbierającą się energię elektryczną przed dłonią mistyka.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Zasięg +20m, +1k8obr.
+
+
+
+
+"}],{
+"Mistyk": ["Zwiastun"],
+"Name":"Pocisk nuklearny",
+"PM":"1/Dech:4",
+"Szybkość":"6 PA, W",
+"PT":7 ,
+"Czas":"chwila",
+"Zasięg":"50m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk skupia w sobie energię zagłady i kieruje ją w formie kuli w swój cel. Kula energii uderzając w cel wybucha niczym mały ładunek nuklearny zadając obszarowo 4k10obr a obszar wybuchu ma r=3m. Żywe organizmy poddane działaniu tej mocy otrzymują poparzenia popromienne i mają szansę nabyć choroby popromiennej, jeśli nie zdadzą testu na Wigor. Zaczynając od tych najdalej w zasięgu ostatniej kostki mają PT3, , tam, gdzie dwie kostki siły PT5  ,i +2 na każdą kostkę, aż do centrum wybuch
+Poparzenia po"promienne goją się dwa razy dłużej i nie można ich leczyć za pomocą złotej godziny (magia nadal działa). Choroba popromienna działa szybko i jest bardzo śmiertelna. Co dziennie pacjent musi rzucać Wigor(7). Jeżeli zda, kolejnego dnia rzuca test PT-2 ,, aż do wyzdrowienia. Jeżeli nie zda rzuca następnego dnia test PT+2 ,. Każdego dnia traci 1k6 tchu i podczas trwania choroby nie wraca mu w naturalny sposób d.
+"Każdy kolejny sukces":"+1k10obr i r=+1m,"Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, +1k10obr i r=+1m
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Zebrany ładunek eksploduje w ręku mistyka. Mistyk jest w epicentrum wybuchu.
+"Ujawnienie":"W ręku mistyka pojawia się i rośnie świecąca kula, jej wielkość odpowiada ilości kostek obr. Użytych w czarze. Kula ma 1cm średnicy na 1 kostkę obrażeń.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, +1k10obr, Zasięg +50m
+
+
+
+
+"}],{
+"Mistyk": ["Świątobliwy"],
+"Name":"Podniesienie tchu",
+"PM":"1/Dech:4",
+"Szybkość":"4 PA, C",
+"PT":7 ,
+"Czas":"natychmiastowy",
+"Zasięg":"10m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk wykorzystuje s"woją magiczną moc by odnowić siły witalne innej istoty. Istota taka czuje jak wpływa w nią nowa siła i odzyskuje 1k6 tchu. Dodany dech nie może być wyższy od maksymalnej wartości jaką posiada dana istota.
+"Każdy kolejny sukces":"+1k6 tc
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","":" Kapryśny los kieruje efekt czaru w losową istotę w zasięgu czaru. Istota ta zgodnie z założeniem mocy otrzyma dech. Niestety mistyk straci tyle tchu ile przekaże tej innej losowej istie.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Zasięg +10m,
+
+
+
+
+"}],{
+"Mistyk": ["Zwiastun"],
+"Name":"Podpalenie",
+"PM":"1/Dech:4",
+"Szybkość":"3 AZ, W",
+"PT":7 ,
+"Czas":"chwila",
+"Zasięg":"3m",
+"Gest" : "tak",
+"Opis": {"Opis":"Z rąk mistyka bucha płomień niczym z miotacza ognia, zasięg ognia wynosi 3m i 1K6 obrażeń od ognia. Podpalony cel otrzymuje 1k4obr od ognia co rundę na koniec rundy za każdą podpaloną lokację i ma –1 do testów z powodu bólu od płomieni (kumuluje się z ranami)
+"Każdy kolejny sukces":"+1k6 "ob
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, Zasięg +3m, +1k6 obr.
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","":" Mistyk podpalił sobie rękę na koniec rundy otrzyma 1k4 obrażeń od ognia i czuje ból przez co ma –1 do testów.
+"Ujnienie":"Na dłoni mistyka pokazuje się płomień, który na koniec czaru wystrzeli z dłoni strugą w kierunku celu.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Zasięg +3m, +1k6obr.
+
+
+
+
+"}],{
+"Mistyk": ["Zwiastun"],
+"Name":"Pole niszczycielskiej mocy",
+"PM":"1/Dech:4",
+"Szybkość":"5 PA, C",
+"PT":7 ,
+"Czas":"1 min",
+"Zasięg":"10m r=3m", 
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk tworzy szalejącą strefę niszczycielskiej magii. Każdy w polu rażenia otrzymuje 1k6obr. magicznych co rundę. Nawet zwykli ludzie widzą, że na obszarze działania czaru szaleją jakieś mistyczne latające światełka niszczące wszystko w ich zasięgu. Strefa taka rani także mistyka, który w nią wejdzie. Jednakże, jeżeli mistyk rzuci tą strefę na siebie i stanie się jej poruszającym centrum, moc nie zadziała na niego. Będzie niczym w oku cyklonu. To niszczycielskie pole niszczy wszystko łącznie z przedmiotami i ścianami budynków o które zahacza. Po j"est liczone zawsze od centrum, jeżeli ściana ogranicza jego promień to, dopóki ściana nie zostanie zniszczona, to ogranicza zasięg działania czaru. Chyba, że cząsteczki energii magicznej mogą ją minąć bokiem lub przejść przez szczeliny. Pociski energetyczne, które wejdą w to pole wybuchają trafione wirującymi cząsteczkami mocy nim dojdą do celu. Granaty i tym podobne rzeczy wybuchają od razu, a nie zgodnie z czasem detonacji, a ich pole rażenia jest liczone od momentu zetknięcia się ze strefą. Osoba, która weszła w takie pole wyjdzie z niego w poszarpanym ubraniu i z porwanym plecak.
+"Każdy kolejny sukc":"+1k6 obr.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkosć -1, Zasieg +10m, r=+3m
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Mistyk zamiast wypuścić śmiercionośną energię na zewnątrz kieruje ją do swojego organizmu i tam dochodzi do eksplozji, zadając mistykowi tyle obrażeń obszarowych, ile wynosiła siłą czaru. Pamiętajmy, że nie chroni go przed tym żaden pancerz zewnętrzny, gdyż do eksplozji dochodzi w jego wnętrzu. Pomóc tu może jednak jakaś magiczna ochrona.
+"Ujawnienie":"Podczas rzucania zaklęcia z ręki maga wylatują małe świecące się cząsteczki, które zaczynają wirować w miejscu docelowym.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +1min., Zasięg +10m, +1k6 obr.
+
+
+
+
+"}],{
+"Mistyk": ["Zwiastun"],
+"Name":"Pole radioaktywne",
+"PM":"1/Dech:4",
+"Szybkość":"5 AZ, C",
+"PT":7 ,
+"Czas":"10min",
+"Zasięg":"r=3m"",
+
+"Opis": {"Opis":"Mistyk tworzy dookoła siebie silnie radioaktywne pole, które zakłóca działanie urządzeń elektrycznych i osłabia istoty żywe. Urządzenia elektryczne znajdujące się w polu nie działają z powodu zakłóceń, każda próba użycia ich kończy się tak jakby osoba używająca je miała Upsa (łącznie z bronią energetyczną), istoty żywe tracą K6 Tchu na rundę (podczas odrzucenia ostatniej karty akcji, jeżeli nadal są w polu). Osoby którym dech spadnie do 0 i będą znajdować się w tym polu mają szansę, test Wigoru(7) na chorobę popromienną. Moc nie działa na mistyka będącego epicentrum tego pola.
+Choroba popromienna działa szybko i jest bardzo śmiertelna. Co dziennie pacjent musi rzucać Wigor(7). Jeżeli zda, kolejnego dnia rzuca test PT-2 ,, aż do wyzdrowienia. Jeżeli nie zda rzuca następnego dnia test PT+2 ,. Każdego dnia traci 1k6 tchu i podczas trwania choroby nie wraca mu w naturalny sposób dech.
+"Każdy kolejny sukces":"r=+3m
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1,
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Mistyk traci 1k6 tchu z powodu własnego pola radiacyjnego, chyba że jest odporny na radioaktywność (od środka).
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, r=+3m, Czas +10min.
+
+
+
+
+"}],{
+"Mistyk": ["Świątobliwy"],
+"Name":"Pomieszanie języków",
+"PM":"1/Dech:4",
+"Szybkość":"4 AZ, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"wyraźnego słuchu",
+"Gest":"Werbalne",
+"Opis": {"Opis":"Mistyk wygłasza przemowę, każdy w zasięgu jego głosu, w taki sposób, że rozumie słowa (nie musi znać języka, którym posługuje się mistyk) nie jest w stanie komunikować się z innymi osobami, nie rozumie ich. Istna wieża Babel, cokolwiek ktoś powie jest to niezrozumiałe dla drugiej osoby. Osoby takie czują się zdezorientowane, że nikt ich nie rozumie i mają -1 do testów Charyzmy i umiejętności z Charyzmy.
+"Każdy kolejny sukces":"-1 do testów z Charyzmy
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Mistyk sam zaczyna bełkotać, nikt go nie rozumie i dodatkowo mistyk nie rozumie nikogo. Efekt traw tyle samo czasu co czar.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +1godz.
+
+
+
+
+"}],{
+"Mistyk": ["Świątobliwy",", "Zakonnik"],
+"Name":"Pomoc",
+"PM":"1/Dech:4",
+"Szybkość":"5 AZ, C",
+"PT":7 ,
+"Czas":"1 min",
+"Zasięg":"10m",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk obdarza mistyczną mocą inną istotę. Cel czaru otrzymuje +1 do testów na Umiejętności.
+"Każdy kolejny sukces":"dodatkowe +1 do testów
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Zasięg +10m, Szybkość -1, Dodatkowe +1 do testów, +1 dodatkowa istota pod wpływem czaru
+"Niepowodzenie":" Cel czaru jest świadomy, że coś lub ktoś użył jakiejś mocy na nim, ale nie ma żadnego efektu.
+","Ups":" Mistyk podczas trwania nieudanego czaru otrzymuje –1 do testów na Umiejętności.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Czas +1min., Zasięg +10m, Szybkość -1, +1 dodatkowa osoba
+
+
+
+
+"}],{
+"Mistyk": ["Świątobliwy"],
+"Name":"Poświęcenie mocą",
+"PM":"1/Dech:4",
+"Szybkość":"5 PA, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"2m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk święci wybrany przez siebie przedmiot nadając mu moc Namaszczenia na 1 poziomie odpowiadającą jego źródłu mocy. Przedmiot taki z nowo nabytą cechą działa jak przedmiot Zakonnika tyle że nie musi być powiązany ze swoim właścicielem. Po ukończeniu czasu trwania czaru przedmiot wraca do swoich własnych właściwości.
+"Każdy kolejny sukces":"+1 kolejne Namaszczenie lub kolejny poziom Namaszczen
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, Zasięg +10m
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Moc czaru nie przenosi na przedmiot Namaszczenia, ale uszkadza go zadając mu tyle k6 obrażeń ile miało być Namaszczeń rzuconych na dany przedmiotUjawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.,"Rozwinięcia":"-1PT(m ,in3), Szybkość -1, +1 Namaszczenie lub poziom Namaszczenia
+
+
+
+
+"}],{
+"Mistyk": ["Świątobliwy"],
+"Name":"Poświęcenie ziemi",
+"PM":"2",
+"Szybkość":"6 PA, C",
+"PT":7 ,
+"Czas":"1 dzień",
+"Zasięg":"20m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk wykorzystując swoje moce tworzy na powierzchni strefę o powierzchni 20m2, która blokuje byty z innych planów. Mistyk podczas rzucania zaklęcia może ograniczyć jej działanie tylko do konkretnych wymiarów a nie wszystkich. Tak by istoty z konkretnych wymiarów nie podlegały działaniu pola. Jedynym wyjątkiem jest zakaz wejścia dla istot z planu, na którym znajduje się to pole. Czyli w wymiarze rzeczywistym nie można ograniczyć wymiaru rzeczywistego. Istoty pochodzące z planów na które zostało rzucone ograniczenie, by wejść do takiej stre muszą wykonać test Ducha(11), jeśli test im nie wyjdzie, to przebywając w takiej strefie taka istota traci 1k6 tchu na rundę, aż się wypali lub ucieknie. Istoty nie posiadające tchu nie mogą wejść do takiej strefy, a jeśli cza"r został rzucony na miejsce, gdzie aktualnie się znajdowały, zostają rozproszone i albo wracają na swój rodzimy plan, albo zostają wypchnięte (jeżeli jest to możliwe) za str.
+"Każdy kolejny kces":"+2 do testu Ducha i –1k6 tchu
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Zasięg +20m2, Szybkość -1
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Czar się nie powiódł, mistyk czuje osłabienie i traci tyle tchu, ile by straciła istota poddana działaniu czaru.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Zasięg +10m2, Szybkość -1
+
+
+
+
+"}],{
+"Mistyk": ["Szaman"],
+"Name":"Powrót do natury",
+"PM":"1/Dech:4",
+"Szybkość":"5 AZ, C",
+"PT":7 ,
+"Czas":"stały",
+"Zasięg":"10m",
+"Gest" : "tak"",
+"Opis": {"Opis":"Wszystko z czasem się zestarzeje i zniszczy. Mistyk używając tej mocy powoduje przyspieszone starzenie się przedmiotów. Stal rdzewieje, drewno się wysusza, elektronika śniedzieje itd. Przedmiot otrzymuje -1 do niezawodności na stałe.
+"Każdy kolejny sukces":"-1 do niezawodnoś
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, Zasieg +10m
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Mis coś pokręcił i to on staje się o rok starszy. Oczywiście fizycznie, ze wszystkimi tego konsekwencjami wizualnymi.
+"Ujawnienie":T1/ ,2 kości. Drobne widoczne zmiany na przedmiocie, na który został rzucony czar.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Zasięg +10m
+
+
+
+
+"}],{
+"Mistyk": ["Szaman"],
+"Name":"Pozyskanie sojusznika",
+"PM":"1/Dech:4",
+"Szybkość":"6 PA, C",
+"PT":7 ,
+"Czas":"stały",
+"Zasięg":"20m",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk przekonuje znajdującego się w pobliżu ducha, by mu służył. Mistyk w zależności od charakteru przejęcia wysyła w kierunku ducha swoją magię. W ten sposób zachęca go łagodnie lub próbuje zdominować pokazując swoją siłę. Jeżeli przekona ducha by mu służył, duch będzie spełniał życzenia mistyka i go wspierał. Duch musi rzucić test na swojego Ducha(7) czy ulegnie podporządkowaniu. Duchy są istotami eterycznymi, które w świecie materialnym mają jedynie możliwość oddziaływania psychicznego. W swoich własnych wymiarach, chodź są widoczne nadal pozostają t"ylko widmami. Duchy w świecie materialnym bez stałego źródła energii z czasem będą musiały odejść do swojego wymiaru. Mistyk może je karmić swoja mocą lub same duchy mogą ją pozyskiwać z różnych źródeł. Zakres mocy i umiejętności ducha jest różnorodny i zależy od niego samego. Najczęstszymi duchami błąkającymi się w wymiarze materialnym są duchy ludzi lub zwierząt, które tu powróciły z różnych powodów. Rzadziej są to istoty duchowe zrodzone w innych wymiarach.
+"Każdy kolejny sukces":"+2 do testu Ducha ofiary
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, Zasięg +20m
+"Niepowodzenie":" Czar nie wyszedł, ale duch wie że jest celem mocy mistyka. Duch zachowa się zgodnie ze swoją naturą, najczęściej będzie próbował uciec z zasięgu mistyka.
+","Ups":" Duch pod wpływem czaru wpadł we wściekłość. Irracjonalni nawet jak jest słabszy od mistyka, zaatakuje go.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, +2 do testu Ducha ofiary, Zasięg +20m
+
+
+
+
+"}],{
+"Mistyk": ["Zakonnik"],
+"Name":"Pożeranie dusz",
+"PM":"1/Dech:4",
+"Szybkość":"5 PA, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"osobisty",
+"Gest" : "tak",
+"Opis": {"Opis":"Plugawa sztuka pożerania dusz daje mistykowi tymczasowe bonusy do cech głównych. Za każdą pożartą duszę wybrana przez mistyka cecha ma kość wyższą o +1. Tak więc dla przykładu Siła 2k6 urośnie do 2k8. Ilość pożartych dusz w tej samej chwili nie ma limitu, ale gdy mistyk decyduje się na jednorazowe korzystanie z więcej niż jednej pożartej duszy musi wykonać rzut Sprytu. Jego poziom zależy od ilości energii dusz jaką ma w sobie w jednej i tej samej chwili mistyk. Za 2 dusze jest to PT3  ,i +2 za każdą kolejną duszę. Dla 2 dusz jest to rzut Spry PT3, , dla 3 PT5, , dla 4 dusz PT7  ,itd. Jeżeli test Sprytu nie wyjdzie mistyk z powodu pomieszania jaźni otrzymuje chorobę psychiczną.
+"Każdy kolejny sukces":"+1 poziom cechy z duszy
+","Każdy kolejny 12Tchu":" -3PT,  ,Szybkość -1
+"Niepowodzenie":" sza ucieka, nic więcej się nie dzieje. Brak efektu czaru.
+","Ups":" Mistykowi się miesza jaźń, z duszą którą właśnie pożarł. Otrzymuje w nagrodę jedną losową umiejętność pożartego. Jeżeli mistyk miał umiejętność niższą od pożartego to ma +1, czyli zyskuje, jeżeli równą, to nic się nie dzieje, a jak wyższą od pożartego to się stacza i traci 1 poziom swojej. Jeżeli jest to konkretna dusza to znamy jej statystyki, a jak losowa to przyjmujemy, że losowa umiejętność ma poziom (rzut K6) od 1 do 3.
+"Ujawnienie":"Obserwator widzi, że dziej się coś dziwnego na pierwszy rzut oka. Nawet jak nie widzie mistycznych aur. Dla obserwatora mistyk trzyma coś w dłoni i je powietrze, po czym je przełyka.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +1godz.
+
+
+
+
+"}],{
+"Mistyk": ["Psychon"],
+"Name":"Prawdziwa mowa",
+"PM":"1/Dech:4",
+"Szybkość":"4 AZ, C",
+"PT":"7",
+"Czas":"10min",
+"Zasięg":"10m"",
+"Gest":"nie",
+"Opis": {"Opis":"Ofiara czaru musi zdać test Ducha(7), jeśli tego nie zrobi, za każdym razem, gdy chce użyć umiejętności Blef, zamiast kłamstwa wymsknie mu się prawdziwa odpowiedź. Co sprytniejsi mogą próbować lawirować z odpowiedziami. Robią tak zazwyczaj ci, którzy i tak nie zamierzali kłamać tylko kręcić. Wszystko zależy od tego, jak rozmówca będzie przeprowadzał rozmowę z ofiarą czaru.
+"Każdy kolejny sukces":"test Ducha +2PT Każdy kolejny 1PM/2Tchu: -3PT,  ,test Ducha +2PT,  ,Szybkość -1
+"Niepowodzenie":" Cel czaru jest świadomy, że coś lub ktoś użył jakiejś mocy na nim, ale nie ma żadnego efektu.
+","Ups":" Mistyk podczas trwania czaru za każdym razem, gdy będzie chciał skłamać wychlapie prawdziwą odpowiedź.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT,  ,Czas +10min, Zasięg +10m, Szybkość -1, test Ducha +2PT
+
+ ,
+
+
+"}],{
+"Mistyk":"Szarlatan",
+"Name":"Projekcja",
+"PM":"1/Dech:4",
+"Szybkość":"4 PA, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"20m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk tworzy astralny twór na wzór hologramu. Twór wygląda idealnie tak jak zażyczy sobie tego mistyk. Może przedstawiać innego człowieka, przedmiot, potwora o maksymalnym gabarycie 2m3. Projekcja jest bardzo rzeczywista z wyglądu, ale podczas dotyku ręka przez nią przenika, a poddana działaniu silnych podmuchów wiatru będzie się trochę rozmywać i falować. W wodzie będzie zniekształcana wraz z każdym ruchem cieczy. Projekcja może przemieszczać się w maksymalnym Tempie 6 w kierunku ustalonym przez mistyka na dystansie nie przekraczającym zasię czaru. Po dojściu w miejsce docelowe projekcja albo zawróci w miejsce startu, albo pojawi się tam i ponownie rozpocznie sekwencję.
+"Każdy kolejny sukces":"1 sukces – projekcja wydaje dźwięki, 2 sukces – projekcja staje się odporna na ruchy powietrza, 3 sukces – projekcja staje się odporna na ruchy cieczy.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, Zasięg m
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.,"Ups":" Projekcja nie wychodzi, zamiast być rzucona w miejsce wyznaczone przez mistyka i mieć kształt nadany przez mistyka. Projekcja przykleja się do ciała mistyka niczym jakaś bezkształtna masa i przemieszcza się razem z nim.
+"Ujawnienie":"Automatyczne dla obserwatora. Mistyk podczas rzucania czaru tworzy i uzupełnia swoją projekcję.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +1godz., Zasięg +20m
+
+
+
+
+"}],{
+"Mistyk":"Przeciążenie",
+"Name":"Zwiastun",
+"PM":"1/Dech:4",
+"Szybkość":"5 AZ, C",
+"PT":7 ,
+"Czas":"chwila",
+"Zasięg":"10m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk wprowadza nierówny przepływ prądu co powoduje przeciążenie obwodów danego urządzenia i doprowadza do wybuchu w nim nagromadzonej energii elektrycznej, o sile 1k4obr./5j.e. które posiadało lub produkowało urządzenie. M"inimum 1k4 obrażeń.
+"Każdy kolejny sukces":"+1 wielkość kostki wyładowan
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, Zasięg +10m
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Urządzenie któbyło celem przez kolejne 10min działa wydajniej, po czym wszystko wraca do normy.
+"Ujawnienie":"PT1/ ,2 koi
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Zasięg +10m
+
+
+
+
+"}],{
+"Mistyk": ["Psychon"],
+"Name":"Przemiana oblicza",
+"PM":"1/Dech:4",
+"Szybkość":"6 PA, C",
+"PT":7 ,
+"Czas":"10min",.
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk zmienia swój wygląd, narzuca na siebie coś w stylu iluzji, hologramu zmieniającego jego rysy twarzy, długość włosów, zarost, a nawet płeć. Osoby, które go mijają i wykazują nim bierne zainteresowanie, nie widzą nic dziwnego w wyglądzie mistyka. Jeżeli jednak ktoś aktywnie go skanuje, przygląda mu się, ma szansę Spostrzegawczość(7) na przejrzenie czaru i zobaczenie prawdziwego oblicza mistyka. W takiej sytuacji będzie widział zwykłe oblicze mistyka, a jeśli zda test Ujawnienia, będzie świadom sztuczki.
+"Każdy kolejny sukces"":"test Spostrzegawczości +2PT
+Każdy kolejny 1PM/2Tchu: -3PT,  ,Szybkość -1, test Spostrzegawczości +2PT <br>Nepowodzenie: Nic się nie dzieje, brak efektu.
+","Ups":" Oblicze mistyka ulega znacznym zmianą, tracąc ludzką formę, a co najgorsze, cały czas się przekształca i modeluje. Obserwatorzy od razu widzą w tym coś dziwnego i mistycznego.
+"Ujawnienie":"Automatyczne, przez osoby widzące przemianę.
+","Rozwinięcia":"-1PT(m ,in3), Czas +10min., Szybkość -1, test Spostrzegawczości +2PT
+
+ ,
+
+"}],{
+"Mistyk": ["Zwiastun"],
+"Name":"Przyspieszenie mutacji",
+
+"PM":"1/Dech:4",
+"Szybkość":"5 PA, C",
+"PT":7 ,
+"Czas":"różny",
+"Zasięg":"1m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk może rozwinąć lub przyspieszyć działanie mutacji, która już jest w jakimś organizmie. Jeżeli mutacja wywoływała jakieś negatywne lub pozytywne zmiany współczynników celu, są one podwajane na czas 1 dnia. Po tym czasie moc mistyka przestaje działać a mutacja w zależności od jej rodzaju albo (K10) wraca do swojej pierwotnej formy (1-8), pozostaje zmutowana tak jak podczas działania mocy (9), albo mutuje w nieprzewidziany sposób (10
+"Każdy kolejny sukces":"+1 dzień zmian
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1
+"Niepowodzenie":" Nicę nie dzieje, brak efektu.
+","Ups":" Mistyk sam bie funduje szansę na mutacje. Jeżeli nie zda testu na Wigor(7) to nabywa losową mutację.
+"Ujawnienie":"Obserwator widzi zmiany mutacyjne, które zachodzą w zaskakującym tempie.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, +1 dzień zmian, Zasięg +1m
+
+
+
+
+"}],{
+"Mistyk": ["Psychon"],
+"Name":"Psychiczne połączenie",
+"PM":"1/Dech:4",
+"Szybkość":"5 AP, W",
+"PT":7 ,
+"Czas":"12 godz.",
+"Zasięg":"1m",
+
+"Opis": {"Opis":"Mistyk w odległości nie większej niż zasięg czaru pozostawia na innej istocie swój unikatowy ślad i jest w stanie wskazać kierunek, w którym się znajduje. Połączenie wygląda jak długa mistyczna linka (linia prosta), która przenika przez inne obiekty, ale jest narażona na działania magiczne takie jak strefy antymagiczne itp. Przy zerwaniu połączenia nie jest w stanie określić, z "jakiej przyczyny zostało zerwane.
+"Każdy kolejny sukces":"mistyk zna odległość od celu lub połączenie przenosi jeden ze zmysłów celu, na którym jest umocowane (wzrok, węch, słuch, dotyk).
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Czas +12godz., Zasięg +2m, dodatkowy cel (osoba)
+"Niepowodzenie":" Cel czaru jest świadomy, że coś lub ktoś użył jakiejś mocy na nim, ale nie ma żadnego efektu.
+","Ups":" Mistykowi wydaje się, że czar mu nie wyszedł, w rzeczywistości to on podpiął się linką do innego wymiaru. Koniec połączenia znajduje się w najbliższym źródle niczym przynęta na duchy. Jeżeli w pobliżu nie ma żadnego źródła, linka wędruje na plan cieni i tam czeka przez czas trwania czaru na istotę, która ją chwyci i z niej skorzysta.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Czas +12 godz., Zasięg +2m, Szybkość -1
+
+
+
+
+"}],{
+"Mistyk": ["Psychon"],
+"Name":"Psycholokacja",
+"PM":"1/Dech:4",
+"Szybkość":"5 PA, C",
+"PT":7 ,
+"Czas":"10min",
+"Zasięg":"r=10m",
+
+"Opis": {"Opis":"Mistyk wykorzystuje siłę swojego umysłu, by lokalizować umysły innych istot w jego otoczeniu. Mistyk odczytuje kształty i położenie wszystkich istot posiadających umysł w promieniu 10m od swojej głowy. Ludzie, zwierzęta, czy mistyczne byty zostaną w ten sposób wykryte. Tak samo jak wynaturzenia takie jak żywe drzewa. Ale zwykła roślinność czy nierozumne mikroby już nie.
+"Każdy kolejny sukces":"+10m Zasięg
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Czas +1min, Szybkość -1, Zasięg +10m
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Istoty mistyczne, duchy lub inni mistycy dostrzegają mistyka tak, jakby czar był odwrócony. Mistyk świeci im się i jest dla nich widoczny podczas trwania zaklęcia. Istoty nieposługujące się mocą mistyczną nie widzą mistyka, ale czują jakąś obecność. Mają dodatkowe +4 do Spostrzegawczości przy odnalezieniu mistyka. Efekt trwa tyle co czar.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Czas +1min., Zasięg +10m, Szybkość -1
+
+"}],{
+"Mistyk": ["Zwiastun"],
+"Name":"Regeneracja",
+"PM":"1/Dech:4",
+"Szybkość":"6 PA, C",
+"PT":7 ,
+"Czas":"natychmiastowy",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk regeneruje swoje ciało. Jeżeli otrzymał obrażenia lub stracił kończynę to jest w stanie się natychmiastowo uleczyć. Jednakże na ciele pozostają blizny po urazie. Jeżeli mistyk regeneruje straconą z jakiegoś powodu kończynę to wyjdzie ona zawsze cała pokryta bliznami i delikatnie zdeformowana. Co oznacza, że postać taka nabywa zawadę Brzydki jak nieszczęście. Każdorazowe użycie tego zaklęcia leczy 1 poziom ran na całym ciele na raz (w przypadku sukcesów więcej - patrz dalej). Jednakże nie przywraca tchu. W przypadku utraconej kończyny trzeba przywrócić 5 poziomów ran na raz. Trzeba dać więcej PM/Dech lub mieć dodatkowe sukcesy, inaczej kończyna nie odrośnie.
+"Każdy kolejny sukces":"+1 uleczony poziom rany
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, +1 uleczony poziom rany
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Goi się jedna rana o 1 poziom, ale wdaje się losowa mutacja.
+"Ujawnienie":"Skóra i ciało mistyka w leczonej lokalizacji zaczyna się poruszać jakby było ściskane i masowane, by na koniec się zasklepić i uleczyć.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1
+
+
+
+
+"}],{
+"Mistyk": ["Zwiastun"],
+"Name":"Rozbłysk słoneczny",
+"PM":"1/Dech:4",
+"Szybkość":"3 AP, W",
+"PT":7 ,
+"Czas":"chwila",
+"Zasięg":"20m r=2m",
+
+"Opis": {"Opis":"Wytwarza falę pola elektromagnetycznego, która uszkadza elektronikę niczym granat EMP. Siła uderzenia elektromagnetycznego wynosi 4k10 i ma r=2.
+"Każdy kolejny sukces":"+1k10
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, +1k10
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Mistyk traci 1k6 tchu ze zmęczenia.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, +1k10, Zasięg +20m, r=+1m
+
+
+
+
+"}],{
+"Mistyk": ["Psychon"],
+"Name":"Rozerwanie",
+"PM":"1/Dech:4",
+"Szybkość":"3 PA, W",
+"PT":7 ,
+"Czas":"natychmiastowo",
+"Zasięg":"10m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk jest w stanie rozrywać materię na poziomie molekularnym. Przedmioty poddane tej mocy otrzymują obrażenia 1K6 w chwili zadziałania czaru i w każdej kolejnej akcji zużytej na ten czar. Jeżeli mistyk chce utrzymywać czar, musi wydać na niego kolejne PM/Dech co 4 akcje działania czaru. Czyli na 5,9,…,itd. akcji użycia mocy, potrzebne jest doładowanie. Utrzymując czar mistyk może wykonywać tylko akcje prost
+Jeżeli celem czaru jest ciało w każdej akcji działania czaru ofiara ma rzut obronny na Wigor(7) czy uniknie obrażeń. Jeżeli obrażenia wejdą (przebiją Rozmiar), powstaje rana.
+"Każdy kolejny sukces":"+1k6 obr.
+","Każdy kjny 1PM/2Tchu":" -3PT,  ,+1k6 obr., test Wigor +2PT
+N ,iepowodnie: Cel czaru jest świadomy, że coś lub ktoś użył jakiejś mocy na nim, ale nie ma żadnego efektu.
+","Ups":" Mistyk rozrywa sobie zastosowaną siłą czaru losową część swojego ciała.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT,  ,+1k6 obr., test Wigor +2PT,  ,Szybkość -1, Zasięg +10m
+
+
+
+
+"}],{
+"Mistyk": ["Psychon"],
+"Name":"Rozkaz",
+"PM":"1/Dech:4",
+"Szybkość":"4 AZ, C",
+"PT":7 ,
+"Czas":"natychmiastowy",
+"Zasięg":"20m (max zasięg słuchu ofiary)",
+"Gest":"Werbalne",
+"Opis": {"Opis":"Mistyk nakazuje celowi wykonać jego rozkaz (wymawia polecenie). Ofiara czaru może się bronić rzutem na Ducha(7), by odeprzeć tę moc. Jeżeli mu się nie uda, musi spełnić rozkaz i zadzia"łać tak, jak mu nakazał mistyk. Rozkaz jest pojedynczą akcją, nie może być to polecenie złożone, na które cel musiałby poświęcić więcej niż 1 kolejną swoją akcję.
+"Każdy kolejny sukces":"test Ducha +2PT
+K ,ażdy kolejny 1PM/2Tchu: -3PT,  ,test Ducha +2PT,  ,Szybkość -1
+"Niepowodzenie":" Cel czaru jest świadomy, że coś lub ktoś użył jakiejś mocy na nim, ale nie ma żadnego efektu.
+","Ups":" Cel czaru otrzymuje 1 darmową akcję, nie może przekroczyć 5 akcji na ręku. Jeżeli dodatkowa akcja przekroczy ten limit, cel czaru wybierze sobie, którą akcję będzie chciał odłożyć by mieć maksymalnie 5.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Zasięg +20m (max zasięg słuchu ofiary), test Ducha +2PT
+
+ ,
+
+
+"}],{
+"Mistyk": ["Zakonnik"],
+"Name":"Rozkład obrażeń",
+"PM":"1/Dech:4",
+"Szybkość":"5 AZ, C",
+"PT":7 ,
+"Czas":"1 min",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk skupia się nad swoimi obrażeniami i w mistyczny sposób potrafi przemieścić swoje obrażenia między lokacjami. Dzięki tej mocy może przemieścić 1 obrażenie na inną lokację. Jeżeli mistyk miał 2 obrażenia w korpus, mistyk może przenieść 1 obr. na inną lokację na przykład prawa noga. Dzięki temu będzie miał 1 obr. w korpus i 1 obr. w prawej nodze. Przemieszczone obrażenia fizycznie uszkadzają tkanki w ciele, a miejsca skąd zostało zabrane, mistycznie leczą się w nadzwyczajnym tempie.
+"Każdy kolejny sukces":"+1 obr. do przemieszczenia
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1,
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Obrażenia nie przemieszczają się, rana nadal pozostaje niezmieniona, ale miejsce gdzie miała się przemieścić zostaje uszkodzone i postać nabywa nową ranę.
+"Ujawnienie":"PT1/ ,2 kości. W przypadku sukcesu, widać jak rana goi się, a na innej lokacji pokazują się siniaki i zaczerwienienia pod skórą.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1,
+
+
+
+
+"}],{
+"Mistyk": ["Szaman"],
+"Name":"Rozmowa z duchami",
+"PM":"1/Dech:4",
+"Szybkość":"5 AZ, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"10m",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk może komunikować się psychicznie z duchami pochodzącymi z wymiaru, z którego czerpie moc, nawet tymi niewerbalnymi. Wie instynktownie o co chodzi duchowi, a duch wie instynktownie co chce mu przekazać mistyk. Do rozmowy tej dochodzi bez słów, wystarczy im więź psychiczna, którą nawiązano dzięki czarowi. To mistyczne połączenie działa tylko w zasięgu czaru. Jeżeli duch wyjdzie za ten obszar więź jest urywana.
+"Każdy kolejny sukces":"1 sukces – mistyk może nawiązać komunikację z duchami z innych wymiarów. 2 sukces – mistyk nawiązuje komunikację z duszami w pobliżu. 3 sukces – mistyk nawiązuje komunikację z wynaturzeniami.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, Zasięg +10m
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Umysł mistyka jest rozkojarzony próbą komunikacji z duchami, wydaje mu się, że coś rozumie z ich zachowania, ale jednak nic z tego nie wynika. Czuje się zdezorientowany i ma –2 do testów z powodu rozkojarzenia, jeśli duchy są w pobliżu.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas 1 godz. , Zasięg +10m
+
+
+
+
+"}],{
+"Mistyk": ["Szaman",", "Świątobliwy"],
+"Name":"Rozmowa ze zmarłymi",
+"PM":"1/Dech:4",
+"Szybkość":"6 AZ, C",
+"PT":7 ,
+"Czas":"10min",
+"Zasięg":"10m",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk znajdując się obok martwego ciała, w którym znajduje się dusza, będąc w pobliżu uwięzionej lub swobodnie latającej duszy. Słyszy ich głosy (lament). Różne duch mówią/powtarzają różne rzeczy. Zazwyczaj coś z końca ich życia lub najważniejsze wydarzenie ich życia. W przypadku osiągnięcia dodatkowych sukcesów mistyk może poza zwykłym słuchaniem osiągnąć bliższą relacje.
+"Każdy kolejny sukces":"1 sukces – mistyk może zadawać pytania, czy dusza odpowie zależy tylko od niej. 2 sukces – mistyk może zmusić duszę do odpowiedzi na zadawane przez niego pytania (przeciwstawny test Ducha), jeżeli mistyk nie zapanuje nad duszą, ta będzie próbowała ucieczki. 3 sukces – mistyk dominuje duszę i zmusza ją do odpowiedzi na swoje pytania, dusza nie ma możliwości ucieczki, dopóki mistyk ją dominuje (i są w zasięgu czaru).
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, Zasięg +10m
+"Niepowodzenie":" Dusza czuje się zaniepokojona, może zechcieć uciec.
+","Ups":" Dusza daje długą, co więcej prawdopodobnie gdzieś zabłądzi. Do swojego ciała na pewno już nie wróci.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +10min., Zasięg +10m
+
+
+
+"}],{
+"Mistyk": ["Psychon",", "Szarlatan"],
+"Name":"Rozmycie",
+"PM":"1/Dech:4",
+"Szybkość":"4 AZ, C",
+"PT":7 ,
+"Czas":"10min",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Postać mistyka traci ostrość swoich krawędzi, optyc ,znie wygląda to tak, jakby falowało dookoła niego powietrze. Takiego mistyka jest trudniej trafić, każdy, kto tego próbuje w oparciu o swój własny wzrok ma –1 do trafienia.
+"Każdy kolejny sukces":"kolejne –1 do trafienia.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, -1 do trafienia
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Ciało mistyka nagrzewa się i poci nadmiernie, przez czas trwania zaklęcia. Po ukończonym czarze mistyk jest cały mokry (jego ubranie również) i przepocony. Konsekwencje typowo fabularne.
+"Ujawnienie":"Osoby widzące efekt.
+","Rozwinięcia":"-1PT,  ,Czas 10min, Szybkość -1, -1 do trafienia
+
+
+
+
+"}],{
+"Mistyk": ["Zakonnik"],
+"Name":"Rozpoznanie mistycznej istoty",
+"PM":"1/Dech:4",
+"Szybkość":"4 AZ, C",
+"PT":7 ,
+"Czas":"chwila",
+"Zasięg":"wzroku",
+
+"Opis": {"Opis":"Mistyk identyfikuje zdolności i mistyczne moce, które posiada dana istota.
+"Każdy kolejny sukces":"1 sukces – mistyk może określić skąd dana istota czerpie swą moc (źródło) i czy jest aktualnie pod wpływem jakichś czarów. 2 sukces – mistyk określa słabe i mocne cechy danej istoty (jej cechy główne - ich rodzaj kości). 3 sukces – mistyk identyfikuje najsilniejsze umiejętności takiej istoty (3 lub więcej kości)
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Mistyk zwraca na siebie uwagę obserwowanej istoty.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1
+
+
+
+
+"}],{
+"Mistyk": ["Szarlatan",", "Świątobliwy"],
+"Name":"Rozproszenie magii",
+"PM":"1/Dech:4",
+"Szybkość":"3 AZ, W",
+"PT":7 ,
+"Czas":"chwila",
+"Zasięg":"20m r=3m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk uderza impulsem swojej mocy w próbie zniszczenia innych zaklęć będących na obszarze działania jego mocy. Czar potrafi rozproszyć do 1k6 losowych mocy znajdujących się w jego obrębie lub bezpośrednio na wybranej przez mistyka istocie lub przedmiocie. Jeżeli celem rozproszenia okaże się czar obszarowy i jego obszar naszedł na działanie rozproszenia magii lub jest jednym z czarów rozpraszanych na danej istocie lub przedmiocie, to ulegnie rozproszeniu tylko wtedy, gdy okaże się, że promień rozproszenia jest większy od czaru rozpraszanego. Cz rozpraszany nie musi być w pełni w strefie rozproszenia, mogę jedynie na siebie nachodzić. Ich promień pokazuje jedynie, który przetrwa (równy lub większy promień) a który polegnie (mniejszy promień). Jeżeli czar obszarowy był celem i nie zostanie unicestwiony przez rozproszenie magii to zaczyna działać od kolejnej rundy dalej zgodnie ze swoimi zasadami, a istoty poddane jego działaniu ponownie rzucają test obronny, jeśli taki .
+"Każdy kolejny sukces":"+1k6 rozproszonych czarów i  do porównania promieni obszarów
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, +1k6 rozproszonych czarów, Zasięg +20m, r=+3m
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Mistyk spaprał robotę i zamiast rozproszyć zaklęcia innych, rozproszył swoje znajdujące się w zasięgu działania czaru. Nawet jak były po przeciwnych stronach mistyka. Promień nas w tej chwili nie interesuje. Tyle zaklęć, ile wynikało z siły czaru zostanie rozproszonych i będą to tylko czary owego mistyka. Jeżeli nie było żadnych jego czarów w danym obszarze, magia wybucha w jego wnętrzu i zadaje mu 1k6 obr. obszarowych.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, +1k6 rozproszonych czarów, Zasieg +20m, r=+3m
+
+
+
+
+"}],{
+"Mistyk": ["Szaman"],
+"Name":"Scalenie z duchem opiekuńczym",
+"PM":"1/Dech:4",
+"Szybkość":"5 AZ, C",
+"PT":7 ,
+"Czas":"1 godz."",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"To potężne zaklęcie jest zależne od Przewagi: Duch opiekuńczy i jej poziomu. Jeżeli mistyk posiada Przewagę: Duch opiekuńczy to może wspomóc się cechami i umiejętnościami swojego ducha i podnieść swoje cechy i umiejętności o poziom równy przewadze. Jeżeli cecha mistyka jest wyższa lub równa tej posiadanej przez ducha opiekuńczego, to nic się nie dzieje, ale jeżeli to duch ma wyższą wtedy mistyk może podnieść swoją cechę o tyle poziomów, ile ma przewaga, ale maksymalnie do uzyskania poziomu równego duchowi. Na przykład Sprawność mistyka wynosi 2k6 a jego ducha opiekuńczego 3k10. Poziom przewagi wynosi powiedzmy 3. Oznacza to, że mistyk może podnieść swoje cechy o maksymalnie 3 poziomy. W przypadku sprawności różnica wynosi zaledwie 2 poziomy, więc cecha mistyka urośnie do 2k10. Inny przykład Spryt mistyka wynosi 3k6 a ducha opiekuńczego 1k12, przy przewadze na poziomie 2, Spryt mistyka urośnie do 3k10. W przypadku umiejętności mistyk zyskuje umiejętności swojego ducha opiekuńczego. Jeżeli mistyk ma daną umiejętność na poziomie wyższym lub równym od swojego ducha, to otrzymuje +1 do swojego poziomu za każde 2 poziomy umiejętności ducha. Czyli na przykład mistyk posiada Wspinaczka na 3, a jego duch ma Wspinaczka też na 3. Czyli mistyk osiągnie swoją wspinaczkę na poziomie 4. 3 poziomy własne i 3/2 (zaokrąglone w dół)=1 od ducha. W przypadku, gdyby mistyk miał Wspinaczka 1 a duch Wspinaczka 3. Mistyk miałby Wspinaczkę na poziomie 3 od ducha, bo jest wyższa.
+"Każdy kolejny sukces":"1 sukces – mistyk przejmuje Tempo i Obronę(KP) jeżeli duch miał większe od mistyka. 2 sukcesy – mistyk przejmuje Rozmiar swojego ducha. Fizycznie nie rośnie, ale do obliczeń używany tego bardziej korzystnego dla mistyka. Jeżeli jego duch jest mały, to możemy użyć jego rozmiaru, gdy ktoś chce trafić mistyka lub jeżeli duch ma większy rozmiar możemy go użyć do liczenia obrażeń. Mistyk może tym parametrem manipulować jak mu wygodniej, dopóki trwa zaklęcie. 3 sukces – aura ducha, którego ma w sobie daje mistykowi dodatkowe KP+1. Taki podwójny byt jest trudniejszy do powalenia.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Do połączenia nie dochodzi, a duch opiekuńczy na czas trwania tego zaklęcia staje się niestabilny i nie można go użyć do żadnych działań. Nawet tych wynikających z Przewagi.
+"Ujawnienie":"PT1/ ,2 kości. Ciało mistyka nabiera delikatnej mętnej poświaty. Jej kolor zależy od źródła i ducha opiekuńczego.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas 1godz.
+
+
+
+
+"}],{
+"Mistyk": ["Zakonnik"],
+"Name":"Siła byka",
+"PM":"1/Dech:4",
+"Szybkość":"5AP, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk rzuca na siebie moc, dzięki której otrzymuje dodatkową kość do testów Siły.
+"Każdy kolejny sukces":"+1 kość Siły
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Czar działa na opak i zamiast dodać tyle kostek siły ile wskazywałoby na to zaklęcie, odejmuje adekwatną ilość kości od puli postaci. Jeżeli ilość kości siły spadnie poniżej 1 postać nie ma siły na nic, nawet na to by się poruszać lub stać. Osłabiona pada na ziemię.
+"Ujawnienie":"PT k ,ość.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, +1 kość Siły, Czas +1godz.
+
+
+
+
+"}],{
+"Mistyk": ["Psychon"],
+"Name":"Skok",
+"PM":"1/Dech:4",
+"Szybkość":"3 AP, W",
+"PT":7 ,
+"Czas":"natychmiastowy",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk potrafi wykonać skok i prawidłowe lądowanie bez potrzeby zdawania testu Sprawności. Skok ma maksymalnie do 10m długości i 5m wysokości. Przy czym maksymalną wysokość osiągnie na około 5m odległości. Jeżeli skok ma być na około 7m, to maksymalnie uzyska wysokość około 3m.
+"Każdy kolejny sukces":"+5m długości skoku i +2m wysokości skoku.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,+5m długości i 2m wysokości skoku, Szybkość -1
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Postać skacze, ale automatycznie nie wychodzi mu lądowanie. Upadek obliczamy zgodnie z zasadami, najwyższego punktu lotu. Za każde rozpoczęte 3m wysokości 1k6+5 obr. obszarowych. Dla podstawowych 5m czaru będzie to 2k6+10 obr. (chyba, że skok miał być wykonywany na bliższą odległość, gdzie maksymalna wysokość też będzie mniejsza).
+"Ujawnienie":"PT1/ ,2 kość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT,  ,Szybkość -1, +5m długości skoku i +2m wysokości skoku
+
+
+
+
+"}],{
+"Mistyk": ["Zwiastun"],
+"Name":"Słoneczny blask",
+"PM":"1/Dech:4",
+"Szybkość":"5 AZ, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Część ciała lub cały mistyk zaczyna się świecić łuną jakiegoś koloru jasnego światła. Blask oświetla wystarczająco obszar o promieniu 10m tak by światło było porównywalne z dziennym, poza obszarem na 30m jest jaśniej, ale mętnie.
+"Każdy kolejny sukces":"+10m jasnego światła
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, +10m jasnego światła
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Wnętrze mistyka grzeje się w jego trzewiach. Doprowadza to do szybkiego wypalenia się pokarmu w jego jelitkach i mistyk stanie się głodny, tak jakby nie jadł tego dnia.
+"Ujawnienie":"Ciało mistyka lub jego część zaczyna się świecić coraz jaśniejszym blaskiem.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +1godz., +10m jasnego światła
+
+
+
+
+"}],{
+"Mistyk": ["Świątobliwy",", "Szaman"],
+"Name":"Spętanie duszy",
+"PM":"1/Dech:4",
+"Szybkość":"4 AZ, C",
+"PT":7 ,
+"Czas":"specjalny",
+"Zasięg":"10m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk będąc świadomy przebywania w swoim otoczeniu duszy martwej istoty jest w stanie ją posiąść i umieścić w przygotowanym do tego przedmiocie. Dusza taka nie będzie mogła wrócić do swojego ciała ani udać się na wieczny spoczynek.
+"Każdy kolejny sukces":"Brak dodatkowego efek
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Zasięg +10m, Szybkość -1
+"Niepowodzenie":" Dusza podświadomie próbuje uciec i oddala się, szuka bezpiecznego miejsca z dala od mistyka. Z czasem wróci do ciała by oczekiwać przejścia na inny plan lub gdy nadejdzie jej czas uda się .
+","Ups":" Dus wymyka się mistykowi, a energia uzyta do jej schwytania pozwala jej opuścić ten plan i udać się w wyznaczone dla niej zaświaty natychmiastowo.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT ( ,min3), Zasięg +10m, Szybkość -1
+
+
+
+
+"}],{
+"Mistyk": ["Świątobliwy"],
+"Name":"Sprawdzian Ducha",
+"PM":"1/Dech:4",
+"Szybkość":"3 AP, C",
+"PT":7 ,
+"Czas":"scena",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk zastępuje cechę kolejnego rzutu na umiejętność swoim Duchem. Czyli nawet jak umiejętność jest rzucana z cechy fizycznej, to mistyk rzuci ją z Ducha. Jeżeli mistyk nie wykorzysta tego rzutu podczas sceny, moc przestanie działać i wszystko wróci do normy.
+"Każdy kole"jny sukces":"+1 dodatkowy rzut z cechą Ducha.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Kolejne rzuty będą wykonane z najniższej (wielkość kości) posiadanej przez mistyka cechy.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1
+
+
+
+
+"}],{
+"Mistyk": ["Zakonnik"],
+"Name":"Sprawność małpy",
+"PM":"1/Dech:4",
+"Szybkość":"5AP, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk rzuca na siebie moc, dzięki której otrzymuje dodatkową kość do testów Sprawności.
+"Każdy kolejny sukces":"+1 kość Sprawności
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Czar działa na opak i zamiast dodać tyle kostek sprawności ile wskazywałoby na to zaklęcie, odejmuje adekwatną ilość kości od puli postaci. Jeżeli ilość kości sprawności spadnie poniżej 1 postać nie ma siły na nic, nawet na to by się poruszać lub stać. Osłabiona pada na ziemię.
+"Ujawnienie":"PT k ,ość.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, +1 kość Sprawności, Czas +1godz.
+
+
+
+
+"}],{
+"Mistyk": ["Szaman"],
+"Name":"Sprowadzenie duszy",
+"PM":"1/Dech:4",
+"Szybkość":"6 PA, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"nieistotny",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk przyzywa duszę człowieka z zaświatów. To co potem z tym zrobi jest już w gestii mistyka i jego kompanów. Dusza jest losowa i jest wydarta z losowych zaświatów. Nie da się sprowadzić duszy, która z jakiegoś powodu jest “zablokowana” lub już uwięziona.
+"Każdy kolejny sukces":"1 sukces – mistyk może wybrać z których zaświatów wydziera duszę. 2 sukces – mistyk może sprowadzić konkretną duszę.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1,
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Potężne istoty z innych wymiarów nie lubią być okradane. Wzrok jednej z takich istot spocznie na mistyku. Konsekwencje przyjdą z czasem lub wcale.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +1godz.
+
+
+
+
+"}],{
+"Mistyk": ["Szarlatan",", "Świątobliwy"],
+"Name":"Strefa antymagiczna",
+"PM":"1/Dech:4",
+"Szybkość":"5 AZ, W",
+"PT":7 ,
+"Czas":"10min",
+"Zasięg":"10m r=5m", 
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk może utworzyć bańkę strefy antymagicznej w pewnym zasięgu od siebie lub na sobie, jeśli ma takie życzenie. Promień strefy, w której działa czar mistyk ustala sam. Może stworzyć mniejszą strefę, ale nie większą. Wszystkie rzucane w strefie czary mają PT+6 , (łącznie z tymi rzucanymi przez mistyka, jeżeli znajduje się w strefie), istoty z innych wymiarów są osłabione mają -2 do testów, a moce, które działały na obszarze, na który został rzucony czar strefy antymagicznej stają się nieaktywne. Jeżeli czar strefy antymagicznej skończy się prz upływem czaru, który został tam rzucony wcześniej, to ten czar zaczyna działać ponownie aż się wyczerpie.
+"Każdy kolejny sukces":"PT+3 , i –1 do testów
+","Każdy kolejny 1PM/2Tchu":" -3PT, zybkość -1, Zasięg +10m, r=+5m
+"Niepowodzenie":" Nic się nie dziejebrak efektu.
+","Ups":" Moc zamiast w obszar uderza bezpośrednio w ciało mistyka i sprawia, że czar działa tylko na niego. Mistyk otrzymuje wszelkie minusy do swoich mocy i czarów wynikające z zaklęcia na czas trwania zaklęcia.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +10min, Zasięg 10m i r=+5m
+
+
+
+
+"}],{
+"Mistyk": ["Szarlatan",", "Świątobliwy",", "Zwiastun"],
+"Name":"Strefa śmierci",
+"PM":"1/Dech:4",
+"Szybkość":"6 PA, W",
+"PT":7 ,
+"Czas":"1 min",
+"Zasięg":"20m r=5m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk tworzy sfe"rę, która wysysa z istot żywych dech, pozbawiając ich życia. Każda istota posiadająca dech traci go w tempie 1k6 na rundę. Rośliny schną, żywi umierają.
+"Każdy kolejny sukces":"dodatkowe –1k6 tchu
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Czas +1min, Zasięg +20m, Sfera +5m, Szybkość -1, dodatkowe –1k6 tc
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Niszczycielska siła nieudanego czaru uderza w mistyka i zadaje mu obrażenia z siłą czaru, które miały być użyte w ciągu jednej rundy.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualn.
+","Rozwinięcia":"-1PT(m ,in3), Czas +1min, Zasięg +20m, Stre +5m, Szybkość -1, dodatkowe –1k6 tchu
+
+
+
+
+"}],{
+"Mistyk": ["Psychon"],
+"Name":"Swobodne spadanie",
+"PM":"1/Dech:4",
+"Szybkość":"3 AZ, C",
+"PT":7 ,
+"Czas":"10min",.
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk rzuca na siebie moc, dzięki której przy zeskakiwaniu z wysokości lub niekontrolowanemu spadaniu zawsze bezpiecznie ląduje (bez obrażeń). Dla obserwatora z boku może to się wydawać dziwne, ponieważ prędkość spadania mistyka jest zmniejszona i maksymalnie wynosi Tempo 24 (10km/godz.)
+"Każdy kolejny sukces":"Czas +10min.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Czas +10min. Szybkość -1
+"Niepowodzenie":" Nic się nie dzieje, brak efekt"u.
+","Ups":" Moc nie zmniejsza tempa upadku, dodatkowo z powodu wadliwego działania przeszkadza w prawidłowym lądowaniu. Podczas trwania nieudanego zaklęcia postać ma –2 do rzutów na zeskoki, skoki i wszelkie spadania.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Czas +10min., Szybkość -1
+
+
+
+
+"}],{
+"Mistyk": ["Zakonnik"],
+"Name":"Szybkość sokoła",
+"PM":"1/Dech:4",
+"Szybkość":"5AP, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk rzuca na siebie moc, dzięki której otrzymuje dodatkową kość do testów Szybkości.
+"Każdy kolejny sukces":"+1 kość Szybkości
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Czar działa na opak i zamiast dodać tyle kostek szybkości ile wskazywałoby na to zaklęcie, odejmuje adekwatną ilość kości od puli postaci. Jeżeli ilość kości szybkości spadnie poniżej 1 postać nie ma siły na nic, nawet na to by się poruszać lub stać. Osłabiona pada na ziemię.
+"Ujawnienie":"PT k ,ość.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, +1 kość Szybkości, Czas +1godz.
+
+
+
+
+"}],{
+"Mistyk": ["Zwiastun",", "Świątobliwy"],
+"Name":"Światło",
+"PM":"1/Dech:4",
+"Szybkość":"4 AZ, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"dotyk",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk wykorzystuje jakikolwiek odbijający obraz (choćby mętnie) przedmiot i tworzy z niego obiekt dający światło. W zależności od rodzaju przedmiotu, na który zostało rzucone zaklęcie zadziała on trochę inaczej. Jeżeli wykorzystamy połyskliwą powierzchnię miecza, światło, które nam da będzie przypominało pochodnie o rozświetlonym obszarze o r=5m i półmroku na kolejnych 5m. Czar rzucony na lusterko da nam światło kierunkowe podobne do latarki o wąskim kierunkowym snopie światła na 10m i 20m półmroku. Od mistyka zależy którą z tych form świat preferuje i czy światło ma być czyste białe, czy może o konkretnej barwie. Mistyk chcąc pozostać w ukryciu może zmniejszyć siłę oświetlenia do żądanej. Mniejsza łuna lub słabszy snop światła.
+"Każdy kolejny sukces":"+ kolejna wartość zasięgu światła
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybć -1, Czas +1godz.
+"Niepowodzenie":" Nic się nie dzieje, brakfektu.
+","Ups":" Wnętrze mistyka świeci jak mocna latarka przyłożona do ręki. Nikomu w niczym to nie pomaga, paza tym, że mistyka widzi każdy. Ten efekt kończy się wraz z końcem czaru. Wstyd pozostaje.
+"Ujawnienie":"Przedmiot poddany działaniu czaru zaczyna się coraz bardziej świecić, aż osiąga końcowy poziom światła.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas 1godz.
+
+
+
+
+"}],{
+"Mistyk": ["Zwiastun"],
+"Name":"Tarcza energii",
+"PM":"1/Dech:4",
+"Szybkość":"4 AP, C",
+"PT":7 ,
+"Czas":"10min",
+"Zasięg":"osobisty",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk tworzy pole elek"tryczne o r=1m zaraz przed swoją ręką. Pole w dotyku zadaje 1k6 obr. od wyładowań elektrycznych i zatrzymuje pociski energetyczne oraz innego rodzaju energię elektryczną. Materia przechodzi przez tarczę bez problemu (poza otrzymaniem obrażeń). Tarcza jest w stanie zatrzymać 200 obrażeń wywołanych energią elektryczną nim się rozpadnie.
+"Każdy kolejny sukces":"wytrzymałość tarczy +1
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1
+"Niepowodzenie":" Efekt wizualny, poza tym nic się nie dzieje.
+","Ups":" Wyładowanie elektryc z tworzonej tarczy zadaje 1k6 obrażeń w dłoń mistyka.
+"Ujawnienie":"Wizualnie widać k pole elektryczne skacze po dłoni mistyka.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +10min
+
+
+
+
+"}],{
+"Mistyk": ["Psychon"],
+"Name":"Telekineza",
+"PM":"1/Dech:4",
+"Szybkość":"3 AZ, C",
+"PT":7 ,
+"Czas":"natychmiastowo",
+"Zasięg":"10m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk używa swojego umysłu, by poruszyć jakimś przedmiotem, wcisnąć przycisk, przesunąć dźwignię. Przesuwany przedmiot lub siła nacisku nie może przekraczać 1000g. Jeżeli przedmiot jest do czegoś doczepiony lub przymocowany, należy jeszcze doliczyć do niego siłę potrzebną do oderwania go. Tak samo trzeba wziąć pod uwagę wytrzymałość przedmiotu, jeżeli chcemy go zgnieść mocą. Nacisk można dzielić na kilka punktów, tak, by ogólna siła się zgadzała. Co umożliwia naciskanie, przenoszenie lub przesuwanie kilku małych przedmiotów na raz. Jeżeli mistyk ch utrzymywać czar, musi wydać "na niego kolejne PM/Dech co 4 akcje działania czaru. Czyli na 5,9,…,itd. akcji użycia mocy, potrzebne jest doładowanie. Utrzymując czar mistyk może wykonywać tylko akcje pro.
+"Każdy kojny sukces":"+1000g
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,+1000g, Zasięg +10m
+"Niepowodzenie":" Nic się nie dzieje. Brak efektu.
+","Ups":" Mistyk z powodu nagromadzonej mocy, która w nim wybucha, traci 1k6 Tchu na każdy użyty PM/Dech które użył do rzucenia czaru.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT,  ,Zasięg +10m, +1000g, Szybkość -1
+
+
+
+
+"}],{
+"Mistyk": ["Psychon"],
+"Name":"Telepatia",
+"PM":"1/Dech:4",
+"Szybkość":"3 AZ, C",
+"PT":7 ,
+"Czas":"natychmiastowo",
+"Zasięg":"20m",
+"Gest":""nie",
+"Opis": {"Opis":"Mistyk bez użycia zmysłów, za pomocą swojej siły woli, przekazuje innej osobie, bezpośrednio do jej głowy jakąś krótką wiadomość. Odbiorcy wydaje się, że “słyszy” słowa wypowiadane przez Mistyka, tak, jakby używał do tego swoich zmysłów. Mistyk może zmienić ten słyszalny głos w głowie owej osoby, tak by brzmiał inaczej, wedle swojej woli. Jeżeli mistyk chce utrzymywać czar, musi wydać na niego kolejne PM/Dech co 4 akcje działania czaru. Czyli na 5,9,…,itd. akcji użycia mocy, potrzebne jest doładowanie. Utrzymując czar mistyk może wykonywać tylko akcje proste.
+"Każdy kolejny sukces":"+1 akcja długości działania czaru, bez konieczności doładowania mocy.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Zasięg +20m
+"Niepowodzenie":" Cel czaru jest świadomy, że coś lub ktoś użył jakiejś mocy na nim, ale nie ma żadnego efektu.
+","Ups":" Zamiast ze swoim celem mistyk nawiązuje połączenie z innym planem, szumy, trzaski i dziwne dźwięki, które słyszy wewnątrz swojego umysłu, przeszkadzają mu do tego stopnia, że podczas kolejnych 4 akcji jest rozkojarzony i może wykonywać tylko akcje proste.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Zasięg +20m, Szybkość -1
+
+
+
+
+"}],{
+"Mistyk": ["Psychon"],
+"Name":"Telepatyczna burza",
+"PM":"-",
+"Szybkość":"4 AZ, W",
+"PT":7 ,
+"Czas":"1 min",
+"Zasięg":"20m sfera r=3m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk tworzy sferę, w której wszystkie istoty (poza nim) mają problemy ze skupieniem się i koncentracją. Wszystkie istoty mają -1 do testów podczas wykonywania dowolnych czynności i obrony na magię. Testy na Wigor i Siłę wykonywane są normalnie.
+"Każdy kolejny sukces":"Kolejne –1 do test
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Czas +1min, Zasięg +20m, Sfera +2m
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Miej, gdzie miała powstać sfera, zmienia się w wyrwę między wymiarem rzeczywistym a tym, z którego pobierano energię (w przypadku Tchu, powstaje wyrwa do wymiaru Cienia), wyładowania energii ze szcliny przez 1min zadają losowym istotom w zasięgu sfery, która miała powstać obrażenia magiczne 2k6 za każde PM/Dech użyte do rzucenia zaklęcia.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT,  ,Czas +1min, Zasięg +20m, Sfera +2m, Szybkość -1,
+
+
+
+
+"}],{
+"Mistyk": ["Zwiastun",", "Psychon",", "Świątobliwy"],
+"Name":"Terror",
+"PM":"1/Dech:4",
+"Szybkość":"5 AZ, W",
+"PT":7 ,
+"Czas":"10min",
+"Zasięg":"20m sfera r=50m",
+
+"Opis": {"Opis":"Mistyk tworzy niewidoczne dla zwykłych ludzi małe mistyczne źródło terroru tożsame z użytym przez niego źródłem (dla magii z Tchu będzie to plan Cieni). Rzuca je na jakiś obiekt lub istotę (Istota ma rzut obronny Duch(7), czy czar się powiedzie). W obszarze czaru wszystko wydaje się bardziej straszne, dzięki czemu trudniej się jest oprzeć zastraszaniu i strachowi wy"wołanym przez różne istoty. Dzięki czarowi Terror na obszarze na czas trwania zaklęcia rośnie o 1. Jeżeli ta wartość wyniesie 6, czar się utrwala i powstaje Martwa Ziemia ze wszystkimi płynącymi z tego konsekwencjami.
+"Każdy kolejny sukces":"+1 do poziomu Terroru
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Zasięg +20m, Sfera +50m
+"Niepowodzenie":" Nic się nie dzieje. Brak efektu.
+","Ups":" Jako że Terror niezależnie od źródła mocy prawie zawsze związany jest z mroczną stroną tegoż źródła w przypadku niepowodzenia czaru, zamiast stworzyć źródło terroru, mistyk otwiera połączenie do miejsca leżącego w innym wymiarze, gdzie przebywają wrogie i groźne istoty. Same nie będą mogły przejść przez tę szczelinę, ale będą mogły użyć swoich mocy, by zaszkodzić w świecie materialnym. Sposób, w jaki to zrobią, zależy od tego, co się akurat trafi po drugiej stronie. Może to być ich energia psychiczna podobna do czarów, fala strachu, którą będą chciały zniszczyć psychikę żywych, trująca mgła lub wyładowania jakiejś energii.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT,  ,Zasięg +20m, Sfera +50m, Szybkość -1, test Ducha +2PT
+
+ ,
+
+
+"}],{
+"Mistyk": ["Psychon"],
+"Name":"Trans",
+"PM":"1/Dech:4",
+"Szybkość":"1min PA, C",
+"PT":7 ,
+"Czas":"10min transu",
+"Zasięg":"bezpośredni do 1m",
+
+"Opis": {"Opis":"Mistyk wprowadza swój cel w stan transu hipnotycznego, jeżeli cel czaru nie życzy sobie być ofiarą czaru, ma rzut obronny Duch(7). Za pomocą tej mocy mistyk jest w stanie przeszukać pamięć ofiary i wyciągnąć z niej informacje. W przypadku odkrycia informacji, o których cel czaru już nie pamiętał lub przechowywane były gdzieś w podświadomości, wymagane są przerzuty. Cel czaru po przebudzeniu się z transu nie pamięta, o co był pytany i jakich odpowiedzi udzielił. Podczas transu jest nieświadomy. Jeżeli mistyk chce utrzymywać czar, musi wydać na niego kolejne PM/Dech w takiej samej liczbie jak przy rzuceniu mocy.
+"Każdy kolejny sukces":"1 sukces - przeżycia i informacje odległe już zapomniane przez ofiarę czaru. 2 sukcesy - przeżycia i informacje wymazane przez umysł z powodu traumy. 3 sukcesy - przeżycia i informacje naumyślnie zamaskowane technologią lub mistycyzmem.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,test Ducha +2PT <br>Niepowodzenie: Cel czaru jest świadomy, że coś lub ktoś użył jakiejś mocy na nim, ale nie ma żadnego efektu.
+","Ups":" Mózg ofiary w transie jest narażony na bezpośrednie działanie mistycznej energii. MG wykonuje rzut K10, wynik 1-8 ofiara czaru doznaje szoku i wpada w spazmatyczne drgawki, traci 3k6 tchu. Jeżeli dech zejdzie do 0 lub mniej traci przytomność. Wynik 9 zamiast z pamięcią ofiary, mistyk łączy się z losowym duchem w wymiarze, z którego czepie moc (jeżeli robi to za pomocą Tchu jest to wymiar Cienia) i ofiara czaru swoimi słowami opowiada historię tego ducha. Wynik 10 oznacza, że pomost do głowy ofiary czaru sprowadził do niej lokatora na gapę. Jakiś duch, czerpiąc energię z duszy takiej istoty, zasiedli się tam i nie będzie chciał odejść.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+"Rozwinięcia:</b>- -1PT,  ,Czas +10min, test Ducha +1PT
+
+ ,
+
+
+"}],{
+"Mistyk": ["Świątobliwy"],
+"Name":"Ukojenie",
+"PM":"1/Dech:4",
+"Szybkość":"4 AZ, C",
+"PT":7 ,
+"Czas":"10min",.
+"Zasięg":"dotyk",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk dzięki swojemu dotykowi uśmierza wszelki ból jaki odczuwa cel jego czaru. Wszelkie modyfikatory wywołane rozkojarzeniem, bólem fizycznym lub psychicznym, które działają na daną postać są zmniejszone o 1.
+"Każdy kolejny sukces":"+1 do zmniejszenia modyfikatorów ujemny
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, +1 do zmniejszenia modyfikatorów ujemnych
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Zamiast uśmierzyć ból i rojarzenie, mistyk otępia istotę będącą celem czaru. Postać taka ma ujemny modyfikator o wartości siły tego czaru do wszystkich testów z powodu częściowej utraty świadomości na czas trwania klęcia.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +10min.
+
+
+
+
+"}],{
+"Mistyk": ["Szarlatan"],
+"Name":"Uwolnienie z uroku",
+"PM":"1/Dech:4",
+"Szybkość":"5 PA, C",
+"PT":7 ,
+"Czas":"natychmiastowy",
+"Zasięg":"10m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk rzuca ten czar na osobę, na którą działają jakieś wpływy innych ludzi. Została przekonana, zastraszona, oszukana lub wyśmiana przez innych przez co zmieniło się jej nastawienie. Ten czar cofa efekt zmiany nastawienia takiej osoby. Bolesne dla zakochanych, znów muszą się uwodzić.
+"Każdy kolejny sukces":"1 sukces "– anuluje magiczne zmiany nastroju i nastawienia. 2 sukcesy – rozwiewa halucynacje i zauroczenia, także te magiczne. 3 sukcesy – kasuje wszelkie bloke pamięci, zmiany wspomnień itp.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1,
+"Niepowodzenie":" Nic  nie dzieje, brak efektu.
+","Ups":" Cel czaru ste się poddenerwowany i wrogi. Jego nastawienie do mistyka obniża się o jeden poziom.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Zasięg +10m
+
+
+
+
+"}],{
+"Mistyk": ["Świątobliwy"],
+"Name":"Uzdrawianie",
+"PM":"1/Dech:4",
+"Szybkość":"5 PA, C",
+"PT":"różny",
+"Czas":"1 min",.
+"Zasięg":"10m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk skupia się nad istotą będącą celem jego czaru (trwa to 1min.) i podczas tego czasu jest szansa, że rany danej osoby się zasklepią. Poziom testu zależy od poziomu rany
+PT3- ,dech, PT5- ,1, PT7- ,2, PT9- ,3, PT11 ,-4, PT13 ,-5. Po zdanym teście cel czaru leczy się tak jakby został opatrzony przez medyka z zachowaniem złotej godziny (zatrzymuje krwawienie, leczy 1 poziom r"an
+"Każdy kolejny sukces":"+1 poziom wyleczonej rany.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szyść -1,
+"Niepowodzenie":" Nic się nie dzieje, braefektu.
+","Ups":" Cel czaru otrzymuje karę za nieudolność mistyka. W przypadku przywracania tchu lub leczenia ran do 2 poziomu, cel czaru traci 1k6 tchu i nie dzieje się nic pozytywnego. W ranach poziomu 3,4 i 5 krwawienie rośnie o 1 stopień.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Zasięg +10m
+
+
+
+
+"}],{
+"Mistyk": ["Zakonnik","Świątobliwy"],
+"Name":"Wampirzy dotyk",
+"PM":"1/Dech:4",
+"Szybkość":"4 AZ, C",
+"PT":7 ,
+"Czas":"1 dotknięcie, max 1 min.",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Po rzuceniu tego czaru" dłoń mistyka jarzy się delikatną bladą niebieską poświatą. Następnie mistyk dotyka swoją ofiarę (musi trafić, jeśli to walka). Jeżeli uda mu, się dotknąć ofiary wysysa z niej 1k6 tchu, jeżeli ją chwyci wysysa 1k6 tchu na każdej zużytej na to karcie akcji, do czasu, aż ofiara wyswobodzi się spod chwytu. Wyssany dech mistyk przekazuje sobie lub transferuje go w drugą dotykaną lub pochwyconą przez siebie osobę.
+"Każdy kolejny sukces":"+1k6 tchu
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Moc skumulowana w dłoni mistyka wysysa z niego dech o wartości równej sile czaru po czym zanika.
+"Ujawnienie":"Dłonie maga nabierają coraz bardziej bladej poświaty.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, +1 dotyk, +1k6tchu
+
+
+
+
+"}],{
+"Mistyk": ["Szaman"],
+"Name":"Wcielenie",
+"PM":"1/Dech:4",
+"Szybkość":"6 PA, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"10m",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk przenosi swoją świadomość do ciała nie posiadającego duszy które widzi w zasięgu działania mocy. Istota taka może być rośliną, przedmiotem lub jakimś nierozumnym tworem. Ciało mistyka w czasie działania mocy zostaje w letargu (śnie), a mistyk ma pełną kontrolę nad przejętym celem, może też odejść poza zasięg rzucania czaru, jeżeli jego nowe wcielenie ma możliwość poruszania się. Gdy moc przestaje działać lub mistyk ją rozprasza budzi się natychmiast opuszczając przejętą formę. Będąc w nowej formie, świadomość mistyka może wykorzystywać wszelkie możliwości jakie miał cel jego czaru. Jeżeli jest to roślina to będzie miał zmysły rośliny, w przypadku przedmiotu może korzystać z wbudowanych w niego receptor ,ów i mechanizmów pozwalających na badanie otoczenia. Jeżeli będzie to robal, to mistyk będzie miał możliwości robala.
+"Każdy kolejny sukces":"1 sukces – mistyk może poruszać się jako roślina lub przedmiot. Jako robal nabiera lepszego wzroku. 2 sukces – mistyk potrafi odczytywać wygląd otoczenia dzięki magicznym falom. Nie potrzebuje zmysłu wzroku by dokładnie się orientować w przestrzeni. 3 sukces – mistyk może używać swoich umiejętności w nowym ciele.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, Zasięg +10m
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Mistyk wciela się w daną roślinę, przedmiot lub robala ale może robić tylko tyle ile w naturalny sposób może robić cel jego czaru. Innym słowy jest uwięziony w nowym wcieleniu do końca czasu działania czaru.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +1godz., Zasięg +10m
+
+
+
+
+"}],{
+"Mistyk": ["Psychon"],
+"Name":"Wejście w zmysły",
+"PM":"1/Dech:4",
+"Szybkość":"5 PA, C",
+"PT":7 ,
+"Czas":"10min",
+"Zasięg":"20m",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk wchodzi po kryjomu w umysł swojego celu, od tej pory może odczuwać jedynym wybranym przez siebie zmysłem swojej ofiary. W przypadku osiągnięcia większej ilości sukcesów lub rozwinięć mocy może odczuwać większą ilością zmysłów. Jeżeli ofiara jest świadoma napaści mentalnej, może wykonać test Ducha(7), by wyzbyć się intruza ze swojej głowy. Podczas trwania zaklęcia mistyk może wykonywać tylko akcje proste. Jeżeli mistyk chce utrzymywać czar, musi wydać na niego kolejne PM/Dech w takiej samej liczbie jak przy rzuceniu mocy.
+"Każdy kolejny sukces":"+1 dodatkowy zmysł
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Czas +10min, Zasięg +20m, Szybkość -1, +1 dodatkowy zmysł
+"Niepowodzenie":" Cel czaru jest świadomy, że coś lub ktoś użył jakiejś mocy na nim, ale nie ma żadnego efektu.
+","Ups":" Mistyk na czas trwania czaru traci zmysł, którym chciał zawładnąć.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +10min, Zasięg +10m
+
+
+
+
+"}],{
+"Mistyk": ["Szaman"],
+"Name":"Wędrówka w głuszy",
+"PM":"1/Dech:4",
+"Szybkość":"4 AP, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk potrafi przemieszczać się jakby był mieszkańcem danego miejsca. Ma +4 do wszelkich testów Skradania, ukrywania, wspinaczki, pływania i innych związanych z ruchem. Dodatkowo jego Tempo rośnie o 2
+"Każdy kolejny sukces":"+2 do testów i +2 do Tempo
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Tempo mistyka zmniejsza się o –2 (min1) do końca czasu trwania czaru.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +1godz.
+
+
+
+
+"}],{
+"Mistyk": ["Szarlatan"],
+"Name":"Wgląd w przyszłość",
+"PM":"1/Dech:4",
+"Szybkość":"1 AP, C",
+"PT":7 ,
+"Czas":"runda",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk łączy wymiary i widzi różne możliwości dzięki czemu wie co ma zrobić, żeby osiągnąć skuteczność w działaniu. Za zdany test mistyk otrzyma kartę akcji, a za każdy sukces kolejną. Po rzuceniu czaru szarlatan może mieć maksymalnie 5 kart na ręku i jedną w rękawie. Te karty, które są wyższe od aktualnie rozgrywanej muszą być natychmiast zastosowane.
+"Każdy kolejny sukces":"+1 karta
+","Każdy kolejny 1PM/2Tchu":" -3PT<br>Niepowodzenie: Nic się nie dzieje, brak efektu.
+","Ups":" mistyk musi odłożyć k4 akcje, jeżeli nie ma aktualnie na ręku, będzie musiał odłożyć te z kolejnej rundy. Tak się biedak zakręcił w odczytywaniu przyszłości, że właściwie staną w miejcu i tyle.", ","Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3)
+
+"}],{
+"Mistyk": ["Zwiastun",", "Zakonnik"],
+"Name":"Widzenie w ciemności",
+"PM":"1/Dech:4",
+"Szybkość":"4 AP, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk potrafi patrzeć w wyblakłych barwach, pomimo kompletnej ciemności. Zasięg jego widzenia w kompletnej ciemności wynosi 20m, a w mroku nocy przy poświacie gwiazd w ciemną bezksiężycową noc widzi jak w dzień. Ten czar nie daje odporności na magiczne strefy mroku lub pozbawienie wzroku.
+"Każdy kolejny sukces":"+20m zasięg w totalnej ciemności
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1,
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Coś poszło nie tak i zamiast poprawić wzrok mistyk ma –8 do testów wzrokowych na Spostrzegawczość
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +1godz.
+
+
+
+
+
+"}],{
+"Mistyk": ["Psychon"],
+"Name":"Władca marionetek",
+"PM":"1/Dech:4",
+"Szybkość":"4 PA, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"10m",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk atakuje umysł celu i przejmuje nad nim kontrolę. Od tej pory ciało ofiary jest podatne na wolę mistyka. Ofiara ma możliwość wybronienia się testem Ducha(5). Mistyk, kontrolując czyjeś ciało, musi być skupiony, czyli nie może wykonywać akcji złożonych. Ofiara może stawiać opór, ale polega on tylko na spowolnieniu ruchów i wymuszeniu na kierującym wykonywanie przejętym ciałem tylko akcji prostych. Mimo wszystko nadal musi spełniać wolę mistyka, który nad nim zapanował. Nawet w przypadku zagrożenia własnego życia. Jeżeli mistyk chce utrzymywać czar, musi wydać na niego kolejne PM/Dech w takiej samej liczbie, jak przy rzuceniu mocy.
+"Każdy kolejny sukces:</b>+2 do testu Ducha lub Mistyk uzyskuje pełną kontrolę nad 1 ze zmysłów ofiary (słuch, wzrok, mowa, dotyk, węch), może słuchać jego uszami, patrzeć jego oczami itd. Po przejęciu dotyku zamiast akcji prostych, może wykonywać akcje złożone ciałem ofiary, ale mistyk będzie odczuwać ból i do każdego swojego testu będzie miał modyfikatory z ran swojej marionetki. Przy każdorazowej, nieważne jak wielkiej, utracie tchu, sam będzie tracił 1 tchu. Jest to spowodowane bólem.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,jeden przejęty zmysł, +2 do testu Ducha
+"Niepowodzenie":" Cel czaru jest świadomy, że coś lub ktoś użył jakiejś mocy na nim, ale nie ma żadnego efektu.
+","Ups":" Mistyk odczuwa odrętwienie przez K6 rund, może wykonywać jedynie akcje proste. Jeżeli wydał dodatkowe punkty na pełne przejęcie zmysłów, to straci te zmysły na czasUpsa. Jeżeli wybranym zmysłem był dotyk, mistyk jest sparaliżowany.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +1godz., Zasięg +10m
+
+
+
+
+"}],{
+"Mistyk": ["Szarlatan"],
+"Name":"Wspomnienie miejsca",
+"PM":"1/Dech:4",
+"Szybkość":"5 PA, C",
+"PT":7 ,
+"Czas":"chwila",
+"Zasięg":"dotyk",
+
+"Opis": {"Opis":"Jeżeli zaszło tu jakieś zdarzenie wzbudzające emocje, to zostało zapisane w historii tego miejsca. Mistyk może je odczytać: Ktoś tu zginął, Odbyła się tu kłótnia, „Było tu dwoje szczęśliwych ludzi”. Przekaz jest niezbyt jasny i emocjonalny. Przy zdanym teście można sięgnąć w pamięć miejsca na 24 godziny wstecz.
+"Każdy kolejny sukces":"1 sukces - tydzień wstecz. 2 sukcesy - miesiąc wstecz. 3 sukcesy - kwartał wstecz. 4 sukcesy – rok wstecz
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Magiczna energia mistyka zwabia mistyczne istoty. W świecie rzeczywistym nic się nie wydarzy, ale w świecie cieni w tym miejscu jakiś cień będzie wysysał energię przez szczelinę.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1
+
+
+"}],{
+"Mistyk": ["Zwiastun"],
+"Name":"Wykrycie elektryczności",
+"PM":"1/Dech:4",
+"Szybkość":"5 AP, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"50m",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk skupia się nad źródłami generującymi prąd elektryczny. Jest w stanie wykryć takie generatory w odległości 50m. Przy małych celach typu bateria należy wykonać test Spostrzegawczości.
+"Każdy kolejny sukces":"+50m zasięgu wykrycia
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, Zasięg +50m
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":",
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +1godz., Zasięg +50m
+
+
+
+
+"}],{
+"Mistyk": ["Szaman",", "Zwiastun","Zakonnik",", "Szarlatan",", "Świątobliwy",", "Psychon"],
+"Name":"Wykrycie energii mistycznej",
+"PM":"1/Dech:4",
+"Szybkość":"6 PA, C",
+"PT":7 ,
+"Czas":"koncentracja",
+"Zasięg":"różny",
+
+"Opis": {"Opis":"Mistyk koncentruje się nad otaczającym go świecie mistycznym i jest w stanie lokalizować źródła mocy, duchy, dusze, istoty mistyczne, mistyków, aktywne moce i czary. Potrzebuje do tego pełnego skupienia. W tym czasie mistyk praktycznie nie korzysta ze swoich zmysłów. Koncentrując się, odcina od świata materialnego. Nie porusza się, a rozmowy prowadzi z trudnością.
+Mistyk wykrywa źródła mocy w odległości 1000m, jest w stanie wskazać ich położenie (kierunek i odległość) oraz określić ich pochodzenie (zaświaty, antykreacja lub Cybertech).
+W odległości 100m potrafi wskazać położenie portali, duszy, duchów, mistycznych istot i mistyków w liczbie nie większej niż wielkość jego kości Ducha na rundę/min. By określić więcej szczegółów na temat widzianych istot musi się tego nauczyć w rozwinięciach czaru. Wpierw zwraca uwagę na te bliższe lub silniejsze.
+W odległości 100m potrafi też dostrzec aktywnie działające moce i czary, w liczbie nie większej niż wielkość jego kości Ducha na rundę/min. By określić więcej szczegółów na temat widzianych mocy, musi się tego nauczyć w rozwinięciach czaru. Wpierw zwraca uwagę na te bliższe lub silniejsze.
+"Każdy kolejny sukces":"+1000m zasięgu wykrycia źródła i +100m zasięgu wykrycia pozostałych rzeczy.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, +1 kość Ducha więcej wykrytych istot i czarów
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Mistyk marnuje czas nie wykrywając żadnych źródeł i pozostałych celów. Jego umysł przez kolejne 1k6 rund/min. jest zajęty próbami, które do niczego nie zaprowadzą.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+Wyjaśnienia rozwinięć:
+- Określa przepływ mocy w źródle - czy źródło jest używane i w jakim stopniu. Czyli ile PM jest czerpane ze źródła i w jakim czasie.
+- Określa źródło pochodzenia duchów, istot mistycznych i mistyków - mistyk rozpoznaje aurę źródła, z którego dane istoty czerpią moc.
+- Określa poziom mocy ducha, istot magicznych i mistyków - mistyk potrafi odczytać jak wiele mocy jest zgromadzonych w danej istocie. 0 – brak mocy, 1-3 - mało mocy, 4-8 - średni poziom mocy, 9-12 - duży magazyn mocy, 13+ - olbrzymi potencjał.
+- Określa źródło pochodzenia czarów - mistyk zna rodzaj źródła, za pomocą którego zostały rzucone czary. 
+","Rozwinięcia":"-1PT,  ,Szybkość -1, +1000m wykrywania źródeł, Określa przepływ mocy w źródle, +100m wykrywanie istot, +1 kość Ducha wykrytych istot, Określa źródło pochodzenia duchów, istot magicznych i mistyków, Określa poziom mocy ducha, istoty magicznych i mistyków, +100m wykrywania czarów, +1 kość Ducha wykrytych czarów, Określa źródło pochodzenia czarów
+
+
+
+
+"}],{
+"Mistyk": ["Zwiastun"],
+"Name":"Wyładowanie elektryczne",
+"PM":"1/Dech:4",
+"Szybkość":"4 AZ, W",
+"PT":7 ,
+"Czas":"chwila",
+"Zasięg":"10m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk niczym naładowany tranzystor wypuszcza z siebie łuk elektryczny rażąc wybraną przez siebie istotę lub obiekt. Jeżeli w odległości od celu znajduje się kolejny nie dalej niż 1m. Mistyk może zechcieć pociągnąć i po nim łukiem elektrycznym, oraz na każdy kolejny na jego drodze, jeżeli jest takie jego życzenie. Każdy kolejny rażony cel otrzyma o 1 kostkę obrażeń mniej. A przeskakiwać można do czasu, gdy są jakiekolwiek kostki obrażeń. Nie można jednak zakręcić łuku i zaatakować celu już rażonego w tej akcji. Siła czaru uderzająca w pierwszy cel  3k6 obr.
+"Każdy kolejny sukces":"+1k6 obr.
+","Każdy kolejny /2Tchu":" -3PT,  ,Szybkość -1, Zasięg +10m
+"Niepowodzenie":"ic się nie dzieje, brak efektu.
+","Ups":" Moc czaru wymyka się i leci w losowym kierunku K12 i przeskoczy sobie po losowych celach. Jeżeli z powodu losowego skoku wróci do mistyka. Wszystkie cele w pętli otrzymają obrażenia z pełnej puli kostek.
+"Ujawnienie":"Podczas rzucania czaru na ręku mistyka zaczynają tańczyć małe iskierki, które z czasem przypominają coraz większe łuki elektryczne skaczące mu po palcach.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Zasięg +10m, +1k6 obr.
+
+
+
+
+"}],{
+"Mistyk": ["Szarlatan"],
+"Name":"Wymiarowe okno",
+"PM":"1/Dech:4",
+"Szybkość":"4 AZ, C",
+"PT":7 ,
+"Czas":"chwila",
+"Zasięg":"50m r=10m", 
+"Gest" : "tak",
+"Opis": {"Opis"":"Mistyk otwiera zbyt małe okno między wymiarami, tak by aura mistycznych istot danego wymiaru zionęła z zaświatów, ale one same nie mogły przejść. Istoty żywe w polu rażenia tego czaru poddane są efektom terroru i strachu wywoływanego przez te istoty. Poziom testu na jaja wynosi PT9  ,+ czynniki środowiskowe miejsca, gdzie rzucono czar.
+"Każdy kolejny sukces":"PT + ,2 do testu j
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, Zasięg +50m, r=+10m
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Oknost jednak większe niż miało być, a i zostało postawione w losowym miejscu (kierunek K12). Z okna wylezie jakieś paskudztwo adekwatne do źródła używanego przez mistyka.
+"Ujawnienie":"1/ ,2 kości. W miejscu, w którym wskazuje mistyk otwiera się mała około 2x2cm szczelinka. Jej kolor i poświata zależy od tego z jakiego źródła skorzystał mistyk.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Zasięg +50m
+
+
+
+
+"}],{
+"Mistyk": ["Psychon",", "Zakonnik"],
+"Name":"Wyostrzenie zmysłów",
+"PM":"1/Dech:4",
+"Szybkość":"6 PA, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Zmysły mistyka są bardziej czułe, mistyk nabywa tymczasowo przewagi Bystry i Sokole Oko, oraz otrzymuje +1 do testów Przetrwania, Tropienia i Szukania opartych na Spostrzegawczości.
+"Każdy kolejny sukces":"+1 do testów Przetrwania, Tropienia i Szukania
+","Każdy kol"ejny 1PM/2Tchu":" -3PT,  ,Czas +1godz., Szybkość -1
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Na czas trwania zaklęcia postać nabywa zawady Gapa i ma problemy z obserwacją odległych obiektów na horyzoncie.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT,  ,Czas +1godz. Szybkość -1, +1 do testów z mocy
+
+
+
+
+"}],{
+"Mistyk": ["Szarlatan"],
+"Name":"Wyostrzony spryt",
+"PM":"1/Dech:4",
+"Szybkość":"6 PA, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Wszelkie rzuty na Spryt (i umiejętności ze sprytu) mistyka rzuca z modyfikatorem +2
+"Każdy kolejny sukces":"+1 do testów Sprytu
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, +1 do testów Sprytu
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Moc miała wzmocnić umysł a osłabiła ciało. Mistyk na czas trwania zaklęcia ma modyfikator ujemny zależny od siły czaru do testów na Siłę.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, +1 do testów Sprytu
+
+
+
+
+"}],{
+"Mistyk": ["Świątobliwy"],
+"Name":"Wytrwałość",
+"PM":"1/Dech:4",
+"Szybkość":"3 AZ, C",
+"PT":7 ,
+"Czas":"10min",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk nie traci Tchu, chyba że czynnik jest magiczny, czyli czary, umiejętności mistyczne, ciosy zadane przez istoty mistyczne lub przedmioty magiczne, itd. Wszelkie naturalne rzeczy, choć zranią go (mogą nawet zabić) to nie odejmą mu tchu.
+"Każdy kolejny sukces":"+10min.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, Czas +10min.
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Obrażenia w dech z magicznych źródeł wchodzą jak w gąbkę i są podwojone, przez czas trwania czaru.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +10min.
+
+
+
+
+"}],{
+"Mistyk": ["Zakonnika"],
+"Name":"Wytrzymałość woła",
+"PM":"1/Dech:4",
+"Szybkość":"5AP, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk rzuca na siebie moc, dzięki której otrzymuje dodatkową kość do testów Wigoru.
+"Każdy kolejny sukces":"+1 kość Wigoru
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Czar działa na opak i zamiast dodać tyle kostek wigoru ile wskazywałoby na to zaklęcie, odejmuje adekwatną ilość kości od puli postaci. Jeżeli ilość kości wigoru spadnie poniżej 1 postać nie ma siły na nic, nawet na to by się poruszać lub stać. Osłabiona pada na ziemię.
+"Ujawnienie":"PT k ,ość.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, +1 kość Wigoru, Czas +1godz.
+
+
+
+
+"}],{
+"Mistyk": ["Szarlatan",", "Psychon",", "Szaman",", "Zwiastun",", "Świątobliwy",", "Szarlatan",", "Zakonnik"],
+"Name":"Wywołanie strachu",
+"PM":"1/Dech:4",
+"Szybkość":"4 AZ, C",
+"PT":7 ,
+"Czas":"natychmiastowy",
+"Zasięg":"20m",
+"Gest":"nie",
+"Opis": {"Opis":"Cel czaru musi natychmiastowo wykonać test na Jaja(7). Jeżeli nie zda, czuje strach z najbardziej oczywistego powodu w jego otoczeniu. Jeżeli jest tam napastnik, to zapewne z jego powodu. Jeżeli jednak cel siedzi w pustym pokoju i nic tam nie ma, to doszuka się źródła strachu chociażby w jakimś dźwięku lub cieniu na ścianie.
+"Każdy kolejny sukces":"test Jaj +2PT
+K ,ażdy kolejny 1PM/2Tchu: -3PT,  ,test Jaj +2PT,  ,Szybkość -1
+"Niepowodzenie":" Cel czaru jest świadomy, że coś lub ktoś użył jakiejś mocy na nim, ale nie ma żadnego efektu.
+","Ups":" Mistyk sam siebie zastrasza, wykonuje test Jaj na poziomie rzucanej mocy.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT,  ,Zasięg +20m, Szybkość -1, test Jaj +2PT
+
+ ,
+
+
+"}],{
+"Mistyk": ["Zakonnik",", "Świątobliwy"],
+"Name":"Wzmocnienie ciała",
+"PM":"1/Dech:4",
+"Szybkość":"6 PA, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk zwiększa odporność swojego ciała dodając sobie +2 do testów Wigoru.
+"Każdy kolejny sukces":"+1 do testu Wigoru
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, +1 do testów Wigoru
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Moc miała wzmocnić ciało a osłabiła umysł. Mistyk na czas trwania zaklęcia ma modyfikator ujemny zależny od siły czaru do testów na Spryt i umiejętności ze Sprytu.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, +1 do testów Wigoru, Czas +1 godz.
+
+
+
+
+"}],{
+"Mistyk": ["Szaman",", "Szarlatan"],
+"Name":"Zablokowanie portalu",
+"PM":"1/Dech:4",
+"Szybkość":"6 PA, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"10m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk, który znajdzie obcy portal może chcieć zablokować możliwość przechodzenia przez niego. Po rzuceniu tego czaru by przejść przez portal każdy kto to próbuje musi wpierw zdać test Ducha(9) inaczej nie zdoła pokonać bariery.
+"Każdy kolejny sukces":"+2 do testu Duc
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, +2 do testu Ducha, +1 godz.
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Myk zablokował, ale nie portal a swoje ruchy, jego Tempo spada o 2. Jeżeli z jakiegoś powodu wynosi 0, to mistyk może jedynie stać w miejscu jak głupi i patrzeć się na innych.
+"Ujawnienie"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, +2 do testu Ducha, +1godz.
+
+
+
+
+"}],{
+"Mistyk": ["Psychon"],
+"Name":"Zauroczenie zwierzęcia",
+"PM":"1/Dech:4",
+"Szybkość":"6 AP, C",
+"PT":7 ,
+"Czas":"1 dzień",
+"Zasięg":"kontakt wzrokowy",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk wpływa na umysł zwierzęcia i nagina go do swojej woli. Dzięki temu zwierzę staje się bardziej uległe na działania mistyka. Zwierzę musi wykonać test Ducha(7), jeśli go nie zda, uważa mistyka za swojego pana, tak jakby było wytresowane przez mistyka. Zachowuje wszystkie swoje cechy gatunkowe i są zwierzęta, które nigdy w pełni nie staną się uległe. Są to zazwyczaj drapieżniki z czubka piramidy, bądź te, którym zabrania ich wredny charakter. Jednakże zwierzęta takie jak koń czy pies staną się miłymi kompanami. Pamiętajmy, że takie zwierzę staje się uległ"e, a nie wytresowane. Nie będzie rozumiało komend i poleceń swojego pana, ale będzie nimi zaciekawione i nie będzie wykazywało agresji podczas ćwiczeń. Gdy czar przestanie działać, dane zwierzę będzie postrzegało mistyka w naturalny sposób, ale to co się działo podczas działania czaru może mieć wpływ na jego zachowanie. Jeśli doznało krzywdy, może zachcieć odwetu. Tak samo jeśli było dobrze traktowane, może się wyzbyć wrogości do mistyka i nie traktować go jako zagrożenia.
+"Każdy kolejny sukces":"+1 dzień działania
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, +1 dodatkowe zwierzę
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Zwierzę czuje, że mistyk chciał im coś zrobić i będzie się zachowywać agresywnie w jego stosunku, na tyle na ile pozwoli mu na to jego gatunek.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Czas +1 dzień, Szybkość -1, +1 dodatkowe zwierzę
+
+
+"}],{
+"Mistyk": ["Szarlatan"],
+"Name":"Zdechł pies",
+"PM":"1/Dech:4",
+"Szybkość":"zwiewanie",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk po użyciu tego czaru wystarczy, że będzie udawał martwego, a ludzie go za takiego wezmą. Sztuczkę można wykryć po teście Medycyny(9) sprawdzającego.
+"Każdy kolejny sukces":"PT+2 , do Medycyny
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,PT+2 , do Medycyny
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Mistyk upada na ziemię, niby martwy. Traci z ręki wszystkie karty. Ale leżąc przypomina mu się coś głupiego i zaczyna się śmiać. Bo co mu pozostało w takiej sytuacji, jeśli nie śmiech...
+"Ujawnienie":"Uzależnione od testu Medycyny w czarze.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, PT + ,2 do Medycyny
+
+
+
+
+"}],{
+"Mistyk": ["Szarlatan"],
+"Name":"Zerwanie więzi między planami",
+"PM":"1/Dech:4",
+"Szybkość":"5 PA, C",
+"PT":7 ,
+"Czas":"1dzień",
+"Zasięg":"10m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk uniemożliwia czerpanie mocy ze źródła. Mistyk używa tej mocy by zapieczętować źródło. Przy silnym źródle pomimo zapieczętowania, energia nadal będzie wypływać. Czar blokuje 2PM/godz.
+"Każdy kolejny sukces":"+1PM/god
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, +1PM/godz.
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","U:" Źródło wsysa z mistyka jego energię. Mistyk traci 1k6 PM/Tchu
+"Ujaienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, +1PM/godz., Czas +1dzień
+
+
+
+
+"}],{
+"Mistyk": ["Psychon"],
+"Name":"Zgniatanie wnętrzności",
+"PM":"1/Dech:4",
+"Szybkość":"3 AZ, C",
+"PT":7 ,
+"Czas":"natychmiastowo",
+"Zasięg":"10m",
+"Gest" : "tak",
+"Opis": {"Opis":"Mistyk gniecie i ściska wnętrzności celu, powodując zawał serca, duszności, udar i inne złe rzeczy. Efekty czaru następują po skończonym rzucaniu czaru i w każdej kolejnej wydanej karcie akcji. Jeżeli mistyk chce utrzymywać czar, musi wydać na niego kolejne PM/Dech co 4 akcje działania czaru. Czyli na 5,9,…,itd. akcji użycia mocy, potrzebne jest doładowanie. Utrzymując czar mistyk może wykonywać tylko akcje prost
+Zg"niatanie gardła/płuc -ofiara ma problemy z oddychaniem traci 1k6 Tchu na akcję, po utracie Tchu do 0 postać nie traci przytomności, traci jedynie możliwość akcji złożonych.Dalsze podtrzymywanie czaru może ją zabić.
+Zgniatanie sa/arterii -ofiara czuje paraliżujący kujący ból w klatce piersiowej, traci 1k6 Tchu na akcję i ma modyfikator -2 za ból. Jeżeli Dech spadnie do 0, postać może stracić przytomność według normaych zasad. Dalsze podtrzymywanie czaru może ją zabić.
+Zgniatanie żołądka/flaków -ofiara ma torsje i wymiotuje wyciskaną z niej treścią żołądkową. Traci 1k6 Tchu na akcję i jest niezdolna do wykonywania akcji złożonych z powodu targającymi nią torsjami. Gdy Dech zejdzie do 0, ofiara jest wyczerpana i dalsze podtrzymywanie czaru jedynie powoduje ból i dyskomfort suchych torsji.
+Zgniatanie narządów płciowych- ofiara odczuwa ogromy ból i dyskomfort, paraliżuje to jej ruchy i wykonywane akcje. Jej tempo jest zmniejszone o połowę (w dół) i może wykonywać tylko akcje proste.
+Zgniatanie naczynek w mózgu -ofiara czuje kujący ból w czaszce, możliwe krwawienie z uszu, traci 1k6 tchu na akcje.Jeżeli Dech spadnie do 0, postać straci przytomność według normalnych zasad. Dalsze podtrzymywanie czaru może ją zabić.
+Zgniatanie mięśni/ścięgien -Mistyk powoduje bolesne sparaliżowanie jednej z kończyn swojej ofiary. Ofiara nie jest w stanie używać danej kończyny podczas działania mocy. W przypadku ręki postać jest traktowana jak z zawadą Jednoręki bandyta w przypadku paraliżu nogi Kulawy.
+"Każdy kolejny sukces:</b>dla zgniataniagardła/płuc,serca/arterii,żołądka/flaków,naczynek w mózgu +1k6 tchu lub dla zgniataniamięśni/ścięgien, narządów płciowych -1 do testów z powodu bólu.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,+1k6 tchu, -1 do testów z powodu bólu, dodatkowa kończyna przy ataku na kończyny.
+"Niepowodzenie":" Cel czaru jest świadomy, że coś lub ktoś użył jakiejś mocy na nim, ale nie ma żadnego efektu.
+","Ups":" Zawroty głowy i moc czaru z siłą użytą przez mistyka uderza w jego własne naczynia w mózgu.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT,  ,+1k6 tchu, -1 do bólu, Zasięg+10m, Szybkość -1
+
+"
+
+
+"}],{
+"Mistyk": ["Szarlatan"],
+"Name":"Zmiana Aury",
+"PM":"1/Dech:4",
+"Szybkość":"5 AZ, C",
+"PT":7 ,
+"Czas":"1 dzień",
+"Zasięg":"2m",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk zmienia aurę dowolnego przedmiotu magicznego lub jakiejś istoty, łącznie ze swoją własną, jeżeli ma takie życzenie. Cel czaru otrzymuje aurę źródła taka jak życzył sobie mistyk. Każdy kto będzie chciał wytropić taką postać będzie widział, że ma aurę wybraną przez mistyka.
+"Każdy kolejny sukces":"+1 dzień
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, +1 dzień
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Aura ma losowe pochodzenie, ale na pewno nie takie jak miała mieć.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, +1 dzień
+
+
+
+
+"}],{
+"Mistyk": ["Psychon"],
+"Name":"Zmiana wspomnień",
+"PM":"-" ,
+"Szybkość":"6 AZ, C",
+"PT": 7,
+"Czas":"1 dzień",
+"Zasięg":"20m",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk manipuluje pamięcią celu i kasuje mu, zmienia lub wtłacza fałszywe wspomnienie jakiegoś wydarzenia. Ofiara przyjmuje do swojej świadomości nowe fałszywe wspomnienie, jeśli nie zda testu Ducha(7). Ofiara czaru pamięta zmianę wspomnień przez 1 dzień, potem ma wrażenie, jakby to się nigdy nie wydarzyło albo pewnie gdzieś to usłyszała i coś się jej pomyliło, bądź wracają do niej wymazane wcześniej wspomnienia.
+"Każdy kolejny sukces":"Test Ducha +2PT i , +1 dzień zmiany we wspomnieniach
+","Każdy kolejny 1PM/2Tchu":" -3PT, ,Test Ducha +2PT,  ,+1 dzień zmiany we wspomnieniach lub +1 zmiana we wspomnieniach.
+"Niepowodzenie":" Cel czaru jest świadomy, że coś lub ktoś użył jakiejś mocy na nim, ale nie ma żadnego efektu.
+","Ups":" Mistyk zapomina co chciał zrobić, pomięć z tej chwili wróci mu następnego dnia.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"PT-1 ,, Czas +1godz., Zasięg+20m, Szybkość-1, Test Ducha+2
+
+
+
+
+"}],{
+"Mistyk": ["Psychon"],
+"Name":"Zmieszanie",
+"PM":"1/Dech:4",
+"Szybkość":"4 AZ, C",
+"PT":7 ,
+"Czas":"1 runda/min.",
+"Zasięg":"20m",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk rozprasza swoim zaklęciem ofiarę, przez co istota będąca celem czaru nie może wykonywać akcji złożonych przez czas 1 rundy/min.
+"Każdy kolejny sukces":"+1 runda/min.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, Czas +1 runda/min.
+"Niepowodzenie":" Cel czaru jest świadomy, że coś lub ktoś użył jakiejś mocy na nim, ale nie ma żadnego efektu.
+","Ups":" Mistyk sam czuje się zmieszany i nie może wykonywać akcji złożonych przez czas trwania zaklęcia.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT,  ,Czas +1 runda/min., Szybkość -1, Zasięg +20m
+
+
+
+
+"}],{
+"Mistyk": ["Szaman"],
+"Name":"Znalezienie ścieżki",
+"PM":"1/Dech:4",
+"Szybkość":"5 AZ, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk zaczyna doskonale orientować się w otoczeniu. Wie, gdzie jest i którędy ma iść by dotrzeć do celu. Otrzymuje +8 do Przetrwania w testach dotyczących wędrówki i wyczucia kierunku.
+"Każdy kolejny sukces":"1 sukces – mistyk instynktownie wie, jak opuścić dany obszar i trafić do celu, nawet jak jest w labiryncie. 2 sukces – mistyk instynktownie wykrywa zagrożenia i pułapki na swej drodze do celu. 3 sukces – mistyk instynktownie wykryje zagrożenia czyhające na jego drodze na planie cieni.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1,
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Północ, południe... zawsze mi się myli. -8 do Przetrwania w testach na orientację na czas trwania zaklęcia.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +1godz.
+
+
+
+
+"}],{
+"Mistyk": ["Zakonnik"],
+"Name":"Zręczność małpy",
+"PM":"1/Dech:4",
+"Szybkość":"5AP, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk rzuca na siebie moc, dzięki której otrzymuje dodatkową kość do testów Zręczności.
+"Każdy kolejny sukces":"+1 kość Zręczności
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Czar działa na opak i zamiast dodać tyle kostek zręczności ile wskazywałoby na to zaklęcie, odejmuje adekwatną ilość kości od puli postaci. Jeżeli ilość kości zręczności spadnie poniżej 1 postać nie ma siły na nic, nawet na to by się poruszać lub stać. Osłabiona pada na ziemię.
+"Ujawnienie":"PT k ,ość.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, +1 kość Zręczności, Czas +1godz.
+
+
+
+
+"}],{
+"Mistyk": ["Szarlatan"],
+"Name":"Zrozumienie języka",
+"PM":"1/Dech:4",
+"Szybkość":"6 AP, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk pod wpływem tej mocy dokładnie rozumie co się do niego mówi, nawet jak nie zna danego języka. Moc działa na każdy język/mowę, gdzie występują artykułowane wyrazy i zwroty. Nie działa na szczekania czy porykiwania istot nie potrafiących składać wyrazów i mówić. Ten czar można rzucić nawet w sytuacji, gdy mistyk zna jakiś język z nadzieją na uzyskanie wyższych przerzutów i płynących z nich bonusów.
+"Każdy kolejny sukces":"1 sukces – mistyk potrafi odpowiadać w zasłyszanym języku, 2 sukcesy – mistyk ma +1 do rzutów na Charyzmę za elokwencję, 3 sukcesy – mistyk ma +1 do przenikliwości za pełne zrozumienie języka, który słyszy.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Mistyk nie wie co mówią inni w nieznanych mu językach, a jego głupi wyraz twarzy powoduje że podczas trwania tego zaklęcia ma –2 do testów związanych z Charyzmą.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, +1godz.
+
+
+
+
+"}],{
+"Mistyk": ["Szaman",", "Zakonnik".,", "Świątobliwy"],
+"Name":"Zwalczanie zatrucia",
+"PM":"1/Dech:4",
+"Szybkość":"5 PA, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk zwalcza od razu truciznę lub toksynę atakującą jego ciało. To co do tej pory substancja zniszczyła w jego organizmie pozostaje, jednakże blokowane są dalsze efekty. Każda nowa przyjęta substancja podczas trwania czaru nie przynosi żadnych efektów. Jest od razu neutralizowana przez magię w ciele. Tyczy się to też alkoholu i wszelkich narkotyków. W przypadku promieniowania mistyk ma bonus +2 do odpierania choroby popromiennej.
+"Każdy kolejny sukces":"+1 godz.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Mistyk nie nabywa odporności, a testy na trucizny i inne substancje wykonuje z modyfikatorem –2 na czas trwania zaklęcia.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, Czas +1godz.
+
+
+
+
+"}],{
+"Mistyk": ["Psychon",", "Zwiastun","Szaman",", "Zakonnik"],
+"Name":"Zwierzęca empatia",
+"PM":"1/Dech:4",
+"Szybkość":"4 AP, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk rozumie zachowanie i wygląd zwierząt, wie, co swoimi ruchami, dźwiękami lub kolorami chce przekazać zwierzę i jest to w 100% trafna diagnoza, tak jakby zwierzę do niego to mówiło. Oczywiście nastawienie zwierząt się zmienia, ale mistyk będzie to wiedział, jeżeli czar jeszcze działa.
+"Każdy kolejny sukces":"+1 godz. Działania czaru.
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, +1 godzina działania czaru
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Mistyk zaczyna słyszeć własne emocje co doprowadza go do stanu lękowego, bo przestaje rozumieć, co się dzieje. Mistyk musi wykonać test Jaj(7) albo wpadnie w panikę i stan lęku. Będzie chciał się schować w bezpiecznym miejscu. Ten stan będzie go męczył do końca czasu działania zaklęcia. Jeżeli zda test, jest poddenerwowany, ale rozumie przyczynę i jakoś to kontroluje. Chociaż widać, że coś jest z nim nie tak.
+"Ujawnienie":"PT k ,ość. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Czas +1 godz., Szybkość -1,
+
+
+
+
+"}],{
+"Mistyk": ["Świątobliwy"],
+"Name":"Zwiększenie ducha",
+"PM":"1/Dech:4",
+"Szybkość":"6 PA, C",
+"PT":7 ,
+"Czas":"1 godz.",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk zwiększa swoją siłę woli dodając sobie +2 do testów na Ducha i umiejętności z Ducha.
+"Każdy kolejny sukces":"+1 do testów Ducha
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, +1 do testó Ducha
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Moc miała wzmocnić umysł a osłabiła ciało. Mistyk na czas trwania zaklęcia ma modyfikator ujemy zależny od siły czaru do testów na Siłę.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, +1 do testów Ducha, Czas +1 godz.
+
+
+
+
+"}],{
+"Mistyk": ["Zakonnik"],
+"Name":"Życiodajna siła",
+"PM":"1/Dech:4",
+"Szybkość":"5AZ, C",
+"PT":7 ,
+"Czas":"1 min",
+"Zasięg":"osobisty",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk wykorzystuje swój dech do leczenia swoich ran. Jeżeli czar mu się powiedzie poświęca 8 tchu by wyleczyć jedną ranę. Na przykład rana poziomu 4 zmniejszy się na poziom 3.
+"Każdy kolejny sukces":"możliwość leczenia +1 rany (może być na innej lokacji)
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1,
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Postać traci dech, który miała użyć do leczenia, ale rana nadal pozostaje.
+"Ujawnienie":"Jeżeli czar się uda, obserwator widzi jak rany goją się i zasklepiają.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1,
+"}],
+{
+"Mistyk": ["Zwiastun"],
+"Name":"Życiodajny wzrost",
+"PM":"1/Dech:4",
+"Szybkość":"5 PA, C",
+"PT":7 ,
+"Czas":"10min",
+"Zasięg":"r=5m",
+"Gest":"nie",
+"Opis": {"Opis":"Mistyk tworzy sferę, sam znajduje się w jej wnętrzu. Roślinność zasilona radioaktywnym mistycyzmem zaczyna rosnąć jak szalona. 1min dla takich roślinek jest jak 1dzień. Inne istoty żywe (ssaki, ryby, itd.) zaczynają się szybciej starzeć (dorastać). Choć ich ciało się zmieni, umysł zostanie na poziomie ich naturalnego wieku. Nieumarli w strefie gniją w tempie naturalnego ciała. Tego gnicia nie da się już odwrócić jedząc mięso. Ten czar w dłuższej perspektywie zabija umarłych, rozkładając ich zupełnie.
+"Każdy kolejny sukces":"+1 dzień na min
+","Każdy kolejny 1PM/2Tchu":" -3PT,  ,Szybkość -1, r=+5m
+"Niepowodzenie":" Nic się nie dzieje, brak efektu.
+","Ups":" Roślinki nie rosną, ale zostają zmutowane w losowy sposób. (K10) 1-4 - większe plony, silniejsze pnie. 5-8 – marne plony, wątłe pnie. 9 - wytwarzają się elementy nieistniejące normalnie u roślin. 10 – tworzy się roślina wynaturzenie. Organizmy żywe nie rosną, zostają poddane losowej mutacji.
+"Ujawnienie":"PT1/ ,2 kości. Moc rzucana bez efektów wizualnych.
+","Rozwinięcia":"-1PT(m ,in3), Szybkość -1, +1dzień na min., Czas +10min.}"
+
+
+]
