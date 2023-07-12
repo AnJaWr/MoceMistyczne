@@ -133,12 +133,24 @@ wrapper.classList.add(insertclass);
 function scrollToElement() {
   var scrollValue = document.getElementById("scrollInput").value.toLowerCase();
   var elements = document.querySelectorAll("[id]");
+  
+var elementy = document.getElementsByClassName("mistyk");
+var elementsArray = Array.from(elementy);
+elementsArray.forEach(element => {
+element.style.display = "block";
+})
 
   for (var i = 0; i < elements.length; i++) {
+    var klasa = elements[i].parentElement.getAttribute('data');
     var elementId = elements[i].id.toLowerCase();
     if (elementId.includes(scrollValue)) {
       elements[i].scrollIntoView();
+
+      var wrapper = document.getElementById("misticBackground")
+    wrapper.setAttribute("class", klasa)
       break;
     }
   }
+
+  
 }
