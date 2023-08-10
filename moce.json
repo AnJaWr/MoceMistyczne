@@ -41,7 +41,7 @@
 
   {
     "Mistyk": [
-      "Szarlatan"
+      "Szaman", "Nekromanta", "Szarlatan"
     ],
     "Name": "Animizacja rośliny",
     "PM": "1/Dech:4",
@@ -213,7 +213,7 @@
   },
   {
     "Mistyk": [
-      "Szarlatan"
+      "Szarlatan", "Nekromanta"
     ],
     "Name": "Ciemność",
     "PM": "1/Dech:4",
@@ -310,7 +310,7 @@
 
 
     "Mistyk": [
-      "Szaman"
+      "Szaman", "Nekromanta"
     ],
     "Name": "Droga w zaświaty",
     "PM": "1/Dech:4",
@@ -460,7 +460,7 @@
 
   {
     "Mistyk": [
-      "Zwiastun"
+      "Zwiastun", "Nekromanta"
     ],
     "Name": "Groza potępionych",
     "PM": "1/Dech:4",
@@ -540,7 +540,7 @@
   },
   {
     "Mistyk": [
-      "Szaman"
+      "Szaman", "Nekromanta"
     ],
     "Name": "Klątwa",
     "PM": "1/Dech:4",
@@ -605,7 +605,7 @@
   },
   {
     "Mistyk": [
-      "Psychon"
+      "Psychon", "Nekromanta"
     ],
     "Name": "Koszmary",
     "PM": "1/Dech:4",
@@ -1171,7 +1171,7 @@
   },
   {
     "Mistyk": [
-      "Szaman"
+      "Szaman", "Nekromanta"
     ],
     "Name": "Odesłanie",
     "PM": "1/Dech:4",
@@ -1248,7 +1248,7 @@
   },
   {
     "Mistyk": [
-      "Szaman"
+      "Szaman", "Nekromanta"
     ],
     "Name": "Opętanie",
     "PM": "1/Dech:4",
@@ -1268,7 +1268,8 @@
   {
     "Mistyk": [
       "Szaman",
-      "Szarlatan"
+      "Szarlatan",
+      "Nekromanta"
     ],
     "Name": "Osłabienie",
     "PM": "1/Dech:4",
@@ -1611,7 +1612,7 @@
   },
   {
     "Mistyk": [
-      "Zakonnik"
+      "Zakonnik", "Nekromanta"
     ],
     "Name": "Pożeranie dusz",
     "PM": "1/Dech:4",
@@ -1875,8 +1876,8 @@
   },
   {
     "Mistyk": [
-      "Szaman",
-      "Świątobliwy"
+      "Świątobliwy",
+      "Nekromanta"
     ],
     "Name": "Rozmowa ze zmarłymi",
     "PM": "1/Dech:4",
@@ -1915,7 +1916,9 @@
   },
   {
     "Mistyk": [
-      "Zakonnik"
+      "Zakonnik",
+      "Szaman",
+      "Nekromanta"
     ],
     "Name": "Rozpoznanie mistycznej istoty",
     "PM": "1/Dech:4",
@@ -2031,7 +2034,8 @@
   {
     "Mistyk": [
       "Świątobliwy",
-      "Szaman"
+      "Szaman",
+      "Nekromanta"
     ],
     "Name": "Spętanie duszy",
     "PM": "1/Dech:4",
@@ -2088,7 +2092,8 @@
   },
   {
     "Mistyk": [
-      "Szaman"
+      "Szaman",
+      "Nekromanta"
     ],
     "Name": "Sprowadzenie duszy",
     "PM": "1/Dech:4",
@@ -2129,7 +2134,8 @@
     "Mistyk": [
       "Szarlatan",
       "Świątobliwy",
-      "Zwiastun"
+      "Zwiastun",
+      "Nekromanta"
     ],
     "Name": "Strefa śmierci",
     "PM": "1/Dech:4",
@@ -2285,7 +2291,11 @@
     "Mistyk": [
       "Zwiastun",
       "Psychon",
-      "Świątobliwy"
+      "Świątobliwy",
+      "Nekromanta",
+      "Szaman",
+      "Zakonnik",
+      "Szarlatan"
     ],
     "Name": "Terror",
     "PM": "1/Dech:4",
@@ -2381,7 +2391,8 @@
   {
     "Mistyk": [
       "Zakonnik",
-      "Świątobliwy"
+      "Świątobliwy",
+      "Nekromanta"
     ],
     "Name": "Wampirzy dotyk",
     "PM": "1/Dech:4",
@@ -2400,7 +2411,8 @@
   },
   {
     "Mistyk": [
-      "Szaman"
+      "Szaman",
+      "Nekromanta"
     ],
     "Name": "Wcielenie",
     "PM": "1/Dech:4",
@@ -2558,7 +2570,8 @@
       "Zakonnik",
       "Szarlatan",
       "Świątobliwy",
-      "Psychon"
+      "Psychon",
+      "Nekromanta"
     ],
     "Name": "Wykrycie energii mistycznej",
     "PM": "1/Dech:4",
@@ -2697,7 +2710,8 @@
       "Zwiastun",
       "Świątobliwy",
       "Szarlatan",
-      "Zakonnik"
+      "Zakonnik",
+      "Nekromanta"
     ],
     "Name": "Wywołanie strachu",
     "PM": "1/Dech:4",
@@ -2774,7 +2788,8 @@
   },
   {
     "Mistyk": [
-      "Szarlatan"
+      "Szarlatan",
+      "Nekromanta"
     ],
     "Name": "Zdechł pies",
     "PM": "1/Dech:4",
