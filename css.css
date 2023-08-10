@@ -17,6 +17,7 @@ body{
 }
 .select{
     color: black;
+    margin-right:50px;
 }
 #misticBackground{
     height: 100%;
@@ -66,8 +67,11 @@ body{
     
 }
 .Nekromanta{
-    background-image: url(nekromanta.png);
+    background-image: url(https://cdn.midjourney.com/767f75c7-d7fd-4f0d-aac3-6f71fe9210a5/0_3.webp);
     
+}
+.Alchemik{
+  background-image: url(https://cdn.midjourney.com/27861101-3f37-4f5e-a21a-f1cb2fae1a7b/0_1.webp);
 }
 .Zwiastun{
     background-image: url(https://cdn.midjourney.com/27a69dcf-a250-48a3-9239-b32f224615ce/0_2.webp);

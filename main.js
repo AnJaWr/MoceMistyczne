@@ -98,6 +98,8 @@ displayMistycy();
 //     }
 //   });
 // }
+// const selectElement = document.getElementById('mistykSelect');
+// selectElement.addEventListener('change', filterDivs)
 
 function filterDivs() {
   var selectedAttribute = document.getElementById("mistykSelect").value;

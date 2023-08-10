@@ -41,7 +41,7 @@
 
   {
     "Mistyk": [
-      "Szarlatan"
+      "Szaman", "Nekromanta", "Szarlatan"
     ],
     "Name": "Animizacja rośliny",
     "PM": "1/Dech:4",
@@ -213,7 +213,7 @@
   },
   {
     "Mistyk": [
-      "Szarlatan"
+      "Szarlatan", "Nekromanta"
     ],
     "Name": "Ciemność",
     "PM": "1/Dech:4",
@@ -310,7 +310,7 @@
 
 
     "Mistyk": [
-      "Szaman"
+      "Szaman", "Nekromanta"
     ],
     "Name": "Droga w zaświaty",
     "PM": "1/Dech:4",
@@ -460,7 +460,7 @@
 
   {
     "Mistyk": [
-      "Zwiastun"
+      "Zwiastun", "Nekromanta"
     ],
     "Name": "Groza potępionych",
     "PM": "1/Dech:4",
@@ -540,7 +540,7 @@
   },
   {
     "Mistyk": [
-      "Szaman"
+      "Szaman", "Nekromanta"
     ],
     "Name": "Klątwa",
     "PM": "1/Dech:4",
@@ -605,7 +605,7 @@
   },
   {
     "Mistyk": [
-      "Psychon"
+      "Psychon", "Nekromanta"
     ],
     "Name": "Koszmary",
     "PM": "1/Dech:4",
@@ -1171,7 +1171,7 @@
   },
   {
     "Mistyk": [
-      "Szaman"
+      "Szaman", "Nekromanta"
     ],
     "Name": "Odesłanie",
     "PM": "1/Dech:4",
@@ -1248,7 +1248,7 @@
   },
   {
     "Mistyk": [
-      "Szaman"
+      "Szaman", "Nekromanta"
     ],
     "Name": "Opętanie",
     "PM": "1/Dech:4",
@@ -1268,7 +1268,8 @@
   {
     "Mistyk": [
       "Szaman",
-      "Szarlatan"
+      "Szarlatan",
+      "Nekromanta"
     ],
     "Name": "Osłabienie",
     "PM": "1/Dech:4",
@@ -1611,7 +1612,7 @@
   },
   {
     "Mistyk": [
-      "Zakonnik"
+      "Zakonnik", "Nekromanta"
     ],
     "Name": "Pożeranie dusz",
     "PM": "1/Dech:4",
@@ -1875,8 +1876,8 @@
   },
   {
     "Mistyk": [
-      "Szaman",
-      "Świątobliwy"
+      "Świątobliwy",
+      "Nekromanta"
     ],
     "Name": "Rozmowa ze zmarłymi",
     "PM": "1/Dech:4",
@@ -1915,7 +1916,9 @@
   },
   {
     "Mistyk": [
-      "Zakonnik"
+      "Zakonnik",
+      "Szaman",
+      "Nekromanta"
     ],
     "Name": "Rozpoznanie mistycznej istoty",
     "PM": "1/Dech:4",
@@ -2031,7 +2034,8 @@
   {
     "Mistyk": [
       "Świątobliwy",
-      "Szaman"
+      "Szaman",
+      "Nekromanta"
     ],
     "Name": "Spętanie duszy",
     "PM": "1/Dech:4",
@@ -2088,7 +2092,8 @@
   },
   {
     "Mistyk": [
-      "Szaman"
+      "Szaman",
+      "Nekromanta"
     ],
     "Name": "Sprowadzenie duszy",
     "PM": "1/Dech:4",
@@ -2129,7 +2134,8 @@
     "Mistyk": [
       "Szarlatan",
       "Świątobliwy",
-      "Zwiastun"
+      "Zwiastun",
+      "Nekromanta"
     ],
     "Name": "Strefa śmierci",
     "PM": "1/Dech:4",
@@ -2285,7 +2291,11 @@
     "Mistyk": [
       "Zwiastun",
       "Psychon",
-      "Świątobliwy"
+      "Świątobliwy",
+      "Nekromanta",
+      "Szaman",
+      "Zakonnik",
+      "Szarlatan"
     ],
     "Name": "Terror",
     "PM": "1/Dech:4",
@@ -2381,7 +2391,8 @@
   {
     "Mistyk": [
       "Zakonnik",
-      "Świątobliwy"
+      "Świątobliwy",
+      "Nekromanta"
     ],
     "Name": "Wampirzy dotyk",
     "PM": "1/Dech:4",
@@ -2400,7 +2411,8 @@
   },
   {
     "Mistyk": [
-      "Szaman"
+      "Szaman",
+      "Nekromanta"
     ],
     "Name": "Wcielenie",
     "PM": "1/Dech:4",
@@ -2558,7 +2570,8 @@
       "Zakonnik",
       "Szarlatan",
       "Świątobliwy",
-      "Psychon"
+      "Psychon",
+      "Nekromanta"
     ],
     "Name": "Wykrycie energii mistycznej",
     "PM": "1/Dech:4",
@@ -2697,7 +2710,8 @@
       "Zwiastun",
       "Świątobliwy",
       "Szarlatan",
-      "Zakonnik"
+      "Zakonnik",
+      "Nekromanta"
     ],
     "Name": "Wywołanie strachu",
     "PM": "1/Dech:4",
@@ -2774,7 +2788,8 @@
   },
   {
     "Mistyk": [
-      "Szarlatan"
+      "Szarlatan",
+      "Nekromanta"
     ],
     "Name": "Zdechł pies",
     "PM": "1/Dech:4",
@@ -3190,7 +3205,7 @@
     "Czas": "1min. ",
     "Zasięg": "dotyk",
     "Przedmioty": "Mistyk potrzebuje aparatury do destylacji chemicznej, puste flakoniki do aplikatora leków, po 1L 8 różnych substancji chemicznych, które będzie ze sobą mieszał w różnych kompozycjach, zasilanie w postaci ED",
-    "Opis": "Przedmiot mistyka napełnia mózg duchową energią zwiększając w ten sposób chwilowo możliwości umysłowe ciała poddanego działaniu mocy, ilość kostek Spostrzegawczości, Sprytu, Charyzmy, Ducha lub Wiedzy zwiększa się o 1. Mistyk określa rodzaj stymulowanej cechy podczas tworzenia przedmiotu. Po 1min, Cecha wraca do swojej normalnej formy. Do działania przedmiot potrzebuje 1ED. Jeżeli przedmiot ma więcej ED, moc może działać dłużej. Mistyk konstruuje 3k10mdawek takiego specyfiku (bez przerzutów).",
+    "Opis": "Przedmiot mistyka napełnia mózg duchową energię zwiększając w ten sposób chwilowo możliwości umysłowe ciała poddanego działaniu mocy, ilość kostek Spostrzegawczości, Sprytu, Charyzmy, Ducha lub Wiedzy zwiększa się o 1. Mistyk określa rodzaj stymulowanej cechy podczas tworzenia przedmiotu. Po 1min, Cecha wraca do swojej normalnej formy. Do działania przedmiot potrzebuje 1ED. Jeżeli przedmiot ma więcej ED, moc może działać dłużej.Mistyk konstruuje 3k10 dawek takiego specyfiku (bez przerzutów)",
     "Sukcesplus": "+1kość cechy",
     "Addmoc": "-3PT, Szybkość -1, ",
     "Niepowodzenie": "Nic się nie dzieje, brak efektu. Chemikalia są zmarnowane. ",
@@ -3624,6 +3639,164 @@
     "Ups": " Wybuch energii duchowej rozrywa przedmioty użyte do konstrukcji niszcząc je kompletnie i zadając konstruktorowi 1k6 obr za 1ED, 1L, 1kg lub 100j.e. energii użytej lub zmagazynowanej do konstrukcji urządzenia. Obrażenia są obszarowe. ",
     "Ujawnienie": "Osoby widzące mistyka podczas konstruowania, są świadome, że dzieje się tu coś niezwykłego. ",
     "Rozwiniecia": "-1PT(min3), Szybkość -1, "
-  }
+  },
 
-]
+  { 
+    "Mistyk": ["Nekromanta"], 
+    "Name": "Reanimacja zwłok", 
+    "PM": "1/Dech:4", 
+    "Szybkość": "5 PA, C", 
+    "PT": 7, 
+    "Czas": "1 dzień", 
+    "Zasięg": "5m", 
+    "Gest": "tak", 
+    "Opis": "Mistyk ożywia ciało jakiejś zmarłej istoty. Ożywiana istota nie musi być kompletna, nie musi posiadać organów pozwalających jej egzystować. Jednakże jeżeli z powodu uszkodzeń brakuje jej elementów ciała pozwalających poruszać się (mięśni, ścięgien) to istota taka będzie nieruchoma, chyba że mistyk wyda na czar kolejny PM lub Dech by ubytki zastąpić swoją mocą. W ten sposób nie da się uzupełnić straconych kawałków ciała. Umożliwi to podniesienie nawet starych kości szkieletu, które zamiast mięśni i ścięgien będą połączone cienkimi pasemkami magii. Czar działa na istoty o Rozmiarze od 1 do 6, jeżeli cel jest większy, trzeba wydać dodatkowy PM lub Dech za każde dwa dodatkowe punkty Rozmiaru. Dla przykładu ożywienie ruchomego szkieletu konia o rozmiarze 9 będzie kosztować łącznie 4PM lub 16Tchu. Ożywiona kreatura ma zmysł dotyku, nawet jeśli jest tylko szkieletem. Do odczuwania pozostałych zmysłów potrzebuje odpowiednich organów. Jeżeli ich nie posiada to nic nie będzie widziała czy słyszała. Mistyk jest w stanie kierować/rozkazywać każdej ożywionej w ten sposób istocie za pomocą swoich myśli. By to robić musi się skoncentrować co zabiera mu 1AP i być w odległości do 20m. Jeżeli mistyk chce kontrolować na raz więcej ożywionych istot musi wydać akcję na test Sprytu. Przy dwóch istotach PT5 i +2 za każdą kolejną. Jeżeli mu nie wyjdzie na każdego musi wydać akcję by nim zarządzać. Jeżeli mu się powiedzie, może wszystkimi zarządzać na 1 akcji. Ożywione istoty które zostają bez poleceń albo stoją w miejscu popadając w apatię albo wykonują najbardziej instynktowne dla siebie czynności, coś na wzór pamięci mięśniowej. Co więcej ożywione istoty niezależnie od tego czy posiadają własne zmysły czy nie, mogą korzystać ze zmysłów swojego stwórcy. Będą wtedy widzieć i słyszeć to co mistyk. Może się zdarzyć tak, że ożywieniec patrząc oczami swojego mistrza, może zauważyć coś czego nie widzi sam mistyk. Taki ożywieniec jeżeli dostał odpowiednie polecenie od mistrza, może zacząć wykonywać je, nawet gdy mistyk jeszcze nie zorientuje się o co chodzi. Mistyk ożywiając taką istotę może wydać na nią dodatkowy PM lub Dech by nadać jej mistycznie jakiś zmysł. Gdy czar się skończy lub mistyk go przerwie, umarlak zwala się na ziemię i leży jak na trupa przystało. Statystyki takiego ożywieńca są obniżone o 1 wielkość kostki w stosunku do tego jak był żywą istotą. Tak więc człowiek składający się z kostek 3k6 będzie ożywieńcem składającym się z 3k4. To samo się tyczy posiadanych przez niego umiejętności. Jako ożywieniec ma wszystkie obniżone o 1 poziom w stosunku do tych posiadanych za życia. Jeżeli podczas ożywienia, w skutek obrażeń, ożywieniec straci dech, to czar przestaje działać, jeżeli otrzyma 5 bądź więcej ran na 3 lub więcej lokacjach (bądź na każdej, jeżeli jest ich mniej niż 3) to także czar przestaje działać. Oznacza to, że odcięcie mu głowy nie zabije go, a jedynie utrudni orientacje w trenie. Mistyk Cybertechu jest w stanie ożywić w ten sposób wygasłe inteligentne maszyny i roboty.", 
+    "Sukcesplus":"+1 zmysł, +1 wielkość kości cechy (wybranej), +1 do umiejętności (wybranej)", 
+    "Addmoc":"-3PT, +1 zmysł, +2 dozwolony Rozmiar, Możliwość poruszania się ,Szybkość -1", 
+    "Niepowodzenie": "Zwłoki lub szczątki, które mistyk chciał podnieść deformują się i ulegają częściowemu zniszczeniu. Jeżeli mistyk nadal będzie chciał je ożywić ich statystyka będzie niższa o kolejny poziom kości.", 
+    "Ups":"Zwłoki lub szczątki napełniają się mistyczną energią po czym zamiast wstać eksplodują dookoła rażąc wszystkich w zasięgu r=Rozmiar metrów o sile równej Sile ożywianej istoty -1 poziom kości. Na przykład zwłoki człowieka eksplodują na r=6m o sile (człowiek ma 3k6, jako ożywieniec 3k4, obniżone o jeden poziom 2k4) 2k4 obr obszarowych. Wybuchowi towarzyszy huk niosący się na Rozmiar istoty x 20m maksymalnie.", 
+    "Ujawnienie": "To co widzi obserwator, czyli gesty mistyka, które podnoszą martwe ciało, jest samo w sobie dowodem na użycie mistycznych mocy. ", 
+    "Rozwiniecia": "-1PT(min3), +1 do dozwolonego Rozmiaru, +1 zmysł, Czas +1dzień, Zasięg rzucania +5m, Zasięg kontroli +20m, -1 do testu Sprytu" 
+    }, 
+    
+     
+    
+    { 
+    "Mistyk": ["Nekromanta"], 
+    "Name": "Odcięcie gospodarza", 
+    "PM": "1/Dech:4", 
+    "Szybkość": "4 AP, C", 
+    "PT": 7, 
+    "Czas": "10min", 
+    "Zasięg": "20m", 
+    "Gest": "tak", 
+    "Opis": "Mistyk blokuje połączenie między ożywieńcem i jego stwórcą. Moc nie działa na nieumarłe wynaturzenia, które odcięły się od stwórcy i stały się niezależne. Odcięty od mocy ożywieniec musi wykonać test na umiejętność: siła woli(7) jeżeli mu się nie uda popada w odrętwienie, nawet się nie broni. Jeżeli wyrzuci Ups rozpada się i zdycha na całego. Jeżeli zda test zachowuje się tak jakby był pozbawiony rozkazów, nie posiada mocy ze skalpów, ani żadnych wykupionych zdolności. Jeżeli umarlak ma świadomość, to wie, że został odcięty. Czuje, że jest osłabiony i nie posiada swoich mocy. Przy czym mniej rozumne pozbawione iskry intelektu który je stworzył, będą się zachowywać instynktownie, czyli zombie nadal będą chciały żreć, szkielety będą stały w miejscu, a duchy będą się błąkać.", 
+    "Sukcesplus":"+2PT siła woli", 
+    "Addmoc":"-3PT, +2PT siła woli, Szybkość -1", 
+    "Niepowodzenie":" Moc nie wyrządza umarlakowi żadnego efektu. Natomiast umarlak wie, że ktoś próbował mu coś zrobić, chociaż jeżeli nie widział źródła czaru, to musi je wpierw zlokalizować.", 
+    "Ups":" Odcięcie zaczyna działać wadliwie i zanim opuści dłonie mistyka uderza w niego. Poza efektem z niepowodzenia, mistyk odcina się od mocy i traci dodatkowy 1PM.", 
+    "Ujawnienie":"PT 1/2 kości. Mistyka zdradzają złowrogie ruchy dłońmi.", 
+    "Rozwiniecia": "-1PT(min3), +2PT siła woli, +20m Zasięg, Czas +10min, Szybkość -1" 
+    }, 
+    
+     
+    
+    { 
+    "Mistyk": ["Nekromanta"], 
+    "Name": "Nieumarły rozkaz", 
+    "PM": "1/Dech:4", 
+    "Szybkość": "4 AP, C", 
+    "PT": 7, 
+    "Czas": "różny", 
+    "Zasięg": "10m", 
+    "Gest": "werbalny", 
+    "Opis": "Mistyk swym głosem wypełnionym magią nakazuje ożywieńcowi wykonanie jakiejś czynności. Jeżeli ożywieniec nie zda testu umiejętności: siła woli(7) musi ulec rozkazowi i go wykonać. Jeżeli umarlak wyrzuci w tym teście upsa, staje się uległy mistykowi nawet po rozkazie. W przypadku rozumnych posiadających własną świadomość umarlaków lub nieumarłych wynaturzeń, z czasem mogą się wyzwolić spod tego zaklęcia. Jeżeli wyrzucili upsa lub rozkaz był długoterminowy mogą codziennie próbować wydostać się z uroku. Jeżeli umarlak zda test, wie że mistyk próbował go usidlić, a co więcej dzięki połączeniu telepatycznemu, łatwiej jest mu go namierzyć, jeżeli mistyk ukrywał się. Umarlak ma +8 do testu Spostrzegawczości.", 
+    "Sukcesplus":"+2PT siła woli", 
+    "Addmoc":"-3PT, +2PT siła woli ,Szybkość -1", 
+    "Niepowodzenie": " Moc nie wyrządza umarlakowi żadnego efektu. Natomiast umarlak wie, że ktoś próbował mu coś zrobić, chociaż jeżeli nie widział źródła czaru, to musi je wpierw zlokalizować.", 
+    "Ups":"Dzięki połączeniu telepatycznemu z umarlakiem i temu, że mistyk spaprał sprawę. Biedak czuje całą złość i nienawiść umarlaka. Mistyk musi wykonać rzut na umiejętność siła woli: odwaga(7) jeżeli nie zda umarlak staje się dla niego źródłem lęku, zgodnie z zasadami strachu.", 
+    "Ujawnienie":"PT1/2 kości. Mistyk werbalnie wymawia rozkaz, dość łatwo go namierzyć, że robi coś dziwnego, z drugiej strony, ktoś może uznać to za całkiem normalne.", 
+    "Rozwiniecia": "-1PT(min3), +2PT siła woli, Szybkość -1, Zasięg +10m" 
+    }, 
+    
+     
+    
+    { 
+    "Mistyk": ["Nekromanta"], 
+    "Name": "Glif powrotu", 
+    "PM": "1/Dech:4", 
+    "Szybkość": "4 AZ, W", 
+    "PT": 7, 
+    "Czas": "1min/6 rund", 
+    "Zasięg": "20m", 
+    "Gest": "tak", 
+    "Opis": " Mistyk tworzy na jakiejś powierzchni świecący wyblakłym światłem glif z magicznym znakiem, który wysysa z umarlaków ich dech, w tempie 1k6 na akcji na której został rzucony. W zależności od rodzaju umarlaka, gdy jego dech spadnie do 0 albo się rozpadnie albo zapadnie w letarg. Czar nie ma zupełnie żadnego wpływu na zwykłe żywe istoty, czy przedmioty. ", 
+    "Sukcesplus":"+1k6 tchu", 
+    "Addmoc":"-3PT, +1k6 tchu ,Szybkość -1", 
+    "Niepowodzenie": "Nic się nie dzieje, brak efektu. Glif się nie pokazał.", 
+    "Ups":"Energia glifu wybucha bladym światłem w dłoni mistyka wysysając z niego 1k6 tchu, po czym rozpływa się w nicości.", 
+    "Ujawnienie": "PT kość. Obserwator widzi magiczny świecący się glif ale nie koniecznie skojarzy go z mistykiem.", 
+    "Rozwiniecia": "-1PT(min3), +1k6 tchu, Czas +1min, Zasięg +20m, Szybkość -1." 
+    }, 
+    
+     
+    
+    { 
+    "Mistyk": ["Nekromanta"], 
+    "Name": "Glif nieumarłego życia", 
+    "PM": "1/Dech:4", 
+    "Szybkość": "4 AZ, W", 
+    "PT": 7, 
+    "Czas": "1min/6 rund", 
+    "Zasięg": "20m", 
+    "Gest": "tak", 
+    "Opis": " Mistyk tworzy na jakiejś powierzchni świecący wyblakłym światłem glif z magicznym znakiem, który dodaje umarlakom dech, w tempie 1k6 na akcji na której został rzucony. Czar nie ma zupełnie żadnego wpływu na zwykłe żywe istoty, czy przedmioty. ", 
+    "Sukcesplus":"+1k6 tchu", 
+    "Addmoc":"-3PT, +1k6 tchu ,Szybkość -1", 
+    "Niepowodzenie":" Nic się nie dzieje, brak efektu. Glif się nie pokazał.", 
+    "Ups":" Energia glifu wybucha bladym światłem w dłoni mistyka wysysając z niego 1k6 tchu, po czym rozpływa się w nicości.", 
+    "Ujawnienie":"PT kość. Obserwator widzi magiczny świecący się glif ale nie koniecznie skojarzy go z mistykiem.", 
+    "Rozwiniecia": "-1PT(min3), +1k6 tchu, Czas +1min, Zasięg +20m, Szybkość -1." 
+    }, 
+    
+     
+    
+    { 
+    "Mistyk": ["Nekromanta"], 
+    "Name": "Nekrotyczny promień", 
+    "PM": "1/Dech:4", 
+    "Szybkość": "4 AZ, C", 
+    "PT": 7, 
+    "Czas": "chwila", 
+    "Zasięg": "r=2m,20m", 
+    "Gest": "tak", 
+    "Opis": "Mistyk wysysa życie z otoczenia by wystrzelić wiązkę śmiercionośnej energii. Po przygotowaniu czaru w jednym impulsie energii mistyk czerpie dech otaczających go istot wysysając z nich 1k6 tchu (każdej, poza nim samym). Jeżeli istota nie chce oddać tchu dobrowolnie ma rzut obronny na umiejętność siła woli(7), jeżeli zda test traci tylko połowę tchu zaokrąglając w dół. By czar zadziałał, należy w ten sposób wyssać przynajmniej 1 tchu. Zgromadzony w ten sposób dech jest wysyłany w postaci blado świecącego się promienia w kierunku celu, któremu zadaje obrażenia w losową widoczną lokację o sile zgromadzonego tchu. Obrażenia wyliczane są w normalny sposób z uwzględnieniem pancerza i innych czynników. W przypadku dodatkowych sukcesów podczas rzucania czaru dodawane są obrażenia do wartości wyssanego tchu. Dawcy tchu nie tracą go więcej. Jeżeli mistyk uważa, że zebrał za mało energii, zamiast odpalać czar, ma szansę na ponowienie go, tak jakby rzucał go ponownie i do zebranego już tchu i sukcesów dodaje kolejne. Jednakże w przypadku niepowodzenia kolejnego rzutu na czar traci zebraną do tej pory moc.", 
+    "Sukcesplus":"+1k6 obr", 
+    "Addmoc":"-3PT, Szybkość -1", 
+    "Niepowodzenie":"Nic się nie dzieje, brak efektu. Jeżeli była zmagazynowana wcześniej jakaś moc, to rozpływa się w otoczeniu, bez jakiegokolwiek efektu.", 
+    "Ups":"Podczas zbierania energii coś poszło nie tak i zamiast z otaczających mistyka żywych istot, energię zaczął pobierać sam z siebie. Mistyk traci 1k6 tchu, który wybucha w nim w losowej lokacji. Jeżeli czar był przedłużany i nagromadzona już była energia to dodajemy ją do tego wybuchu.", 
+    "Ujawnienie":"PT kość.", 
+    "Rozwiniecia": "-1PT(min3), Szybkość -1, r=+2m, Zasięg +20m, +2PT siła woli, +1k6 obr" 
+    }, 
+    
+     
+    
+    { 
+    "Mistyk": ["Nekromanta"], 
+    "Name": "Rozkład żywej materii", 
+    "PM": "1/Dech:4", 
+    "Szybkość": "4 AZ, C", 
+    "PT": 7, 
+    "Czas": "stały", 
+    "Zasięg": "10m", 
+    "Gest": "tak", 
+    "Opis": "Mistyk doprowadza do obumarcia żywej materii. Gestem wskazuje część ciała żywej istoty lub rośliny, która ma obumrzeć. Czar zadaje 3k6 obrażeń w wyznaczonej lokacji. Jeżeli zostanie zadane obrażenie oznacza to, ze wdała się martwica. Czym więcej obrażeń z czaru wejdzie, tym martwica obejmie większą część danej lokacji ciała. Tak więc przy 5 ranach będzie to cała lokacja. W przypadku głowy czy trzewi nie ma dodatkowych kostek do obrażeń. Ofiara tego czaru ma szansę uniknąć konsekwencji jeżeli zostanie jej udzielona pomoc medyczna w ciągu złotej godziny, test umiejętności medycyna, której poziom zależy od ilości ran od czaru. 1 rana PT5, 2 rany PT7 itd. Po upływie złotej godziny martwą tkankę będzie trzeba wyciąć inaczej ofiara czaru zachoruje na gangrenę, co może doprowadzić do jej śmierci. Wycięcie ciała 1 rany, zagoi się i pozostanie duża blizna, przy ranie za 2 i 3 dojdzie do wycięcia znacznej części ciała co w przypadku ręki da modyfikator -2 przy używaniu jej, w przypadku nogi -2 Tempo, w przypadku głowy utrata 1 zmysłu lub uszkodzenie 2, w przypadku tułowia utratę jakiegoś organu wewnętrznego co doprowadza do dalszych konsekwencji z powodu jego braku. Przy otrzymaniu rany za 4 i 5 należy pozbyć się danej części ciała, w przypadku głowy i tułowia wycięcie znacznej części tkanki w 50% doprowadzi do śmierci. Jeżeli ofiara czaru zdecyduje się nie wycinać sobie martwej tkanki zachoruje na gangrenę. Nieleczona będzie zabierała tyle tchu ile wynosi poziom rany, a gdy zabierze go tyle ile wynosi Rozmiar, gangrena rozwinie się jako kolejna rana z martwicy, aż zeżre cały organizm. Oczywiście większa rana z gangreny będzie zabierała więcej Tchu. Jeżeli zostanie rozpoczęte leczenie lekarz by zatrzymać rozwój choroby musi zdać test umiejętności medycyna choroby(9). Jeżeli mu się uda zatrzyma postępowanie choroby i dalszą utratę Tchu. Jeżeli uzyska przerzut w rzucie, to odzyska zabrany wcześniej przez chorobę punkt Tchu. Jeżeli odzyska już cały dech, każdy dodatkowy sukces leczy 1 ranę z gangreny. Rzut należy wykonać każdego dnia. W ciągu 1 dnia lekarz jest w stanie wyleczyć tylko 1 ranę z gangreny. Kurację należy utrzymywać aż do pełnego wyleczenia lub wycięcia choroby z ciała.", 
+    "Sukcesplus":"+1k6 obr", 
+    "Addmoc":"-3PT, +1k6 obr ,Szybkość -1", 
+    "Niepowodzenie":"Nic się nie dzieje, brak efektu. ", 
+    "Ups":"Energia nie wychodzi z ręki mistyka zadając mu 1k6 obr. w rękę którą wykonywał gest. Jeżeli zostanie zadana rana, w mistyka wdaje się martwica ze wszystkimi jej konsekwencjami.", 
+    "Ujawnienie":"PT kość.", 
+    "Rozwiniecia": "-1PT(min3), +1k6 obr, Zasięg +10m, Szybkość -1" 
+    }, 
+    
+     
+    
+    { 
+    "Mistyk": ["Nekromanta"], 
+    "Name": "Eteryczna pułapka", 
+    "PM": "1/Dech:4", 
+    "Szybkość": "4 AZ, C", 
+    "PT": 7, 
+    "Czas": "1godz", 
+    "Zasięg": "a=3m 20m", 
+    "Gest": "nie", 
+    "Opis": "Mistyk tworzy niewidzialne mistyczne więzienie dla bezcielesnych istot eterycznych i tych które przemieszczają się po wymiarze cienia. Pułapka ma kształt sześcianu o boku a=3m. Do pułapki można wejść, ale nie można jej opuścić, chyba że eteryczny podróżnik zda test umiejętności siła woli(9). Na istoty w pułapce nadal działają wszelkie czary czy czynniki środowiskowe.", 
+    "Sukcesplus":"+2PT siłą woli", 
+    "Addmoc":"-3PT, +2PT siła woli ,Szybkość -1", 
+    "Niepowodzenie":"Nic się nie dzieje, brak efektu. ", 
+    "Ups":"Mistykowi o dziwo nic się nie dzieje, poza złudnym przeświadczeniem, że pułapka działa. Mistyk musi wykonać test Sprytu(7), jeżeli zda, to wie, że spaprał, jeżeli mu nie wyjdzie to wierzy w moc pułapki.", 
+    "Ujawnienie":"PT kość. Niczego tu nie widać, więc ciężko jest cokolwiek wykryć.", 
+    "Rozwiniecia": "-1PT(min3), a=+1m, Zasieg +20m, Czas +1godz, +2PT siła woli, Szybkość -1" 
+    }
+    
+    ]
