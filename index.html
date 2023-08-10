@@ -11,7 +11,7 @@
 <div class="button_cnt">
   <h2 class="main_header">Mistycy</h2>
     <label   for="mistykSelect">Moce mistyczne:</label>
-    <select class="select" id="mistykSelect">
+    <select class="select" id="mistykSelect" onChange="filterDivs()">
       <option  class="select" value="All">Wszyscy</option>
       <option  class="select" value="Alchemik">Alchemik</option>
       <option  class="select" value="Nekromanta">Nekromanta</option>
@@ -24,7 +24,7 @@
      
 
     </select>
-    <button style="color:black" onclick="filterDivs()">Sortuj</button>
+    <!-- <button style="color:black" onclick="filterDivs()">Sortuj</button> -->
 
     <label for="scrollInput">Wpisz nazwę czaru:</label>
     <input type="text" id="scrollInput" class="select">
