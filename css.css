@@ -17,6 +17,7 @@ body{
 }
 .select{
     color: black;
+    margin-right:50px;
 }
 #misticBackground{
     height: 100%;
