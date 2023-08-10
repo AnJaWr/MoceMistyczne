@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wyświetlanie i sortowanie mistyków</title>
+  <link rel="stylesheet" href="css.css?v4">
+</head>
+<body>
+  <div id="misticBackground" class="All">
+
+<div class="button_cnt">
+  <h2 class="main_header">Mistycy</h2>
+    <label   for="mistykSelect">Moce mistyczne:</label>
+    <select class="select" id="mistykSelect">
+      <option  class="select" value="All">Wszyscy</option>
+      <option  class="select" value="Szaman">Szaman</option>  
+      <option   class="select" value="Psychon">Psychon</option> 
+       <option  class="select" value="Szarlatan">Szarlatan</option>  
+      <option  class="select"value="Świątobliwy">Świątobliwy</option>
+      <option  class="select"value="Zwiastun">Zwiastun</option>
+      <option  class="select" value="Zakonnik">Zakonnik</option>
+      <option  class="select" value="Nekromanta">Nekromanta</option>
+    </select>
+    <button style="color:black" onclick="filterDivs()">Sortuj</button>
+
+    <label for="scrollInput">Wpisz nazwę czaru:</label>
+    <input type="text" id="scrollInput" class="select">
+    <button class="select"onclick="scrollToElement()">Przewiń</button>
+</div>
+
+  <div id="mistycyContainer"></div>
+   </div>
+
+
+
+
+<script src="main.js"></script>
+</body>
+</html>
