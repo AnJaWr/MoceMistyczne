@@ -48,16 +48,16 @@ function displayMistycy() {
         div.appendChild(gest);
 
         var opis = document.createElement("p");
-        opis.textContent = "Opis : " + mistyk.Opis;
+        opis.textContent = "Opis: " + mistyk.Opis;
         div.appendChild(opis);
 
 
         var sukcesplus = document.createElement("p");
-    sukcesplus.textContent = "Każdy kolejny sukces " + mistyk.Sukcesplus;
+    sukcesplus.textContent = "Każdy kolejny sukces:  " + mistyk.Sukcesplus;
         div.appendChild(sukcesplus);
         
         var addmoc = document.createElement("p");
-    addmoc.textContent = "Każdy kolejny PM/dech " + mistyk.Addmoc;
+    addmoc.textContent = "Każdy kolejny PM/dech: " + mistyk.Addmoc;
         div.appendChild(addmoc);
         
 
