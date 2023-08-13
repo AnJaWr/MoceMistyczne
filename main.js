@@ -43,13 +43,31 @@ function displayMistycy() {
         zasieg.textContent = "Zasięg: " + mistyk.Zasięg;
         div.appendChild(zasieg);
 
+      if (mistyk.Mistyk == "Alchemik") {
+
+        var przedmioty = document.createElement("p");
+        przedmioty.textContent = "Przedmioty: " + mistyk.Przedmioty;
+        div.appendChild(przedmioty);}
+
         var gest = document.createElement("p");
         gest.textContent = "Gest : " + mistyk.Gest;
         div.appendChild(gest);
 
         var opis = document.createElement("p");
+       
         opis.textContent = "Opis: " + mistyk.Opis;
         div.appendChild(opis);
+        opis.classList.add("opis");
+        var opisy= document.querySelectorAll("p.opis");
+    
+
+        // Przejdź przez każdy paragraf
+        opisy.forEach(function(paragraf) {
+          // Zastąp wystąpienia "/n" kodem <br><br>
+          var opisHtml = paragraf.innerHTML.replace(/\/n/g, "<br><br>");
+          paragraf.innerHTML = opisHtml;
+        });
+       
 
 
         var sukcesplus = document.createElement("p");
@@ -75,8 +93,30 @@ function displayMistycy() {
         div.appendChild(ujawnienie);
 
         var rozwiniecia = document.createElement("p");
+
         rozwiniecia.textContent = "Rozwinięcia:  " + mistyk.Rozwiniecia;
         div.appendChild(rozwiniecia);
+        rozwiniecia.classList.add("rozwiniecia");
+        var opisy= document.querySelectorAll("p.rozwiniecia");
+        
+        var opisyRozwiniec= document.querySelectorAll("p.rozwiniecia");
+     
+        // Przejdź przez każdy paragraf
+        opisyRozwiniec.forEach(function(paragraf) {
+          // Zastąp wystąpienia "/n" kodem <br><br>
+          var opisHtml = paragraf.innerHTML.replace(/\/n/g, "<br><br>");
+          paragraf.innerHTML = opisHtml;
+        });
+       
+        var paragrafy = document.querySelectorAll("p");
+
+// Przejdź przez każdy paragraf
+paragrafy.forEach(function(paragraf) {
+  // Sprawdź, czy tekst paragrafu zawiera "undefined"
+  if (paragraf.textContent.includes("undefined")) {
+    paragraf.style.display = "none"; // Ukryj paragraf
+  }
+});
 
         mistycyContainer.appendChild(div);
       });
