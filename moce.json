@@ -432,7 +432,7 @@
     "Czas": "1 godz",
     "Zasięg": "20m",
     "Gest": "tak",
-    "Opis": "Mistyk tworzy na dowolnej powierzchni jarzące się magiczną poświatą runy. Jeżeli zostanie spełniona wymyślona przez mistyka reguła związana z runem, ten eksploduje zadając 4k10 obr. obszarowych r=1m (czyli pełne obrażenia otrzymuje ten kto wlazł w rune). Reguła wyzwolenia może być dowolna, na przykład “Jan Kowalski staną na runie”, “Dowolny człowiek dotkną runy”, “Ptak przeleciał obok runy”. Maksymalny zasięg wykrywania reguły przez runy to 1m. Nie można zrobić reguły, która aktywuje się, poza tym zasięgiem. ",
+    "Opis": "Mistyk tworzy na dowolnej powierzchni jarzące się magiczną poświatą runy. Jeżeli zostanie spełniona wymyślona przez mistyka reguła związana z runem, ten eksploduje zadając 4k10 obr. obszarowych r=1m (czyli pełne obrażenia otrzymuje ten kto wlazł w rune). Reguła wyzwolenia może być dowolna, na przykład “Jan Kowalski stanął na runie”, “Dowolny człowiek dotknął runy”, “Ptak przeleciał obok runy”. Maksymalny zasięg wykrywania reguły przez runy to 1m. Nie można zrobić reguły, która aktywuje się, poza tym zasięgiem. ",
     "Sukcesplus": "+1k10 obr. ",
     "Addmoc": "-3PT, Szybkość -1, +1k10 obr, +1 reguła, ukrycie runy (niewidoczna dla zwykłych ludzi) ",
     "Niepowodzenie": "Nic się nie dzieje, brak efektu. ",
