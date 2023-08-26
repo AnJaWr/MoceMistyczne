@@ -8,9 +8,10 @@ function displayMistycy() {
 
       data.forEach(mistyk => {
         var div = document.createElement("div");
-       
         div.classList.add("mistyk");
         div.setAttribute("data", mistyk.Mistyk.join(", "))
+        div.setAttribute("atr", mistyk.Name)
+  
 
 
         var name = document.createElement("p");
@@ -160,7 +161,25 @@ function filterDivs() {
     changeBackground();
   })}
 
+  const divNameInput = document.getElementById("scrollInput");
+  const divContainer = document.getElementById("mistycyContainer");
 
+  divNameInput.addEventListener("input", function() {
+    const inputText = divNameInput.value.toLowerCase();
+
+    Array.from(divContainer.children).forEach(div => {
+        if (div.nodeType === Node.ELEMENT_NODE && div.nodeName === "DIV") {
+            const divAtr = div.getAttribute("atr").toLowerCase();
+            if (divAtr.startsWith(inputText)) {
+                divNameInput.placeholder = `${divAtr}`;
+                return;
+            }
+        }
+    });
+
+    // Jeśli nie ma pasujących atrybutów, przywracamy standardowy placeholder
+    divNameInput.placeholder = "Wprowadź nazwę mocy";
+});
 
 function changeBackground(){
   var selectedAttribute =  document.getElementById("mistykSelect").value ;
@@ -170,7 +189,8 @@ function changeBackground(){
 wrapper.setAttribute("class", "")
 wrapper.classList.add(insertclass);
 
-}  
+} 
+
 
 function scrollToElement() {
   var scrollValue = document.getElementById("scrollInput").value.toLowerCase();
