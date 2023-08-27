@@ -1,0 +1,1162 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dead space RPG</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/bohater.css">
+</head>
+
+<body>
+
+  <nav class="navbar fullwidth" id="top">
+
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="historia.html">Świat</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="bohater.html">Tworzenie postaci</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../json/mistycy.html">Mistycy</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="zasady.html">Zasady gry</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://anjawr.github.io/crew/">Statek Unity</a>
+      </li>
+    </ul>
+
+  </nav>
+
+  <!-- Sidebar -->
+
+  <!-- Wrapper -->
+
+  <div class="sidebar">
+    <a class="sidebar-a" href="#los">Los i nagroda</a>
+    <a href="#ruch" class="sidebar-a">Poruszanie</a>
+    <a class="sidebar-a" href="#walka">Walka</a>
+    <a class="sidebar-a" href="#strzelanie">Strzelanie</a>
+    <a class="sidebar-a" href="#rzucanie">Rzucanie</a>
+    <a class="sidebar-a" href="#rany">Rany</a>
+    <a class="sidebar-a" href="#leczenie">Leczenie</a>
+    <a class="sidebar-a" href="#leczenie">Leki i dragi</a>
+    <a class="sidebar-a" href="#strach">Strach i terror</a>
+  </div>
+
+  <div class="main_wrapper main_wrapper-zasady">
+
+    <div id="los" class="hero-item">
+      <p>
+        <h2>
+          Los i nagroda</h2>
+      </p>
+
+      <p><b>Ograniczenia</b> <br>
+
+        Maksymalnie 10 sztonów na ręku pod koniec sesji.
+      </p>
+      <p><b>Niefart </b><br>
+
+        Gdy wypadnie niefart zapomnij o dawaniu sztona. Nie możesz.
+      </p>
+      <p>
+        <h2>Wydawanie sztonów </h2>
+      </p>
+      <p><b>
+          Biały</b><br><br>
+
+        Cecha i umiejętność: Po wydaniu każdy biały szton dodaje postaci jedną dodatkową kostkę, tak jakby miała ona
+        cechę lub umiejętność wyższą o jeden. Gracz może wydawać sztony pojedynczo na kolejne kostki, tak długo, aż
+        osiągnie satysfakcjonujący wynik.
+        <br>
+        Rany: 1 rana albo 5 tchu.
+        <br>
+        Punkty nagrody: 1
+        <br>
+        Bez powrotu: Nie możesz wydać białego sztona na cechę lub umiejętność, jeżeli wcześniej poprawiłeś wynik testu
+        przy użyciu czerwonego lub niebieskiego sztona.
+        <br><br>
+        <b>Czerwony</b> <br><br>
+
+        Cecha i umiejętność: Czerwony szton pozwala rzucić kostką i dodać rezultat do twojego najwyższego wyniku. Działa
+        jak As, z tym, że pierwotny wynik nie musi być maksymalny. Na pojedynczą akcję możesz wydać tylko jednego
+        czerwonego sztona.
+        <br>
+        Rany: 2 rany albo 10 tchu.
+        <br>
+        Haracz Szeryfa: Za każdym razem gdy użyjesz czerwonego sztona, Szeryf losuje jednego z puli. Dzieje się tak
+        tylko wtedy gdy poprawiasz za jego pomocą test cechy lub umiejętności, a nie kiedy negujesz obrażenia lub
+        wymieniasz go na nagrodę.
+        <br><br>
+
+        <b>Niebieski</b><br><br>
+
+        Cecha i umiejętność: Działa jak czerwony, ale nie daje Szeryfowi Haraczu. Na jedną akcję można wydać tylko jeden
+        niebieski szton.
+        <br>
+        Rany: 3 rany albo 15 tchu.
+        <br>
+        Punkty nagrody: 3
+        <br><br>
+        <b>Legenda</b><br><br>
+
+        Cecha i umiejętność: Pozwala na zdanie testu na podstawowym poziomie (bez przerzutu) lub powtórzenie dowolnego
+        rzutu w którym wypadł niefart.
+        <br>
+        Rany: 5 ran albo cały dech.
+        <br>
+        Punkt nagrody: 5
+        <br>
+        Jednorazowy: Szton legendy raz użyty na zawsze jest usuwany z puli.
+      </p>
+
+      <p class="header">
+        Rozwój
+      </p>
+      <p><b>Kostka cechy</b> – 3x nowa wartość kości. <br><br>
+
+        <b>Ilość kości cechy</b> – 2x nowa ilość kości.<br><br>
+
+        <b> Umiejętności</b> – Tyle punktów nagrody ile wynosi nowy poziom umiejętności. Poziomy trzeba wykupywać po
+        kolei od 1. Nie można od razu na przykład z 2 wskoczyć na 4 nie wykupując wcześniej (po drugim poziomie)
+        trzeciego.
+        <br><br>
+        <b>Umiejętności eksperckie</b> – Gdy umiejętność dojdzie do 5 punktów. Możesz rozwijać ją dalej, ale każdy nowy
+        poziom kosztuje dwa razy więcej punktów nagrody. Tak więc na 6 poziom potrzebne jest 12 punktów, a na 7 aż 14 i
+        tak dalej.
+        <br><br>
+        <b> Specjalizacje </b>- Jeżeli bohater ma umiejętność na 1 poziom lub więcej może wykupywać w niej
+        specjalizacje. Wykupuje je w taki sam sposób jak umiejętności.
+        <br><br>
+        <b> Przewagi </b>– można je wykupić płacąc 3x jej wartość punktową i uzyskać pozwolenie MG.
+        <br><br>
+        <b>Zawady </b>– można się ich pozbyć płacąc 2x jej wartość punktową i po otrzymaniu błogosławieństwa MG
+
+      </p>
+    </div>
+    <div id="ruch" class="hero-item">
+      <p><h2>Ruch</h2></p>
+<p>
+Prędkość poruszania się postaci zależy od jej cechy Tempo. Tempo postaci zależy od jej Cechy Sprawność i modyfikatorów wynikających z Zawad, Przewag i modyfikatorów środowiskowych. Tempo wyliczamy według wielkości kostki Sprawności. Osoba posiadająca K6 w Sprawności na jednej karcie akcji przebiegnie 6m lub przejdzie 3m. Posiadając kość K10 biegnie 10m a idzie 5m. Odległości te następnie modyfikowane są przez posiadane przez postać Zawady i Przewagi i na koniec przez uwarunkowania środowiskowe (na przykład nawierzchnia).
+</p>
+<p>
+Podczas zwykłej rozgrywki, a nie sceny z użyciem akcji tempo postaci jest uśredniane według poniższej tabelki.  </p>
+
+ <p>
+  <table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=482
+   style='width:361.5pt;margin-left:-5.4pt;background:white;border-collapse:collapse;
+   border:none;mso-border-alt:solid #DDDDDD .75pt;mso-yfti-tbllook:1184;
+   mso-padding-alt:0cm 0cm 0cm 0cm'>
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+    <td width=127 valign=top style='width:95.4pt;border:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>2 –
+    1km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:89.95pt;border:solid #00000A 1.0pt;
+    border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>32 –
+    13km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:89.95pt;border:solid #00000A 1.0pt;
+    border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>192 –
+    80km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:90.1pt;border:solid #00000A 1.0pt;
+    border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>372 –
+    155km/h</span><o:p></o:p></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:1'>
+    <td width=127 valign=top style='width:95.4pt;border:solid #00000A 1.0pt;
+    border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>4 –
+    1,5km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:89.95pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>34 –
+    14km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:89.95pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>204 –
+    85km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:90.1pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>384 –
+    160km/h</span><o:p></o:p></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:2'>
+    <td width=127 valign=top style='width:95.4pt;border:solid #00000A 1.0pt;
+    border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>6 –
+    2,5km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:89.95pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>36 –
+    15km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:89.95pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>216 –
+    90km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:90.1pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>396 –
+    165km/h</span><o:p></o:p></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:3'>
+    <td width=127 valign=top style='width:95.4pt;border:solid #00000A 1.0pt;
+    border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>8 –
+    3km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:89.95pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>48 –
+    20km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:89.95pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>228 –
+    95km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:90.1pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>408 –
+    170km/h</span><o:p></o:p></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:4'>
+    <td width=127 valign=top style='width:95.4pt;border:solid #00000A 1.0pt;
+    border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>10 –
+    4km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:89.95pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>60 –
+    25km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:89.95pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>240 –
+    100km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:90.1pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>420 –
+    175km/h</span><o:p></o:p></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:5'>
+    <td width=127 valign=top style='width:95.4pt;border:solid #00000A 1.0pt;
+    border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>12 –
+    5km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:89.95pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>72 –
+    30km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:89.95pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>252 –
+    105km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:90.1pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>432 –
+    180km/h</span><o:p></o:p></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:6'>
+    <td width=127 valign=top style='width:95.4pt;border:solid #00000A 1.0pt;
+    border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>14 –
+    6km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:89.95pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>84 –
+    35km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:89.95pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>264 –
+    110km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:90.1pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>444 –
+    185km/h</span><o:p></o:p></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:7'>
+    <td width=127 valign=top style='width:95.4pt;border:solid #00000A 1.0pt;
+    border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>16 –
+    7km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:89.95pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>96 –
+    40km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:89.95pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>276 –
+    115km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:90.1pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>456 –
+    190km/h</span><o:p></o:p></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:8'>
+    <td width=127 valign=top style='width:95.4pt;border:solid #00000A 1.0pt;
+    border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>18 –
+    7,5km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:89.95pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>108 –
+    45km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:89.95pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>288 –
+    120km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:90.1pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>468 –
+    195km/h</span><o:p></o:p></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:9'>
+    <td width=127 valign=top style='width:95.4pt;border:solid #00000A 1.0pt;
+    border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>20 –
+    8km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:89.95pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>120 –
+    50km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:89.95pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>300 –
+    125km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:90.1pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>480 –
+    200km/h</span><o:p></o:p></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:10'>
+    <td width=127 valign=top style='width:95.4pt;border:solid #00000A 1.0pt;
+    border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>22 –
+    9km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:89.95pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>132 –
+    55km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:89.95pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>312 –
+    130km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:90.1pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>&nbsp;</span><o:p></o:p></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:11'>
+    <td width=127 valign=top style='width:95.4pt;border:solid #00000A 1.0pt;
+    border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>24 –
+    10km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:89.95pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>144 –
+    60km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:89.95pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>324 –
+    135km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:90.1pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>&nbsp;</span><o:p></o:p></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:12'>
+    <td width=127 valign=top style='width:95.4pt;border:solid #00000A 1.0pt;
+    border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>26 –
+    11km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:89.95pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>156 –
+    65km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:89.95pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>336 –
+    140km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:90.1pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>&nbsp;</span><o:p></o:p></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:13'>
+    <td width=127 valign=top style='width:95.4pt;border:solid #00000A 1.0pt;
+    border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>28 –
+    12km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:89.95pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>168 –
+    70km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:89.95pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>348 –
+    145km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:90.1pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>&nbsp;</span><o:p></o:p></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:14;mso-yfti-lastrow:yes'>
+    <td width=127 valign=top style='width:95.4pt;border:solid #00000A 1.0pt;
+    border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>30 –
+    12,5km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:89.95pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>180 –
+    75km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:89.95pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>360 –
+    150km/h</span><o:p></o:p></p>
+    </td>
+    <td width=120 valign=top style='width:90.1pt;border-top:none;border-left:
+    none;border-bottom:solid #00000A 1.0pt;border-right:solid #00000A 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='color:black;mso-color-alt:windowtext'>&nbsp;</span><o:p></o:p></p>
+    </td>
+   </tr>
+  </table>
+  
+  </p>
+
+ <p>Jest to średnia prędkość utrzymywana przez idącą postać. Postać taka traci 1 Tchu na każdą godzinę marszu. Jeżeli postać chce się przemieszczać szybciej może to zrobić do maksymalnie czterokrotnego zwiększenia swojej prędkości. Wiąże się to ze znacznym wysiłkiem fizycznym i większą utratą Tchu. Za każde zwiększenie prędkości ponad limit (dla Tempa 6 -2,5km/h to limit, kolejne skoki są następujące 2,6-5km/h, 5,1-7,5km/h, 7,6-10km/h) postać traci K6 Tchu na każdy skok ponad limit minus sukces i każdy kolejny przerzut z rzutu na Wigor. Postać wykonuje rzut na Wigor PT5.
+<br>
+Przykład: <br>
+Bohater z Tempem 6, chce uciec przed goniącym go pościgiem, deklaruje bieg z maksymalną prędkością 10km/h. Wykonuje rzut na Wigor i uzyskuje wynik 11. Test jest na poziomie 5 czyli posiada jeden przerzut (sukces + przerzut = 2). Oznacza to że zamiast tracić co godzinę biegu 3K6 Tchu, będzie tracił tylko 1K6 Tchu (3 kości - 2 za rzut na Wigor = 1 kość) na godzinę. Od rzutów na utratę Tchu będzie zależeć jak daleko uda mu się uciec nim opadnie z sił. </p>
+<p><b>
+Skok
+</b><br><br>
+Bohater jest w stanie skoczyć z rozbiegu o długości przynajmniej 3m na odległość 2m+0,5m za każdy poziom rzutu na Sprawność PT3+2 na poziom. 
+<br><br>
+Bohater skaczący z miejsca bez rozbiegu może skoczyć na odległość 1m+0,25m za każdy poziom rzutu na Sprawność PT3+2 na poziom.
+<br><br>
+Przykład <br>
+Bohater wykonuje skok z rozbiegu i wyrzucił na Sprawność 11, oznacza to że skoczy na odległość 4,5m. (2m + (PT3=0,5m, PT5=1m, PT7=1,5m, PT9=2m, PT11=2,5m) razem = 4,5m <br>
+Bohater wykonuje skok bez rozbiegu i wyrzucił na Sprawność 9, oznacza to, ze skoczył na odległość 2m. <br>
+<br><br><b>
+Zeskakiwanie
+</b><br><br>
+Bohater jest w stanie zeskoczyć w kontrolowany sposób z wysokości 1m +0,5m na poziom rzutu na Sprawność PT3+2 na poziom. <br>
+Jeżeli wysokość z której chciał zeskoczyć jest większa niż kontrolowany zeskok i ma przynajmniej 3m zeskok jest nieudany i należy rozpatrzeć zasady spadania. 
+<br><br><b>
+Spadanie</b>
+<br><br>
+Bohater otrzymuje 1k6+5 obr. za każde 3m wysokości z których spada. <br>
+Upadając do wody obrażenia od upadku są zmniejszane o połowę. <br>
+Upadając na miękkie sianko, czy inny miły grunt też można w jakimś stopniu zmodyfikować odniesione rany. <br>
+Obrażenia od upadku sumują się a następnie rozgadają losowo pomiędzy różne części ciała, upadek na głowę lub trzewia nie mają dodatkowych kości obrażeń. </p>
+    </div>
+
+    <div id="walka" class="hero-item">
+      <p><h2>Walka</h2></p>
+      <p><b>Atak</b><br><br>
+      Poziom ataku walki wręcz jest zwykły (PT5) + wysokość walki aktualnie używanej przez obrońcę. <br><br>
+      
+      Po trafieniu obrońca może spróbować uniknąć ciosu (Unik) lub zablokować go (blokowanie). Test na uniknięcie ciosu wynosi PT5 + uzyskana nadwyżka do trafienia uzyskana przez atakującego. Jeżeli się uda. Postać odskakuje do tyłu, turla się w bok. Ogólnie zmienia pozycję. Jeżeli miała przerzut, jeśli chce może pozostać na miejscu.
+      W przypadku blokowania, postać zmniejsza siłę ciosu, który w nią uderzył. Za każdy sukces w tym teście wielkość kostki siły i broni atakującego zmniejsza się o jeden poziom, aż do wygaśnięcia ciosu. Blokowanie gołą ręką ostrych, kujących lub energetycznych ataków, nie zmniejszy kości obrażeń z broni, a jedynie z siły oponenta. 
+      <br><br>
+      np: Postać A walczy wręcz z Postacią B. Postać A posiada umiejętność walka wręcz 3, Postać B ma walkę wręcz 4. Postać A atakuje, rzut = 13 (PT5 + 4 (walka wręcz obrońcy) = 9) test zdany, cios trafi cel.
+      Postać B unika, by uniknąć musi wyrzucić PT 5 + nadwyżkę ataku, czyli w tym przypadku 4. Rzut = 9 unik udany.
+      <br><br>
+      <b>Obrażenia</b>
+      <br><br>
+      W walce wręcz obrażenia wchodzą w Dech. Postać może zadeklarować, że zamiast "obijania" ofiary będzie chciała ją "pogruchotać" czyli zadawać normalne obrażenia.
+      W przypadku "obijania" Atakujący rzuca Siłę, obrońca Wigor. Zdany test oznacza że obrońca straci tyle Tchu ile wynosi różnica w rzutach. 
+      np. Atakujący Siła 3K6 rzucił 10, obrońca Wigor 2K8 rzucił 7. Obrońca traci 3 Tchu.
+      W przypadku "gruchotania" rzut na Siłę atakującego jest dzielony przez Rozmiar obrońcy, tak jak przy strzelaniu.
+      np. Atakujący 3K6 rzucił 10, obrońca ma Rozmiar 6, 10/6=1 obr.  Przy otrzymaniu obr. oczywiście traci też Dech, tak jak przy strzelaniu. 
+      <br><br>
+
+      <b>Walka bronią wręcz</b>
+      <br><br>
+      Używając przedmiotów do walki wręcz, zadawane obrażenia są sumą najwyższej kostki z Siły i sumy kości z używanej broni. Obrażenia są dzielone przez Rozmiar w normalny sposób.
+      <br><br>
+      Jeżeli postać używa broni, którą jest w stanie udźwignąć w jednym ręku, a walczy tą bronią oburącz, może dodać sobie jedną kostkę obrażeń tej broni za wykonywanie silnych ciosów. 
+      <br><br>
+      Jeżeli broń jest za ciężka dla postaci, otrzymuje ona modyfikator trafienia -2 za każdy przekroczony przedział wagowy.
+      np.: Postać z Siłą 2k6 może walczyć bronią trzymaną w jednym ręku do 3kg. Jeżeli broń będzie miała 5kg wagi postać otrzyma -2 trafienie, a w przypadku broni o wadze 7kg -4 do trafienia.
+      Jeżeli te same bronie będą trzymane oburącz postać ma udźwig 6kg. Broń 3kg otrzyma +1 kość obrażeń, 5kg będzie zadawała normalne obrażenia, a 7kg będzie miała -2 do trafienia. 
+      <br><br>
+     <b> Miejsce trafienia</b>
+      <br><br>
+      W walce wręcz do rzutu K20 dodaje się +4 podczas rozpatrywania lokacji. Jeżeli atakujący i cel są podobnego rozmiaru. Jeżeli ich rozmiar się różni, należy zmienić ten modyfikator w odpowiednią stronę. Małemu atakującemu, ciężko będzie sięgnąć głowy wielkoluda. 
+      <br><br>
+      <b>Bonusy obronne</b>
+      <br><br>
+      Są bronie do walki wręcz, które posiadają bonusy obronne (BO). Jest to modyfikator, który należy dodać to poziomu trudności rzutu na trafienie takiej postaci.
+      <br><br>
+      <b>Ciosy mierzone</b>
+      <br><br>
+      
+      Korpus                          -2 <br>
+      
+      Ręce, nogi                    -4<br>
+      
+      Głowa, dłoń, stopa        -6<br>
+      
+      Oko, serce                   -10<br>
+      <br>
+      <b>
+      Modyfikatory do walki</b>
+      <br>
+      Cel w ruchu, za każde 20 Tempa        -2<br>
+      Rozmiar                                            różnie<br>
+      Atakujący biegnie                                 -6<br>
+      Atakujący idzie                                     -2<br>
+      Atakujący porusza się pojazdem          -2<br>
+      Atakujący ranny                                różnie<br>
+      Ślepy, całkowita ciemność                   -8<br>
+      Światło księżyca                                  -6<br>
+      Światło latarni, półmrok                       -4<br>
+      Broniący się jest nieruchomy              PT3<br>
+      Atakujący unieruchomiony                   -2<br>
+      Atakujący siedzi                                   -2<br>
+      Atakujący leży                                      -4<br>
+      <br>
+      <b>
+      Walka na obie pięści</b><br><br>
+      
+      Używając obydwu rąk do walki naraz, ręka wiodąca ma -2 do trafienia, a ta druga -4. Przy oburęczności pierwsza ręka ma 0 a druga ma modyfikator -2.
+      <br><br><b>
+      Trafienie w trzewia (10)</b>
+      <br><br>
+      Uderzenie w trzewia zwiększa liczbę kości obrażeń o 1.<br>
+      W przypadku walki na pięści zwiększamy ilość kości Siły, a i tak wybieramy tylko najwyższy wynik.<br>
+      W przypadku walki bronią wręcz zwiększamy ilość kości broni i dodajemy je do ogólnych obrażeń.<br>
+      <br><br>
+      <b>Trafienie w głowę (20)</b>
+      <br><br>
+      Uderzenie w głowę zwiększa liczbę kości obrażeń o 1.<br>
+      W przypadku walki na pięści zwiększamy ilość kości Siły, a i tak wybieramy tylko najwyższy wynik.<br>
+      W przypadku walki bronią wręcz zwiększamy ilość kości broni i dodajemy je do ogólnych obrażeń. Ponadto, istniej możliwość trwałego uszkodzenia zmysłu w głowie. Jeżeli zostały zadane obr. broniący rzuca k20. Wynik 20 oznacza, że jakiś zmysł otrzyma modyfikator -1 (-8 uważany jest za ślepotę, głuchotę)
+      <br><br>
+   <b>>Chwyty, unieruchamianie, duszenie i wyzwalanie się</b>
+      <br><br>
+      Postać może spróbować chwycić inną istotę, może to zrobić na różne sposoby. Można kogoś chwycić tak, by się go "podtrzymywać", przylgnąć do niego i wisieć na nim. Można kogoś chwycić w taki sposób by spróbować mu zablokować kończynę, bądź kilka i unieruchomić go. Bądź można kogoś dusić i próbować go pozbawić przytomności lub życia. 
+      Po wybraniu czynności jaką chce zrobić postać, wykonujemy rzut na unieruchamianie. Przy udanym ataku unieruchamiamy 1 losową kończynę wroga. Za każdy kolejny sukces kolejną kończynę. Przy unieruchomieniu kończyny chwytnej (ręki) dana istota ma -2 do testów Sprawności. Przy unieruchomieniu wszystkich kończyn chwytnych (rąk) dana istota nie może wykonywać testów Sprawności do których musiałaby użyć ręki. Przy unieruchomieniu nogi, Tempo zmniejsza się o połowę przy każdej kolejnej unieruchomionej kończynie. Unieruchomienie wszystkich nóg zmniejsza Tempo do 0. <br><br>
+      Jeżeli zadeklarujemy, którą kończynę chcemy unieruchamiać, mamy modyfikator do trafienia za daną lokację. Przy przerzutach i blokowaniu innych części ciała są one rozpatrywane losowo. <br><br>
+      W kolejnych akcjach można próbować unieruchamiać kolejne kończyny. Ponawiamy wtedy rzut na unieruchamianie i odczytujemy wynik, czy udało się unieruchomić kolejne kończyny oponenta. <br><br>
+      W przypadku duszenia deklarujemy unieruchamianie głowy i wykonujemy atak. Udany atak oznacza, że chwyciliśmy daną istotę w taki sposób, że jesteśmy w stanie pozbawiać jej Tchu. Ilość utraconego Tchu na Akcję zależy od Siły napastnika. W przypadku przyduszania nie zmniejszamy obrażeń zadanych w Dech testem przeciwstawnego Wigoru. Napastnik może się zorientować że ofiara jest już nieprzytomna po zadeklarowanym udanym PT5 teście Sprytu po akcji duszenia.  
+      <br><br>
+      Chwytanie zaskoczonego celu, wygląda podobnie jak w zwykłej walce, tyle że cel nie modyfikuje trafienia swoją przeciwstawną walką wręcz i modyfikatorami obrony (chyba, że są magiczne). Trafienie jest na podstawowym PT5, a jeśli cel jest nieruchomy na PT3. 
+      Jeżeli zaskoczona istota jest celem akcji duszenia musi wykonać test odwagi PT3 czy nie wpadnie w panikę, która pozbawi ją możliwości obronnych, aż do zdania testu odwagi.
+      <br><br>
+      Wyzwalanie się, polega na przeciwstawnym teście walka: unieruchomienie z Siły osoby trzymającej kontra walka: unieruchomienie z Siły osoby próbującej się uwolnić. <br>
+      Jeżeli osoba chcąca się uwolnić od napastnika który do niej przywarł wykona udany przeciwstawny test to napastnik odkleja się i odpada.<br>
+      W przypadku zablokowanych kończyn przy udanym teście uwalnia jedną z nich (zadeklarowaną przed rzutem), a przy uzyskanych kolejnych sukcesach kolejną wybraną. <br>
+      W przypadku duszenia test przeciwstawny jest z modyfikatorem -4 dla broniącego się. Udany oznacza zerwanie chwytu z szyi. <br>
+      <br><br>
+      Uwagi:<br>
+      - Nie da się przywrzeć do celu jeżeli nie ma się czego chwycić lub objąć, taka akcja jest zdana na niepowodzenie.<br>
+      - Nie da się unieruchomić 2 różnych kończyn znajdujących się poza fizycznym zasięgiem atakującego.<br>
+      - Nie da się dusić istot nie posiadającej "miękkiej" części ciała na przykład szyi.<br>
+      -Podczas duszenia, jeżeli duszący otrzyma obrażenia w dech lub ranę duszony do czasu kolejnej akcji duszącego nie ma modyfikatora -4 przy wyzwalaniu się.<br><br>
+      <b>
+      
+      Popychanie i przewracanie</b><br><br>
+      
+      Bohater może chcieć kogoś przepchnąć, do tego celu musi zadeklarować podczas swojej akcji chęć przepchnięcia wroga, trafić swoją ofiarę atakiem obalenie i wybrać kierunek w którym ofiara zostanie przepchnięta (uwaga: na wybranym kierunku musi być miejsce dla przepchniętego, jeśli nie ma tam miejsca, ofiara zatrzyma się na pierwszej przeszkodzie). Podczas akcji przepychania nadal możemy deklarować że cios ma zadawać obr. Cel zostaje przepchnięty o 1m/sukces w rzucie przeciwstawnym Siły. Siła atakującego jest z tego samego rzutu co na obr. jeżeli były zadawane. W przypadku wykonywania tej akcji bronią do walki wręcz, w teście wliczamy też obr. z broni. Siła obrońcy jest modyfikowana przez podwojoną różnicę w Rozmiarze w stosunku do atakującego. <br><br>
+      Na przykład: Atakujący w Rozmiarze 6 próbuje przepchnąć osobę o Rozmiarze 4. Jako że obrońca jest mniejszy o 2 to ma -4 do swojego rzutu obronnego. W przypadku gdyby miał Rozmiar 10, czyli różnica byłaby na jego korzyść o 4 czyli miałby +8 do rzutu. 
+      <br><br>
+      By wykonać akcję przewracania bohater wykonuje atak obalanie na lokację utrzymującą cel (najczęściej to będą nogi, bądź innego rodzaju odnóża) z modyfikatorem lokacji w którą uderza. Jeżeli cios się powiedzie Ofiara musi wykonać rzut przeciwstawny Sprawność kontra Siła ciosu postaci która ją atakuje. Jeżeli istota broniąca się ma więcej niż 2 kończyny na których stoi dodaje sobie do rzutu +2 za każdą kolejną kończynę.  Podczas akcji przewracania nadal możemy deklarować że cios ma zadawać obr. Siła atakującego jest z tego samego rzutu co na obr. jeżeli były zadawane. W przypadku wykonywania tej akcji bronią do walki wręcz, w teście wliczamy też obr. z broni. 
+      Przewrócona postać ma wszelkie modyfikatory wynikające z pozycji leżącej.
+</p>
+    </div>
+
+    <div id="strzelanie" class="hero-item">
+      <p class="header">Test strzelania
+      </p>
+      <p><b>Zasięg</b></p>
+      <p>
+        PT5 + (odległość strzelającego od celu / zasięg broni) zaokrąglamy w dół. <br>
+        <br>
+        <b>Maksymalny zasięg bronii</b> <br>
+        <br>
+        W broni energetycznej pocisk traci 1 kość siły za każde 10 zasięgów broni.<br>
+        np: Broń o sile 3k6 i zasięgu 10m, na 201m będzie miała siłę 1k6, a po osiągnięciu 300m pocisk wygasza się
+        (0k6)<br>
+        Maksymalny zasięg broni wyliczony może być z rodzaju matrycy i długości lufy, celownik nie zwiększa tego
+        zasięgu, a jedynie poprawia trafienie.
+        <br>
+        <br>
+        <b>Duży cel</b><br><br>
+
+        Cel większy od człowieka dwa razy (rozmiar 12) +1 do trafienia, trzy razy +2, itd. Aż do max +6.
+        <br><br>
+        <b>Mały cel</b>
+        <br><br>
+        Cel ma powierzchnię połowy człowieka (rozmiar 3) -1 do trafienia, trzy razy mniejszy -2, itd. Aż do max -10
+        <br><br>
+        <b>Ruchomy cel</b>
+        <br><br>
+        Za każde Tempo 20 -4 do trafienia w pędzący cel.
+        <br><br>
+        <b>Strzelby
+          <br><br></b>
+        +2 do trafienia śrutem, 0 breneką. (w broni energetycznej pocisk jest rozpryskowy i jest liczony jak śrut)
+        <br><br>
+        Siła strzału ze strzelby spada o 1 kość obrażeń za każdy przekroczony zasięg strzelby.<br>
+        np: strzelba o sile 5k6 i zasięgu 10m, strzelając na 23m będzie miała siłę 3k6. Na 6 zasięgu będzie nieskuteczna
+        (0k6).
+        <br><br>
+        <b>ROF</b>
+        <br><br>
+        Ilość kart akcji potrzebnej do oddania strzału.
+        <br><br><b>
+          Walenie serią.</b>
+        <br><br>
+        Za wystrzelenie serii jest jeden test trudności. Każda seria składa się z 3 pocisków i od rodzaju broni zależy
+        jak wiele serii można wystrzelić na raz. Każda seria 3 pocisków rozpatrywana jest oddzielnie. Pierwsza seria
+        trafia na zdanym teście, a każda kolejna ma -2 do trafienia w stosunku do poprzedniej. (-2,-4,-6,itd) Każdy
+        pocisk w serii jest rozpatrywany oddzielnie. Pierwszy pocisk trafia przy zdanym teście serii a kolejne na 1 i 2
+        sukcesie. Czyli test dla kolejnych pocisków wzrasta o 5 na pocisk. (pierwszy +5 drugi +10 do trafienia)
+        <br>
+        Tylko pierwszy strzał z serii na akcji może być mierzony. Dla pozostałych lokację określamy k20.
+        <br>
+        <br><b>
+          Ogłuszanie Energetyczne</b><br><br>
+
+        Broń energetyczna wystrzeliwuje także pociski ogłuszające. Ten tryb strzela jedynie pociskami pojedynczymi.
+        Obrażenia od broni są takie same jak w przypadku wystrzelonego pocisku. Strzał zabiera Dech ofierze. Jeżeli
+        ofiara ma pancerz, siła takiego ataku jest modyfikowana o wartość obrony lub w przypadku KP taki atak jest
+        nieskuteczny.
+        Pocisk ogłuszający leci maksymalnie na 1 zasięg broni (bez doliczania celowników).
+        <br><br><b>
+          Odrzut
+        </b><br><br>
+        Jeżeli broń posiada modyfikator odrzutu jest on doliczany do strzelania serią i zmniejsza wartość potrzebną do
+        trafienia 2 i 3 pociskiem w serii.
+        np: Odrzut -3 umożliwi trafienie przy następujących wartościach: 5, 7, 12 (zamiast 5,10,15). Przy Odrzucie -7
+        trafienie będzie przy teście 5,5,8.
+        <br><br>
+        <b> Strzały mierzone</b><br><br>
+
+        Korpus -2<br>
+
+        Ręce, nogi -4<br>
+
+        Głowa, dłoń, stopa -6<br>
+
+        Oko, serce -10<br>
+        <br><br>
+        <b>
+          Celowanie</b><br><br>
+
+        Za akcję można poprawić celność o +2. Max do +6 za 3 karty akcji.
+        Przy strzelaniu z broni posiadającej celowniki optyczne, trzeba użyć przynajmniej jednej akcji celowania. W
+        przypadku posiadania celownika optycznego i nie wydaniu karty akcji na celowanie, strzał jest z modyfikatorem
+        ujemnym równym strzałowi z biodra.
+        <br><br>
+        <b>
+          Strzał z biodra</b><br><br>
+
+        Wszelkiego rodzaju strzały w których nie wykorzystuje się przyrządów celniczych w broni. Taki strzał wykonuje
+        się z modyfikatorem -2, celując zazwyczaj na tak zwanego "czuja". Nie podliczane są też podczas celowania
+        jakiekolwiek modyfikatory za celownik, którego przecież nie używamy.
+        <br><br><b>
+          Zbyt ciężka broń</b>
+        <br><br>
+        Strzelec jest w stanie udźwignąć i strzelać bronią o wadze równej: dla broni trzymanej w jednym ręku połowy
+        wartości kości Siły, dla broni trzymanej oburącz wartości kości Siły.
+        np: Strzelec z Siłą k6 może mieć w jednym ręku broń o wadze 3kg maksymalnie, a oburącz do 6kg.<br>
+        Jeżeli waga ta będzie przekroczona, w przypadku broni trzymanej jedną ręką bohater otrzymuje modyfikator ujemny
+        -3 za każdy rozpoczęty kilogram nadwyżki. Podczas używania broni oburącz modyfikator wynosi -2 za każdy
+        rozpoczęty kilogram.
+        <br><br>
+        <b>
+          Pan dwie spluwy</b><br><br>
+
+        Używając dwóch pistoletów, ręka wiodąca ma -2 do trafienia, a ta druga -6. Przy oburęczności obie ręce mają
+        modyfikator -2.<br><br>
+        <b>
+          Trafienie w trzewia (10)</b>
+        <br><br>
+        Strzał w trzewia zwiększa liczbę kości obrażeń o 1. <br><br>
+        <b>
+          Trafienie w głowę (20)</b><br><br>
+
+        Strzał w głowę zwiększa liczbę kości obrażeń o 1. Ponadto, istniej możliwość trwałego uszkodzenia zmysłu w
+        głowie. Jeżeli zostały zadane obr. broniący się rzuca k20. Wynik 20 oznacza, że jakiś zmysł otrzyma modyfikator
+        -1 (-8 uważany jest za ślepotę, głuchotę)
+        <br><br>
+        <b>
+          Niewinni przechodnie</b>
+        <br><br>
+        Łatwiej ich trafić niż cel. Jeżeli ktoś jest w odległości 1 metra od celu i pocisk chybi to ma 1/6 że trafi w
+        osobę obok. Ogień serią lub śrut mają szansę trafić kogoś oddalonego nawet o 2 metry.
+        <br><br>
+        <b>
+          Modyfikatory do strzelania</b>
+        <br>
+        <br>
+        Cel w ruchu, za każde 20 Tempa -4<br>
+        Rozmiar różnie<br>
+        Strzelec pozycja siedząca +1<br>
+        Strzelec pozycja leżąca +2<br>
+        Strzelec biegnie -6<br>
+        Strzelec idzie -2<br>
+        Strzelec porusza się pojazdem -2<br>
+        Strzelec ranny różnie<br>
+        Ślepy, całkowita ciemność -8<br>
+        Światło księżyca -6<br>
+        Światło latarni, półmrok -4<br>
+        Odległość bezpośrednia +2<br>
+        Strzał ze strzelby +2<br><br>
+
+      </p>
+
+    </div>
+    <div id="rzucanie" class="hero-item">
+
+      <p class="header">
+        Rzut</p>
+      <p>
+        Rzucanie działa podobnie do strzelania. Podstawowy poziom trudności wynosi PT5 i za każdy zasięg broni dodawane
+        jest +1 do poziomu trudności.
+      </p>
+      <p>
+        <b>Odchylenie</b> <br><br>
+
+        Jeżeli rzut na rzucanie nie wyszedł pocisk upada obok. Wykonujemy rzut K12 i określamy na którą godzinę od
+        kierunku lotu upadł pocisk, a następnie na jaką odległość od celu odleciał, by to ustalić patrzymy na różnicę
+        rzutu do trafienia. Jeżeli postać trafiła by na teście 8, a wyrzuciła 5, oznacza to, że chybiła o 3m. W
+        wyznaczonym za pomocą K12 kierunku. Odległość odchylenia nie może być większa od dystansu na który rzucano i nie
+        większa niż zasięg maksymalny rzutu.
+        <br><br>
+        <b>Maksymalny zasięg</b>
+        <br><br>
+        <p>Postać jest w stanie rzucić przedmiotem o wadze do 1kg na odległość kości swojej Siły x10, 2kg na połowę tego
+          zasięgu, 3kg na 1/4 tego zasięgu, 4kg na 1/8 zasięgu, itd. aż do ciężarów, które zmniejszą zasięg do 2m na
+          który postać może próbować rzucić wszystkim co zdoła unieść na poważnym obciążeniu czyli Siła x10kg.
+        </p>
+        <p><b>
+            Niefart przy rzucaniu</b><br><br>
+
+          Pocisk upada pod nogi, jeżeli to był granat to głupio. Jeżeli to była strzała to się niszczy w skutek
+          nieudanego wystrzału.
+        </p>
+
+    </div>
+  
+  <div id="rany" class="hero-item">
+   
+    <p class="header">Rany a udźwig postaci</p>
+    <p>
+    
+      <table style="width: 177.375px;" border="1">
+        <tbody>
+        <tr>
+        <td style="width: 125px;">&nbsp;Lekkie</td>
+        <td style="width: 36px;">&nbsp;3xsiła</td>
+        <td style="width: 10px;">
+        <div>
+        <div>&nbsp;&frac34; tempo</div>
+        </div>
+        &nbsp;</td>
+        </tr>
+        <tr>
+        <td style="width: 125px;">Średnie&nbsp;</td>
+        <td style="width: 36px;">6xsiła&nbsp;</td>
+        <td style="width: 10px;">
+        <div>
+        <div>&frac12; tempo</div>
+        </div>
+        </td>
+        </tr>
+        <tr>
+        <td style="width: 125px;">Poważne</td>
+        <td style="width: 36px;">10xsiła</td>
+        <td style="width: 10px;">
+        <div>
+        <div>&frac14; tempo</div>
+        </div>
+        </td>
+        </tr>
+        <tr>
+        <td style="width: 125px;">Maksymalne</td>
+        <td style="width: 36px;">20xsiła&nbsp;</td>
+        <td style="width: 10px;">0 tempo&nbsp;</td>
+        </tr>
+        </tbody>
+        </table>
+        <!-- DivTable.com -->
+        <br>
+    Siła to rodzaj kostki z siły.
+    
+    </p>
+    <p class="header">
+    
+    Rany, cierpienie, krew</p>
+    
+   <p><b>Obrażenia broni palnej</b><br><br>
+    
+    Poziom rany = (wszystkie kości z broni /rozmiar)<br><br>
+    <br><br>
+    <b>Obrażenia broń do walki wręcz</b>
+    <br><br>
+    Poziom rany = [(wszystkie kości z broni + najwyższa z Siły)/rozmiar]
+    <br><br>
+    <b>Obrażenia od piąchy</b>
+    <br><br>
+    Utrata tchu = najwyższa kostka z Siły atakującego – najwyższa kostka z Wigoru obrońcy
+    <br><br>
+   <b></b> Obrażenia od duszenia</b>
+    <br><br>
+   Utrata tchu = najwyższa kostka z Siły atakującego
+    <br><br>
+     <b>Obrażenia obszarowe</b> 
+    <br><br>
+    Suma kości z ataku / rozmiar = ilość punktów ran, które trzeba przydzielić na losowe lokacje.
+    <br><br>
+    <b>Uszkodzenia EMP</b>
+    <br><br>
+    Niszczycielskie ładunki EMP mogą mieć różną siłę i lepiej bądź gorzej działać na elektronikę. Jeżeli ładunek EMP zada choć jedno obrażenie przedmiotowi, wyłącza go. Zadanie 5 uszkodzeń, niszczy doszczętnie elektronikę danego przedmiotu. By naprawić (ponownie uruchomić) uszkodzony/wyłączony przedmiot należy zdać test majsterkowania: Fach - powiązany z elektroniką lub majsterkowanie: naprawa na poziomie PT5 +2 za każde obr. powyżej 1. <br>
+    Rozmiar przedmiotu zależy od jego wago-wielkości tak więc komunikator czy latarka czy mała broń strzelecka do kg ma Rozmiar 1. Karabiny czy przedmioty o wadze 2-5kg Rozmiar 2, przedmioty o wadze 6-15kg Rozmiar 3. W przypadku pancerzy wspomaganych zazwyczaj 6 czyli tyle co ich właściciel. <br>
+    Ekrany ochronne EMP działają trochę inaczej niż zwykły pancerz. Wielkość Ekranu to ilość anulowanych uszkodzeń.<br>
+    np: Ganat EMP 4K10 obr. = 22 obr. Pancerz wspomagany Rozmiar 6 z Ekranem 2 otrzyma ((22:6)-2=1) jedno uszkodzenie wyłączy pancerz ale na teście PT5 na majsterkowaniu da się go ponownie uruchomić. <br><br>
+    <b>
+    Szok
+    </b><br><br>
+    Po otrzymaniu rany, poza samą raną i utratą tchu, bohater wykonuje test szoku z Wigoru siła woli: hart (PT zależne od przyjętych obrażeń 1 rana - PT5, 2 poz. rany - PT7 itd. liczy się to co właśnie wchodzi, a nie całkowita rana na lokacji. Jeżeli wpadnie 8 ran to rzut jest na poziomie PT19). Jeżeli postać nie zda testu wpada w szok, do momentu zdania testu. Kolejne testy są rzucane od poziomu rany a nie samego ciosu. Może to zarówno ułatwić test jak i go trudnić. Postać w szoku, trzyma swe jelita, kikut po dłoni, czy coś w tym stylu. Może w ten sposób dojść do upuszczenia przedmiotów z rąk, którymi próbuje zatrzymać krwawienie (czyli w przypadku ran 3 i wyższych). Niefart oznacza utratę przytomności.
+    <br><br>
+   <b>Krwawienie</b> 
+    <br><br>
+    Rany na poziomie 3 i więcej krwawią obficie i co rundę postać traci dech. 
+    <br>
+    Rana na poziomie 3 -1 tchu.
+    <br>
+    Rana na poziomie 4 -2 tchu.
+    <br>
+    Rana na poziomie 5 -3 tchu.
+    <br><br>
+    <b>
+    Utrata kończyny
+    </b><br><br>
+    Postać mająca uciętą rękę na wysokości do łokcia (brak dłoni, kawałka przedramienia), ma -2 do wszystkich testów do których potrzebne są obydwie ręce. Jeżeli amputacja nastąpiła powyżej łokcia modyfikator wynosi -4 do wszystkich testów do których potrzeba obydwu rąk.<br>
+    Przy braku jednej ręki i posiadaniu kikuta obciętego poniżej łokcia w drugim ręku, postać ma test -8 do wszystkich akcji z użyciem rąk. Przy braku 2 rąk, no cóż, akcje są niemożliwe. 
+    <br><br>
+    Przy niesprawnej nodze Tempo spada do połowy, zaokrąglając w dół, postać ma problemy z ciągnięciem kulasa. A w przypadku braku nogi Tempo wynosi 1. Jeżeli postać używa kuli do poruszania się. Jego Tempo wynosi 2 i ma możliwość AZ bieg, w której będzie miał Tempo 3. 
+    <br><br>
+    <b>
+    Powrót do zdrowia
+    </b><br><br>
+    Dech wraca 1 pkt na 10 min spokojnego odpoczynku. Liczy się zarówno odpoczynek fizyczny jak i psychiczny. Pacjent leżący na noszach pod ostrzałem artylerii nie odzyska tchu. Z reguły to MG decyduje czy dech wraca.
+    <br><br>
+    Od razu po otrzymaniu rany istnieje złota godzina, która jest w stanie zmniejszyć poziom rany o 1, przy udanym teście medycyny. PT zależne od poziomu rany. Lekarz opatruje świeżą ranę i przy udanym teście zasklepia ją nim tkanka napuchnie, złamana kość się przemieści itd. Rany na poziomie 3 lub więcej trzeba leczyć specjalizacją medycyna: chirurgia. 
+    <br><br>
+    Leczenie naturalne. Postać co 7 dni rzuca swój Wigor, PT zależny od poziomu rany. Udany test zmniejsza wielkość rany o 1 poziom. <br>
+    Postać która nie wypoczywa podczas rekonwalescencji, otrzymuje modyfikator -1 do leczenia.<br>
+    W przypadku użycia lekarstw lub otrzymania pomocy medycznej rzut jest modyfikowany (patrz Leczenie), a jeżeli dodatkowo użyta jest aparatura medyczna lub postać jest pod nadzorem lekarza czas rekonwalescencji zmniejsza się (patrz Leczenie) do min 1 dnia a nie tygodnia. 
+    </p> 
+  </div>
+  <div id="leczenie" class="hero-item">
+    <p><h2>Leczenie</h2></p>
+    <p>Osoba używająca umiejętności leczenie może wykonywać następujące akcje: <br>
+1. Przyspieszyć odzyskiwanie Tchu pacjenta. (Wiedza)
+<br><br>
+Zdany test medycyny PT3 i użycie prostych środków typu woda do picia, koc pod głowę itp. zwiększa odzyskiwanie Tchu u pacjenta z 1 do 2 pkt Tchu na 10min. i +1 za każdy sukces w teście. 
+<br><br>
+2. Zatamować krwawienie i utrzymać przy życiu. (Zręczność)
+<br><br>
+Przy tamowaniu krwawienia PT zależy od wielkości rany. Opatrunek polowy nie leczy i nie blokuje upływu krwi całkowicie. Ta akcja trwa 1 akcję. Ta akcja działa tylko przez 1 godz. +1 godz./sukces
+<br><br>
+Rana 3 PT5 - tamuje upływ krwi<br>
+Rana 4 PT5 - zmniejsza upływ krwi do 1, PT7 - tamuje upływ krwi<br>
+Rana 5 PT5 - zmniejsza upływ krwi do 2, PT7 - zmniejsza upływ krwi do 1, PT9 - tamuje upływ krwi<br><br>
+
+Przy leczeniu rany PT zależy od wielkości rany. Do tej akcji wymagany jest ekwipunek umożliwiający opatrzenie takiej rany. Ta akcja trwa 1 min. na poziom rany. Ta akcja ma efekt trwały. Jeżeli zostanie wykonana w przeciągu 1godz. od zadania rany, uzyskanie sukcesu w rzucie Medycyny zmniejszy na stałe poziom rany o 1. Co w przypadku ran na poziomie 5 zapobiegnie potrzebie amputacji kończyny. Po złotej godzinie leczenie musi już przebiegać w naturalny sposób. 
+<br><br>
+Rana 1 PT5<br>
+Rana 2 PT7<br>
+Rana 3 PT9<br>
+Rana 4 PT11<br>
+Rana 5 PT13<br>
+<br><br>
+3. Ocucić pacjenta (Wiedza)
+<br><br>
+Jeżeli pacjent stracił przytomność wskutek szoku lub utraty Tchu, lekarz może go ocucić testem na PT3
+<br><br>
+4. Leczyć choroby (Wiedza)
+<br><br>
+Lekarz jest w stanie identyfikować i leczyć chorych pacjentów. Szybkość powrotu do zdrowia wynosi -1 dzień/sukces w rzucie na Medycynę PT zależy od choroby. <br>
+Dodatkowo lekarz zmniejsza objawy chorobowe o -1/sukces w rzucie na Medycynę PT zależy od choroby.
+<br><br>
+5. Identyfikować zmiany lub mutacje w organizmie pacjenta (Wiedza)
+<br><br>
+Lekarz jest w stanie zidentyfikować czy to na co patrzy to mutacja lub niepożądana zmiana. Po teście PT5 zmiana jest widoczna, PT7 zmiana jej wewnątrz organizmu, PT9 zmiana jest hormonalna lub ujawnia się tylko w określonych okolicznościach (na przykład alergia). 
+<br><br>
+6. Pomoc w dochodzeniu do zdrowia (Wiedza)
+<br><br>
+Lekarz poświęcający przynajmniej kilkanaście minut do godziny dziennie, zmniejsza czas potrzebny na rehabilitację obrażeń o -1 dzień/sukces i zwiększa rzut na Wigor pacjenta o +1/sukces. PT rzutu lekarza na Medycynę jest zależny od wielkości obrażeń które posiada pacjent. 
+<br><br>
+<b>Powrót do zdrowia</b>
+<br><br>
+Dech wraca 1 pkt na 10 min spokojnego odpoczynku. Liczy się zarówno odpoczynek fizyczny jak i psychiczny. Pacjent leżący na noszach pod ostrzałem artylerii nie odzyska tchu. Z reguły to MG decyduje czy dech wraca.
+<br><br>
+Od razu po otrzymaniu rany istnieje złota godzina, która jest w stanie zmniejszyć poziom rany o 1, przy udanym teście medycyny. PT zależne od poziomu rany. Lekarz opatruje świeżą ranę i przy udanym teście zasklepia ją nim tkanka napuchnie, złamana kość się przemieści itd. 
+<br><br>
+Leczenie naturalne. Postać co 7 dni rzuca swój Wigor, PT zależny od poziomu rany. Udany test zmniejsza wielkość rany o 1 poziom. <br>
+Postać która nie wypoczywa podczas rekonwalescencji, otrzymuje modyfikator -1 do leczenia.<br>
+W przypadku użycia lekarstw lub otrzymania pomocy medycznej rzut jest modyfikowany (patrz Leczenie), a jeżeli dodatkowo użyta jest aparatura medyczna lub postać jest pod nadzorem lekarza czas rekonwalescencji zmniejsza się (patrz Leczenie) do min 1 dnia. <br>
+<br><br>
+<b>Promieniowanie</b>
+<br><br>
+Poparzenia popromienne goją się dwa razy dłużej i nie można ich leczyć za pomocą złotej godziny (magia nadal działa).
+<br><br>
+Choroba popromienna działa szybko i jest bardzo śmiertelna. Niezależnie od sposobu nabycia jej, jej działanie jest takie same. Co dziennie pacjent musi rzucać Wigor(7). Jeżeli zda, kolejnego dnia rzuca test PT-2, aż do wyzdrowienia. Jeżeli nie zda rzuca następnego dnia test PT+2. Każdego dnia (niezależnie od rzutu na Wigor) traci 1k6 tchu i podczas trwania choroby nie wraca mu w naturalny sposób dech. </p>
+  
+</div>
+
+<div id="drugs" class="hero-item">
+  <p><h2>Leki, używki, doaplacze</h2></p>
+
+<p>
+ <b> Przedawkowanie</b> - jeżeli przed końcem działania substancji zażyje kolejną dawkę istnieje możliwość przedawkowania. Każda substancja ma swój własny próg. Za każdą kolejną dawkę, próg rośnie o PT+2 rzutu na Wigor. Jeżeli substancja nie ma opisanego przedawkowania rzut jest na PT3. Nieudany rzut oznacza zatrucie daną substancją i utratę 2K6 tchu i kolejne K6 tchu za każde 5 poniżej testu. Minimalny czas pomiędzy dawkami wynosi 1 godzinę. Chyba, że w opisie jest podane inaczej. <br><br>
+
+ <b>
+Uzależnienie </b>- niektóre substancje doprowadzają do pewnego poziomu uzależnienia, które zmusza daną postać do zażywania kolejnych dawek danej substancji, w określonych przedziałach czasu. <br>
+W opisie substancji jest PT testu na nabycie uzależnienia, po zażyciu jej oraz poziom nabytego uzależnienia. Jeżeni po kolejnym zażyciu test znowu nie wyjdzie, uzależnienie pogłębia się. O poziom podany w opisie. <br>
+Osoba taka nabywa zawadę.<br>
+
+</p>
+<p>
+  <b>
+Tamowanie krwawienia:</b><br>
+
+- Bandaż - +2 do testu Medycyna<br>
+- Łata medyczna - +4 do testu Medycyny<br>
+- Mediżel - krwawienie zatamowane bez rzutu<br><br>
+
+Odzyskiwanie zdrowia: 1 na dobę<br><br>
+
+- Witaminy - +1 do rzutów na Wigor w trakcie rekonwalescencji. Przedawkowanie Ups.<br>
+- Antybiotyki - +2 do rzutów na Wigor w trakcie rekonwalescencji. Przedawkowanie Ups.<br>
+- Bioregeneracja - +8 do rzutów na Wigor w trakcie rekonwalescencji. Przedawkowanie Ups, efekt - mutacja.<br>
+- Nanoboty - +8 do rzutów na Wigor w trakcie rekonwalescencji. Przedawkowanie Ups.<br>
+<br><br>
+Użycie 1 razowe:<br><br>
+Środki przeciwbólowe - uśmierza poziom bólu na 3 godz.<br>
+Uzależnienie 1 Duch Ups. Przedawkowanie 2godz. PT5.<br><br>
+
+X-Rad - leczy chorobę popromienną, pozwala podczas dziennego rzutu na Wigor dodać modyfikator +4 do wyniku.
+Przedawkowanie 12godz. PT5.<br>
+
+Nałogan - pomaga w leczeniu nałogu. Raz dziennie zażyty nałogan, umożliwia wykonanie rzutu na Ducha +4 by wyzbyć się poziomu nałogu. Przez kolejne 2 godz. osoba, która zażyje nałogan jest otumaniona. -2 poziomy wszystkich cech.<br>
+Przedawkowanie 12 godz. PT11.<br>
+
+Antydepresanty - uśmierza oddziaływania psychiczne przez 6 godz. +4 do testów przeciwko Terrorowi, strachowi i ośmieszaniu. Postać jest spokojna.<br>
+Uzależnienie 1 PT3. Przedawkowanie 6 godz. PT7.<br><br>
+
+Środki nasenne - postać staje się senna, musi wykonać test Wigor PT5 lub uśnie w przeciągu kilku min. Jeżeli chce usnąć z własnej woli, to usypia automatycznie. Jeżeli coś blokuje zaśnięcie, postać ma +4 do zaśnięcia jeśli mimo to próbuje spać. Środki nasenne działają przez 6 godz.<br>
+Uzależnienie 1 Ups. Przedawkowanie 12godz. PT7.<br><br>
+
+Środki oczyszczające - postać po zażyciu oczyszcza swój organizm z zażytych wcześniej substancji. Jeżeli w organizmie znajdują się działające substancje to zostaną usunięte. By usunąć substancję należy wykonać rzut na Wigor o PT równym Przedawkowaniu danej substancji. Jeżeli substancja nie ma tego współczynnika PT wynosi 3 lub decyzja MG. Po zażyciu tych środków postać szybko musi biec do kibelka bo wylewa się z niej i traci K6 tchu.<br>
+Uzależnienie 1 Ups.<br><br>
+
+Hot dog - zażyć przed posiłkiem, jedzenie smakuje lepiej i jeżeli jest z nim coś nie tak to postać ma +5 do testu Wigoru. <br>
+Uzależnienie 1 PT3 Duch. Przedawkowanie 6godz. PT5.<br><br>
+
+Iron Man - Uśmierza 3 poziomy bólu działa przez 2 godziny. <br>
+Uzależnienie 1 PT5 Duch. Przedawkowanie 3godz. PT5.<br><br>
+
+Slo-Mo - Czas leci wolniej. Postać zyskuje +2 poziomy Szybkości na 2k10min. Potem przez K6godz -2 poziomy Zręczności (drgawki). <br>
+Uzależnienie 1 PT5 Duch. Przedawkowanie 1godz. PT5.<br><br>
+
+Mózgojeb - Wiedza, Spostrzegawczość i Spryt wzrastają o +2 poziomy na (rzut na Wigor)min, potem -2 poziomy Wiedzy, Spostrzegawczości i Sprytu przez K6godz. <br>
+Uzależnienie 2 PT5 Duch. Przedawkowanie 6godz. PT5.<br><br>
+
+Szajbus - rozgrzewa i podnosi adrenalinę, postać zyskuje +2 poziomy Siły na 4k6min. Potem przez k6 godzin -1 poziom Spostrzegawczości i Sprytu. <br>
+Uzależnienie 1 PT5 Duch. Przedawkowanie 6godz. PT5.<br><br>
+
+Adrenalina - przywraca natychmiastowo 1k6 tchu. Powoduje ocucenie pacjenta Wigor(3). Ups - szok i zawał. <br>
+Uzależnienie 1 Duch Ups. Przedawkowanie - dodanie Tchu, więcej niż max. rzut na Wigor PT(nadwyżka Tchu). Nieudany - zawał serca.<br><br>
+
+Heroina - uśmierza 5 poziom bólu, -2 poziomy Szybkości. -2 Tempo, przez 6 godz. <br>
+Uzależnienie 2 PT7 Duch. Przedawkowanie 12godz. PT7.<br><br>
+
+Morfina - uśmierza 2 poziomy bólu, -1 poziom Szybkości. -1 Tempo, przez 6 godz. <br>
+Uzależnienie 2 PT7 Duch. Przedawkowanie 12godz. PT5.<br><br>
+
+Amfetamina - stan euforii i zwiększonego skupienia. +1 poziom Charyzma i Spryt. Podczas działania bezsenność, przez 6 godz. <br>
+Uzależnienie 2 PT7 Duch. Przedawkowanie 12godz. PT9.<br><br>
+
+Metaanfetamina - stan euforii i zwiększonego skupienia. +1 poziom Charyzma, Spryt i Sprawność. Podczas działania bezsenność, przez 6 godz. <br>
+Uzależnienie 2 PT9 Duch. Przedawkowanie 12godz. PT9.<br><br>
+
+Kokaina - skurcz żył zmniejsza krwawienie o 1 poziom, -1 poziom bólu, +1 poziom Wigor, przez 2 godz. Uzależnienie 2 PT7 Duch. Przedawkowanie 12godz. PT7.<br><br>
+
+Tytoń - podczas wciągania oparów spalania, powoduje stan relaksu, czas spędzony na paleniu tytoniu uznawany jest jako czynny odpoczynek  podczas którego można odzyskiwać dech. Chyba, że podczas palenia wykonywane są inne czynności, albo czynnik zewnętrzny jest tak silny, że palenie nie jest w stanie uspokoić bohatera. Uzależnienie 1 PT3 Duch. Przedawkowanie brak.<br><br>
+
+Pejotl - podczas wciągania oparów spalania, powoduje halucynacje podczas których bohater jest w stanie PT7 Duch, zobaczyć w zasięgu swojego wzroku, nie dalej niż na 20m osoby używające magii lub istoty mistyczne. PT9 Ducha ujrzy duchy, a przy PT11 Ducha dostrzeże dusze. <br>
+Uzależnienie 1 PT5 Duch. Przedawkowanie 2godz. PT5.<br><br>
+
+Mączka kostna - podczas wciągania oparów spalania, bohater dość szybko zapada w trans, w którym regeneruje się jakby spał twardym snem. Postać budzi się najwcześniej po 1 godzinie. Wcześniej bez użycia środków medycznych nie da się jej dobudzić. Pełny odpoczynek dobowy odbywa się w 3 godziny transu, podczas którego postać potrafi podświadomie namierzyć najsilniejszą w jego pobliżu istotę magiczną lub posługującą się magią i wejść z nią w interakcje, która będzie oderwana od rzeczywistości, ale osoba taka będzie się tam zachowywać tak jak w normalnym świecie. Co daje szansę na poznanie takiej osoby, nawet bez sposobności spotkania jej. Podczas tego transu regeneruje się Dech postaci.<br>
+Uzależnienie 1 PT7 Duch. Przedawkowanie 12godz. PT7.<br><br>
+
+Sok Szaleństwa - substancja do picia. Po zażyciu tego specyfiku postać widzi cały otaczający go świat w negatywny sposób. Na początku musi zdać test Jaj PT9. Jeżeli mu się nie uda, jedyne co będzie robił to wił się i szlochał, ponieważ jego umysł nie zniesie tego co widzi. Za każdą godzinę spędzoną pod działaniem tego specyfiku, będzie miał szansę na złapanie jakiegoś lęku lub choroby psychicznej. Jego mózg zwyczajnie zmienia się w kisiel. <br>Czas działania specyfiku zależy od testu Wigoru postaci. Co godzinę musi wykonać rzut PT7. Drugi udany rzut oznacza, że ciało pokonało środek halucynogenny i wyzwoliło się spod jego działania. Jeżeli test na Jaja powiedzie się postać zachowa kontrolę nad swoim ciałem i umysłem. Co do umysłu to pół na pół. W tym szaleństwie, postać jest w stanie dostrzec, to co normalnie byłoby dla niej niemożliwe. Wszystko zależy co mu chodziło po głowie w momencie zażycia specyfiku. Jeżeli chciał odnaleźć czyjś trop, to go zobaczy. Jeżeli chciał zobaczyć prąd w kablach, to będzie go widział. Jeżeli chciał zobaczyć pole grawitacyjne, ludzkie serca, czy temperaturę otaczających go rzeczy to je zobaczy. Jeżeli chciał zobaczyć plan cieni, to w niego wejrzy. Jedyną barierą jest zasięg i siła jego wzroku. Czyli nie zobaczy czegoś co jest za daleko lub jest zbyt małe. Na każdą godzinę tego dziwnego transu postać traci 1 Tchu. <br>
+Uzależnienie 2 PT5. Przedawkowanie 12godz. PT7.</p>
+</div>
+
+  <div id="strach" class="hero-item">
+    <p><h2>Strach i groza</h2></p>
+
+ 
+<p>
+<b>Poziom strachu</b><br><br>
+
+Współczynnik odpowiadający za Zło czające się w okolicy lub w jakimś obiekcie. Czym większy jest poziom strachu, tym Zło jest potężniejsze.
+<br><br>
+Normalnym poziomem strachu powinien wynosić 0. Czyli zwykła społeczność ludzka, w której liczba zgonów i przestępstw jest minimalna i społecznie akceptowalna. Śmierć ludzi ze starości, czasem od jakiegoś nieszczęśliwego wypadku. Przestępstwa to głównie kradzieże i do tego drobne.
+<br><br>
+Poziom strachu na 1 poziomie pokazuje się gdy ginie człowiek w tragicznych okolicznościach lub dzieje się coś złego. Powiedzmy pożar budynku, albo napad na bank w którym nikt nie musi ginąć, ale wiele osób jest wystraszonych. Jeżeli poziom strachu wywołany jest jakimś nieszczęśliwym wydarzeniem lub zbrodnią i z tego powodu podniósł się poziom strachu w okolicy, to z czasem on opadnie. Sprawa ma się inaczej, jeżeli zalęgnie się Zło. Za każdym razem gdy poziom strachu wynosi 3 i więcej, jest szansa, że przypałęta się coś złego i będzie wykorzystywało negatywne ludzkie emocje oraz ich strach do podtrzymania poziomu strachu. Możliwe jest też, że kreatura będzie chciał rozszerzyć terror.
+<br><br>
+Poziom strachu na 2 poziomie pokazuje się gdy wielu ludzi ginie w tragiczny sposób na niewielkim obszarze.
+<br><br>
+Czym potężniejsza jest zbrodnia, która dotknie lokalną społeczność, tym większy poziom strachu ją będzie nękał. Każde działanie wywołujące strach w ludziach musi się wpierw zakorzenić. Dlatego skutków nie widać nawet na przestrzeni kilka dni, może nawet tygodni.
+<br><br>
+Większą część roboty zawsze odwalają ludzie, jeżeli strach powstaje w naturalny sposób bez ingerencji istot nadprzyrodzonych. To jest wynikiem powtarzanych opowieści. Ludzie opowiadają sobie okropności, często je koloryzując i dodając nowe elementy. Gdy powstanie historia, pojawia się poziom strachu.
+<br><br>
+Obszar ogarnięty terrorem jest namacalnie odczuwalny dla zwykłego człowieka od 3 poziomu. Ludzie przebywający na takim terenie, czują się nieswojo i instynktownie lękają się czającego Zła.
+<br><br>
+Poziom strachu który osiągnął poziom 6, to piekło na ziemi. Taki teren nazywa się Martwą Ziemią. Tu poza poczuciem strachu są już widoczne efekty, w cieniach dostrzegane są kształty, przedmioty wyglądają jak coś co przypomina coś strasznego, każdy ciemny kąt wygląda jak leże demona. Ludzie o zdrowych zmysłach uciekają z takiego terenu najszybciej jak potrafią. Tylko nieliczni potrafią przywrócić taki skrawek świata do normalności. Taka ziemia pozostawiona samej sobie nigdy nie wróci do normalności, tak jak to się dzieje w przypadku pozostałych 5 poziomów skażenia Złem.
+<br><br>
+<b>
+Strach jako broń</b><br><br>
+
+Każdy poziom strachu podnosi trudność testu jaj o 1. Od 4 poziomu Szeryf ciągnie sztony na potrzeby sceny z udziałem terenu poddanego strachowi. Źli na takim terenie mają możliwość się sztonować. 
+<br><br>
+<b>
+Hart</b>
+<br><br>
+Współczynnik zahartowania bohatera na straszne wydarzenia. Każdy punkt hartu dodaje się do testu jaj.
+<br><br>
+Jeżeli ktoś ma niefart w teście jaj, traci na stałe 1 punkt Hartu. Jeśli go posiadał.
+<br><br>
+Postacie, które posiadają 5 punktów Hartu zwracają swoją osobą uwagę Zła. Często oznacza to, że Zło wysłało jakieś potężne wynaturzenie by pozbyć się opornego człowieka.
+<br><br>
+ <b>
+
+Bajanie
+</b><br><br>
+Najpotężniejszą bronią przeciwko strachowi jest dobry gawędziarz. Osoba która potrafi przedstawić straszną historię, opowiedzieć jakieś tragiczne wydarzenia lub heroiczny poemat i swoją przemową wzbudzić w ludzkich sercach nadzieję. Ludzie wierzą w bajanie gawędziarza i czerpią z tego siłę, takie działanie doprowadza do zmniejszenia poziomu strachu. Straszne historie są w danej społeczności zastępowane tymi heroicznymi. 
+<br><br>
+Za każdym razem gdy bajarz obniży poziom strachu moce dobra obdarzają go Legendarnym sztonem losu, a istoty Zła zaczynają go tropić, podobnie jak osoby z Hartem 5.</p>
+  </div>
+  </div>
+</body>
+
+</html>
+
+<script src="../json/bohater.js
+"></script>
+</body>
+
+</html>

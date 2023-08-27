@@ -1,0 +1,1220 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dead space RPG</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/bohater.css">
+</head>
+
+<body>
+
+  <nav class="navbar fullwidth" id="top">
+
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="historia.html">Świat</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="bohater.html">Tworzenie postaci</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../json/mistycy.html">Mistycy</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="zasady.html">Zasady gry</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://anjawr.github.io/crew/">Statek Unity</a>
+      </li>
+    </ul>
+
+  </nav>
+
+  <div class="main_wrapper main_wrapper-hero">
+
+    <!-- Sidebar -->
+
+    <!-- Wrapper -->
+
+    <div class="sidebar">
+      <a class="sidebar-a" href="#kim">Kim jesteś?</a>
+      <a class="sidebar-a" href="#point">Punkty</a>
+      <a class="sidebar-a" href="#size">Rozmiar</a>
+      <a class="sidebar-a" href="#stat">Umiejętności</a>
+      <a class="sidebar-a" href="#zawady">Zawady</a>
+      <a class="sidebar-a" href="#przewagi">Przewagi</a>
+      <a class="sidebar-a" href="#cyberwszczepy">Cyberwszczepy</a>
+      <a class="sidebar-a" href="#cyberwszczepy">Nieumarli</a>
+      <a class="sidebar-a" href="#top">Powrót</a>
+    </div>
+
+    <div class="main_wrapper main_wrapper-hero" >
+
+    <div class="" id="kim">
+    </div>
+    <div id="point" class="hero-item">
+  <p><h2>Tworzenie postaci</h2></p>
+      <p >Na postać przypadnie 22 punkty na wielkość kości i 16 na ich ilość</p>
+
+      <p>Bohater ma 1k4 w każdej cesze. podniesienie każdego poziomu kości kosztuje 1 punkt, na który ma się 22 pkt. (z
+        k4 na k6 - koszt 1 pkt., z k4 na k8 - koszt 2 pkt., z k4 na k10 - koszt 3 pkt., z k4 na k12 - koszt 4 pkt.) i
+        podniesienie ilości kości kosztuje 1 punkt za każdy poziom podniesienia i ma się na to 16 pkt. (max ilość kości
+        na cesze wynosi 4)
+      </p>
+      <p id="size" style="margin-top:50px"> <h2>Nępnie warto określić wzrost i wagę postaci. </h2></p>
+      <p>
+        <b>Wzrost nie powinien być mniejszy niż 140cm i nie większy niż 220cm. </b><br>
+        Co do wagi jest ona pochodną wzrostu, na którą wpływ mają cechy, przewagi i zawady. <br><br>
+        Dla mężczyzny będzie to Wzrost -100 = waga, dla kobiety wzrost -110 = waga <br> <br>
+        Następnie waga uzależniona jest od wysokości cech, przy czym Siła jest tu kluczowa i ma największy wpływ na
+        wagę. Jeżeli wyliczyliśmy już wagę ze wzrostu, to patrzymy w jakich proporcjach możemy ją umieścić z posiadaną
+        przez nas siłą. Do wyboru jest zakres 30kg jeżeli ktoś nie ma pomysłu może rzucać k6 i wyjdzie losowa waga w
+        przedziałach co 5kg.
+      </p>
+      <p>
+        Siła
+        K4 (od -30kg do +0kg) <br>
+        K6 (od-20kg do +10kg) <br>
+        K8 (od -10 do +20kg) <br>
+        K10 (od +10kg do +40kg) <br>
+        K12 (od +20 do +50kg) <br>
+      </p>
+      <p>
+        Następnie wybrany z przedziału ciężar modyfikujemy pozostałymi cechami.</p>
+      <table style="width: 269px;" border="1">
+        <tbody>
+          <tr style="height: 21px;">
+            <td style="height: 21px; width: 29px;">&nbsp;</td>
+            <td style="height: 21px; width: 37px;">Wigor</td>
+            <td style="height: 21px; width: 70px;">Sprawność</td>
+            <td style="height: 21px; width: 59.0625px;">Szybkość</td>
+            <td style="height: 21px; width: 68.9375px;">Zręczność&nbsp;</td>
+          </tr>
+          <tr style="height: 21.5px;">
+            <td style="height: 21.5px; width: 29px;">&nbsp;K4</td>
+            <td style="height: 21.5px; width: 37px;">&nbsp;-4%</td>
+            <td style="height: 21.5px; width: 70px;">&nbsp;0</td>
+            <td style="height: 21.5px; width: 59.0625px;">&nbsp;0</td>
+            <td style="height: 21.5px; width: 68.9375px;">&nbsp;0</td>
+          </tr>
+          <tr style="height: 21px;">
+            <td style="height: 21px; width: 29px;">&nbsp;K6</td>
+            <td style="height: 21px; width: 37px;">-2%&nbsp;</td>
+            <td style="height: 21px; width: 70px;">0&nbsp;</td>
+            <td style="height: 21px; width: 59.0625px;">0&nbsp;</td>
+            <td style="height: 21px; width: 68.9375px;">0&nbsp;</td>
+          </tr>
+          <tr style="height: 21px;">
+            <td style="height: 21px; width: 29px;">K8&nbsp;</td>
+            <td style="height: 21px; width: 37px;">0&nbsp;</td>
+            <td style="height: 21px; width: 70px;">0&nbsp;</td>
+            <td style="height: 21px; width: 59.0625px;">0&nbsp;</td>
+            <td style="height: 21px; width: 68.9375px;">-1%</td>
+          </tr>
+          <tr style="height: 21px;">
+            <td style="height: 21px; width: 29px;">K10&nbsp;</td>
+            <td style="height: 21px; width: 37px;">2%&nbsp;</td>
+            <td style="height: 21px; width: 70px;">-3%&nbsp;</td>
+            <td style="height: 21px; width: 59.0625px;">-2%&nbsp;</td>
+            <td style="height: 21px; width: 68.9375px;">-3%&nbsp;</td>
+          </tr>
+          <tr style="height: 21px;">
+            <td style="height: 21px; width: 29px;">K12&nbsp;</td>
+            <td style="height: 21px; width: 37px;">4%&nbsp;</td>
+            <td style="height: 21px; width: 70px;">-5%&nbsp;</td>
+            <td style="height: 21px; width: 59.0625px;">-4%&nbsp;</td>
+            <td style="height: 21px; width: 68.9375px;">-5%&nbsp;</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p> Zliczamy o ile procent przesunie się waga bohatera i jeżeli nie modyfikujemy jej przewagami lub zawadami, to
+        jest to końcowa waga bohatera. Jeżeli waga jest mniejsza niż 60kg to bohater ma Rozmiar 5, jeżeli jest większa
+        niż 120kg to bohater ma Rozmiar 7. W przedziale od 60 do 120 ma normalny Rozmiar 6.</p>
+
+      <p><h2>Rozmiar</h2></p>
+
+      <p>Jest to uśredniona wielkość obiektu lub istoty. Dorosły człowiek ma rozmiar 6.</p>
+
+      <p>Wielkość obiektu o rozmiarze 6 to masa o gęstości człowieka i wadze od 60 do 120kg. Każdy obiekt o gęstości
+        ciała ludzkiego lżejszy od 60kg będzie miał mniejszy rozmiar i adekwatnie, wszystko co jest cięższe od 120kg
+        będzie miało większy rozmiar.</p>
+      <p>
+        Rozmiar <br>
+        1 0,1-1kg <br>
+        2 2-5kg<br>
+        3 6-15kg<br>
+        4 16-30kg<br>
+        5 31-59kg<br>
+        6 60-120kg Człowiek, Dzik, Mrówkojad<br>
+        7 121-180kg<br>
+        8 181-300kg Mały supermutant<br>
+        9 301-500kg Supermutant, Niedźwiedź<br>
+        10 501-1000kg Koń<br>
+        11 1001-3000kg<br>
+        12 3001-8000kg Słoń<br>
+        13 8001-20000kg<br>
+        14 20-40t Niedźwiedź Borys <br>
+
+      </p>
+
+      <p><br>
+        <h3>Rozmiar ma znaczenie</h3>
+      </p>
+      <br>
+      <p>
+        Istoty z większym rozmiarem są bardziej odporne na obrażenia, trzeba je dłużej bić by w końcu ubić. Każda zadana
+        ilość obrażeń w taką istotę jest dzielona przez jej rozmiar, a pełny (zaokrąglony w dół) wynik ilorazu jest sumą
+        otrzymanych ran.
+        np: Człowiek o rozmiarze 6 otrzymuje obrażenia o wartości 15 (15/6=2) czyli otrzyma 2 rany.
+        </p>
+        <p><h4>Duży rozmiar</h4></p>
+<p>
+        Duże cele łatwiej trafić. Każdy cel który jest większy od rozmiaru 6, daje bohaterowi +1 do trafienia.
+        np: Dla bohatera strzał w cel o rozmiarze 10 łatwiej trafić o +4, a cel o rozmiarze 12 aż o +6
+        </p>
+       <p> <h4>Mały rozmiar</h4></p>
+       <p>
+        Małe cele trudniej trafić. Każdy cel który jest mniejszy od rozmiaru 6 o 1 rozmiar trudniej jest trafić o -1.
+        np: bohater strzelający w psa o rozmiarze 4 ma -2 do trafienia, a w kurę o rozmiarze 2 -4 do trafienia.
+      </p>
+
+      <p>Na umiejętności gracz ma do wydania 20 pkt + wielkość kości z Spostrzegawczość + Spryt + Wiedza (na przykład
+        K6+K8+k6 = 20pkt. Czyli łącznie 40pkt. </p>
+
+      <p>Maksymalny poziom umiejętności podczas tworzenia postaci to 5.</p>
+
+      <p> Maksymalny poziom specjalizacji w umiejętności to 5. Nie można wykupić specjalizacji w umiejętności, jeśli nie
+        wykupiło się umiejętności, na przynajmniej 1 poziom.
+      </p>
+      <p>Gracz otrzymuje, język (wybór dowolny) ojczysty na 2 poziomie. Umożliwia mu to, płynne posługiwanie się mową,
+        ale brak umiejętności pisania (która jest na 3 poziomie)
+      </p>
+      <p>
+      <h2>
+        Przewagi i Zawady</h2></p>
+      <p>
+        Przy tworzeniu postaci, gracz otrzymuje 2 punkty na wydanie ich na Przewagi. </p>
+
+      <p>Za każdy punkt Zawady (max 10) przy tworzeniu postaci, gracz może wydać te punkty na umiejętności lub Przewagi.
+        Można kupić sobie więcej zawad, ale po przekroczeniu 10 pkt. nie otrzymuje się za nie bonusu.</p>
+
+      <p> Jeżeli gracz chce zakupić Przewagę przy tworzeniu postaci, ma na to 2 punkty darmowe i za otrzymane z zawad
+        punkty (max 10) lub za punkty umiejętności otrzymane na początek, ale w przypadku punktów umiejętności, na każdy
+        punkt przewagi musi wydać 3 punkty umiejętności. </p>
+
+      <p>Jeżeli gracz chce wybrać mistyczną przeszłość, musi spojrzeć w jej opis i spełnić wymagania do jej posiadania.
+      </p>
+
+    <p> <h2>Ekwipunek</h2></p> 
+
+      <p> Postać ma 2500 kasiory na kupienie sobie początkowych bambetli. Oczywiście GM może cosik dać za darmo jak mu
+        się spodoba.</p>
+
+      <p> Mam nadzieję że opisałem to w całości, jeżeli coś rozszerzyć lub doprecyzować to zgłaszajcie mi. </p>
+    </div>
+ <div class="hero-item" id="stat">
+
+  <p><h2>Wykorzystywanie cech głównych</h2></p>
+
+  <p>Cechy główne zazwyczaj nie są używane bezpośrednio. Podczas rozgrywki, należy patrzeć od "dołu" wpierw patrzymy, czy jest jakaś specjalizacja, która odpowiada pod test, jeżeli nie ma takiej to czy jest umiejętność, a dopiero gdy nie jesteśmy wstanie nic podstawić, to rzucamy cechę. </p>
+  
+ <p> <strong>Charyzma</strong> – Używana gdy chcemy zaimponować swoim obyciem, wyglądem, zachowaniem. Umiejętności i specjalizacje rzucane z Charyzmy, to te, które bohater wygłasza lub prezentuje sobą. 
+  </p>
+  <p><strong>Duch</strong> – Siła skupienia umysłu, obrona przeciwko magii i siłom duchowym. Nasza tarcza psychiczna i intuicja. Umiejętności i specjalizacje rzucane z Ducha, to te, które tyczą się odporności psychofizycznej bohatera, jak i jego zahartowaniu i pewności siebie. 
+  </p>
+  <p><strong>Siła</strong> – Siła udźwigu i ciosu naszej postaci. </p>
+  
+  <p><strong>Spostrzegawczość</strong> – Używana gdy chcemy coś zobaczyć, dostrzec, uniknąć zaskoczenia. Zazwyczaj na otworzenie sceny lub przy nagłym zdarzeniu. Umiejętności i specjalizacje związane ze Spostrzegawczością, oto te, związane ze wzrokiem czy słuchem. 
+    </p><p><strong>
+  Sprawność   </strong>– Skakanie, omijanie przeszkód podczas biegu, wspinaczka, prowadzenie pojazdów, równowaga na linie, lodzie. Także omijanie przechodniów podczas pościgu lub przemykanie się między nimi podczas ucieczki. Umiejętności i specjalizacje rzucane z tej cechy, to te, które wykonujemy fizycznie najczęściej używając całego lub większości naszego ciała.
+</p><p><strong>
+  Spryt   </strong>– Wyobraźnia, wymyślanie. Używana, gdy chcemy odkryć, zrobić coś nowego, improwizować, wpaść na jakiś pomysł. Umiejętności i specjalizacje rzucane ze Sprytu, to te, odpowiedzialne za zrozumienie jakiegoś problemu, bądź rozwiązanie jakiejś niewiadomej.
+</p><p><strong>
+  Szybkość  </strong> – Ilość wykonywanych akcji, szybkość reakcji. Umiejętności i specjalizacje powiązane z tą cechą to te, które wykonujemy jako szybkie akcje, coś nagłego za co nie odpowiada bezpośrednio inna cecha. 
+</p><p><strong>
+  Wiedza  </strong> – Świadomość otaczającego postać świata. Czyli co postać wie z tego, czego nie wie gracz, a powinna wiedzieć postać. Umiejętności i specjalizacje tej cechy, to wiedza nabyta i zapamiętana. 
+</p><p><strong>
+  Wigor</strong> – Wytrzymałość organizmu na niesprzyjające warunki. Duszenie, topienie, obijanie, krwawienie. Umiejętności i specjalizacje rzucane z tej cechy, to te, które odpowiadają za fizyczny stan bohatera i jego wytrzymałość. 
+</p><p><strong>
+  Zręczność   </strong>– Sprawność manualna kończyn, głównie rąk. Używane przy wykonywaniu czynności wyrafinowanych i subtelnych w sposób fizyczny. Umiejętności i specjalizacje odpowiedzialne za tą cechę to te wykonywane manualnie i precyzyjnie przez bohatera. Do użycia których ważniejsza jest precyzja a nie siła czy ogólna sprawność organizmu. 
+</p>
+   
+  
+  <p><h2>Krótki opis umiejętności (w jednym zdaniu)</h2></p>
+  
+  <p><b>Artyleria</b> (S)– strzelanie z dział, rakiet, granatników.  <br><br>
+  
+  - zdalnie kierowana (lot pocisku następuje poprzez najczęściej monitor komputerowy, na którym trzeba umieć prowadzić pocisk do celu) <br><br>
+  
+  - balistyczna (pocisk leci pod dużym kątem lub na duże odległości np. moździerz do tego rodzaju strzelania potrzebna jest wiedza obliczeniowa) <br><br>
+  
+  - celowana ręcznie (wszelkiej maści granatniki i wyrzutnie rakiet, które odpalamy przez celownik widząc cel i zapominamy)</p>
+
+  
+  <p><b>Charakteryzacja</b> – umiejętność przebierania się i zmiany wyglądu. <br><br>
+  
+  - zmiana wizerunku (dopasowywanie stroju lub wyglądu do potrzeb postaci, tak by się przed kimś ukryć, kogoś udawać lub poprawić swój wygląd w zależności od sytuacji) <br><br>
+  
+  - zmiana głosu (udawanie innej barwy głosu, kogoś innego)</p><p>
+  
+ <b> Cwaniactwo</b> – wiedza na temat kradzieży, czy znajomość zasad panujących w półświatku przestępczym. <br><br>
+  
+  - kieszonkostwo (umiejętność sprawnego podbierania rzeczy, tak by nikt nie zauważył) <br><br>
+  
+  - zamki mechaniczne (otwieranie i włamywanie się przez przeszkody zabezpieczone zamkami mechanicznymi) <br><br>
+  
+  - zamki elektroniczne (otwieranie i włamywanie się przez zabezpieczenia elektroniczne) <br><br>
+  
+  - maniery uliczne (znajomość i dostrzeganie zachowań tożsamych dla ludzi ulicy.</p><p>
+  
+ <b> Dobywanie</b> – szybkie bez akcyjne podnoszenie lub wyjmowanie przedmiotów. <br><br>
+  
+  - małe przedmioty (takie które mieszczą się w dłoni) <br><br>
+  
+  - duże przedmioty (takie do których potrzeba ruchu całą ręką, bądź oboma)</p><p>
+  
+  <b>Etykieta </b>– znajomość zasad i umiejętność ich wykorzystania w różnych kręgach społecznych <br><br>
+  
+  - maniery (umiejętność odpowiedniego zachowania się w danej sytuacji, tak by nie obrazić innych) <br><br>
+  
+  - język towarzyski (umiejętność dopasowania swoich wypowiedzi do otoczenia, tak by nie palnąć gafy) <br><br>
+  
+  - moda (znajomość obowiązującej mody i umiejętność dobrania odpowiedniej garderoby do sytuacji)</p><p>
+  
+  <b>Fach</b> – umiejętności zawodowe, wyćwiczone w jakimś zawodzie i umiejętne stosowanie ich. Może to być fach kowal, hutnik, fryzjer, rzeźnik, cokolwiek, co wyrabia lub przetwarza jakiś materiał.</p><p>
+  
+  <b>Hazard </b>– umiejętność wykorzystania zasad gier hazardowych na swoją korzyść. <br><br>
+  
+  - liczenie (umiejętność przeliczania kart lub szacowania wyników z kości itd. służy do zwiększenia prawdopodobieństwa na wygraną) <br><br>
+  
+  - kantowanie (umiejętność wykorzystywania zasad lub omijania ich do osiągnięcia pożądanego wyniku)</p><p>
+  
+  <b>Informatyka</b> – umiejętność posługiwania się sprzętem komputerowym i różnego rodzaju elektroniką. <br><br>
+  
+  - programowanie (tworzenie programów i skryptów zmieniających działanie danego urządzenia lub wpływających na jego pracę) <br><br>
+  
+  - przeszukiwanie (umiejętność pozyskiwania wiedzy i informacji z danych informatycznych) <br><br>
+  
+  - konfigurowanie (znajomość konfiguracji urządzeń komputerowych i elektrycznych oraz umiejętność ich zmiany lub dostosowania) <br><br>
+  
+  - komunikacja (wykorzystanie komputera lub urządzenia elektronicznego do komunikowania się, ustawienie odpowiedniej częstotliwości, kanału lub portu, umiejętność nawiązywania połączenia i wyszukiwania go) 
+</p><p>
+  <b>Języki </b>– samej umiejętności język nie wykupujemy. wykupujemy jedynie jej specjalizację, których kolejne poziomy mają następujące efekty automatyczne, do których nie są wymagane rzuty. Specjalizacja posługiwania się wyuczonym językiem. Na poziomie 1 postać potrafi posługiwać się za pomocą podstawowych słów, na poziomie 2 mówi już płynnie, na 3 umie czytać i pisać w danym języku, na poziomie 4 zna trudne słowa i frazeologizmy, na 5 poziomie potrafi po akcencie odróżnić pochodzenia słuchacza. <br><br>
+  
+  - japoński (dialekt Pluton, używany przez ludzką kolonię na Plutonie i w okolicach)  <br>
+  
+  - francuski (dialekt Tytan, używany na Tytanie i w niektórych miejscach w kosmosie) <br>
+  
+  - japoński (dialekt Tokio, używany przez ludzi mieszkających na Tokio)
+  <br>
+  - angielski (dialekt Ganimedes, używany na Ganimedesie i przez ludzi w zewnętrznej części Układu Słonecznego)
+  <br>
+  - angielski (dialekt Europa, używany na Europie i przez niektóre grupy społeczne w zewnętrznej części Układu Słonecznego)
+  <br>
+  - niemiecki (dialekt Berlin, używany na Berlinie i Ziemskim Księżycu, oraz przez nieliczne grupy wewnątrz Układu Słonecznego)
+  <br>
+  - niemiecki (dialekt Ceres, używany na Ceres i wśród nielicznych grup ludzi)
+  <br>
+  - angielski (dialekt Mars, używany na Marsie i w większości wewnętrznego Układu Słonecznego)
+  <br>
+  - rosyjski (dialekt Moskwa, używany na Moskwie i w nielicznych placówkach w całym Układzie Słonecznym)
+  <br>
+  - rosyjski (dialekt Wenus, używany na Wenus)
+  <br>
+  - angielski (dialekt Ziemia, używany przez ludzi na Ziemi)
+  <br>
+  - niemiecki (dialekt Ziemia, używany przez ludzi na Ziemi)
+  <br>
+  - rosyjski (dialekt Ziemia, używany przez ludzi na Ziemi)
+  <br>
+  - chiński (dialekt Ziemia, używany przez ludzi na Ziemi)
+  <br>
+  - inne (do określenia w toku fabularnym)
+</p><p>
+  <b>Majsterkowanie</b> – naprawa, budowa i montaż dowolnych rzeczy. <br> <br>
+  
+  - naprawa (umiejętność intuicyjnego zalepiania dziury, często zastępczymi przedmiotami. Taka naprawa działa w mniej skomplikowanych naprawach) <br> <br>
+  
+  - demontaż ( umiejętność rozbierania i odzyskiwania surowców z przedmiotów)
+</p><p>
+  <b>Medycyna </b>– umiejętność leczenia ran i chorób, w zależności od specjalizacji. <br> <br>
+  
+  - chirurgia (wykonywanie operacji i leczenie obrażeń o poziomach rany 3 i większych) <br> <br>
+  
+  - choroby (leczenie zatruć i chorób) <br> <br>
+  
+  - genetyka (stosowanie rozwiązań genetycznych w leczeniu) <br> <br>
+  
+  - cybernetyka (wszczepianie i leczenie za pomocą rozwiązań cybernetycznych) <br> <br>
+  
+  - farmacja (umiejętne stosowanie przeróżnych środków jako lekarstw, nawet jeżeli nie są do tego przeznaczone w oczywisty sposób) <br> <br>
+</p><p>
+  <b>Nauka</b> – wiedza w określonym temacie. Na zdobycie tej umiejętności na poziom 3 lub więcej postać musi pobierać nauki u nauczyciela, tyczy się to umiejętności, specjalizacje nie mają tego limitu.  <br> <br>
+  
+  - mat-fiz (wiedza matematyczna i fizyczna, dzięki niej postać jest świadoma zagadnień z tych dziedzin i może je wykorzystać fabularnie) <br> <br>
+  
+  - historia (postać ma pojęcie o historii ludzkości starszej niż Koniec Złotego Wieku lub zwany inaczej Wielki Upadek) <br> <br>
+  
+  - językoznawstwo (postać umie identyfikować języki, nawet jak ich nie zna i potrafi je odczytywać. Trudność odczytania nieznanego języka zależy od jego wieku, ilości materiału pisanego i popularności danego języka) <br> <br>
+  
+  - okultyzm (postać zapoznała się z wiedzą mistyczną, dzięki czemu potrafi identyfikować symbole i zapiski. Posiada wiedzę ogólną na temat rzeczy związanych z mistycyzmem i innymi wymiarami) <br> <br>
+  
+  - religioznawstwo (znajomość religii świata, tych obecnych  i tych z dawnych lat. Nazwy, doktryny i wierzenia) <br> <br>
+  
+  - chemia (postać ma wiedzę na temat substancji i pierwiastków. Potrafi określić potrzebne materiały i ich ilości do wykonania odpowiednich substancji lub rzeczy. Bądź zainicjować jakieś chemiczne reakcje) <br> <br>
+  
+  - biologia (posiać zna się na biologii. Potrafi identyfikować faunę i florę oraz zna się na ich zależnościach i zdolnościach, wie jak co się rozmnaża i namnaża)
+  <br> <br> 
+  - inżynieria materiałowa (postać ma wiedzę na temat materiałów używanych do wyrabiania różnych rzeczy. Zna ich wytrzymałość, czy zastosowania przemysłowe. Wie jakiego materiału użyć lub gdzie coś zostało użyte)
+  <br> <br>
+  - inżynieria atomowa (postać zna się na reakcjach atomowych i konstrukcjach wykorzystujących atom jako energię, broń lub chociażby maszyny medyczne. Wie kiedy jest bezpiecznie, a kiedy nie)
+  <br> <br>
+  - inżynieria budowlana (postać zna się na konstruowaniu budynków, mostów, tuneli, wind i innych rzeczy związanych z budownictwem. Wie jak wzmocnić lub uszkodzić konstrukcję by uzyskać pożądany efekt)
+  <br> <br>
+  - inżynieria lądowa (postać potrafi konstruować i wie jak działają pojazdy lądowe, samochody, pociągi, itp. Zna ich konstrukcje wady i zalety)
+  <br> <br>
+  - inżynieria morska (postać potrafi konstruować i wie jak działaj pojazdy wodne, statki, łodzie podwodne, itp. Zna ich konstrukcje, wady i zalety)
+  <br> <br>
+  - inżynieria kosmiczna (postać potrafi konstruować i wie jak działaj pojazdy kosmiczne, promy, statki kosmiczne, itp. Zna ich konstrukcje, wady i zalety)
+  <br> <br>
+  - inżynieria lotnicza (postać potrafi konstruować i wie jak działaj pojazdy powietrzne, odrzutowce, śmigłowce, itp. Zna ich konstrukcje, wady i zalety)
+  <br> <br>
+  - Inżynieria biologiczna (postać potrafi tworzyć i przetwarzać materię organiczną poprzez manipulacje genetyczne i środowiskowe. Wie jak stworzyć sprzyjające lub negatywne związki biologiczne lub jak się przed nimi zabezpieczać)
+  <br> <br>
+  - inżynieria cybernetyczna (postać jest zaznajomiona z cybernetyką, wie jak wytwarzać i konstruować części cybernetyczne wykorzystywane później w przemyśle lub medycynie)
+  <br> <br>
+  - inżynieria mistyczna (postać potrafi tworzyć maszyny zasilane energią mistyczną. Wie jak pozyskiwać energię z innych wymiarów i potrafi ją wykorzystać. Łącznie z energią przenikową)
+  <br> <br>
+  - ekonomia (postać ma wiedzę na temat działania gospodarki i produktów pochłanianych przez ludzi i ich otoczenie. Umie określić ile i jakich towarów jest potrzebne dla danej społeczności)
+  <br> <br>
+  - wiedza powszechna (postać ma dobrą wiedzę na temat tego co dzieje się obecnie na świecie, zna wiele tematów nie technicznych, wie kto gdzie przebywa, kto sprawuje władzę w różnych miejscach)
+  <br> <br>
+  - astronomia (postać zna się na ciałach niebieskich i zjawiskach astronomicznych, potrafi je identyfikować i wykorzystać. W tej specjalizacji mieści się też wiedza astrofizyczna umożliwiająca podróże między planetarne, czyli umiejętność wyliczania optymalnych tras)
+  <br> <br>
+  - muzyka (postać potrafi czytać nuty i komponować utwory muzyczne)
+</p><p>
+ <b>Opieka nad zwierzętami</b>  - umiejętność zajmowania się zwierzętami. <br> <br>
+  
+  - tresura ( znajomość zasad trasowania zwierząt) <br> <br>
+  
+  - jeździectwo (umiejętność utrzymania się na grzbiecie zwierzęcia i jechania na nim) <br> <br>
+  
+  - powożenie (umiejętność obsługi smyczy, lejców i innych narzędzi pozwalających kontrolować poruszające się zwierzę oraz zaprzęganie go) <br> <br>
+  
+  - leczenie (znajomość urazów doznawanych przez zwierzęta i umiejętność pomagania im w takich sytuacjach)
+</p><p>
+  <b>Perswazja</b> – sztuka wpływania słowem na innych. <br> <br>
+  
+  - zastraszanie (umiejętność wzbudzenia lęku u oponenta, zdominowaniu go i uzyskaniu zamierzonego efektu) <br> <br>
+  
+  - dowodzenie (umiejętność delegowania rozkazów i posłuch wśród ludzi) <br> <br>
+  
+  - bajanie (snucie opowieści i wymyślanie historyjek) <br> <br>
+  
+  - blef (oszukiwanie innych by uzyskać zamierzony efekt) <br> <br>
+  
+  - obśmiewanie (ośmieszanie innej osoby w celu zawstydzenia jej)
+  <br> <br>
+  - targowanie (umiejętność skutecznego nacisku przez podawanie prawdziwych lub zmyślonych powodów w celu uzyskania lepszych warunków handlowych)
+  <br> <br>
+  - uwodzenie (wykorzystanie swojego uroku do uzyskania pożądanych efektów, poprzez wywołanie odpowiedniej atmosfery erotycznej w osobie uwodzonej)
+  <br> <br>
+  - plotkowanie (umiejętność wchodzenia z daną osobą w konwersacje w której osoba ta mimowolnie zaczyna przekazywać informacje)
+  <br> <br>
+  - przekonywanie (umiejętność przekonania kogoś do swoich racji i uzmysłowienie mu, że to właśnie ja mam słuszność)
+</p><p>
+  <b>Pływanie </b>– umiejętność utrzymywania się na wodzie i nurkowania pod wodę.
+  <br> <br>
+  - nurkowanie (wstrzymywanie oddechu i wykorzystywane sprzętu do oddychania pod wodą)
+</p><p>
+ <b> Przenikliwość</b> – umiejętność przejrzenia planów, manipulacji, bądź kłamstw innej osoby.
+  <br> <br>
+  - wycena (oszacowanie wartości danego przedmiotu lub usługi na podstawie miejsca i sytuacji)
+  <br> <br>
+  - szacowanie (określenie prawdopodobieństwa na zajście jakiegoś wydarzenia na podstawie przeprowadzonych obserwacji)
+  <br> <br>
+  - szukanie (wnikliwa analiza miejsca i odkrywanie szczegółów na pierwszy rzut oka niewidocznych dla obserwatora)
+  <br> <br>
+  - empatia (wyczucie emocji obserwowanej osoby)
+</p><p>
+ <b>Przetrwanie</b>  – umiejętność przeżycia przy użyciu rzeczy znajdujących się w otoczeniu.
+  <br> <br>
+  - pozyskiwanie surowców (umiejętne odnajdywania rzeczy przydatnych, które mogą znajdować się w otoczeniu)
+  <br> <br>
+  - pozyskiwanie żywności (umiejętne odnajdywanie źródeł pokarmu i wody, które mogą znajdować się w otoczeniu)
+  <br> <br>
+  - zastawianie pułapek (tworzenie pułapek, sideł lub zabezpieczeń, wykorzystujących otoczenie by uzyskać określony efekt)
+  <br> <br>
+  - tropienie (odnajdywanie śladów bytności lub działalności ludzi bądź innych istot, oraz umiejętność określenia przyczyny tych odkryć, jak i możliwości podążania po nich)
+  <br> <br>
+  - schronienie (umiejętne wykorzystanie środowiska by zlokalizować jeżeli takowe istnieje odpowiednie schronienie, spełniające wyznaczone mu kryteria)
+</p><p>
+ <b> Rzucanie</b> – umiejętność rzucania przedmiotami.
+  <br> <br>
+  - wyważone (przedmioty stworzone do tego)
+  <br> <br>
+  - niewyważone (najczęściej improwizowane pociski lub nie posiadające cech stabilnego lotu)
+</p><p>
+ <b> Siła woli</b> – umiejętność odpowiadająca za odpieranie psychicznych i fizycznych czynników szkodzących postaci.
+  <br> <br>
+  - odwaga (zawsze gdy postać jest narażona na efekt strachu lub ktoś chce wzbudzić w niej lęk, rzuca za odwagę czy oprze się psychicznemu atakowi)
+  <br> <br>
+  - zawstydzenie (gdy ktoś próbuje postać ośmieszyć lub zakłopotać, postać wykonuje rzut na tą umiejętność)
+  <br> <br>
+  - hart (gdy postać odczuwa ból, rzuca na hart czy nadal zachowa kontrolę nad swoimi instynktami)
+  <br> <br>
+  - magia (zdolność odpowiedzialna za rzucanie mocy mistycznych)
+  <br> <br>
+  - stanowczość (jeżeli ktokolwiek chce przekonać postać, zmienić jej nastawienie lub odwieść od czegoś, postać jest zmuszona do rzutu na tą umiejętność)
+</p><p>
+ <b> Skradanie(S)</b> – umiejętność cichego chodzenia lub ukrywania się.
+  <br> <br>
+  - ciche chodzenie (umiejętność cichego przemieszczania się)
+  <br> <br>
+  - ukrywanie się (umiejętność pozostawania niewidocznym dla potencjalnych obserwatorów)
+  <br> <br>
+  - maskowanie (umiejętność wykorzystania elementów stroju lub środowiska do zamaskowania siebie lub czegoś innego przed potencjalnym obserwatorem)
+</p><p>
+  <b>Sterowanie (S)</b> – umiejętność sterowania określoną grupą pojazdów.
+  <br> <br>
+  - skutery/motory spalinowe (wszelkie jednoślady siodełkowe o dowolnym napędzie)
+  <br> <br>
+  - samochody spalinowe (wszelkie wieloślady o dowolnym napędzie )
+  <br> <br>
+  - pojazdy gąsienicowe (wieloślady o zawieszeniu gąsienicowym)
+  <br> <br>
+  - poduszkowce elektryczne (wszelkie unoszące się nad ziemią pojazdy wykorzystujące pole antygrawitacyjne)
+  <br> <br>
+  - maszyny kroczące (wszelkie maszyny posiadające odnóża na których przemieszczają pojazd)
+  <br> <br>
+  - pancerze wspomagane (wszelkie szkielety, pancerze i wspomagacze ruchu zakładane personalnie) 
+  <br> <br>
+  - łodzie podwodne (wszelkie batyskafy, czy łodzie poruszające się pod powierzchnią wody)
+  <br> <br>
+  - żaglówki (wszelkie  nawodne jednostki wykorzystujące siłę wiatru do przemieszczania się)
+  <br> <br>
+  - kutry (małe jednostki pływające o wszelakim napędzie mechanicznym lub elektrycznym)
+  <br> <br>
+  - statki morskie (duże jednostki unoszące się na wodzie  o różnorakim napędzie)
+  <br> <br>
+  - balony (wszelkie unoszące się w powietrzu balony gazowe)
+  <br> <br>
+  - szybowce (wszelkie lotnie i szybowce, poruszające się w powietrzu bez silnika za pomocą siły nośnej)
+  <br> <br>
+  - samoloty śmigłowe (wszelkie silnikowe samoloty o napędzie spalinowym)
+  <br> <br>
+  - samoloty odrzutowe (wszelkie silnikowe samoloty o napędzie spalinowym z prędkościami naddźwiękowymi)
+  <br> <br>
+  - latacze energetyczne (wszelkie silnikowe samoloty napędzane silnikiem energetycznym)
+  <br> <br>
+  -  helikoptery śmigłowe (wszelkie helikoptery napędzane silnikiem spalinowym)
+  <br> <br>
+  - lądowniki kosmiczne (wszelkie pojazdy potrafiące przejść przez atmosferę w jedną lub obie strony)
+  <br> <br>
+  - promy kosmiczne (wszelkie pojazdy poruszające się w przestrzeni kosmicznej, kierowane silnikami kierunkowymi)
+  <br> <br>
+  - statki kosmiczne (wszelkie pojazdy kosmiczne z napędem między planetarnym)
+  <br> <br>
+  - zdalnie sterowane (wszelkie drony lub inne urządzenia zdalnie sterowane, przez ekran lub vr)
+</p><p>
+ <b> Strzelanie </b>– umiejętność strzelania z broni.
+  <br> <br>
+  - broń palna (broń z pociskami kinetycznymi lub energetycznymi)
+  <br> <br>
+  - łuk/proca (bronie cięciwowe, w których trzymamy zarówno broń jak i pocisk)
+  <br> <br>
+  - kusza/harpun (bronie cięciwowe, mechaniczne lub pneumatyczne strzelające z pocisków o odczuwalnym zakrzywieniu lotu)
+</p><p>
+ <b> Sztuka (S)</b> – umiejętność tworzenia wyjątkowych rzeczy.
+  <br> <br>
+  - malarstwo (malowanie, rysowanie przeróżnych rzeczy)
+  <br> <br>
+  - rzeźbiarstwo (tworzenie cieszących oko rzeczy)
+  <br> <br>
+  - pisarstwo (tworzenie inspirujących tekstów)
+</p><p>
+ <b> Walka (S)</b> – umiejętność bicia za pomocą przedmiotów bądź rąk.
+  <br> <br>
+  - bat-lasso (baty, liny, lassa, haki)
+  <br> <br>
+  - wręcz (bicie pięściami lub kopanie)
+  <br> <br>
+  - mała broń (noże, kastety, trzymana w jednym ręku)
+  <br> <br>
+  - duża broń (wszelkie przedmioty wymagające trzymania oburącz, bądź o znacznych gabarytach)
+  <br> <br>
+  - uniki (sztuka schodzenia z linii ciosu i unikania latających obiektów)
+  <br> <br>
+  - chwytanie (techniki chwytania i unieruchamiania kończyn przeciwnika)
+  <br> <br>
+  - obalanie (popychanie i przewracanie oponentów)
+  <br> <br>
+  - blokowanie (zatrzymywanie ciosów przeciwnika, zmniejszanie ich impetu)
+</p><p>
+ <b> Wspinaczka </b>– umiejętność wspinania się na ściany, liny, zjeżdżanie w dół, itp.
+  <br> <br>
+  - upadki (umiejętność amortyzowania upadków z dużej wysokości)
+  <br> <br>
+  - użycie liny (umiejętność wykorzystania liny i sprzętu do wspinaczki lub przemieszczania się nad ziemią) 
+</p><p>
+  <b>Wyczucie kierunku</b> – umiejętność odnalezienia się w przestrzeni.
+  <br> <br>
+  - czytanie mapy (postać potrafi czytać informacje zawarte na mapach lub urządzeniach nawigacyjnych)
+  <br> <br>
+  - radiolokacja (postać potrafi wykorzystując urządzenia skanujące teren takie jak radar, sonar, itp. do prawidłowego umiejscowienia w przestrzeni wykrytych obiektów)
+</p><p>
+ <b> Występy</b> – gra aktorska, śpiew, taniec, instrumenty muzyczne...
+  <br> <br>
+  - śpiew (ładny i melodyjny głos, aż chce się słuchać)
+  <br> <br>
+  - instrument muzyczny: ____ (postać potrafi grać na wybranym instrumencie muzycznym)
+  <br> <br>
+  - taniec (postać potrafi tańczyć i nie wygląda to głupio)
+  <br> <br>
+  - aktor (postać potrafi się wczuć w rolę i zwracać na siebie uwagę publiczności)
+  
+</p>
+    </div>
+    <div class="hero-item" id="zawady">
+     <p><h2>
+      Zawady.</h2>
+      </p>
+     <p>Zwięźle i technicznie.</p> 
+      
+       
+      
+     <p class="header"> Bandzior 1/3/5</p>
+     <p>
+      
+      Poziom zezwierzęcenia człowieka. Niski poziom, to człowiek nie szanujący zdrowia i zasad społecznych. Średni poziom to morderca i gwałciciel. Wysoki to praktycznie rzeźnik i anarchista. Częstotliwość przestępstw przynajmniej 1 - raz na przygodę (co kilka sesji), 3 - raz na sesję, 5 - za każdym razem gdy nadarza się okazja (kilka razy na sesji)
+      </p>
+      <p class="header">Bohater 1/3/5</p><p>
+      
+      Taka postać poda pomocną dłoń potrzebującym, podejmie walkę w ich imieniu, nie przejdzie ze spuszczonym wzrokiem obok niesprawiedliwości i wyzysku. Na niskim poziomie zawsze gdy nie zagraża to bezpośrednio jego życiu. Na średnim poziomie położy swoje życie na szali, jeżeli widzi w tym szansę na zwycięstwo. Na wysokim poziomie, udzieli pomocy licząc na łut szczęścia. Nawet jeżeli popsuje to jego relacje lub wizerunek, a może i doprowadzi do śmierci.
+      </p>
+      <p class="header">   Brzydki jak nieszczęście 1</p><p>
+      
+      Z brzydkimi nikt nie lubi się zadawać. Postać otrzymuje modyfikator -1 do testów pozytywnej perswazji.</p>
+      
+      <p class="header">Chciwiec 2/4</p><p>
+      
+      Zazwyczaj postępuje niewłaściwie i wbrew zasadą, byle by się wzbogacić. Na niskim poziomie, skorzysta z każdej sytuacji, chyba że zagrozi to jego interesom, albo skrzywdzi kogoś (nadmiernie). Na wysokim poziomie, okazja czyni bogacza. Każde chwyty dozwolone, a szczęście innych to ich problem, nie mój. 
+      </p>
+      <p class="header">  Ciekawski 2/4</p><p>
+      
+      Wpycha nos w nieswoje sprawy, jeśli ma zagadkę, to zrobi wszystko by ją rozwikłać. Na niskim poziomie zaciekawi się wszystkim co jest w okolicy, wybierze najciekawsze tematy i zacznie drążyć. Na wysokim poziomie, nie bacząc na niebezpieczeństwo, ciekawski, po prostu musi się tego dowiedzieć. </p>
+      
+      <p class="header">    Cykor 5</p><p>
+      
+      Unika walki. -2 testy siał woli: odwaga. Wzbudza litość w ludziach, inni widzą w nim ofiarę. Złoczyńcy z rozkoszą będą się chcieli nad nim pastwić. </p>
+      
+      <p class="header">   Delikatny 3 </p><p>
+      
+      Zwiększa modyfikator ran o 1.</p>
+      
+      <p class="header"> Długi jęzor 3</p><p>
+      
+      Bohater mówi coś zanim pomyśli. Trzymanie tajemnic uważa za utrapienie. Dzięki temu łatwiej mu się plotkuje, ma modyfikator +1 do perswazja: plotkowania. 
+      </p>
+      <p class="header">  Dwie lewe ręce 2</p><p>
+      
+      Obsługa i naprawa maszyn i urządzeń elektrycznych wykonywana jest z modyfikatorem -2.</p>
+      
+      <p class="header"> Efekciarz 1-3</p><p>
+      
+      Jeżeli coś robisz to zawsze w taki sposób by przykuć uwagę. Jak rzucasz mistyczną moc, to wymachujesz przy tym rękoma lub "różdżką", jak przemawiasz, to niczym fanatyczny kaznodzieja który odlatuje na inny wymiar wytrzeszczając oczy i robiąc groteskowe miny. Masz w sobie coś co nie może przejść bez efektywnego przedstawienia. Częstotliwość popisywania się, przynajmniej 1 - raz na sesję, 2 - gdy nadarza się okazja (kilka razy na sesję), 3 - praktycznie co scenę. <br>
+      Osoba taka ma Ujawnienie podczas czarowania zmniejszone o połowę, a nastawienie ludzi widzących takiego bohatera może się wahać o jeden poziom w górę lub w dół w zależności od tego co bohater wyprawia. </p>
+      
+      <p class="header">Fanatyk 3</p><p>
+      
+      Zawsze masz rację, a nawet jak nie masz, to znaczy że to inni się mylą. Wierzysz że to co robisz, służy jakiemuś większemu celowi (chrześcijaństwo, dobrobyt na świecie, podbój)
+      Postać otrzymuje +1 do siła woli: stanowczość, ale ma kości o poziom mniejsze podczas rzutów socjalnych na perswazję, jeśli z kimś się nie zgadza.
+      </p>
+      <p class="header">  Flegmatyk 1-5</p><p>
+      
+      Za każdy punkt zawady -1 do tempa postaci. Minimum 2.</p>
+      
+      <p class="header">Gapa 3</p><p>
+      
+      Ta postać ma własne tępo którym idzie przez świat, omija ją wiele, ale ona ma to gdzieś. Wszelkie testy oparte na Spostrzegawczości wykonywane są z modyfikatorem -2. 
+      </p>
+      <p class="header"> Gwałtownik 2</p><p>
+      
+      Działa zanim pomyśli, robi wszystko na przeczucie nim zrozumie co właściwie robi. Czuje głęboką nienawiść do ostrożnych ludzi. Taka postać przerywa dyskusje, zmuszając innych do działania. Siedzenie w miejscu ją męczy. Z drugiej strony, takie zachowanie męczy innych, którzy muszą z taką postacią wytrzymywać. Gwałtownik otrzymuje -2 do wszystkich testów socjalnych perswazji, które polegają na długiej i wnikliwej rozmowie lub rozważnym działaniu. Jeżeli coś trwa dłużej niż chwilę i dopiero potem odzywa się Gwałtownik, to jego głos jest już zniecierpliwiony i okazuje to wszystkim dookoła. <br>
+      Wyjątkiem jest inny gwałtownik, z którym jest nawiązana nić empatii.</p>
+      
+      <p class="header">  Jaszczurcze oczy 2/4</p><p>
+      
+      Patrzysz takiemu w oczy i już wszystko wiesz.... Rzuty na perswazja: blef, uwodzenie, przekonywanie, występy: aktorstwo, hazard: kantowanie wykonywane są z modyfikatorem -2, na wyższym poziomie z -4</p>
+      
+      <p class="header"> Koszmary senne 5</p><p>
+      
+      Mało sypia. Raz podczas spania na sesji lub jeżeli sesje są w odstępach kilku dniowych, to na początku sesji rzut na  Duch PT7 lub utrata sztona o najwyższej wartości. Po stracie sztona hint od GMa. <br><br>
+      Osoba mająca koszmary ma problemy ze spaniem. Podczas nocy bohater rzuca Duch PT5 (jeżeli jest to pierwsza noc na sesji to jest to ten sam rzut co na utratę sztona), jeżeli test mu nie wyjdzie koszmar jest na tyle straszny, że wybudza postać. Niewyspana postać ma w ciągu dnia Dech zmniejszony o k6. Jeżeli podczas kolejnej nocy test ponownie nie wyjdzie, postać zmniejsza dech o kolejne k6 tchu. Jeżeli zmęczenie będzie zbyt duże i dech spadnie do 0. Postać pomimo koszmarów zapadnie w głęboki regeneracyjny sen. Niestety mając koszmary z których nie może się tym razem wybudzić, może to uszkodzić jego umysł. W ten sposób jeżeli w dniu w którym dochodzi do przymusowego snu, wynik rzutu na Ducha był niższy niż 3 postać nabywa chorobę psychiczną, zazwyczaj coś związanego z lękiem. <br> <br>
+      Postać może zażywać substancje lub używać magii do zapadania w sen. W ten sposób wyśpi się. Nadal jeżeli jest to pierwsza noc będzie mógł stracić sztona, odzyska dech, ale nadal może złapać chorobę psychiczną. Tyle że będąc odurzonym, chorobę łapie tylko na upsie. </p>
+      
+      <p class="header">Krwiożerczy 2</p><p>
+      
+      Woli zabić niż wziąć do niewoli, lubi rozlew krwi. Jest ta osoba, która mając cudze życie w swoich rękach i dostanie wybór, wykaże się okrucieństwem. Jeżeli osoba taka chce oszczędzić czyjeś życie, musi wykonać test siła woli: stanowczość(5). Jeżeli go nie zda, postąpi jak należy, czyli zabije. 
+      </p>
+      <p class="header">Lojalny 3</p><p>
+      
+      Postać zwyczajnie nie potrafi zdradzać czy opuszczać w niedoli znajomych i kolegów. Nawet szefa, jeśli nie jest jakimś dziadem. Jak trzeba kłamać dla dobra grupy to zrobi to, jak trzeba stanąć murem za kolegami, to on już tam jest. Jak jedzie kawaleria na kolegów z łukami... no cóż, tak to już jest będąc lojalnym. Lojalny, który chce się zachować nielojalnie musi zdać test siła woli: stanowczość(7), przynajmniej wtedy nie będzie czuł wstydu do samego siebie.
+      </p>
+      <p class="header">Lubieżnik 3</p><p>
+      
+      Rżnie wszystko co ma dziurę. Świat uważa taką osobę za seksualną świnię. Osoba taka co chwilę rzuca w eter jakieś teksty o cyckach czy ruchanku. Wszelkie rozmowy z przeciętnymi postaciami odbywają się z modyfikatorem -4, bo zwyczajnie uważają takiego lubieżnika za świnie. Z drugiej strony osoba zauroczona lubieżnikiem, traktuje te przytyki i podteksty jako afrodyzjak i lubieżnik ma +2 do perswazja: przekonywania, blefu, bajania, plotkowania i targowania z taką osobą. Warunkiem jest wpierw ją uwieść.
+      </p>
+      <p class="header">  Marzyciel 1/3/5</p><p>
+      
+      Bohater ma marzenie, które chciałby spełnić. Niski poziom (1), to marzenie na starość, coś drugoplanowego w jego życiu. Jeżeli nadarzy się okazja bohater będzie chciał z niej skorzystać.  Średnie (3) to coś co kieruje jego poczynaniami. Taki bohater aktywnie szuka rozwiązań do spełnienia swoich marzeń. Duże (5) to idea jego życia. Właściwie idzie przez świat kierowany marzeniem, a reszta to tylko tło jego historii. </p>
+      
+      <p class="header">Mądrala 2</p><p>
+      
+      Wymądrza się, przechwala i wkurza otoczenie. To on ma zawsze rację, nawet jak jej nie ma i o tym dokładnie wie. Prędzej czy później w każdej rozmowie, trwającej dłużej niż zwykła zaczepka na ulicy, jego słuchacz stwierdzi, że gada z mądralą i będzie zniechęcony. Mądrala zawsze będzie miała -2 do testów perswazja: przekonywanie, dowodzenie, targowanie się, uwodzenie lub plotkowanie. Jest szansa, że przeciwko takiej postaci podczas napiętej konwersacji wzrośnie poziom agresji.
+      </p>
+      <p class="header">Mściwy 3</p><p>
+      
+      Zawsze odpłaca się dobrym za nadobne. Już przed kosmiczni ziemianie powiedzieli, oko za oko. Czyli że tak trzeba. Zemsta być musi. Bohater skorzysta z pierwszej okazji by się zemścić. Często nawet zanim przemyśli sprawę. Na pewno nie będzie próbował tłumaczyć czynów winowajcy. Jeżeli taka osoba ma okazję do zemsty i nie chce z niej skorzystać musi wykonać test siła woli: stanowczość(5) by sobie odpuścić. </p>
+      
+      <p class="header">Nawyk 1-3</p><p>
+      
+      Stopień nawyku zależy od tego jak nawyk jest denerwujący dla widza. Poza tym poziom nawyku odejmowany jest od testów perswazji. Np. nawyk na 2, daje modyfikator -2 do testów perswazji. Obserwatora zwyczajnie denerwuje to co robi bohater z nawykiem. </p>
+      
+      <p class="header">Nietaktowny 2</p><p>
+      
+      Pytanie jest nie czy, tylko kiedy twoja postać palnie coś w nieodpowiednim momencie. Jej ubiór nie będzie pasował do otoczenia i kogoś obrażał, wypowiedziane słowa doprowadzą do prowokacji. Zawsze coś... Wszelkie testy na etykietę są z modyfikatorem -2, a przebywając w jakimś miejscu znaczny czas na bank ktoś cię znielubi za twoje zachowanie. Takiej postaci zwyczajnie trudno jest się wpasować w otoczenie. </p>
+      
+      <p class="header">Nietolerancja 1-3</p><p>
+      
+      Wartość zawady zależy od tego jak bardzo kogoś nienawidzimy. <br> <br>
+      
+      1 - wolisz z taką osobą nie współpracować, rozmawiać, lepiej taką osobę unikać. Czasem ci się uleje i powiesz coś niestosownego. Masz -1 do testów perswazji (poza perswazja: zastraszanie) z taką osobą. <br> <br>
+      
+      2 - czujesz się pokrzywdzony samym przebywaniem z daną osobą i okazujesz to. Rzuty na perswazję podczas rozmowy z taką osobą wykonujesz kośćmi o rozmiar mniejszymi (poza perswazja: zastraszanie). <br> <br>
+      
+      3 - jakim prawem ten ktoś tu w ogóle jest!? Każdemu o tym zakomunikujesz. Wprowadzasz agresję w każde swoje działanie związane z tą osobą. Nastawienie takiej osoby jest automatycznie o jeden poziom niższe, a twoje testy perswazji są rzucane kośćmi o poziom niższymi niż posiadasz (poza perswazja: zastraszanie). 
+      </p>
+      <p class="header">Niewierny Tomasz 3 </p><p>
+      
+      Nawet widząc potwora starasz się naukowo wytłumaczyć jego istnienie. Cokolwiek by się nie działo, to musi być coś innego możliwego do logicznego wytłumaczenia. To zaprzeczenie może być oczywiście niebezpieczne. Postać nie uwierzy że martwi wstali z grobów, nawet jak zombie będzie mu właśnie odgryzał rękę. To po prostu biedny i głodny człowiek, który zwariował. Tylko upsy na siłą woli: stanowczość mogą doprowadzić taką postać do zauważenia rzeczywistości. </p>
+      
+      <p class="header"> Ostrożny 3</p><p>
+      
+      Lubi planować i ustalać rzeczy na długo. Nie działa na chybcika. Czuje straszny niepokój jak ktoś zaczyna działać przed stworzeniem planu i omówieniem go. Taka postać woli zatrzymać drużynę przed drzwiami nim ktokolwiek naciśnie na klamkę i ustalić plan oraz wszystkie ewentualności co się może stać gdy już to zrobią. Takie zachowanie męczy innych, podczas konwersacji dłuższych niż zwykła wymiana zdań na ulicy gdy słuchacz dostrzega nadmierną ostrożność postaci zniechęca się do niej. Ostrożny ma -2 do wszystkich testów socjalnych na perswazję, które polegają na długiej rozmowie. <br>
+      Wyjątkiem jest inny ostrożny z którym przy dłuższej rozmowie postać ma empatyczne połączenie i mogą tak gadać bez minusów bez końca.</p>
+      
+      <p class="header">  Pacyfista 1/3/5</p><p>
+      
+      udzie jako istoty nadrzędne powinni zrozumieć, że wzajemne zabijanie się lub niszczenie innych istot jest złe.
+      1 - Nie zabijam, szukam merytorycznego rozwiązania. Osobniki nie przystosowane należy izolować, a nie eliminować. Zaatakowany będę się bronił, a wroga jeśli się da wezmę do niewoli. <br>
+      3 - Zawsze się da znaleźć inne rozwiązanie, nie trzeba zabijać. Zaatakowany będę się bronił, ale nawet podczas obrony należy uniknąć zabijania. <br>
+      5 - Życie to najwyższa wartość. Odebranie go innej osobie, niezależnie od sytuacji jest niewybaczalne. </p>
+      
+      <p class="header">Padalec 3</p><p>
+      
+      Śliski typ na pierwszy rzut oka. Na pewno chce mnie oszukać, uwieść albo okraść. Wszystkie testy perswazji -2, a perswazja: zastraszanie +1.
+      </p>
+      <p class="header"> Pechowiec 5</p><p>
+      
+      Zawsze jeżeli trzeba wylosować ofiarę, to jesteś to ty. Jeżeli ktoś ma wdepnąć na minę, to MG nie rzuca komu przytrafiło się to gówno, on już wie. 
+      </p>
+      <p class="header">Przeczulony 2</p><p>
+      
+      Krew, wnętrzności, kupa na chodniku. Zapach z kanału lub nieświeży oddech pijaka w karczmie. Twojego bohatera rusza praktycznie wszystko, tam gdzie normalny człowiek jest zniesmaczony lub poruszony, twój bohater rzuca na siłą woli: hart czy nie zwymiotuje, nie zasłabnie lub nie ucieknie od smrodu. 
+      </p>
+      <p class="header">Przeklęty 5</p><p>
+      
+      Bohater na początku sesji otrzymuje jedynie 2 a nie 3 sztony. <br>
+      Jeżeli bohater posiada klasę mistyczną co sesje traci 1 PM. 
+      </p>
+      <p class="header">Przesądny 3</p><p>
+      
+      Bohater wierzy w przesądy i stara się żyć zgodnie ze znakami i omenami. Jeżeli jego przesądy nie pozwalają mu penetrować lochu w drugą środę w miesiącu to bohater tam nie wejdzie. Chyba, że wykona trudny PT7 test na siła woli: stanowczość. </p>
+      
+      <p class="header">  Religijny 2</p><p>
+      
+      Bohater jest głęboko wierzący i żyje zgodnie z przykazaniami swojej wiary. Wszystko w otaczającym świecie stara się sobie tłumaczyć zgodnie ze swoimi wierzeniami. +1 do Perswazji wśród wyznawców religii wyznawanej przez bohatera. Tyle, ze bohater nie jest w stanie łamać przykazań swojej religii, chyba że zda test PT9 siłą woli: stanowczość i zdecyduje się złamać lub nagiąć jakąś zasadę. </p>
+      
+      <p class="header">Słabeusz 1-5</p><p>
+      
+      -1 tchu za poziom słabeusza, min 4.</p>
+      
+      <p class="header">  Sługa ponurego żniwiarza 3</p>
+      
+      <p>Ludzie w twoim otoczeniu giną, to się zdarza. Wszyscy w koło, niezależnie od prawdy zawsze łączą te śmierci właśnie z tobą. Konsekwencje zrozumiałe. -2 do perswazji jeśli bohater chce wyjaśnić sprawę, ze to nie on zabił. 
+    </p>
+      <p class="header">Straceniec 5</p><p>
+      
+      Życie nie ma smaku, jeśli zginiesz to trudno. Samobójstwo to jednak głupota. Wolisz to zrobić w taki sposób by zabrać ze sobą jakiegoś łotra lub uratować miasto. Jeśli widzisz okazję do chwalebnej śmierci, to wchodzisz w to. Co więcej, ty chcesz tego. A jak przeżyjesz... no trudno, będzie inna okazja. Jeżeli jest okazja do poświęcenia się, a bohater mimo to chce ją ominąć musi wykonać test siłą woli: stanowczość(7), jeżeli nie zda skorzysta z okazji do śmierci. </p>
+      
+      <p class="header">Śpioch 2</p><p>
+      
+      Twardy sen. -2 do spostrzegawczości podczas odpoczynku. Jeżeli musisz się wyspać i jest podawany czas do tego potrzebny, ty zawsze śpisz dłużej o choćby tą godzinkę, a jak jest okazja to do oporu. </p>
+      
+      <p class="header">  Ten obcy 3</p><p>
+      
+      Nawet wśród swoich czułeś się wyobcowany. Ludzie zawsze podchodzą do ciebie jak do tego "spoza" grupy. Nawet twoi rodzice nieraz przy stole zastanawiali się, czy na pewno jesteś ich dzieckiem. Twoi towarzysze i napotkane osoby, zawsze potraktują cię jako obcego. Za taką postać lojalny nie musi się poświęcać, straceniec woli nie oddawać życia, itd. To czy żyjesz czy nie, nikogo nie interesuje i ma to gdzieś.</p>
+      
+      <p class="header">  Tłuścioch 1-5</p><p>
+      
+      Bohater ma nadwagę, dodatkowy ciężar przeszkadza mu trochę w poruszaniu się w związku z czym na każdy punkt tej zawady, postać traci 1 Tempa (min2), oraz na każdy punkt zawady, waga postaci rośnie o 10%.</p>
+      
+      <p class="header">  Wierny zasadom 2</p><p>
+      
+      Zasad są fundamentem twojego świata. Nie łamiesz ich i zawsze przestrzegasz je. Są twoim kompasem życiowym. Zawsze gdy musisz postąpić wbrew swoim zasadom musisz wykonać test siłą woli: stanowczość(5)</p>
+      <p class="header">  
+      Zadufany 3</p><p>
+      
+      Nas jest 600 ich 5000, wygramy bez problemów. Twoja postać ma wygórowane mniemanie o sobie. Twoją siła woli: stanowczość i odwaga rzucasz z modyfikatorem +2, ale testy perswazji z modyfikatorem -2. Jak masz szansę na odwrót, to zastanowisz się dwa razy. Bo może jednak się uda. Poderwanie kogoś z tak zwanej innej ligi, to pestka. Jak nie ty, to kto?</p>
+    </div>
+
+    <div class="hero-item" id="przewagi">
+
+     <p> <h2>Przewagi</h2></p>
+
+<p>Technicznie i w skrócie.</p>
+
+ 
+
+<p class="header">Błogosławiony 1-5</p><p>
+
+Bohater jest ulubieńcem niebios lub bóstwiony przez duchy, za każdy punkt przewagi na początku sesji otrzymuje 1 punkty magii. Nawet gdy w pobliżu nie ma źródła. 
+</p>
+<p class="header">Boks 3</p><p>
+
+Postać jest adeptem sztuk walki i potrafi wykorzystywać specjalistyczne ciosy. <br>
+Bohater posiadający tę przewagę ma w walce wręcz o jedną kość obrażeń więcej, jeżeli uderza ręką. Natomiast podczas blokowania, trzymając gardę zmniejsza siłę wroga o dodatkowy poziom. Samą akcję blokowania zamiast ze Sprawności, może rzucać z Wigoru lub Siły. <br>
+Przy odpieraniu akcji przepychania ma modyfikator +2. <br>
+Jego ciosy trafiając ofiarę w trzewia zadają o 1k6 tchu więcej, a w głowę zwiększają możliwość zadania stałego urazu o 1 (czyli do 19)</p>
+
+<p class="header">Bystry 2</p><p>
+
++1 do Spostrzegawczości i umiejętności rzucanych z tej cechy.</p>
+
+<p class="header">Chyży 1-5</p><p>
+
++1 tempo za poziom przewagi.</p>
+
+<p class="header">Człowiek z żelaza 1-5</p><p>
+
++2 tchu za poziom przewagi.</p>
+
+<p class="header">Czujny sen 1</p><p>
++2 spostrzegawczość podczas snu.
+</p>
+
+<p class="header">Czy te oczy mogą kłamać? 2</p><p>
+
+Postać to urodzony kłamca i manipulant. Wykonywane przez niego testy na blef i przekonywanie rzucane są kośćmi o poziom wyższymi niż posiada. 
+</p>
+<p class="header">Dar języków 1</p><p>
+
+Po udanym teście Sprytu, można rozumieć pojedyncze słowa w nieznanym nam języku. Kojarzymy co one mogą znaczyć, w połączeniu z sytuacją może to wskazać bohaterowi kontekst. 
+</p>
+<p class="header">Dobry słuch 1</p><p>
+
+W odległości do 100m +2 do spostrzegawczości na słuch.</p>
+
+<p class="header">Duch opiekuńczy 1-5</p><p>
+
+Duch opiekuńczy to duch lub istota mistyczna z Zaświatów, Antykreacji, Techbytu lub Krainy Cienia, która związała się z bohaterem. Taki duch opiekuńczy (w zależności od religii lub ideologii może to być zwierzę, anioł, przodek, itp) stara się pomagać bohaterowi w swój ograniczony sposób. Jeżeli bohater nie ma umiejętności kontaktowania się z istotami nadprzyrodzonymi, duch może go odwiedzić we śnie lub podczas transu to zależy już od tego czy duch chce coś bohaterowi przekazać. Dzieje się to gdy bohater wykorzystuje swoją podświadomość śniąc lub medytując. Osoba potrafiąca nawiązać kontakt z duchami, ma większe pole do popisu, ponieważ to ona może być inicjatorem spotkania. Trzeba jednak pamiętać, że duch opiekuńczy przebywa w swoim mistycznym świecie i jego ingerencje w świat materialny są znacznie ograniczone. <br> <br>
+Czym bohater ma wyższy poziom przewagi, tym duch ma większe możliwości wspierania go. <br> <br>
+Na 1 poziomie Duch opiekuńczy działa trochę jak "anioł struż", jeżeli bohater ma nieudany rzut podczas sesji, mistyczne działanie ducha opiekuńczego (raz na sesję) pozwala mu jeszcze raz wykonać dany rzut. Ups to ups, nawet opiekun tu nie pomoże. <br> <br>
+Na 2 poziomie tej przewagi postać ma +2 do jednej charakterystycznej dla danego ducha umiejętności. Na przykład duch wilk może mieć +2 do tropienia, a duch przodek +2 do fach: gotowanie. <br> <br> 
+Na 3 poziomie duch daje postaci część swojej magicznej aury, dzięki której postać jest odporniejsza na negatywne moce magiczne. ma +1 do rzutów obronnych przeciwko magii. <br> <br>
+Na 4 poziomie duch opiekuńczy potrafi przeniknąć do świata materialnego jako niewidoczna zjawa. Dzieje się to zazwyczaj gdy bohater śpi, a jego umysł jest czysty, czasami też podczas medytacji. Taki duch opiekuńczy znajduje się wtedy w pobliżu bohatera i pilnuje go przed wrogami. Jego działanie jest ograniczone, może jedynie spróbować odpędzić jakieś nienaturalne zagrożenie (używamy do tego jego cech - które są ograniczone w tym wymiarze) lub może spróbować obudzić bohatera, test Ducha PT5 (rzuca bohater). <br> <br>
+Na 5 poziomie duch może raz na sesję wspomóc bohatera w namacalny sposób. Nieoczekiwany błysk światła, który ostrzeże bohatera przed niebezpieczeństwem, którego on sam nie zauważył, gdy bohater się wacha duch może poruszyć przedmiot, który da znać bohaterowi coś... itd. Duch nie może zadać obrażeń materialnym istotom. Nawet jeżeli jego działanie sprawi coś namacalnego wpływającego na scenę, to nikt na tym nie ucierpi fizycznie. Oczywiście może to ujawnić ukrytego przeciwnika. <br> <br>
+Jeżeli z jakiegoś powodu w świecie materialnym lub na jakimś mistycznym planie (nie będącym rodzinnym dla ducha, gdzie przebywa jego prawdziwa istota stworzenia na przykład dusza) duch opiekuńczy zostanie zabity, poziom przewagi na stałe obniża się o 1, a duch by mógł wrócić do swojego bohatera będzie potrzebował czasu. Jest to minimum tydzień, po którym bohater rzuca test Ducha PT7, jeżeli nie zda za tydzień będzie mógł go powtórzyć, jeżeli zda, duch przybywa ponownie. 
+</p>
+<p class="header">Empatyczny 2</p><p>
+
+Bohater doskonale potrafi się wczuć w sytuacje obserwowanej istoty lub osoby. Dzięki temu lepiej rozumie jej intencje czy myśli. Rzuty na Przenikliwość i Opiekę nad zwierzętami wykonuje kośćmi o rozmiar większymi niż normalnie posiad postać. </p>
+
+<p class="header">Farciarz 3</p><p>
+
+Dodatkowy szton na początku sesji. Sztonu nie można zamienić na nagrodę. Pula farciarza zapisywana jest oddzielnie i kasowana na koniec sesji.
+</p>
+<p class="header">Gruboskórny 2</p><p>
+
+Bohater zmniejsza modyfikator za rany o 1. Tak więc na przykład zamiast -3, ma -2 na ranie za 3 punkty.
+</p>
+<p class="header">Judo 3</p><p>
+
+Postać jest adeptem sztuk walki i potrafi wykorzystywać specjalistyczne chwyty i rzuty. <br>
+Bohater posiadający tę przewagę ma +2 do chwytania i obalania. <br>
+Podczas próby wyzwolenia się ofiary z unieruchamiania, postać z Judo może do testu przeciwstawnego użyć swojej Sprawność zamiast Siły, by uniemożliwić wymknięcie się ofiary. 
+Podczas akcji przewracania postać posiadająca Judo może zadeklarować przewrót judo i zastosować go na przeciwniku o Rozmiarze większym nawet o 3 nawet jeżeli przeciwnik waży więcej niż maksymalny udźwig postaci. Bez modyfikatorów ujemnych. Dodatkowo by wykonać tą akcję nie musi celować w nogi. Może ją wykonać uderzając/chwytając dowolną część ciała ofiary. Nie musi w ten sposób podliczać modyfikatora za celowanie w lokację. </p>
+
+<p class="header">Kamienne oblicze 2</p><p>
+
+Wyraz twarzy tego bohatera jest nieprzenikniony. Każdy kto próbuje go przejrzeć, odgadnąć jego zamiary wykonuje rzut przenikliwości kostkami o jeden rodzaj niższymi niż normalnie. 
+</p>
+<p class="header">Karate/Tekwondo 3</p><p>
+
+Postać jest adeptem sztuk walki i potrafi wykorzystywać specjalistyczne ciosy. <br>
+Bohater posiadający tę przewagę ma +1 do walki wręcz. <br>
+Podczas ataku, gracz może zadeklarować, że uderza nogą a nie ręką, dzięki czemu będzie miał o 1 kość obrażeń więcej. <br>
+Może też zadeklarować atak z wyskoku, co także podnosi ilość kości obr. o 1. <br>
+Połączony atak nogą z wyskoku da nam 2 dodatkowe kości obrażeń.  </p>
+
+<p class="header">Kemosabe 1/2</p><p>
+
+Znasz inną kulturę i nie robisz wpadek. <br> <br>
+
+1 kultura zbliżona do wychowania bohatera, na przykład dla Marsjanina wyjazd na Berlin. <br> <br>
+
+2 kultura całkiem odmienna, na przykład dla Ziemianina wyjazd na Europę.</p>
+
+<p class="header">Kreatywny 2</p><p>
+
+Bohater jest typowym odkrywcą, wynalazcą. Jeżeli musi wykminić coś nowego, unikatowego, to właśnie on. Postać przy szukaniu rozwiązania z jakiejś sytuacji, szukania pomysłu na rozwiązanie jakiegoś problemu, przy rzucie na Spryt ma kości o rozmiar wyższe niż normalnie posiada. </p>
+
+<p class="header">Kung Fu 3</p><p>
+
+Postać jest adeptem sztuk walki i potrafi wykorzystać specjalne ciosy.
+Bohater ma modyfikator +1 do walki wręcz i zadawanych obr., a w przypadku parowania lub uników poziom kości jest podniesiony o 1. 
+Adept Kung Fu nie ma modyfikatorów ujemnych za walkę w pozycji siedzącej lub leżącej. 
+Postać ma też ogólny modyfikator +2 do Wspinaczki.</p>
+
+<p class="header">Ładniutki 1</p><p>
+
+Ładna buzia potrafi otworzyć nie jedne drzwi. Postać jest powszechnie postrzegana jako ładna, o idealnych rysach twarzy, itd. Przy testach perswazji: blefu, targowania, uwodzenia, plotkowania i przekonywania otrzymuje +1, zawsze gdy wygląd gra jakiekolwiek znaczenie. Niezależnie od płci. </p>
+
+<p class="header">Łagodne spojrzenie 1</p><p>
+
+Postać może zrobić tak łagodny wzrok, że każdemu kto nawiąże z nią kontakt wzrokowy odchodzi chęć od konfliktu. Jeżeli poziom relacji między postaciami był niższy niż neutralny, to podnosi się o jeden poziom. z nieprzychylnego na neutralny, a z wrogiego na nieprzychylny.</p>
+
+<p class="header">Mistyczna przeszłość 1-5</p><p>
+
+Pozwala być mistykiem: Szarlatanem, Świątobliwym, Szamanem, Psychonem, Alchemikiem, Nekromantą, Zakonnikiem lub Zwiastunem.
+Na każdym poziomie różne klasy mistyków zyskują inne umiejętności klasowe. Ich dokładna rozpiska jest w opisie odpowiedniej klasy mistycznej. </p>
+
+<p class="header">Nie drażnić lwa 2</p><p>
+
+Jeśli bohater jest wkurzony dodaje nk4 do obrażeń w walce wręcz. Gdzie n to modyfikator od ran.</p>
+
+<p class="header">Niewinne spojrzenie 1</p><p>
+
+Postać potrafi robić niewinne maślane oczy. Dzięki czemu poziom podejrzenia w stosunku do postaci jest mniejszy. Jeżeli poziom podejrzenia między postaciami był niższy niż neutralny, to podnosi się o jeden poziom. z podejrzliwego na neutralny, a z winnego na podejrzanego. </p>
+
+<p class="header">Niezwykły głos 1</p>
+<p>
+Głos bohatera ma w sobie to coś. Jedni mają głos który uwodzi, inni który uspokaja, a jeszcze inni doskonale zastraszają. Natura obdarza postać tylko jedynym rodzajem głosu. 
+groźny głos - +2 do zastraszania <br>
+władczy głos - +1 do dowodzenia  i +1 do przekonywania <br>
+melodyjny głos - +2 do bajania <br>
+śliski głos - +2 do blefu <br>
+seksowny głos - +2 do uwodzenia <br>
+jedwabisty głos - +2 do plotkowania <br>
+natarczywy głos - +2 do targowania <br>
+miły głos - +2 przekonywanie <br>
+donośny głos - +2 do dowodzenia <br>
+szyderczy głos - +2 do obśmiewania</p>
+
+<p class="header">Oburęczny 2</p><p>
+
+Używając „drugą” rękę, zamiast -4 otrzymujesz modyfikator, tylko -2.
+</p>
+<p class="header">Odporna głowa 2</p><p>
+
+Wódkę pije jak wodę. Wszelkie próby upicia lub otrucia takiego bohatera są utrudnione. Rzuty na upicie lub zatrucie rzuca kostkami o poziom wyższymi niż posiada. 
+</p>
+<p class="header">Optymistyczny 3</p><p>
+
+Świat jest piękny i dobry, a to co robię przynosi efekty i nic tego nie zmieni. Postać zawsze potrafi dostrzec szklankę do połowy pełną. Za każdym razem, gdy postać jest atakowana, nękana, ośmieszana lub zastraszana, to ona wie, że po nocy nastaje dzień. Wszystkie rzuty psychologiczne siłą woli: odwaga, zawstydzenie, stanowczość, wykona kościami o rozmiar większymi, niż posiada normalnie. </p>
+
+<p class="header">Osiłek 2</p><p>
+
+Bohater jest silny i umięśniony. Dzięki czemu przy obliczaniu udźwigu postaci wartość jego kości Siły jest wyższa o 1 poziom, a z powodu dużej masy mięśniowej waga bohatera jest podniesiona o 10%.</p>
+
+<p class="header">Seksowne ciało 2</p><p>
+
+Ta osoba nie ma problemu ze znalezieniem partnera. Biust, krągłości, czy kształty ciała kobiety albo sylwetka jaką ma mężczyzna z tą przewagą u obserwatora przyspiesza jego puls i ożywia wyobraźnię. Osoba taka jeżeli widać jej sylwetkę (ubranie nie zakrywa lub nie zniekształca ciała) otrzymuje +1 do testów perswazja: uwodzenie, przekonywanie, a jeżeli jest naga zmniejsza obserwatorowi poziom kości w testach siłą woli: zawstydzenie i stanowczość. Wszelkie zauroczenia naturalne lub magiczne taką postacią trwają dwa razy dłużej niż normalnie. Nastawienie do takiej osoby jej zazwyczaj o jeden poziom wyższe na jej korzyść, jednakże wywołanie zawodu przez taką postać jest oceniana zawsze o jeden dodatkowy poziom w dół. Albo jesteś lubiany, albo znienawidzony. </p>
+
+<p class="header">Skrytobójca 3</p><p>
+
+Bohater to mistrz ciosów z ukrycia i zaskoczenia, a jego ataki paraliżują strachem ofiary do tego stopnia, że nie są w stanie się bronić. By wykonać skrytobójczy atak trzeba spełnić następujące warunki. Atak musi być przeprowadzony na nic nie spodziewającą się ofiarę. To znaczy, że cel ataku musi być zaskoczony, nie może być świadomy ciosu (śpi, atak od tyłu, itd.). To czy udało się podejść ofiarę skrytobójcy określa rzut przeciwstawny skradanie: ciche chodzenie ze sprawności przeciwko spostrzegawczość słuchowa ofiary. Jeżeli ofiara skrytobójcy widzi go lub usłyszy, atak będzie zwykłym ciosem (nadal z minusami do ataku dla skrytobójcy - patrz dalej). Jeżeli skrytobójca chce wykonać swój atak będąc widzianym przez cel, musi znajdować się w zasięgu ciosu i chwytu, czyli nie dalej niż długość jego ramienia, a ofiara musi być pod wpływem strachu. Wtedy po przeciwstawnym teście Szybkości określimy, czy cios był na tyle szybki, by ofiara nie zdołała zareagować. <br> <br>
+Jeżeli został spełniony jeden z powyższych warunków, skrytobójca wykonuje AZ składającą się z dwóch czynności. Jedną ręką chwyta cel, drugą zadaje cios. Na powodzenie tej akcji skrytobójca wykonuje test walka: broń (trzymana w jednym ręku). Poziom testu jest zależy od tego czy ofiara jest nieruchoma (śpi) PT3 czy jest celem poruszającym się, który nie spodziewa się ataku PT5. Ofiara ataku nie ma żadnych naturalnych modyfikatorów do obrony, pozostają jedynie możliwości mistyczne. Atakujący skrytobójca natomiast ma ujemny modyfikator za atak oburącz. Dla ręki która chwyta -2 i dla tej która uderza -4. Jest to istotne w obliczaniu rezultatu. Jeżeli postać jest oburęczna, modyfikator wynosi 0 i -2 dla drugiej ręki. Jeżeli skrytobójca wykonał atak a ten jej nie wyszedł, ofiara jest zaalarmowana jego atakiem i nie ponosi żadnych konsekwencji, jeżeli skrytobójca zdał poziom by chwycić ofiarę to trzyma się jej (podtrzymuje ją sobie) ale atak minął cel. W przypadku zdanego testu, trzyma ofiarę i dodatkowo zadaje jej obrażenia wynikające z trafionej lokacji. Oczywiście KP ofiary nadal jest podliczana. Jeżeli ofiara przyjmie przynajmniej 1 ranę, jest przerażona i dopóki nie zda testu siłą woli: odwaga(5) +2PT za liczbę zadanych ran, musi poświęcać AP by wyjść z tego stanu, nie może podejmować kompletnie żadnych innych akcji, ani nie posiada swoich modyfikatorów do obrony. Skrytobójca trzymając ofiarę może ją dźgać na każdej kolejnej swojej akcji, bez modyfikatora ujemnego. <br> <br>
+Jeżeli ofiara zda test paniki i się otrząśnie, jest trzymana przez napastnika, ale odzyskuje swoje modyfikatory obronne i może wykonywać dowolne akcje w celu wyzwolenia się. Pamiętajmy, że skrytobójca nie chwycił ofiary, tylko się jej trzyma, czyli ofiara nie jest  w żaden sposób unieruchomiona. Istoty odporne na strach, po przyjęciu ciosu, automatycznie zdają (bez użycia akcji) test na panikę.</p>
+
+<p class="header">Stalowe nerwy 2</p><p>
+
+Jeżeli bohater zawali test odwagi, nadal nie może wykonywać akcji ofensywnych, jeżeli był to test na terror nadal rzuca w tabeli cykora, ale nie mają na niego wpływu pozostałe efekty strachu, takie jak konieczność ucieczki lub załamanie psychiczne.</p>
+
+<p class="header">Sumienie 1</p><p>
+
++2 do testów siłą woli: stanowczość</p>
+
+<p class="header">Szybkie palce 3</p><p>
+
+Palce bohatera to dzieło natury. Potrafi nimi poruszać szybciej niż inni. Wszystkie czynności wykonuje szybciej i sprawniej. Wszelkie testy oparte na podnoszeniu, upuszczaniu manipulacji małymi przedmiotami (mieszczącymi się w dłoni) wykonywane są kostką o rozmiar większą niż normalnie posiada postać. 
+Przykładowe specjalizacje to: dobywanie małe przedmioty, kieszonkostwo, kantowanie, chirurgia, gra na instrumencie, zdalne sterowanie, malarstwo, rzeźbiarstwo.
+</p>
+<p class="header">Śmiałek 1</p><p>
+
++2 do testów siłą woli: odwaga.
+</p>
+<p class="header">Taktowny 2</p><p>
+
+Bohater doskonale odnajduje się w otoczeniu. Wie kiedy ma być cicho, a kiedy coś powiedzieć. Nie naraża się innym i jest miły. Nastawienie do takiej postaci w pozytywnych sytuacjach jest zawsze o jeden poziom lepsze. 
+
+</p>
+<p class="header">Twardziel 1-5</p><p>
+
+Każdy poziom daje +1 do rzutu Wigoru lub siła woli: hart podczas otrząśnięcia się z szoku podczas obrażeń, chorób lub trucizn.
+
+</p>
+<p class="header">Ulubiona broń 2</p><p>
+
+Postać to wojownik, który całe lata spędził na uczeniu się walczyć jakimś konkretnym narzędziem do zabijania. Dzięki temu potrafi posługiwać się nim nad wyraz dobrze. Może to być miecz, nóż,  karabin, granatnik, cokolwiek. Jeżeli wybór padnie przykładowo na miecz, to wzięcie do ręki innego miecza, różniącego się wielkością, znacząco wagą, lub kształtem nie da postaci bonusów za ulubioną broń.
+Postać z ulubioną bronią ma +2 do posługiwania się nią. Dodatkowo potrafi ją podnieść lub dobyć z taką łatwością, że ten test wykonuje kostkami o rozmiar większymi niż posiada. Poza tym celowanie w konkretną część ciała wychodzi mu łatwiej i kara za lokację jest zmniejszana o połowę. Na przykład celowanie w rękę zamiast modyfikatora -4 ma tylko -2.
+
+</p>
+<p class="header">Uparty 2</p><p>
+
+Przekonać taką postać do czegoś jest trudne. Rzuty obronne takiej postaci, w sytuacjach gdy ktoś chce zmienić jej nastawienie lub zdanie, przekonać ją do czegoś, wykonywane są kośćmi o rozmiar większymi niż ma normalnie postać. 
+
+</p>
+<p class="header">Uwodzicielskie spojrzenie 1</p><p>
+
+Spojrzenie takiej postaci przyspiesza tętno, patrząc na nią czuć wibrujący w powietrzu erotyzm. Postać z tym spojrzeniem ma +2 do uwodzenia, każdego z kim nawiąże kontakt wzrokowy. 
+Wzrok nie działa na istoty innych gatunków, które nie interesują się seksualnością postaci lub nie interesuje ich płeć postaci. </p>
+
+</p>
+<p class="header">Uzdolniony fachowiec 1 <p>
+
++2 do wybranej specjalizacji w majsterkowaniu (fachu, demontaż albo naprawy)
+Można nabywać wielokrotnie.
+
+</p>
+<p class="header">Wyczucie kierunku 1
+</p><p>
+Orientuje się w kierunkach geograficznych, w plątaninie kanałów pod ziemią i mrocznych lasach. Bohater może nie wiedzieć gdzie jest, ale pomimo 40 zakrętów nadal wskaże kierunek w którym było wejście do labiryntu, będąc w ciemnym lesie powie, gdzie była góra którą widzieli nim tu weszli, itd. 
+
+</p>
+<p class="header">Zimna krew 2
+</p><p>
+Po pociągnięciu kart akcji bohater może odłożyć najniższą i pociągnąć kolejną. Jeżeli wyciągnie czarnego jokera, nie może go odłożyć.
+</p>
+<p class="header">Złowrogie spojrzenie 1<p>
+
+<p>Bohater potrafi patrzeć na inne osoby w taki sposób, że aż przechodzą je ciarki. +2 do zastraszania jeżeli przeciwnik ma możliwość zobaczyć wzrok postaci. 
+Wzrok nie działa na istoty innych gatunków, które nie potrafią patrzeć na postać gracza z empatią. 
+</p>
+<p class="header">Żyłka do handlu 3</p><p>
+
+Postać to urodzony biznesmen. Jego rzuty na targowanie wykonywane są kością o rozmiar większą niż posiada. Ma też +2 do wyceny i szacowania z Przenikliwości.
+      </p></div>
+
+ 
+    <div id="cyberwszczepy" class="hero-item">
+      <p class="header">Cyberwszczepy</p>
+      <p>
+      Bohaterowie mogą korzystać z ulepszeń cybernetycznych i cybernetycznych zamienników ciała. Wszelkie szczepy możemy podzielić na kilka kategorii. <br><br>
+
+Szkielety cybernetyczne - które zastępują kości, ścięgna i mięśnie. Oraz brakujące narządy wewnętrzne.<br>
+Modyfikacje cybernetyczne - które zwiększają możliwości psychofizyczne postaci i umożliwiają modyfikowanie ciała w maszynę.<br>
+Wszczepy cybernetyczne - które są bankami danych zawierające umiejętności i ponadludzkie możliwości. Będące właściwie oprogramowaniem dla modyfikacji cybernetycznych, by działały prawidłowo. <br><br>
+
+Najbardziej popularnymi są te pierwsze, które służą często jako protezy i zastępują zniszczone części ciała, w końcu nie każdego stać i ma możliwości biologicznego rekonstruowania ciała w biokapsule. Są też najtańszymi i najprostszymi technologicznie zmianami. Modyfikacje cybernetyczne mają to do siebie, że wykorzystują mechaniczne części do usprawnienia człowieka. Są to noktowizyjne oczy, czy siłowniki w mięśniach zwiększające siłę, trzecia ręka na plecach i tym podobne dziwności, które mają to do siebie, że potrafią spaczyć ludzką psychikę. Wszczepy cybernetyczne natomiast są małymi procesorami, które posiadają zaawansowane oprogramowanie umożliwiające wykonywanie czynności poza granicami normalnego ludzkiego mózgu. Dla człowieka nie naturalne jest posiadanie i poruszanie się na 4 odnóżach, jednak z cyberwszczepem mózg ludzki jest w stanie wykonywać te czynności jakby to były naturalne nogi.
+<br><br>
+Reasumując, każda zmiana wychodząca poza odtwarzanie ciała, ma wpływ na umysł bohatera. By móc korzystać z dodatkowych części ciała, kamer poprawiających pole widzenia, wbudowanego radia nasłuchowego, bohater musi wykorzystać akcję. Oznacza to, że chodzenie na dodatkowych nogach nie jest już zwykłym ruchem, ale akcją. Używanie w tym samym czasie innej modyfikacji na którą trzeba poświęcić akcję, sprawia, że bohater będzie musiał poświęcić całą pełną akcję na zaledwie ruszanie się i używanie jakiegoś moda. Czyli nie wykona już nic innego. Po to są właśnie wszczepy cybernetyczne, by używanie modów było jako wolne akcje i nie obciążały umysłu bohatera.  
+<br><br>
+Jeśli chodzi o ceny, szkielety cybernetyczne kosztują około 200 dolarów za 10cm3 ciała (tak na oko).
+Modyfikacje szkieletowe i organów nie potrzebują dodatkowego zasilania. Zasilane są zazwyczaj pracą mięśni, jednakże jeżeli modyfikacja przekroczy 20% ciała potrzebne jest zasilanie 1j.e. na każde 20% ciała dziennie. Czyli trzeba wbudować bank baterii (gdzieś, zazwyczaj już tam gdzie jest cybernetyczne ciało). 
+<br><br>
+Każda cybernetyczna modyfikacja, zwiększająca współczynniki, lub wykorzystująca elektronikę, potrzebuje dodatkowego zasilania. Zazwyczaj 1j.e. na urządzenie. Cena modyfikacji zależy od ceny przedmiotu który został zaimplementowany w ciało. 
+<br><br>
+Wszczepy cybernetyczne jako dodatkowe możliwości mózgu wszczepiane są zawsze w pobliżu mózgu lub kręgosłupa, czyli gdzieś przy głównym układzie nerwowym. Cena jednego cyberwszczepu rzadko kosztuje mniej niż 10000 za sztukę, w której jest jedna zdolność. 
+<br><br>
+Jeżeli z powodu zmian w ciele bohatera zwiększy się jego waga, jest to obciążenie dla jego nóg. Obciążenie takie jest liczone do udźwigu i może spowolnić bohatera, chyba, że jego nogi też ulegną modyfikacją. </p>
+    </div>
+<div id="undead" class="hero-item">
+  <p class="header">Nieumarli</p>
+  <p>Nieumarłych jest kilka rodzajów. Cechą charakterystyczną każdego nieumarłego jest rozdzielenie  duszy od świadomości. Niezależnie od tego, czy umarły posiada ciało czy nie i jaki stopień świadomości mu pozostał, jedno jest pewne. Nieumarły nie ma duszy.
+</p>
+
+<p>
+Zasady które obowiązują umarłych: <br><br>
+
+- Jedzenie - wygrzebaniec musi jeść by się regenerować. Interesuje go mięso, warzywa nic mu nie dają, Jeżeli nie je mięsa to jego rany się nie zasklepią. Jeżeli przez dłuższy czas nie będzie spożywał mięsa to jego ciało zacznie się pomału i bezpowrotnie psuć. (miesiąc bez mięsa to jak 1 dzień rozkładu)
+<br><br>
+- Hart - powrót do żywych daje wygrzebańcowi 1 punkt Hartu.
+<br><br>
+- Ból - nieumarli mniej czują ból. Ignorują kompletnie 2 pierwsze poziomy ran. Dopiero na 3 poziomie rany mają -1 modyfikator. 
+<br><br>
+- Regeneracja - wygrzebańcy sami się regenerują za pomocą mistycznej energii. Konwencjonalne metody leczenia na nich nie działają. Ciało ożywieńca potrafi regenerować kończyny i całe części ciała, do stanu wyjściowego. Stan wyjściowy umarlaka zależy od poziomu jego rozkładu. Ożywieniec który umarł łagodną śmiercią bez rozległych ran i dobrze się odżywia, wygląda prawie jak normalny człowiek. 
+<br><br>
+- Sen - umarlak potrzebuje snu by odzyskiwać dech. Normalny człowiek wystarczy że czynnie odpoczywa, umarlak zapada w sen. Jeżeli dech umarlaka jest pełny, ten nie musi spać. Robi to po to by się naładować. Może też wpaść w głęboki sen i zapaść w letarg. W letargu czas dla niego leci wolniej, a jego ciało wytrzymuje długie miesiące bez rozkładu. (1 rok to jak 1 dzień rozkładu - chyba że przed snem pożywi się mięskiem)
+<br><br>
+- Nieżywy - umarlak nie traci Tchu z powodu ran fizycznych. Dech schodzi mu jedynie z powodów umysłowych, testów jaj lub za pomocą czarów uderzających w dech. Wygrzebaniec przyjmuje rany normalnie, ale umrzeć może jedynie po zniszczeniu jego mózgu. Nawet jak straci cały korpus to jeżeli mózg przyjmie proteinki (energie życiową) z mięska to się zregeneruje. Gdy Dech spadnie do 0 ożywieniec tak samo jak normalna postać może wykonywać tylko akcje proste, a gdy dech spadnie do poziomu śmiertelnego, umarlak zapada w letarg (idzie spać) do czasu odzyskania tchu na poziomie 0 lub wyższym. 
+<br><br>
+- Zrywanie skalpów - umarlaki mogą czerpać moc z zabitych przez siebie wynaturzeń i przejmować ich moce (oraz wynaturzenie) przemieniając się powoli w odmienne kreatury.
+<br><br>
+- Moce wygrzebańców - Wykupienie mocy jak i każdy jej poziom kosztuje 5PD. Moce można wykupywać jedynie jeśli są ku temu skłonności opisane przy każdej z mocy. 
+</p>
+ <p class="header">Zdolności</p>
+<p>
+<b>Koci Wzrok</b><br><br>
+
+<b>Opis:</b> Ożywieniec ma bardziej wyczulony wzrok, wystarczy mu odrobina światła by widzieć wyraźnie w ciemnościach. Oczywiście zasięg wzroku jest znacznie zmniejszony, w prawie zupełnej ciemności zasięg ten wynosi tylko kilka metrów. W świetle księżyca lub gwiazd Ożywieniec widzi jak w  dzień. Jego wzrok nie działa w zupełnej ciemności.
+<br><br>
+Kolejne poziomy umiejętności: brak
+<br><br>
+Skłonności: Bystry, Przeszywające spojrzenie, Spostrzegawczość K10 i więcej.
+<br><br>
+ 
+<b>
+Łatanie</b><br><br>
+
+<b>Opis:</b> Ożywieniec potrafi się regenerować w o wiele szybszym tempie. Zamiast tradycyjnie wykonywać rzut na leczenie 1 raz co 7 dni (jak zwykły człowiek), Ożywieniec leczy się 1 raz na 24 godziny. Umiejętność nie działa jeżeli Ożywieniec nie nażarł się mięsa. Umiejętność ta potrafi regenerować nawet całe kończyny, czy części ciała. By jeść umarlak potrzebuje mieć sprawny otwór gębowy. Wsysanie energii życiowej z mięsa odbywa się już w ustach. Ożywieniec nie potrzebuje do tego działającego żołądka.<br><br>
+
+Kolejne poziomy umiejętności:<br>
+
+1 Poziom – Co 24 godz.<br>
+
+2 Poziom – Co 12 godz.<br>
+
+3 Poziom – Co 6 godz.<br>
+
+4 Poziom – Co 3 godz.<br>
+
+5 Poziom – Co 1 godz.<br><br>
+
+Skłonności: Gruboskórny, Tłuścioch, Wigor K10 i więcej
+
+<br><br><b>
+
+Pożeracz dusz</b>
+<br><br>
+<b>Opis:</b> Ożywieniec potrafi wysysać ze swoich (żywych) ofiar energię życiową. Ożywieniec poprzez pocałunek, wysysanie powietrza z organizmu, krew z żył, metoda dowolna, kradnie energię życiową i pochłania ją we własnym organizmie. Na każdą akcję Ożywieniec wysysa ofierze 1 punkt Tchu i przekazuje go sobie.<br><br>
+
+Kolejne poziomy umiejętności:<br>
+
+1 Poziom – Za każdy wyssany 1 Tchu, ożywieniec odzyskuje 1 Tchu.<br>
+
+2 Poziom – Za każde 5 Tchu, ożywieniec może wykonać rzut na leczenie 1 rany.<br>
+
+3 Poziom – Za każde 5 Tchu, ożywieniec podnosi 1 cechę fizyczną o 1 poziom. Znikają one o 1 poziom na cesze co 10min aż do normalnego poziomu.<br><br>
+
+Skłonności: Choróbsko, Chciwość, Nałogowiec, Duch K8 i więcej
+<br><br>
+ 
+<b>
+Nadprzyrodzona cecha</b>
+<br><br><b>
+<b>Opis:</b> </b>Ożywieniec podnosi jedną ze swoich cech o 1 poziom. Cecha, którą można podnieść jest uzależniona od skłonności. Skłonność (zawada, przewaga) ma wpływ na daną cechę.
+<br><br>
+Kolejne poziomy umiejętności: brak
+<br><br>
+Skłonności: Skłonność odnosi się do danej podnoszonej cechy.
+<br><br>
+ <b>
+
+Szpony</b>
+<br><br>
+<b>Opis: </b>Ożywieniec ma potężne szpony, które można używać jako broń. Szpony zadają dodatkowe +1k4 obr. jako broń.
+<br><br>
+Kolejne poziomy umiejętności: Każdy kolejny poziom podnosi obrażenia o 1 rozmiar lub ilość kości. Wybór należy do umarlaka.
+<br><br>
+Skłonności: Oburęczny, krwiożerczy, Siła K8 i więcej
+<br><br>
+ <b>
+
+Widmo</b><br><br>
+
+<b>Opis: </b>Ożywieniec potrafi stać się eteryczny. Dzięki temu ożywieniec może przenikać przez ściany i inne ciała stałe. Będąc w formie eterycznej ożywieniec traci 5 tchu co rundę. Może się stać materialny w każdej chwili.
+<br><br>
+Kolejne poziomy umiejętności:<br>
+
+1 Poziom – 5 Tchu na rundę<br>
+
+2 Poziom – 3 Tchu na rundę<br>
+
+3 Poziom – 1 Tchu na rundę<br>
+
+4 Poziom – 1 Tchu na 3 rundy<br>
+
+5 Poziom – 1 Tchu na 5 rund<br>
+<br>
+Skłonności: Choróbsko, koszmary senne, Duch K8 i więcej
+<br><br>
+ 
+<b>
+Kły
+</b><br><br>
+Opis: Ożywieniec ma potężne zębiska, które może używać jako broń. Po udanym ataku wręcz do obrażeń ożywieniec może doliczyć +1k4 obr. od broni (zębów)
+<br><br>
+Kolejne poziomy umiejętności:<br>
+
+1 Poziom – +1k4 obr<br>
+
+2 Poziom – +2k4 obr<br>
+
+3 Poziom - +3k4 obr<br>
+
+4 Poziom - +4k4 obr<br>
+
+5 Poziom - +5k4 obr<br><br>
+
+Skłonności: Brzydki jak nieszczęście, fanatyk, krwiożerczy, Sprawność K8 i więcej
+<br><br>
+ 
+<b>
+Wygląd człowieka</b><br><br>
+
+<b>Opis:</b> Ożywieniec po użyciu tej mocy wygląda tak jak za życia. Wszelkie uszkodzenia ciała wynikające z bycia umarłym zakrywa iluzja. Jeżeli umarlak ma właśnie ranę postrzałową, coś co może zregenerować, to w swojej ludzkiej formie, też będzie ją miał. Ale jeżeli ma zgniłą i odpadającą skórę z powodu rozkładu, to iluzja zakryje to i będzie wyglądał jak normalny człowiek. Na użycie tej mocy umarlak musi wydać 1 Tchu na 1 rundę działania mocy.
+<br><br>
+Kolejne poziomy umiejętności:<br>
+
+1 Poziom – 1 Tchu na 1 rundę (10-12 sekund)<br>
+
+2 Poziom – 1 Tchu na 3 rundy (30 sekund)<br>
+
+3 Poziom – 1 Tchu na 5 rund (około 1 min)<br>
+
+4 Poziom – 1 Tchu na 10 min<br>
+
+5 Poziom – 1 Tchu na 30 min<br><br>
+
+Skłonności: Ładniutki, Charyzma K8 i więcej
+<br><br>
+ 
+<b>
+Pies gończy</b><br><br>
+<b>
+Opis:</b> Ożywieniec to urodzony łowca, potrafi dogonić swoją ofiarę niczym drapieżnik. Jego Tempo rośnie o 2, niezależnie od jego Sprawności. Ten typ zawsze się porusza szybciej. Obciążenie jest liczone od całkowitej prędkości, łącznie z tą umiejętnością.
+<br><br>
+Kolejne poziomy umiejętności:<br>
+
+1 Poziom - +2 Tempo<br>
+
+2 Poziom - +4 Tempo<br>
+
+3 Poziom - +6 Tempo<br>
+
+4 Poziom - +8 Tempo<br>
+
+5 Poziom - +10 Tempo<br>
+<br><br>
+Skłonności: Chyży, Sprawność K8 i więcej</p>
+</div>
+   
+</body>
+
+</html>
+
+
+<script src="../json/bohater.js
+"></script>
+</body>
+
+</html>

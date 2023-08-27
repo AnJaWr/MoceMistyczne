@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Ysabeau+Office&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    
+}
+body{
+    font-family: 'Ysabeau Office', sans-serif;   
+}
+.fullwidth{
+    width: 100%;
+}
+.main_wrapper{
+
+    height: 100vh;
+background-image: url(https://cdn.midjourney.com/9d0741e1-c6e9-4f0a-884a-0239713fbc93/0_3.webp);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+background-color: black;
+
+}
+.navbar{
+    background-color: black;
+    color:lightblue;
+
+
+}
+.nav-item{
+    display: inline-block;
+    min-width: 12%;;
+    font-size:1.3rem;
+    padding:30px
+}
+.nav-link{
+    color:lightgray;
+    text-decoration: none;
+}
+.nav-link:hover,
+.nav-link:active{
+color: white;
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+  }

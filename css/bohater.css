@@ -1,0 +1,110 @@
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: transparent;
+    position: fixed;
+    top:100px;
+    left:0;
+    min-height: 60vh;
+    overflow: auto;
+    
+    z-index:10;}
+  
+  .sidebar-a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+
+    border-radius: 25px;
+    color: rgb(139, 139, 139);
+    padding: 16px;
+    text-decoration: none;    
+    font-size:1.2rem;
+    transition: 0.5s ease;
+    text-align: left;
+  }
+   .header{
+    font-size:1.5rem;
+    font-weight: 600;
+    margin-top: 20px;
+   }
+  
+  .sidebar-a:active,
+  .sidebar-a:hover{
+        color: #8cfff9;
+        box-shadow: 0 0 40px #01FFF4;
+        background-color: #01fff2cb;
+    
+  }
+  
+.main_wrapper{
+  height: fit-content;
+}
+.main_wrapper-hero,
+.main_wrapper-world,
+.main_wrapper-zasady{
+  background-color: black;
+  background-position: center;
+  background-attachment: fixed;
+  z-index:1;  position:absolute;
+ width: 100%;
+}
+.main_wrapper-hero{
+  background-image: url(https://cdn.midjourney.com/fa1b5115-a958-4d53-b750-263fd8d7f416/0_1.webp)}
+
+
+.main_wrapper-zasady{
+  background-image: url(https://cdn.midjourney.com/57f9e055-3793-4809-92f4-bcc52cee0444/0_2.webp);}
+  .main_wrapper-world{
+    background-image: url(https://cdn.midjourney.com/3b886746-0cd3-40d4-8183-dae2d1973c36/0_2.webp);
+    background-color: black;
+    background-position: left;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index:1;  position:absolute;
+  }
+  .sidebar-world{
+    background-color: black;
+
+  }
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+
+  .hero-item{
+    width: 80vw;
+    background-color: rgba(235, 235, 235, 0.774);
+    margin:10px;
+    padding:10px;
+    display: flex;
+    flex-wrap: wrap;
+margin-left:200px;
+padding:20px;
+border-radius: 25px;
+z-index: 20;
+position: relative;
+  }
+  p{width: 100%;
+  margin-top:10px}
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
