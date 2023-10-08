@@ -214,5 +214,7 @@ element.style.display = "block";
     }
   }
 
+}  function newTab() {
+    window.open("../pages/springs.html", "_self");
+    }
   
-}

@@ -43,7 +43,7 @@ body{
 
 }
 .mistyk{
-    width: 45%;
+    width: 48%;
     margin-top:30px;
     background-color: #1b1b1b98;
     border:#1b1b1b;
@@ -52,6 +52,9 @@ body{
     padding:20px;
     font-size: 1.2rem;
 
+}
+.mistyk:last-of-type{
+  margin-bottom: 45px;
 }
 
 .Zakonnik{

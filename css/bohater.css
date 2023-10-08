@@ -95,11 +95,18 @@ position: relative;
   @media screen and (max-width: 700px) {
     .sidebar {
       width: 100%;
-      height: auto;
+      min-height: 90vh;
       position: relative;
     }
     .sidebar a {float: left;}
     div.content {margin-left: 0;}
+
+    .hero-item{
+      width: 90vw;
+      
+      margin:10px;
+  
+    }
   }
   
   @media screen and (max-width: 400px) {
