@@ -51,11 +51,9 @@ body{
     margin:30px;
     padding:20px;
     font-size: 1.2rem;
+ margin-bottom: 45px;
+}
 
-}
-.mistyk:last-of-type{
-  margin-bottom: 45px;
-}
 
 .Zakonnik{
     background-image: url(https://cdn.midjourney.com/4f1ccb00-6c3b-4961-a138-1aa26b1da8fa/0_3.webp);
