@@ -17,7 +17,16 @@ body{
 }
 .select{
     color: black;
-    margin-right:50px;
+}
+.select-one{
+  color: black;
+  padding: 10px 15px 10px 15px;
+  border-radius: 25px;
+  margin-left:25px;
+  background-color: #88c9e0;
+}
+.select-one:hover{
+  background-color: #b2e2f3;
 }
 #misticBackground{
     height: 100%;

@@ -193,6 +193,9 @@ wrapper.classList.add(insertclass);
 
 
 function scrollToElement() {
+var input_one = document.getElementById("mistykSelect");
+input_one.value = "All"
+
   var scrollValue = document.getElementById("scrollInput").value.toLowerCase();
   var elements = document.querySelectorAll("[id]");
   
@@ -214,7 +217,18 @@ element.style.display = "block";
     }
   }
 
-}  function newTab() {
-    window.open("../pages/springs.html", "_self");
-    }
-  
+}  
+
+// Get the input field
+var input = document.getElementById("scrollInput");
+
+// Execute a function when the user presses a key on the keyboard
+input.addEventListener("keypress", function(event) {
+  // If the user presses the "Enter" key on the keyboard
+  if (event.key === "Enter") {
+    // Cancel the default action, if needed
+    event.preventDefault();
+    // Trigger the button element with a click
+    document.getElementById("clickButton").click();
+  }
+});

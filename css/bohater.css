@@ -95,8 +95,10 @@ position: relative;
   @media screen and (max-width: 700px) {
     .sidebar {
       width: 100%;
-      min-height: 90vh;
+      min-height: 60vh;
       position: relative;
+      background-color: rgba(7, 7, 7, 0.671);
+      top:0
     }
     .sidebar a {float: left;}
     div.content {margin-left: 0;}
