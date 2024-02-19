@@ -54,6 +54,16 @@ function displayMistycy() {
         gest.textContent = "Gest : " + mistyk.Gest;
         div.appendChild(gest);
 
+ var koncentracja = document.createElement("p");
+        koncentracja.textContent = "Koncentracja : " + mistyk.Koncentracja;
+        div.appendChild(koncentracja);
+
+ var przerwanie = document.createElement("p");
+        przerwanie.textContent = "Przerwanie : " + mistyk.Przerwanie;
+        div.appendChild(przerwanie);
+
+
+
         var opis = document.createElement("p");
        
         opis.textContent = "Opis: " + mistyk.Opis;
